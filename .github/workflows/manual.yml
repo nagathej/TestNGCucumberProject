@@ -8,11 +8,12 @@ on:
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
-      name:
+      name: 
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
+        description: 'environment'
         # Default value if no value is explicitly provided
-        default: 'World'
+        default: 'qa'
+                  
         # Input has to be provided for the workflow to run
         required: true
         # The data type of the input
@@ -20,16 +21,19 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "greet"
-  greet:
-    # The type of runner that the job will run on
+ build:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
-    - name: Send greeting
-      run: echo "Hello ${{ inputs.name }}"
+    - uses: actions/checkout@v3
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+    - name: Run tests
+      run: mvn test  "-DenvTarget=qa" "-Dcucumber.options='--tags @smoke'" 
+
     - name: Archive Cucumber Reports
       uses: actions/upload-artifact@v2
       with:
