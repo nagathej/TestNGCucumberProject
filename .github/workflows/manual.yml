@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
-      name: 
+      environment: 
         # Friendly description to be shown in the UI instead of 'name'
         description: 'environment'
         # Default value if no value is explicitly provided
@@ -48,7 +48,7 @@ jobs:
           echo "Environment: $ENVIRONMENT"
       env:
           TAGS: ${{ inputs.tags }}
-          ENVIRONMENT: ${{inputs.environment }}
+          ENVIRONMENT: ${{ inputs.environment }}
     - name: Run tests
       run: mvn test  "-DenvTarget= ${{ inputs.environment }}" "-Dcucumber.options='--tags ${{ inputs.tags }}'" 
 
