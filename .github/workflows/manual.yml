@@ -50,7 +50,7 @@ jobs:
           TAGS: ${{ inputs.tags }}
           ENVIRONMENT: ${{inputs.environment }}
     - name: Run tests
-      run: mvn test  "-DenvTarget=ENVIRONMENT" "-Dcucumber.options='--tags TAGS'" 
+      run: mvn test  "-DenvTarget=${{ inputs.tags }}" "-Dcucumber.options='--tags ${{inputs.environment }}'" 
 
     - name: Archive Cucumber Reports
       uses: actions/upload-artifact@v2
