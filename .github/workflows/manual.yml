@@ -23,6 +23,7 @@ on:
         - perf
         - stage
         - local
+        - qa
       tags:
         description: 'tags'
         required: false
