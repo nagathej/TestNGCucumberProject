@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": " programType",
+        "error": "Program Type is required",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  }
+]

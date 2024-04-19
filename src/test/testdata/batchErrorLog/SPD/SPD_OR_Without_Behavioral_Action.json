@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Behavioral Action should not be null for BA delivery channel",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

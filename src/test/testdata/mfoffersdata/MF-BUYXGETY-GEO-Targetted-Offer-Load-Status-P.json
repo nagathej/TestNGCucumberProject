@@ -1,0 +1,102 @@
+{
+  "info": {
+    "id": {
+      "externalOfferId": "00219-620003-03",
+      "aggregatorOfferId": "42000005"
+    },
+    "offerProviderName": "couponsinc",
+    "categories": {
+      "6": "Condiments, Spices & Bake"
+    },
+    "primaryCategory": {
+      "6": "Condiments, Spices & Bake"
+    },
+    "events": {},
+    "offerProgramCode": "MF",
+    "offerStatus": "P",
+    "offerSubProgram": "MC",
+    "description": {
+      "savingsValueText": "Save $2.00",
+      "titleDescription": {
+        "titleDsc1": "OMS Test Offers 01-21-19"
+      },
+      "productDescription": {
+        "prodDsc1": "OMS Test offers - GEO Targeted"
+      },
+      "disclaimerText": "This is a dislcaimer for the J4U offers",
+      "priceValue": "$2.00"
+    },
+    "productImageId": "999999.gif",
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": false,
+    "auditInfo": {
+      "createdTs": "2019-03-05T13:06:37.181-07:00",
+      "createdApplicationId": "EMOM",
+      "createdUserId": "emq1om",
+      "lastUpdatedApplicationId": "EMOM",
+      "lastUpdatedUserId": "emq1om",
+      "lastUpdatedTs": "2019-03-05T13:06:37.181-07:00"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2019-01-21T00:00:00.000-07:00",
+      "offerEffectiveStartDate": "2019-01-21T00:00:00.000-07:00"
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2025-04-20T01:00:00.000-06:00",
+      "offerEffectiveEndDate": "2025-04-20T01:00:00.000-06:00"
+    },
+    "applicableTo": {
+      "banners": {
+        "R": "2c3f6294-a3e9-4536-a7d3-142d8af481f9",
+        "T": "63059d46-ba50-4310-992b-23bf4da3efad"
+      },
+      "divisions": {},
+      "channels": [],
+      "terminals": [
+        "13",
+        "15",
+        "28",
+        "11405",
+        "100",
+        "11404",
+        "11407",
+        "11406",
+        "13979",
+        "113",
+        "11409",
+        "11408",
+        "13554",
+        "13553",
+        "11401",
+        "11412",
+        "11411",
+        "11414",
+        "11403",
+        "13556",
+        "11402",
+        "10"
+      ],
+      "storeIds": [
+        "2526",
+        "1773",
+        "3048",
+        "3641",
+        "3645",
+        "3637"
+      ],
+      "postalCodes": []
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "QUANTITY",
+      "minProdPurchaseUnits": 1,
+      "isBuyXGetYOffer": true
+    },
+    "benefit": {},
+    "usageLimits": {
+      "usageLimitTypePerUser": "ONCE_PER_OFFER"
+    }
+  }
+}

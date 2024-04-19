@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": " offerDetailsCode-1",
+        "error": "Offer Details Code is required",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  }
+]

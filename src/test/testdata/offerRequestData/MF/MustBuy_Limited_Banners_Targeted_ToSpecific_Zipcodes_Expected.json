@@ -1,0 +1,205 @@
+{
+  "payloadPart": "COMPLETE",
+  "pageNum": 1,
+  "totalPages": 1,
+  "entityId": "66893943",
+  "payLoadType": "application/json",
+  "entityType": "OFFER",
+  "sourceAction": "PUBLISH",
+  "payload": {
+    "id": 66893943,
+    "externalOfferId": "10114-204124-00",
+    "aggregatorOfferId": "329811",
+    "manufacturerId": "10114",
+    "manufacturerOfferRefCd": "204124",
+    "providerName": "EED",
+    "categories": {
+      "categories19": "Wine, Beer \u0026 Spirits"
+    },
+    "primaryCategory": {
+      "primary_category19": "Wine, Beer \u0026 Spirits"
+    },
+    "programCode": "MF",
+    "programCodeDesc": "Manufacturer Coupon",
+    "subProgram": "MC",
+    "subProgramDesc": "MC",
+    "deliveryChannel": "DO",
+    "deliveryChannelDesc": "Digital Only",
+    "status": "PU",
+    "statusDesc": "Published",
+    "priceTitle": "$6.00 OFF",
+    "priceValue": "$6.00 OFF When Buy 2 Limit 1",
+    "savingsValueText": "$6.00 OFF",
+    "productDescription": {
+      "product_descprodDsc1": "$6.00 OFF when you buy TWO(2) ABSOLUT, JAMESON, MALIBU, KAHLUA, OLMECA ALTOS™, JEFFERSON\u0027S Bourbon, CHIVAS REGAL, TEQUILA AVION or DEL MAGUEY Valid on 750ml. Items must appear on the same receipt."
+    },
+    "disclaimerText": "CONSUMER: This offer is good for $6.00 savings when you purchase any TWO (2) 750ml bottles of ABSOLUT Vodka, JAMESON Irish Whiskey, MALIBU Rum, KAHLUA Rum and Coffee Liqueur, OLMECA ALTOS™ Tequila, JEFFERSON\u0027S Bourbon, CHIVAS REGAL, TEQUILA AVION or DEL MAGUEY Mezcal. Any other use constitutes fraud. LIMIT ONE COUPON PER PURCHASE. Offer cannot be assigned, transferred or reproduced. Expires 1/3/23. Offer available only to adults 21 years of age or older, who purchase products listed on the front of this offer. Offer valid in CA. RETAILER: We will pay you $6.00 plus 8 cents handling for coupons redeemed in accordance with this offer. Invoices proving purchases of sufficient stock to cover presented coupons must be shown on request. Any other application may constitute fraud. Customer must pay any sales tax. Offer void where prohibited, taxed or restricted by law. Please Enjoy our Quality Responsibly. ©2022 PERNOD RICARD USA, NEW YORK, NY.",
+    "description": "MF DO API Automation $6.00 OFF when you buy TWO(2) ABSOLUT, JAMESON, MALIBU, KAHLUA... 329811",
+    "productImageId": "571fd7ce-b615-4c33-8ed2-5132d6cb57b9",
+    "isEmployeeOffer": false,
+    "shouldReportRedemptions": true,
+    "createdTs": "2022-12-19T19:39:35.99Z",
+    "createdApplicationId": "OMS",
+    "createdUserId": "sysusr",
+    "lastUpdatedApplicationId": "OMS",
+    "lastUpdatedUserId": "system",
+    "lastUpdatedTs": "2022-12-19T19:39:58.375Z",
+    "displayEffectiveStartDate": "2022-12-02T07:00:00Z",
+    "displayEffectiveEndDate": "2023-05-31T07:00:00Z",
+    "effectiveStartDate": "2022-12-02T07:00:00Z",
+    "effectiveEndDate": "2023-05-31T07:00:00Z",
+    "terminals": [
+      "Groceryworks (Safeway.com)",
+      "Smart Cart (QVS Virtual Terminals)",
+      "Post Office",
+      "Bakery",
+      "Customer Service Desk",
+      "Liquor",
+      "Self-Checkout",
+      "Testing Lane",
+      "Dry Cleaners",
+      "Floral",
+      "Standard Checkout",
+      "Jamba Juice",
+      "Tobacco",
+      "Front End",
+      "Deli Sandwich Kiosk",
+      "Pharmacy Drive-Up",
+      "Pharmacy",
+      "Video",
+      "Cafe Starbucks",
+      "Deli",
+      "Fuel pay-inside (kiosk)",
+      "China/Panda Express"
+    ],
+    "excludedTerminals": [
+      "Gas Station (Pay at Pump)",
+      "Fuel Pumps (Power Pump)",
+      "Rx Refill Kiosk",
+      "Fuel Display",
+      "Line Buster",
+      "PowerPump"
+    ],
+    "qualificationUnitType": "PRODUCT",
+    "qualificationUnitSubType": "QUANTITY",
+    "benefitValueType": "AMOUNT_OFF",
+    "usageLimitPerOffer": 50000,
+    "copientCategory": "007-J4U Manufacturer Coupons",
+    "engine": "CPE",
+    "priority": "2",
+    "tiers": "1",
+    "sendOutboundData": "No External Interface",
+    "chargebackVendor": "Pernod Ricard",
+    "autoTransferable": false,
+    "enableIssuance": false,
+    "deferEvaluationUntilEOS": false,
+    "enableImpressionReporting": false,
+    "limitEligibilityFrequency": "LIMITED",
+    "isApplicableToJ4U": true,
+    "qualificationProductGroups": [
+      {
+        "id": 38298828,
+        "name": "OMSMFPG66893943",
+        "quantityUnitType": "ITEMS",
+        "quantityUnitDesc": "Items",
+        "conjunction": "And",
+        "minPurchaseAmount": 0.0,
+        "tiers": [
+          {
+            "level": 1,
+            "amount": 2.0
+          }
+        ],
+        "displayOrder": 1
+      }
+    ],
+    "qualificationCustomerGroups": [
+      {
+        "id": 38298829,
+        "name": "OMSMFCG66893943",
+        "excludeUsers": false,
+        "conjunction": "And"
+      }
+    ],
+    "benefit": {
+      "discount": [
+        {
+          "benefitValueType": "AMOUNT_OFF",
+          "benefitValueDesc": "Cents Off",
+          "includeProductGroupId": 38298828,
+          "includeProductGroupName": "OMSMFPG66893943",
+          "discountType": "ITEM_LEVEL",
+          "discountDesc": "Item Level",
+          "chargebackDepartment": "Item\u0027s Department",
+          "advanced": {
+            "allowNegative": true
+          },
+          "discountTier": [
+            {
+              "level": 1,
+              "amount": 6.0,
+              "itemLimit": 1,
+              "receiptText": "Manufacture cpn"
+            }
+          ]
+        }
+      ],
+      "points": []
+    },
+    "qualificationStoreGroups": {
+      "podStoreGroups": [
+        {
+          "id": 2062689010,
+          "name": "OMSMFSG66893943"
+        }
+      ],
+      "redemptionStoreGroups": [
+        {
+          "id": 2062689010,
+          "name": "OMSMFSG66893943"
+        }
+      ]
+    },
+    "offerName": "MF DO $6.00 OFF when you buy TWO(2) ABSOLUT, JAMESON, MALIBU, KAHLUA... 329811",
+    "adType": "NIA",
+    "offerProtoType": "MUST_BUY",
+    "offerPrototypeDesc": "Must Buy",
+    "requestedRemovalForAll": true,
+    "createdUser": {
+      "userId": "sysusr",
+      "firstName": "System",
+      "lastName": "User"
+    },
+    "updatedUser": {
+      "userId": "system",
+      "firstName": "System",
+      "lastName": "System"
+    },
+    "firstUpdateToRedemptionEngine": "2022-12-19T19:39:58.209Z",
+    "lastUpdateToRedemptionEngine": "2022-12-19T19:39:58.209Z",
+    "firstUpdateToJ4U": "2022-12-19T19:39:58.375Z",
+    "lastUpdateToJ4U": "2022-12-19T19:39:58.375Z",
+    "headLine": "ABSOLUT, JAMESON, MALIBU, KAHLUA, OLMECA A",
+    "isPODApproved": false,
+    "podUsageLimitTypePerUser": "ONCE_PER_OFFER",
+    "podReferenceOfferId": "NA",
+    "adPageNbr": "",
+    "adModNbr": 0,
+    "ecomDesc": "$6.00 OFF When Buy 2 Limit 1",
+    "isPrimaryPODOffer": false,
+    "adBugText": "",
+    "regionIdMap": {
+      "29": "SO CALIFORNIA"
+    },
+    "inEmail": false,
+    "submittedDate": "2022-12-19T19:39:35.99Z",
+    "isNationalOffer": false,
+    "advertisement": {
+      "clippable": true,
+      "applicableOnline": true,
+      "displayable": true
+    },
+    "usageLimitTypePerUser": "Once per Offer"
+  },
+  "lastUpdateTs": "2022-12-19T19:39:58.375Z"
+}

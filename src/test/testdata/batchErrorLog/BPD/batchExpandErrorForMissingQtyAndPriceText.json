@@ -1,0 +1,16 @@
+[
+  {
+    "entityId": "571447319",
+    "entityType": "OR",
+    "mobId": null,
+    "error": {
+      "timestamp": "2022-02-08T13:31:26.174Z",
+      "status": "BAD_REQUEST",
+      "message": null,
+      "errors": [
+        "getProductAmount:Expecting Product Discount's Tier Amount (Qty) is greater than 0",
+        "priceText:Price Text is required"
+      ]
+    }
+  }
+]

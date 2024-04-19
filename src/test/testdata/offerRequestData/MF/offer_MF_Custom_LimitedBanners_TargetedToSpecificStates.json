@@ -1,0 +1,1652 @@
+{
+  "headers": {
+    "eesEnvironmentType": "testEnvironment",
+    "clientId": false,
+    "eesSubsystemId": "hydra-zk7d",
+    "unitFriendlyName": "Albertsons",
+    "externalMessageId": "",
+    "eesMasterEventId": "Y1wyXsXpGmdla7fOr9u4EgAAANA",
+    "callerIp": "127.0.0.1",
+    "eesEventId": "c35bdcb5-b9aa-4d7e-9e92-c70535aa5fdf",
+    "eesApiVersion": "2.0",
+    "clientIdFriendlyName": "albertsons",
+    "eventName": "CAMPAIGN.CREATE",
+    "unitId": "9003438",
+    "eventDate": "2022-10-28T19:49:50.221405"
+  },
+  "request": {
+    "method": "POST",
+    "resource": "campaigns",
+    "body": "",
+    "contentType": "application/x-www-form-urlencoded",
+    "customHeaders": []
+  },
+  "atomicOperations": [
+    {
+      "operationType": "CREATE",
+      "objectValue": {
+        "settings": {
+          "tokenProvider": "ThirdPartyRealTime",
+          "walletEnabled": false,
+          "accountClientType": "MANUFACTURER",
+          "defaultAccountClientState": null,
+          "issuanceMethod": null,
+          "tokenFormat": "000000089"
+        },
+        "custom": {
+          "mfg": {
+            "manufacturerName": "WINERY EXCHANGE INC.",
+            "manufacturerOfferId": "22638",
+            "productBrand": "Bread & Butter Wine",
+            "nchManufacturerId": "",
+            "countryId": "US",
+            "excludedZip": null,
+            "departmentCategory": "Wine, Beer & Spirits",
+            "familyCodes": "171",
+            "actionPeriodDuration": 0,
+            "targetedBanners": "safeway,acme,albertsons,carrs,jewelosco,pavilions,randalls,shaws,starmarket,tomthumb,vons",
+            "variantId": "cb4e4714-57c9-416d-ab21-d0c87751a352",
+            "productDescription": "Bread & Butter Wine",
+            "incentiveId": "b291ca05-e479-4857-8873-0a2f57cd8003",
+            "brandName": "Bread & Butter Wine",
+            "product": "Bread & Butter Wine",
+            "includedZip": null,
+            "includedStates": "CA,CO,CT,DC,IA,ID,IL,LA,MA,MD,NE,NY,OR,SD,WY,VA",
+            "requirementDescription": "Valid on TWO (2) 750mL bottles of Bread & Butter Wine and ONE (1) bread item. Items must appear on the same receipt.",
+            "manufacturerCode": "08180510",
+            "clearingHouseMfgId": "22275",
+            "targetingData": "{\"location\":{\"type\":\"State\",\"option\":\"Includes\",\"state_targeting_ids\":[\"CA\",\"CO\",\"CT\",\"DC\",\"IA\",\"ID\",\"IL\",\"LA\",\"MA\",\"MD\",\"NE\",\"NY\",\"OR\",\"SD\",\"WY\",\"VA\"]},\"store_conditions\":{\"type\":\"Valid At\",\"retailers\":[{\"freedom_store_id\":\"75\",\"freedom_store_name\":\"Safeway\",\"distributor_store_name\":\"safeway\"},{\"freedom_store_id\":\"81\",\"freedom_store_name\":\"Albertsons\",\"distributor_store_name\":\"albertsons\"},{\"freedom_store_id\":\"91\",\"freedom_store_name\":\"Jewel-Osco\",\"distributor_store_name\":\"jewelosco\"},{\"freedom_store_id\":\"80\",\"freedom_store_name\":\"Acme Markets\",\"distributor_store_name\":\"acme\"},{\"freedom_store_id\":\"104\",\"freedom_store_name\":\"Vons\",\"distributor_store_name\":\"vons\"},{\"freedom_store_id\":\"696\",\"freedom_store_name\":\"Pak 'N Save\",\"distributor_store_name\":\"paknsav\"},{\"freedom_store_id\":\"226\",\"freedom_store_name\":\"Carrs\",\"distributor_store_name\":\"carrs\"},{\"freedom_store_id\":\"98\",\"freedom_store_name\":\"Shaws\",\"distributor_store_name\":\"shaws\"},{\"freedom_store_id\":\"532\",\"freedom_store_name\":\"Star Market\",\"distributor_store_name\":\"starmarket\"},{\"freedom_store_id\":\"695\",\"freedom_store_name\":\"Pavilions\",\"distributor_store_name\":\"pavilions\"},{\"freedom_store_id\":\"335\",\"freedom_store_name\":\"Tom Thumb\",\"distributor_store_name\":\"tomthumb\"},{\"freedom_store_id\":\"229\",\"freedom_store_name\":\"Randall's Food Markets\",\"distributor_store_name\":\"randalls\"}]}}",
+            "excludedStates": null,
+            "offerCode": "22638",
+            "freedomLastUpdated": "2022-10-28T19:49:50+00:00",
+            "currencyCode": "USD"
+          }
+        },
+        "rules": {
+          "useLocalTime": null,
+          "redemption": {
+            "redemption": null,
+            "exclusion": null,
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 1,
+            "dates": {
+              "redemption": null,
+              "exclusion": {
+                "active": false
+              }
+            },
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 1,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": true,
+            "hiddenFromRelatedWallets": false
+          },
+          "start": null,
+          "locations": null,
+          "expiry": {
+            "date": "2022-12-31T23:59:59+00:00",
+            "valueType": null,
+            "type": "DATE",
+            "value": null
+          },
+          "creation": {
+            "campaignLimit": 200000,
+            "consumerLimit": 1,
+            "consumerLimitPerPeriod": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "consumerLimitActive": 1
+          },
+          "verification": {
+            "lock": false,
+            "lockOnVerify": true
+          }
+        },
+        "dates": {
+          "redemption": {
+            "redemption": [],
+            "exclusion": [],
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 0,
+            "dates": null,
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": null,
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 0,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": false,
+            "hiddenFromRelatedWallets": false
+          },
+          "exclusion": null
+        },
+        "artwork": {
+          "imageUrl": "https://images.freedomapi.com/creatives/bc42bb48-d624-45d1-98d6-5549324caa31/814c98f1-c84b-4f98-a000-61324db5b53c.png",
+          "encodedImage": null
+        },
+        "type": "DISCOUNT_PRODUCTS",
+        "windows": {
+          "redemption": [],
+          "creation": [],
+          "active": false
+        },
+        "version": 2,
+        "reference": "000031936",
+        "offer": {
+          "reward": {
+            "standard": null,
+            "basket": null,
+            "pointSpendRates": [],
+            "product": {
+              "safeway": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "acme": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "albertsons": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "carrs": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "pavilions": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "randalls": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "shaws": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "starmarket": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "tomthumb": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "vons": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "treatAs": {
+              "type": "rebate"
+            }
+          },
+          "offerType": "FIXED_AMOUNT_OFF_PRODUCTS",
+          "qualification": {
+            "basket": null,
+            "product": {
+              "safeway": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "acme": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "albertsons": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "carrs": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "pavilions": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "randalls": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "shaws": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "starmarket": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "tomthumb": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "vons": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "81805102074",
+                          "85083200426",
+                          "85083200427",
+                          "81805102161",
+                          "81805102229",
+                          "1081805102231",
+                          "1081805102195",
+                          "1081805102266"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "tenders": [],
+            "locations": {
+              "safeway": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "safeway": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "acme": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "acme": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "albertsons": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "albertsons": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "carrs": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "carrs": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "jewelosco": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "jewelosco": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "pavilions": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "pavilions": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "randalls": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "randalls": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "shaws": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "shaws": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "starmarket": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "starmarket": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "tomthumb": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "tomthumb": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "vons": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "vons": [
+                      "State-CA",
+                      "State-CO",
+                      "State-CT",
+                      "State-DC",
+                      "State-IA",
+                      "State-ID",
+                      "State-IL",
+                      "State-LA",
+                      "State-MA",
+                      "State-MD",
+                      "State-NE",
+                      "State-NY",
+                      "State-OR",
+                      "State-SD",
+                      "State-WY",
+                      "State-VA"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              }
+            }
+          },
+          "continuity": null,
+          "promoId": null,
+          "boltOn": null
+        },
+        "relationships": null,
+        "lastUpdated": "2022-10-28T19:49:50+00:00",
+        "dateCreated": "2022-10-28T19:49:50+00:00",
+        "partners": {
+          "redemption": [
+            {
+              "redemptionLimit": null,
+              "partner": "9003439"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003440"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003441"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003445"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003447"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003452"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003453"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003454"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003455"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003456"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003458"
+            }
+          ],
+          "creation": []
+        },
+        "distributionChannels": {
+          "abscoDigital": {
+            "data": {
+              "digitalListViewImage": {
+                "fieldName": "digitalListViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/bc42bb48-d624-45d1-98d6-5549324caa31/814c98f1-c84b-4f98-a000-61324db5b53c.png",
+                "fieldType": "image"
+              },
+              "digitalDescription": {
+                "fieldName": "digitalDescription",
+                "fieldData": "Buy TWO(2) of Bread & Butter Wine (Valid on TWO (2) 750mL bottles of Bread & Butter Wine and ONE (1) bread item. Items must appear on the same receipt).",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriodLimit": {
+                "fieldName": "consumerLimitPerPeriodLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriod": {
+                "fieldName": "consumerLimitPerPeriod",
+                "fieldData": "0",
+                "fieldType": "text"
+              },
+              "digitalSavingsValue": {
+                "fieldName": "digitalSavingsValue",
+                "fieldData": "$5.00 REBATE via Pay",
+                "fieldType": "text"
+              },
+              "redemptionFrequency": {
+                "fieldName": "redemptionFrequency",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "redemptionLimit": {
+                "fieldName": "redemptionLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "digitalViewImage": {
+                "fieldName": "digitalViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/bc42bb48-d624-45d1-98d6-5549324caa31/814c98f1-c84b-4f98-a000-61324db5b53c.png",
+                "fieldType": "image"
+              },
+              "rejectionReasonCode": {
+                "fieldName": "rejectionReasonCode",
+                "fieldData": "",
+                "fieldType": "text"
+              },
+              "rejectionDescription": null,
+              "retailerIssuanceLimit": {
+                "fieldName": "retailerIssuanceLimit",
+                "fieldData": "200000",
+                "fieldType": "text"
+              },
+              "campaignLimit": {
+                "fieldName": "campaignLimit",
+                "fieldData": "200000",
+                "fieldType": "text"
+              },
+              "consumerLimit": {
+                "fieldName": "consumerLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "brand": {
+                "fieldName": "brand",
+                "fieldData": "WINERY EXCHANGE INC.",
+                "fieldType": "text"
+              },
+              "consumerLimitActive": {
+                "fieldName": "consumerLimitActive",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "couponDisclaimer": {
+                "fieldName": "couponDisclaimer",
+                "fieldData": "Purchase required. Items must appear on the same receipt. Offer expires 12/31/22. Purchase must occur between 11/1/22 - 12/31/22. Limit one rebate per household. VALID ONLY TO LEGAL RESIDENTS OF AR, CA, CO, CT, DC, IA, ID, IL, LA, MA, MD, ME, NE, NY, OR, SD, VA, WY. AGE 21 YEARS OR OLDER. Void where prohibited by law. This rebate may not be combined with any other offer. Proof of purchase must accompany rebate submission. Receipt photo must include retailer name, date & time of purchase, product name or item code for required purchase item. Rebate payment sent via PayPal. If you do not have a PayPal account, you will receive an email notification from PayPal with instructions to create a PayPal account and must accept the payment via PayPal within 30 days or rebate funds will be forfeited. This rebate is void if assigned, sold, transferred, duplicated or reproduced in any way. Tax remains the responsibility of the consumer. Requests from groups, clubs, organizations or any other group purchase will not be honored or returned. REDEMPTION OR HANDLING OF THIS COUPON NOT ACCORDING TO ITS TERMS CONSTITUTES FRAUD. Employees and officers of Winery Exchange, affiliated companies, licensed retailers, distributors and family members residing in the same household as any of the above are not eligible. Winery Exchange reserves the right to require additional information/identification prior to honoring rebate request and to reject non-conforming rebate requests without liability of any kind. \nAdd offers to your loyalty account prior to in-store or online check-out, then redeem in the store where you regularly shop. Offers are personalized to the loyalty account holder and store associated with the holder’s loyalty account. Offers cannot be assigned or transferred and may not be redeemable in other store locations. Offers are limited to one per customer unless otherwise stated and cannot be applied to previous purchases. Using multiple accounts to exceed limits on offers and promotions is not permitted. We reserve the right to terminate accounts if we believe they are used for such activities. Offers do not apply to online orders scheduled for delivery or pickup after the offer expiration dates. Offers cannot be doubled or combined with any other offer, savings, coupon or discount. Internet/digital coupons cannot be doubled except manufacturers’ coupons, where permitted by the issuing manufacturer and accepted by participating store locations. In the event of product return, savings may be deducted from refund. All rebate offers are subject to applicable manufacturer’s additional terms. You pay applicable taxes, bottle/can deposits, and bag fees on purchased and free items. Prices may change and vary among store locations. Prices effective on the date you place an online order may not be the same on your scheduled order delivery or pickup date. Prices for products you order online generally are higher than in our physical store locations and may vary by fulfillment method chosen. Online promotions, discounts and offers may differ from those in our physical store locations. Not all items/varieties available in all store locations. Quantities limited to inventory on hand and subject to availability. Sales in retail quantities only. Some items may be subject to manufacturers’ limitations and other requirements. While supplies last. Transactional limits may apply. No rainchecks. We reserve the right to modify or cancel offers and/or correct typographical, pictorial and other ad or pricing errors. Offer void where prohibited by law and has no cash value. Add Rebate to your Digital Account – Use Your Digital Account at time of purchase – Purchase Required Product(s) – Receive your Rebate Via PayPal in 3 to 5 Business Days. Rebate payment will be made directly to the shopper’s registered email address via PayPal within 3-5 business days. If shoppers do not have a PayPal account, they receive an email at the registered address from PayPal with prompts to set up an account and claim their rebate. In the event that shopper does not claim their funds in PayPal within 30 days of receiving confirmation email, payment will be cancelled. Processing and redemption of rebates is handled by CB Neptune Holdings LLC. For any questions or inquiries regarding redemptions, please contact Albertson’s Support: https://www.albertsons.com/contact-us.html or 1-877-723-3929 or M.S 10501 P.O Box 29093, Phoenix, AZ 85038",
+                "fieldType": "text"
+              },
+              "ecommOnly": {
+                "fieldName": "ecommOnly",
+                "fieldData": "false",
+                "fieldType": "checkbox"
+              }
+            },
+            "partners": [
+              null
+            ],
+            "active": "true",
+            "channelId": "4"
+          },
+          "ecrebo": {
+            "data": null,
+            "partners": [
+              null
+            ],
+            "active": false,
+            "channelId": 5
+          }
+        },
+        "details": {
+          "mode": "TARGETED",
+          "endDate": "2022-12-31T23:59:59+00:00",
+          "alternativeDescription": "Bread & Butter Wine",
+          "name": "Bread & Butter Wine",
+          "description": "API Automation $5.00 REBATE via PayPal when you buy TWO(2) Bread & Butter Wine",
+          "alternativeName": "$5.00 REBATE via PayPal",
+          "printerMessage": "Valid on TWO (2) 750mL bottles of Bread & Butter Wine and ONE (1) bread item. Items must appear on the same receipt.",
+          "startDate": "2022-11-01T00:00:00+00:00",
+          "screenMessage": "Valid on TWO (2) 750mL bottles of Bread & Butter Wine and ONE (1) bread item. Items must appear on the same receipt.",
+          "tags": [
+            "NAM",
+            "Rebate",
+            "OMS",
+            "reportMFGRebate",
+            "SkipRegistration"
+          ]
+        },
+        "id": "31936",
+        "jsonMemberClass": null,
+        "status": "ACTIVE"
+      },
+      "objectType": "campaignEntity"
+    }
+  ],
+  "response": {
+    "code": 201,
+    "body": "",
+    "contentType": false
+  }
+}

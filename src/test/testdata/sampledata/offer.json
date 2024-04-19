@@ -1,0 +1,103 @@
+{
+  "info": {
+    "categories": {
+      "7": "Cookies, Snacks & Candy",
+      "8": "Dairy, Eggs & Cheese"
+    },
+    "funding": [
+      "NOPA1",
+      "NOPA2",
+      "NOPA4"
+    ],
+    "primaryCategory": {
+      "7": "Cookies, Snacks & Candy"
+    },
+    "events": {
+      "125": "Weekly Ad Coupons"
+
+    },
+    "tags": [
+      "A",
+      "C"
+    ],
+    "hiddenEvents": null,
+    "description": {
+      "priceTitle": null,
+      "priceValue": null,
+      "savingsValueText": "50 OFF",
+      "titleDescription": {
+        "titleDsc1": "Planters Dry Roasted or Cocktail Peanuts"
+      },
+      "productDescription": {
+        "prodDsc1": "16-oz. Limit 5."
+      },
+      "disclaimerText": null,
+      "receiptDescriptions": "DOCR - 3 Day offer - Save .50 - Not in Print"
+    },
+    "auditInfo": {
+      "createdTs": "2019-01-31T22:27:01.000+00:00",
+      "createdApplicationId": "EMOM-offer-mgmt-ui",
+      "createdUserId": "$logged_in_user",
+      "lastUpdatedApplicationId": "EMOM-offer-mgmt-ui",
+      "lastUpdatedUserId": "$logged_in_user",
+      "lastUpdatedTs": "2019-02-05T17:53:23.380+00:00"
+    },
+    "imageId": "10_percent_off.gif",
+    "offerIds": [
+      123456,
+      123457
+    ],
+    "programCode": "SC",
+    "subProgram": "SUPER COUPON OR HOT OR ...",
+    "status": "A",
+    "paperCpnNbr": "327122"
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2019-02-08T07:00:00.000+00:00",
+      "offerEffectiveStartDate": "2019-02-08T07:00:00.000+00:00",
+      "offerTestEffectiveStartDate": "2019-01-29T07:00:00.000+00:00"
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2019-02-10T07:00:00.000+00:00",
+      "offerEffectiveEndDate": "2019-02-10T07:00:00.000+00:00",
+      "offerTestEffectiveEndDate": "2019-02-10T07:00:00.000+00:00"
+    },
+    "applicableTo": {
+      "banners": {
+                                "1":"2"
+      },
+      "divisions": {
+        "19": "PORTLAND"
+      },
+      "storeGroups": {
+        "j4u": "SG1",
+        "copient": "SG2"
+      },
+      "channels": null,
+      "terminals": [
+        "13",
+        "15"
+      ],
+      "departments": null
+    },
+    "qualificationAndBenefit": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "QUANTITY",
+      "minOrderTotalAmount": 0,
+      "minRewardPoints": 1,
+      "isBuyXGetYOffer": true,
+      "buy": [
+        "one", "two"
+      ],
+      "get": [
+        "three","four"
+      ]
+    },
+    "usageLimits" : {
+      "usageLimitTypePerUser" : "ONCE_PER_OFFER",
+      "usageLimitPerUser" : 1
+    }
+  }
+}
+

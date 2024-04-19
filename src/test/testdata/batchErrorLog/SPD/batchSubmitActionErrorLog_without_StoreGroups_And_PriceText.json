@@ -1,0 +1,26 @@
+[
+  {
+    "entityId": "",
+    "mobId": "124626",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " Delivery Channel Type",
+        "error": "DO - requires digital redemption store groups",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  },
+  {
+    "entityId": "",
+    "mobId": "124625",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " priceText",
+        "error": "Price Text is required",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

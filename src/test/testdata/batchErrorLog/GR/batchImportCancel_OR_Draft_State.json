@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "%s",
+    "rowNumber": 1,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Offer Request ID",
+        "error": "OfferRequest in Draft/Submit/Cancelled status cannot be cancelled",
+        "errorType": "ERROR_DURING_VERIFICATION"
+      }
+    ]
+  }
+]

@@ -1,0 +1,270 @@
+{
+  "info": {
+    "id": {
+      "offerId": 1892883847,
+      "externalOfferId": "1892883847-ND",
+      "aggregatorOfferId": null,
+      "manufacturerId": null,
+      "manufacturerOfferRefCd": null
+    },
+    "offerProviderName": "OMS",
+    "deliveryChannel": "CC",
+    "categories": null,
+    "primaryCategory": null,
+    "events": null,
+    "hiddenEvents": null,
+    "offerProgramCode": "SC",
+    "programExtraAttributes": {
+      "terminals": [
+        "Groceryworks (Safeway.com)",
+        "Smart Cart (QVS Virtual Terminals)",
+        "Post Office",
+        "Bakery",
+        "Customer Service Desk",
+        "Liquor",
+        "Self-Checkout",
+        "Testing Lane",
+        "Dry Cleaners",
+        "Floral",
+        "Standard Checkout",
+        "Jamba Juice",
+        "Tobacco",
+        "Front End",
+        "Deli Sandwich Kiosk",
+        "Pharmacy Drive-Up",
+        "Pharmacy",
+        "Video",
+        "Cafe Starbucks",
+        "Deli",
+        "Fuel pay-inside (kiosk)",
+        "China/Panda Express"
+      ],
+      "copientCategory": "011-Non Discount Offers",
+      "priority": "Medium",
+      "tiers": "1",
+      "sendOutboundData": "Teradata CRM",
+      "chargebackVendor": "None",
+      "autoTransferable": true,
+      "enableImpressionReporting": true,
+      "limitEligibilityFrequency": "LIMITED",
+      "enableRedemptionReporting": true,
+      "enableIssuance": true,
+      "deferEvaluationUntilEOS": false,
+      "engine": "CPE"
+    },
+    "offerSubProgram": null,
+    "offerStatus": "I",
+    "description": {
+      "priceTitle": null,
+      "priceValue": null,
+      "savingsValueText": null,
+      "titleDescription": null,
+      "productDescription": null,
+      "disclaimerText": null,
+      "receiptDescriptions": null,
+      "desc": null
+    },
+    "productImageId": null,
+    "priceCode": null,
+    "time": null,
+    "year": null,
+    "productCd": null,
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": null,
+    "offerProgramType": null,
+    "shouldReportRedemptions": true,
+    "offerRequestId": "1893089575",
+    "isApplicableToJ4U": false,
+    "isJ4UReady": null,
+    "isCopientReady": null,
+    "isPublishedToRedemptionEngine": false,
+    "isCancellable": null,
+    "offerName": "PortlandCWI SCSFY60001892883847-ND",
+    "nopaNumbers": null,
+    "adType": "NA",
+    "offerType": null,
+    "auditInfo": {
+      "createdTs": "2020-04-22T02:02:07.101+00:00",
+      "createdApplicationId": "OMS",
+      "createdUserId": "Sarath",
+      "lastUpdatedApplicationId": "OMS",
+      "lastUpdatedUserId": "Sarath",
+      "lastUpdatedTs": "2020-04-22T02:02:07.101+00:00",
+      "createdUser": {
+        "userId": "Sarath",
+        "firstName": "Sarath",
+        "lastName": null
+      },
+      "updatedUser": {
+        "userId": "Sarath",
+        "firstName": "Sarath",
+        "lastName": null
+      }
+    },
+    "printTags": null,
+    "storeTag": null,
+    "offerRequestEditStatus": null,
+    "assignment": {
+      "userId": "Sarath",
+      "firstName": "Sarath",
+      "lastName": null
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2019-10-10T07:00:00.000+00:00",
+      "offerEffectiveStartDate": "2019-10-10T07:00:00.000+00:00",
+      "offerTestEffectiveStartDate": null
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2022-12-01T06:59:58.000+00:00",
+      "offerEffectiveEndDate": "2022-12-01T06:59:58.000+00:00",
+      "offerTestEffectiveEndDate": null
+    },
+    "applicableTo": {
+      "banners": null,
+      "divisions": {
+        "19": "Portland"
+      },
+      "storeGroups": [
+        "APIAutoNorcalStoreGroup"
+      ],
+      "channels": null,
+      "terminals": [
+        "Groceryworks (Safeway.com)",
+        "Smart Cart (QVS Virtual Terminals)",
+        "Post Office",
+        "Bakery",
+        "Customer Service Desk",
+        "Liquor",
+        "Self-Checkout",
+        "Testing Lane",
+        "Dry Cleaners",
+        "Floral",
+        "Standard Checkout",
+        "Jamba Juice",
+        "Tobacco",
+        "Front End",
+        "Deli Sandwich Kiosk",
+        "Pharmacy Drive-Up",
+        "Pharmacy",
+        "Video",
+        "Cafe Starbucks",
+        "Deli",
+        "Fuel pay-inside (kiosk)",
+        "China/Panda Express"
+      ],
+      "excludedTerminals": null,
+      "storeIds": null,
+      "redemptionStoreIds": null,
+      "postalCodes": null,
+      "upcs": null,
+      "departments": [
+        "Beverage Snacks"
+      ],
+      "pluTriggerBarcode": "6000",
+      "customerSegment": "Any Customer"
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "DOLLARS",
+      "minProdPurchaseUnits": null,
+      "maxProdPurchaseUnits": null,
+      "minOrderTotalAmount": 10.0,
+      "minRewardPoints": 0,
+      "minGetProdPurchaseUnits": null,
+      "isBuyXGetYOffer": false,
+      "productGroups": [
+        {
+          "name": "banana",
+          "quantityUnitType": "DOLLARS",
+          "excludedProductGroupName": null,
+          "conjunction": "And",
+          "minPurchaseAmount": 0.0,
+          "uniqueproduct": null,
+          "tiers": [
+            {
+              "level": 1,
+              "amount": 1.0
+            }
+          ],
+          "inheritedFromOfferRequest": null,
+          "displayOrder": 1
+        },
+        {
+          "name": "PLU 6000",
+          "quantityUnitType": "ITEMS",
+          "excludedProductGroupName": null,
+          "conjunction": "And",
+          "minPurchaseAmount": 0.0,
+          "uniqueproduct": null,
+          "tiers": [
+            {
+              "level": 1,
+              "amount": 1.0
+            }
+          ],
+          "inheritedFromOfferRequest": false,
+          "displayOrder": 101
+        }
+      ],
+      "storeGroups": {
+        "podStoreGroups": [
+          "APIAutoNorcalStoreGroup"
+        ],
+        "redemptionStoreGroups": [
+          "APIAutoNorcalStoreGroup"
+        ]
+      },
+      "customerGroups": [
+        {
+          "name": "CG for 1892984694",
+          "excludeUsers": true,
+          "conjunction": " AND "
+        },
+        {
+          "name": "Group Membership 1892984694",
+          "excludeUsers": false,
+          "conjunction": " AND "
+        }
+      ],
+      "pointsGroups": null,
+      "productDisQualifier": null,
+      "day": null,
+      "time": null,
+      "enterpriseInstantWin": null,
+      "triggerCodes": null,
+      "attributes": null
+    },
+    "benefit": {
+      "benefitValueType": null,
+      "benefitValue": null,
+      "discount": [],
+      "points": [
+        {
+          "pointsProgram": "Dollar Point Accumulation 20 APRIL",
+          "scoreCard": null,
+          "scoreCardText": null,
+          "pointsTier": [
+            {
+              "level": 1,
+              "quantity": 499
+            }
+          ],
+          "displayOrder": 1
+        }
+      ],
+      "groupMemberShip": null,
+      "printedMessage": null,
+      "cashierMessage": null
+    },
+    "usageLimits": {
+      "usageLimitTypePerUser": "LIMITED",
+      "usageLimitTypePerOffer": null,
+      "usageLimitPerUser": 1,
+      "usageLimitPerOffer": null
+    }
+  },
+  "householdAttrs": null
+}
+

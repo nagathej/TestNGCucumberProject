@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Multi clip limit should be set when usage is MULTICLIP\nUsage should be set to MULTICLIP when offer limit is once per clip",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

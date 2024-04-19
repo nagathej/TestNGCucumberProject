@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "rewards",
+        "error": "Rewards is required",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

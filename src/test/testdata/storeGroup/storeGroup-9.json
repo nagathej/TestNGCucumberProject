@@ -1,0 +1,17 @@
+{
+  "excludeStores": [
+    "2218"
+  ],
+  "includeStores": [],
+  "description": "TestAutomationStoreGroup",
+  "id": "",
+  "storeGroupName": "APIAutoNorcalStoreGroup_env",
+  "storesSearchCriteria": {
+    "divisionRogCds": {
+      "NOR. CALIFORNIA": [
+        "SHAW"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

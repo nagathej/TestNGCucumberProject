@@ -1,0 +1,205 @@
+{
+  "payloadPart": "COMPLETE",
+  "pageNum": 1,
+  "totalPages": 1,
+  "entityId": "95824831",
+  "payLoadType": "application/json",
+  "entityType": "OFFER",
+  "sourceAction": "PUBLISH",
+  "payload": {
+    "id": 95824831,
+    "externalOfferId": "00216-051164-00",
+    "aggregatorOfferId": "329730",
+    "manufacturerId": "00216",
+    "manufacturerOfferRefCd": "051164",
+    "providerName": "EED",
+    "categories": {
+      "categories19": "Wine, Beer \u0026 Spirits"
+    },
+    "primaryCategory": {
+      "primary_category19": "Wine, Beer \u0026 Spirits"
+    },
+    "programCode": "MF",
+    "programCodeDesc": "Manufacturer Coupon",
+    "subProgram": "MC",
+    "subProgramDesc": "MC",
+    "deliveryChannel": "DO",
+    "deliveryChannelDesc": "Digital Only",
+    "status": "PU",
+    "statusDesc": "Published",
+    "priceTitle": "$0.50 OFF",
+    "priceValue": "$0.50 OFF When Buy 1 Limit 1",
+    "savingsValueText": "$0.50 OFF",
+    "productDescription": {
+      "product_descprodDsc1": "$0.50 OFF when you buy ONE(1) Mr \u0026 Mrs T Valid on ONE (1) 1-liter bottles of any flavor* Mr \u0026 Mrs T *Flavors subject to availability."
+    },
+    "disclaimerText": "RETAILER: Mott\u0027s LLP will reimburse you for the face value plus 8¢ cents handling if you and the consumer have met the offer\u0027s terms. Void if prohibited, taxed, restricted, transferred, assigned or coupon is reproduced, gang cut, or mint condition. Consumer pays deposit and taxes. Cash value 1/20¢. Good only in U.S.A. Limit One Coupon Per Item(s) Purchased. RETAILER REDEEM BY MAILING TO: Keurig Dr. Pepper, Inmar Brand Solutions Dept. # 78000, Mfr Rcv Office, 801 UNION PACIFIC BLVD STE 5, LAREDO, TX 78045-9475. MR \u0026 MRS T is a registered trademark of Mott\u0027s LLP ©2022 All Rights Reserved.",
+    "description": "MF DO API Automation $0.50 OFF when you buy ONE(1) Mr \u0026 Mrs T Valid on ONE (1) 1-lite... 329730",
+    "productImageId": "ece8df2d-0f0a-47c3-9e19-cd44d106f42d",
+    "isEmployeeOffer": false,
+    "shouldReportRedemptions": true,
+    "createdTs": "2022-11-30T19:16:22.326Z",
+    "createdApplicationId": "OMS",
+    "createdUserId": "sysusr",
+    "lastUpdatedApplicationId": "OMS",
+    "lastUpdatedUserId": "system",
+    "lastUpdatedTs": "2022-11-30T19:16:25.166Z",
+    "displayEffectiveStartDate": "2022-12-02T07:00:00Z",
+    "displayEffectiveEndDate": "2023-05-31T07:00:00Z",
+    "effectiveStartDate": "2022-12-02T07:00:00Z",
+    "effectiveEndDate": "2023-05-31T07:00:00Z",
+    "terminals": [
+      "Groceryworks (Safeway.com)",
+      "Smart Cart (QVS Virtual Terminals)",
+      "Post Office",
+      "Bakery",
+      "Customer Service Desk",
+      "Liquor",
+      "Self-Checkout",
+      "Testing Lane",
+      "Dry Cleaners",
+      "Floral",
+      "Standard Checkout",
+      "Jamba Juice",
+      "Tobacco",
+      "Front End",
+      "Deli Sandwich Kiosk",
+      "Pharmacy Drive-Up",
+      "Pharmacy",
+      "Video",
+      "Cafe Starbucks",
+      "Deli",
+      "Fuel pay-inside (kiosk)",
+      "China/Panda Express"
+    ],
+    "excludedTerminals": [
+      "Gas Station (Pay at Pump)",
+      "Fuel Pumps (Power Pump)",
+      "Rx Refill Kiosk",
+      "Fuel Display",
+      "Line Buster",
+      "PowerPump"
+    ],
+    "qualificationUnitType": "PRODUCT",
+    "qualificationUnitSubType": "QUANTITY",
+    "benefitValueType": "AMOUNT_OFF",
+    "usageLimitPerOffer": 80000,
+    "copientCategory": "007-J4U Manufacturer Coupons",
+    "engine": "CPE",
+    "priority": "2",
+    "tiers": "1",
+    "sendOutboundData": "No External Interface",
+    "chargebackVendor": "Keurig Dr Pepper",
+    "autoTransferable": false,
+    "enableIssuance": false,
+    "deferEvaluationUntilEOS": false,
+    "enableImpressionReporting": false,
+    "limitEligibilityFrequency": "LIMITED",
+    "isApplicableToJ4U": true,
+    "qualificationProductGroups": [
+      {
+        "id": 1429800356,
+        "name": "OMSMFPG95824831",
+        "quantityUnitType": "ITEMS",
+        "quantityUnitDesc": "Items",
+        "conjunction": "And",
+        "minPurchaseAmount": 0.0,
+        "tiers": [
+          {
+            "level": 1,
+            "amount": 1.0
+          }
+        ],
+        "displayOrder": 1
+      }
+    ],
+    "qualificationCustomerGroups": [
+      {
+        "id": 1429800355,
+        "name": "OMSMFCG95824831",
+        "excludeUsers": false,
+        "conjunction": "And"
+      }
+    ],
+    "benefit": {
+      "discount": [
+        {
+          "benefitValueType": "AMOUNT_OFF",
+          "benefitValueDesc": "Cents Off",
+          "includeProductGroupId": 1429800356,
+          "includeProductGroupName": "OMSMFPG95824831",
+          "discountType": "ITEM_LEVEL",
+          "discountDesc": "Item Level",
+          "chargebackDepartment": "Item\u0027s Department",
+          "advanced": {
+            "allowNegative": true
+          },
+          "discountTier": [
+            {
+              "level": 1,
+              "amount": 0.5,
+              "itemLimit": 1,
+              "receiptText": "Manufacture cpn"
+            }
+          ]
+        }
+      ],
+      "points": []
+    },
+    "qualificationStoreGroups": {
+      "podStoreGroups": [
+        {
+          "id": 530442184,
+          "name": "OMSMFSG95824831"
+        }
+      ],
+      "redemptionStoreGroups": [
+        {
+          "id": 530442184,
+          "name": "OMSMFSG95824831"
+        }
+      ]
+    },
+    "offerName": "MF DO $0.50 OFF when you buy ONE(1) Mr \u0026 Mrs T Valid on ONE (1) 1-lite... 329730",
+    "adType": "NIA",
+    "offerProtoType": "ITEM_DISCOUNT",
+    "offerPrototypeDesc": "Item Discount",
+    "requestedRemovalForAll": true,
+    "createdUser": {
+      "userId": "sysusr",
+      "firstName": "System",
+      "lastName": "User"
+    },
+    "updatedUser": {
+      "userId": "system",
+      "firstName": "System",
+      "lastName": "System"
+    },
+    "firstUpdateToRedemptionEngine": "2022-11-30T19:16:25.121Z",
+    "lastUpdateToRedemptionEngine": "2022-11-30T19:16:25.121Z",
+    "firstUpdateToJ4U": "2022-11-30T19:16:25.166Z",
+    "lastUpdateToJ4U": "2022-11-30T19:16:25.166Z",
+    "headLine": "Mr \u0026 Mrs T",
+    "isPODApproved": false,
+    "podUsageLimitTypePerUser": "ONCE_PER_OFFER",
+    "podReferenceOfferId": "NA",
+    "adPageNbr": "",
+    "adModNbr": 0,
+    "ecomDesc": "$0.50 OFF When Buy 1 Limit 1",
+    "isPrimaryPODOffer": false,
+    "adBugText": "",
+    "regionIdMap": {
+      "32": "JEWEL"
+    },
+    "inEmail": false,
+    "submittedDate": "2022-11-30T19:16:22.326Z",
+    "isNationalOffer": false,
+    "advertisement": {
+      "clippable": true,
+      "applicableOnline": true,
+      "displayable": true
+    },
+    "usageLimitTypePerUser": "Once per Offer"
+  },
+  "lastUpdateTs": "2022-11-30T19:16:25.166Z"
+}

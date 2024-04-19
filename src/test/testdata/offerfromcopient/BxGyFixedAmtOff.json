@@ -1,0 +1,387 @@
+{
+  "offer": {
+    "conditions": {
+      "customers": {
+        "included": [
+          {
+            "customerGroupNm": "Customer group for 12042983"
+          }
+        ],
+        "excluded": []
+      },
+      "products": [
+        {
+          "incProductGroupNm": "Product group for 12042983",
+          "excProductGroupNm": "",
+          "productComboConditionOper": "And",
+          "amountType": "Items",
+          "uniqueProductInd": false,
+          "minPurchaseAmt": 0,
+          "tiers": [
+            {
+              "productAmt": 2
+            }
+          ],
+          "accumulation": {
+            "minAmt": 0,
+            "limitNbr": 0,
+            "periodDayNbr": 0
+          }
+        },
+        {
+          "incProductGroupNm": "Wk27 06302000198 Lucerne or Value Corner milk",
+          "excProductGroupNm": "",
+          "productComboConditionOper": "And",
+          "amountType": "Items",
+          "uniqueProductInd": false,
+          "minPurchaseAmt": 0,
+          "tiers": [
+            {
+              "productAmt": 1
+            }
+          ],
+          "accumulation": {
+            "minAmt": 0,
+            "limitNbr": 0,
+            "periodDayNbr": 0
+          }
+        }
+      ]
+    },
+    "rewards": {
+      "discount": {
+        "productgroup": {
+          "discountType": "Item Level",
+          "incProductGroupNm": "Wk27 06302000198 Lucerne or Value Corner milk",
+          "excProductGroupNm": ""
+        },
+        "chargebackdepartment": {
+          "name": "Item's Department"
+        },
+        "distribution": {
+          "distributionType": "Fixed Amount Off",
+          "tiers": [
+            {
+              "tierAmt": 0.5,
+              "tierItemLimitNbr": 1,
+              "tierMaxDollarItemLimitAmt": 0,
+              "tierReceiptTxt": "DC When You Buy Na"
+            }
+          ]
+        },
+        "scorecard": {
+          "scorecardEnableInd": false,
+          "scorecardNm": "",
+          "scorecardLineTxt": ""
+        },
+        "advanced": {
+          "computeDiscountInd": true,
+          "bestdealInd": false,
+          "allowNegativeInd": false,
+          "flexNegativeInd": true
+        }
+      }
+    },
+    "notifications": {},
+    "locations": {
+      "storegroups": {
+        "included": [
+          {
+            "storeGroupNm": "Webtool 9840"
+          }
+        ],
+        "excluded": ""
+      },
+      "terminals": {
+        "included": [
+          {
+            "terminalNm": "All CPE Terminals"
+          }
+        ],
+        "excluded": []
+      }
+    },
+    "incentiveId": 406837,
+    "deployInd": false,
+    "deferDeployInd": false,
+    "engineTypeNm": "CPE",
+    "lastUpdateTs": "2020-07-14T12:48:15.783",
+    "general": {
+      "identification": {
+        "offerNm": "NC DC OreosMilk 06302000198P001",
+        "offerDsc": "Save 0.50 on Lucerne or Value Corner milk when you buy 2 Family Size Oreos(offer imported - original offer ID 12042983)",
+        "offerExternaId": "06302000198P001",
+        "categoryDsc": "003-J4U Store eCoupons (elec)",
+        "vendorCouponCd": ""
+      },
+      "priority": {
+        "priorityNm": "Medium",
+        "footerPriorityMsgTxt": 0
+      },
+      "dates": {
+        "testing": {
+          "testingStartDt": "2020-06-30T00:00:00",
+          "testingEndDt": "2020-12-31T00:00:00"
+        },
+        "eligibility": {
+          "eligibilityStartDt": "2020-07-08T00:00:00",
+          "eligibilityEndDt": "2020-12-31T00:00:00"
+        },
+        "production": {
+          "productionStartDt": "2020-07-08T00:00:00",
+          "productionEndDt": "2020-12-31T00:00:00"
+        }
+      },
+      "limits": {
+        "eligibility": {
+          "eligibilityFrequencyNm": "Once Per Transaction"
+        },
+        "reward": {
+          "rewardsFrequencyNm": "No Limit"
+        }
+      },
+      "inboundoutbound": {
+        "creationSourceNm": "Logix",
+        "outboundSourceNm": "None",
+        "chargebackVendorId": ""
+      },
+      "employees": {
+        "employeeEligibilityTypNm": "None"
+      },
+      "advanced": {
+        "eosDeferInd": false,
+        "issuanceInd": false,
+        "manufacturerCouponInd": false,
+        "reporting": {
+          "impressionInd": false,
+          "redemptionInd": true
+        }
+      }
+    }
+  },
+  "productgroups": [
+    {
+      "productGroupNm": "Product group for 12042983",
+      "productGroupDsc": "",
+      "lastUpdateTs": "2020-07-14T12:46:53.667",
+      "products": [
+        {
+          "extProductId": "00004400003324",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC SNDWCH CKY GOLDEN OREO FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400003325",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO COOKIES DOUBLE STUF FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400003327",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO MLK COOKIE FAVORITE FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400004469",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO MINT FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400004470",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO GOLDEN DOUBLE STUF FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400005387",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO LEMON FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400005389",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO FAMILY SIZE HLWN"
+        },
+        {
+          "extProductId": "00004400005489",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THINS COOKIES FAMILY SIZE ORGINIAL1"
+        },
+        {
+          "extProductId": "00004400005490",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THINS COOKIES MINT CREME 1X13.1 OZ"
+        },
+        {
+          "extProductId": "00004400005869",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO SANDWICH COOKIES MEGA STUFF"
+        },
+        {
+          "extProductId": "00004400005876",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO SANDWICH COOKIES CHOCOLATE CREAM"
+        },
+        {
+          "extProductId": "00004400005957",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006014",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006015",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006038",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006039",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006041",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006043",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006045",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006103",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006107",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006112",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006113",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006141",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006344",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006518",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        }
+      ]
+    },
+    {
+      "productGroupNm": "Wk27 06302000198 Lucerne or Value Corner milk",
+      "productGroupDsc": "",
+      "lastUpdateTs": "2020-07-14T12:46:53.683",
+      "products": [
+        {
+          "extProductId": "00002113007002",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "LUCERNE MILK WHOLE VIT D"
+        },
+        {
+          "extProductId": "00002113007027",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "LUCERNE MILK CHOCOLATE 1%"
+        },
+        {
+          "extProductId": "00002113007028",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "LUCERNE MILK 2% REDUCED FAT"
+        },
+        {
+          "extProductId": "00002113007029",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "LUCERNE MILK FAT FREE"
+        },
+        {
+          "extProductId": "00002113007066",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "LUCERNE MILK 1% LOW FAT"
+        },
+        {
+          "extProductId": "00002113007067",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "LUCERNE MILK 2% REDUCED FAT"
+        },
+        {
+          "extProductId": "00002113007245",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "LUCERNE MILK 1% LOW FAT"
+        },
+        {
+          "extProductId": "00002113040948",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "LUCERNE MILK CHOCOLATE WHOLE"
+        },
+        {
+          "extProductId": "00007989315000",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "VALUE CRNR MILK WHOLE"
+        },
+        {
+          "extProductId": "00007989315003",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "VALUE CRNR MILK 2%"
+        },
+        {
+          "extProductId": "00007989315005",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "VALUE CRNR MILK 1%"
+        },
+        {
+          "extProductId": "00007989315500",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "VALUE CRNR MILK FAT FREE"
+        }
+      ]
+    }
+  ],
+  "storegroups": [
+    {
+      "storeGroupNm": "Webtool 9840",
+      "lastUpdateTs": "2020-07-09T16:13:05.790",
+      "stores": [
+        {
+          "extLocationCd": "q259840",
+          "storeNm": "q259840",
+          "storeDsc": "Livermore Lab",
+          "storeTestingInd": false,
+          "addressTxt": " ",
+          "cityNm": "",
+          "state": "",
+          "postalCd": "",
+          "countryNm": "United States"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "excludeStores": [
+  ],
+  "includeStores": [
+  ],
+  "storeGroupName": "%s",
+  "description": "%s",
+  "id": "%s",
+  "storesSearchCriteria": {
+    "divisions": [
+      "HAGGEN",
+      "SO CALIFORNIA"
+    ],
+    "divisionRogCds": {
+      "SO CALIFORNIA": [
+        "PSOC",
+        "ASOC",
+        "VSOC"
+      ],
+      "HAGGEN": [
+        "SHGN"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

@@ -1,0 +1,327 @@
+{
+  "info": {
+    "id": {
+      "offerId": 69256682,
+      "externalOfferId": "69256682-D",
+      "aggregatorOfferId": null,
+      "manufacturerId": null,
+      "manufacturerOfferRefCd": null
+    },
+    "offerProviderName": "OMS",
+    "deliveryChannel": "CC",
+    "categories": {
+      "2": "Bread & Bakery",
+      "20": "Condiments, Spices & Bake"
+    },
+    "primaryCategory": {
+      "20": "Condiments, Spices & Bake"
+    },
+    "events": null,
+    "hiddenEvents": null,
+    "offerProgramCode": "SC",
+    "programExtraAttributes": {
+      "terminals": [
+        "Groceryworks (Safeway.com)",
+        "Smart Cart (QVS Virtual Terminals)",
+        "Post Office",
+        "Bakery",
+        "Customer Service Desk",
+        "Liquor",
+        "Self-Checkout",
+        "Testing Lane",
+        "Dry Cleaners",
+        "Floral",
+        "Standard Checkout",
+        "Jamba Juice",
+        "Tobacco",
+        "Front End",
+        "Deli Sandwich Kiosk",
+        "Pharmacy Drive-Up",
+        "Pharmacy",
+        "Video",
+        "Cafe Starbucks",
+        "Deli",
+        "Fuel pay-inside (kiosk)",
+        "China/Panda Express"
+      ],
+      "copientCategory": "003-J4U Store eCoupons (elec)",
+      "priority": "Medium",
+      "tiers": "1",
+      "sendOutboundData": "No External Interface",
+      "chargebackVendor": "None",
+      "autoTransferable": true,
+      "enableImpressionReporting": true,
+      "limitEligibilityFrequency": "LIMITED",
+      "enableRedemptionReporting": true,
+      "enableIssuance": false,
+      "deferEvaluationUntilEOS": false,
+      "engine": "CPE"
+    },
+    "offerSubProgram": null,
+    "offerStatus": "R",
+    "description": {
+      "priceTitle": null,
+      "priceValue": null,
+      "savingsValueText": "fdsfff",
+      "titleDescription": {
+        "titleDsc1": "dsafsafds"
+      },
+      "productDescription": {
+        "prodDsc1": "fdsafdsaf"
+      },
+      "disclaimerText": null,
+      "receiptDescriptions": null,
+      "desc": null
+    },
+    "productImageId": "test",
+    "priceCode": null,
+    "time": null,
+    "year": null,
+    "productCd": null,
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": null,
+    "offerProgramType": null,
+    "shouldReportRedemptions": true,
+    "offerRequestId": "69256687",
+    "isApplicableToJ4U": true,
+    "isJ4UReady": true,
+    "isCopientReady": true,
+    "isPublishedToRedemptionEngine": false,
+    "isCancellable": null,
+    "offerName": "NorcalCWI WCbrand69256682-D",
+    "nopaNumbers": null,
+    "adType": "NA",
+    "offerType": null,
+    "auditInfo": {
+      "createdTs": "2020-04-16T21:19:16.343+00:00",
+      "createdApplicationId": "OMS",
+      "createdUserId": "rchen42",
+      "lastUpdatedApplicationId": "OMS",
+      "lastUpdatedUserId": "rchen42",
+      "lastUpdatedTs": "2020-04-16T21:19:16.343+00:00",
+      "createdUser": {
+        "userId": "rchen42",
+        "firstName": "Raghavendar",
+        "lastName": "Rao"
+      },
+      "updatedUser": {
+        "userId": "rchen42",
+        "firstName": "Raghavendar",
+        "lastName": "Rao"
+      }
+    },
+    "printTags": null,
+    "storeTag": null,
+    "assignment": {
+      "userId": "12346",
+      "firstName": "vijay",
+      "lastName": "maddu"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2020-04-16T00:00:00.000+00:00",
+      "offerEffectiveStartDate": "2020-04-16T00:00:00.000+00:00",
+      "offerTestEffectiveStartDate": null
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2020-04-28T23:59:59.999+00:00",
+      "offerEffectiveEndDate": "2020-04-28T23:59:59.999+00:00",
+      "offerTestEffectiveEndDate": null
+    },
+    "applicableTo": {
+      "banners": null,
+      "divisions": {
+        "25": "Norcal"
+      },
+      "storeGroups": null,
+      "channels": null,
+      "terminals": [
+        "Groceryworks (Safeway.com)",
+        "Smart Cart (QVS Virtual Terminals)",
+        "Post Office",
+        "Bakery",
+        "Customer Service Desk",
+        "Liquor",
+        "Self-Checkout",
+        "Testing Lane",
+        "Dry Cleaners",
+        "Floral",
+        "Standard Checkout",
+        "Jamba Juice",
+        "Tobacco",
+        "Front End",
+        "Deli Sandwich Kiosk",
+        "Pharmacy Drive-Up",
+        "Pharmacy",
+        "Video",
+        "Cafe Starbucks",
+        "Deli",
+        "Fuel pay-inside (kiosk)",
+        "China/Panda Express"
+      ],
+      "excludedTerminals": null,
+      "storeIds": null,
+      "redemptionStoreIds": null,
+      "postalCodes": null,
+      "upcs": null,
+      "departments": [
+        "Food Service"
+      ],
+      "pluTriggerBarcode": null,
+      "customerSegment": "Any Customer"
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "DOLLARS",
+      "minProdPurchaseUnits": null,
+      "maxProdPurchaseUnits": null,
+      "minOrderTotalAmount": 0.0,
+      "minRewardPoints": 0,
+      "minGetProdPurchaseUnits": null,
+      "isBuyXGetYOffer": false,
+      "productGroups": [
+        {
+          "name": "banana",
+          "quantityUnitType": "ITEMS",
+          "excludedProductGroupName": null,
+          "conjunction": "And",
+          "minPurchaseAmount": 0.0,
+          "uniqueproduct": null,
+          "tiers": [
+            {
+              "level": 1,
+              "amount": 1.0
+            }
+          ],
+          "inheritedFromOfferRequest": null,
+          "displayOrder": null
+        }
+      ],
+      "storeGroups": {
+        "podStoreGroups": [
+          "offertest"
+        ],
+        "redemptionStoreGroups": [
+          "offertest"
+        ]
+      },
+      "customerGroups": [
+        {
+          "name": "CG for 69256685",
+          "excludeUsers": false,
+          "conjunction": "And"
+        }
+      ],
+      "pointsGroups": [
+        {
+          "name": "Points Group 1853675723",
+          "value": 12,
+          "tiers": [
+            {
+              "level": 1,
+              "quantity": 12
+            }
+          ]
+        }
+      ],
+      "productDisQualifier": "testpg",
+      "day": {
+        "monday": true,
+        "tuesday": false,
+        "wednesday": true,
+        "thursday": false,
+        "friday": true,
+        "saturday": false,
+        "sunday": false
+      },
+      "time": {
+        "start": "03:04 AM",
+        "end": "05:06 PM"
+      },
+      "enterpriseInstantWin": null,
+      "triggerCodes": [
+        {
+          "code": "54234",
+          "displayCashierMessageIfUnused": null,
+          "requirement": "Once per transaction"
+        }
+      ],
+      "attributes": null
+    },
+    "benefit": {
+      "benefitValueType": null,
+      "benefitValue": null,
+      "discount": [
+        {
+          "benefitValueType": "PRICE_POINT_ITEMS",
+          "includeProductGroupName": "banana",
+          "excludeProductGroupName": null,
+          "discountType": "ITEM_LEVEL",
+          "chargebackDepartment": "Item's Department",
+          "advanced": {
+            "bestDeal": true,
+            "allowNegative": null,
+            "flexNegative": true
+          },
+          "discountTier": [
+            {
+              "level": 1,
+              "amount": 1.0,
+              "upTo": null,
+              "itemLimit": 1,
+              "weightLimit": null,
+              "dollarLimit": 1.0,
+              "receiptText": "brand"
+            }
+          ]
+        }
+      ],
+      "points": [
+        {
+          "pointsProgram": "Points Group 1853675723",
+          "scoreCard": "Denver Game Time",
+          "scoreCardText": "qwerqewrwqe",
+          "pointsTier": [
+            {
+              "level": 1,
+              "quantity": 2
+            }
+          ],
+          "displayOrder": null
+        }
+      ],
+      "groupMemberShip": {
+        "customerGroupName": "ch21"
+      },
+      "printedMessage": {
+        "message": [
+          {
+            "level": 1,
+            "message": "ewqrewrer"
+          }
+        ],
+        "isApplicableForNotifications": false
+      },
+      "cashierMessage": {
+        "cashierMessageTiers": [
+          {
+            "level": 1,
+            "line1": "wqerqewr",
+            "line2": "ewqrwr",
+            "beepType": "Beep For Duration (Seconds)",
+            "beepDuration": 23
+          }
+        ],
+        "isApplicableForNotifications": false
+      }
+    },
+    "usageLimits": {
+      "usageLimitTypePerUser": "UNLIMITED",
+      "usageLimitTypePerOffer": null,
+      "usageLimitPerUser": 1,
+      "usageLimitPerOffer": null
+    }
+  },
+  "householdAttrs": null
+}

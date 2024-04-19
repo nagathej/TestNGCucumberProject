@@ -1,0 +1,31 @@
+{
+  "info": {
+    "id": 1659054433,
+    "nopaNumbers": [
+      "NOPA1",
+      "NOPA2",
+      "NOPA4",
+      "NOPA5"
+    ],
+    "programCode": "SC",
+    "digitalStatus": "I",
+    "nonDigitalStatus": "I",
+    "pluTriggerBarcode": "327122",
+    "deliveryChannel": "CC",
+    "brandAndSize": "Brand Details",
+    "billingOptions": "Full Division,ROG Specific,Store Specific"
+  },
+  "rules": {
+    "startDate": {
+      "offerEffectiveStartDate": "2019-02-08T07:00:00.000+00:00"
+    },
+    "endDate": {
+      "offerEffectiveEndDate": "2019-02-10T07:00:00.000+00:00"
+    },
+    "customerSegment": "customerSegment",
+    "department": "Dept1",
+    "usageLimitTypePerUser": "ONCE_PER_OFFER",
+     "qualificationAndBenefit": {
+    }
+  }
+}

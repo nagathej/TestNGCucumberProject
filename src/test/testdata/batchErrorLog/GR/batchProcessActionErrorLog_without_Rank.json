@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": " rank",
+        "error": "Rank is required",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  }
+]

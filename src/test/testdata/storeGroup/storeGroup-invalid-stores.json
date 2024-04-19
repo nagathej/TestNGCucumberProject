@@ -1,0 +1,25 @@
+{
+  "excludeStores":[
+    234,
+    345
+  ],
+  "includeStores":[
+    85,
+    900
+  ],
+  "description":"",
+  "id": "",
+  "storeGroupName":"StoreGroupUpdateTest_env",
+  "storesSearchCriteria":{
+    "divisions":[
+      "SOUTHERN"
+    ],
+    "divisionRogCds": {
+      "SOUTHERN": [
+        "ADAL",
+        "RDAL"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

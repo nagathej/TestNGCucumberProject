@@ -1,0 +1,39 @@
+[
+  {
+    "entityId": "1155850660",
+    "mobId": "242566",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": "Delivery Channel Type",
+        "error": "DO - requires digital redemption store groups",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": " offerDescription",
+        "error": "Offer Description is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "brandAndSize",
+        "error": "Brand and Size is Required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "priceText",
+        "error": "Price Text is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "headLine1",
+        "error": "Headline 1 is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "buyProductGroupName",
+        "error": "Expecting Buy ProductGroup Name",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "entityId": "",
+    "rowNumber": 1,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Failed while OR creation : \nError occurred while creating Offer Request 400 BAD_REQUEST \"{\"errors\":{\"productGroups-1\":\"[-1]\"}}\"\n",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  },
+  {
+    "entityId": "",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Failed while OR creation : \nError occurred while creating Offer Request 400 BAD_REQUEST \"{\"errors\":{\"productGroups-1\":\"[-1]\"}}\"\n",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  }
+]

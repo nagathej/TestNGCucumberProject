@@ -1,0 +1,15 @@
+[
+{
+  "entityId": "1098555420",
+  "offerId": "1084002812-D",
+  "rowNumber": 4,
+  "status": "Failed",
+  "errors": [
+    {
+      "columnName": "Allocation Code",
+      "error": "Allocation Code must be integer.",
+      "errorType": "ERROR_DURING_VALIDATION"
+    }
+  ]
+}
+]

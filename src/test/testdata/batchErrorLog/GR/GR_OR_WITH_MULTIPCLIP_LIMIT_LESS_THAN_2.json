@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Multi Clip Limit must be greater than 1",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

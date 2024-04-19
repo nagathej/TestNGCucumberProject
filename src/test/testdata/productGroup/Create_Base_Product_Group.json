@@ -1,0 +1,16 @@
+{
+  "programCode": "BPD",
+  "name": "%s",
+  "productGroupDescription": "%s",
+  "status": null,
+  "productGroupType": "BASE",
+  "id": null,
+  "createUserId": "",
+  "createTs":  "%s",
+  "updateUserId": "",
+  "updateTs": "",
+  "originUpc":"%s",
+  "originUpcVersion": "%s",
+  "finalUpcs": %s,
+  "suggestedUpcs": %s
+}

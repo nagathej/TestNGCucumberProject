@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "2057653122",
+    "mobId": "108942",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " rewardsRequired",
+        "error": "Rewards is required",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

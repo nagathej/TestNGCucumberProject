@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Alaska",
+    "code": "28"
+  },
+  {
+    "name": "Denver",
+    "code": "05"
+  },
+  {
+    "name":"Haggen",
+    "code":"24"
+  },
+  {
+    "name": "Hawaii",
+    "code": "26"
+  },
+  {
+    "name": "Intermountain",
+    "code": "30"
+  },
+  {
+    "name": "Jewel",
+    "code": "32"
+  },
+  {
+    "name": "Mid-Atlantic",
+    "code": "34"
+  },
+  {
+    "name":"Kings & Balduccis",
+    "code":"36"
+  },
+  {
+    "name": "Norcal",
+    "code": "25"
+  },
+  {
+    "name": "Portland",
+    "code": "19"
+  },
+  {
+    "name": "Seattle",
+    "code": "27"
+  },
+  {
+    "name": "Shaws/Star Market",
+    "code": "33"
+  },
+  {
+    "name": "SoCal",
+    "code": "29"
+  },
+  {
+    "name": "Southern",
+    "code": "20"
+  },
+  {
+    "name": "Southwest",
+    "code": "17"
+  },
+  {
+    "name":"Global",
+    "code":"99"
+  }
+]

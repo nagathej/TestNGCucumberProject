@@ -1,0 +1,2242 @@
+{
+  "headers": {
+    "eesEnvironmentType": "testEnvironment",
+    "clientId": false,
+    "eesSubsystemId": "phoenix-a-tvj0",
+    "unitFriendlyName": "Albertsons",
+    "externalMessageId": "",
+    "eesMasterEventId": "Y0NgirHdEk0QMdfZgTGltQAAAOg",
+    "callerIp": "10.140.128.27",
+    "eesEventId": "64283af8-618e-42a9-a1e1-8a33ca79acbc",
+    "eesApiVersion": "2.0",
+    "clientIdFriendlyName": "api",
+    "eventName": "CAMPAIGN.UPDATE",
+    "unitId": "9003438",
+    "eventDate": "2022-10-10T00:00:10.310882"
+  },
+  "request": {
+    "method": "PATCH",
+    "resource": "campaigns",
+    "body": "",
+    "contentType": "application/x-www-form-urlencoded",
+    "customHeaders": []
+  },
+  "atomicOperations": [
+    {
+      "operationType": "UPDATE",
+      "objectValue": {
+        "settings": {
+          "tokenProvider": "ThirdPartyRealTime",
+          "walletEnabled": false,
+          "accountClientType": "MANUFACTURER",
+          "defaultAccountClientState": null,
+          "issuanceMethod": null,
+          "tokenFormat": "000000089"
+        },
+        "custom": {
+          "mfg": {
+            "manufacturerName": "Riviana Foods, Inc",
+            "manufacturerOfferId": "047893",
+            "productBrand": "Success",
+            "nchManufacturerId": "",
+            "countryId": "US",
+            "excludedZip": null,
+            "departmentCategory": "Grocery",
+            "familyCodes": "600",
+            "actionPeriodDuration": 0,
+            "targetedBanners": "safeway,acme,albertsons,amigos,balduccis,carrs,haggen,jewelosco,kings,lucky,marketstreet,pavilions,randalls,shaws,starmarket,tomthumb,vons",
+            "variantId": "8668971e-f8f3-4a4e-a187-a473bdff347c",
+            "productDescription": "Success Rice or Quinoa ",
+            "incentiveId": "0ab0b3b0-6311-4788-9fbe-27c872c2459b",
+            "brandName": "Success",
+            "product": "Success Rice or Quinoa",
+            "includedZip": null,
+            "includedStates": null,
+            "requirementDescription": "Any variety.",
+            "manufacturerCode": "0017400",
+            "clearingHouseMfgId": "227",
+            "targetingData": "{\"location\":{\"type\":\"State\",\"option\":\"Excludes\",\"state_targeting_ids\":[\"CT\",\"DC\",\"DE\",\"MD\",\"NJ\",\"NY\",\"PA\",\"VA\"]}}",
+            "excludedStates": "CT,DC,DE,MD,NJ,NY,PA,VA",
+            "offerCode": "047893",
+            "freedomLastUpdated": "2022-10-04T15:37:49+00:00",
+            "currencyCode": "USD"
+          }
+        },
+        "rules": {
+          "useLocalTime": null,
+          "redemption": {
+            "redemption": null,
+            "exclusion": null,
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 1,
+            "dates": {
+              "redemption": null,
+              "exclusion": {
+                "active": false
+              }
+            },
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 1,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": true,
+            "hiddenFromRelatedWallets": false
+          },
+          "start": null,
+          "locations": null,
+          "expiry": {
+            "date": "2022-12-19 23:59:59",
+            "valueType": null,
+            "type": "DATE",
+            "value": null
+          },
+          "creation": {
+            "campaignLimit": 68750,
+            "consumerLimit": 1,
+            "consumerLimitPerPeriod": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "consumerLimitActive": 1
+          },
+          "verification": {
+            "lock": false,
+            "lockOnVerify": true
+          }
+        },
+        "dates": {
+          "redemption": {
+            "redemption": [],
+            "exclusion": [],
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 0,
+            "dates": null,
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": null,
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 0,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": false,
+            "hiddenFromRelatedWallets": false
+          },
+          "exclusion": null
+        },
+        "artwork": {
+          "imageUrl": "https://images.freedomapi.com/creatives/0baa94ed-7d73-4dce-a0c7-ea999812c6ec/0cf87a57-53bd-4bbd-8c21-35c4ecc6a972.png",
+          "encodedImage": null
+        },
+        "type": "DISCOUNT_PRODUCTS",
+        "windows": {
+          "redemption": [],
+          "creation": [],
+          "active": false
+        },
+        "version": 2,
+        "reference": "000029675",
+        "offer": {
+          "reward": {
+            "standard": null,
+            "basket": null,
+            "pointSpendRates": [],
+            "product": {
+              "acme": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "albertsons": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "amigos": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "balduccis": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "carrs": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "haggen": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "kings": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "lucky": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "marketstreet": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "pavilions": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "randalls": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "safeway": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "shaws": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "starmarket": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "tomthumb": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "vons": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "treatAs": {
+              "type": "tender"
+            }
+          },
+          "offerType": "FIXED_AMOUNT_OFF_PRODUCTS",
+          "qualification": {
+            "basket": null,
+            "product": {
+              "acme": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "albertsons": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "amigos": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "balduccis": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "carrs": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "haggen": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "kings": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "lucky": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "marketstreet": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "pavilions": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "randalls": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "safeway": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "shaws": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "starmarket": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "tomthumb": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              },
+              "vons": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "tenders": [],
+            "locations": {
+              "acme": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "acme": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "albertsons": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "albertsons": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "amigos": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "amigos": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "balduccis": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "balduccis": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "carrs": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "carrs": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "haggen": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "haggen": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "jewelosco": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "jewelosco": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "kings": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "kings": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "lucky": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "lucky": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "marketstreet": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "marketstreet": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "pavilions": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "pavilions": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "randalls": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "randalls": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "safeway": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "safeway": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "shaws": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "shaws": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "starmarket": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "starmarket": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "tomthumb": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "tomthumb": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              },
+              "vons": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "vons": [
+                      "State-CT",
+                      "State-DC",
+                      "State-DE",
+                      "State-MD",
+                      "State-NJ",
+                      "State-NY",
+                      "State-PA",
+                      "State-VA"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              }
+            }
+          },
+          "continuity": null,
+          "promoId": "81101001740004789331001106003221114422100190001",
+          "boltOn": null
+        },
+        "relationships": null,
+        "lastUpdated": "2022-10-10T00:00:10+00:00",
+        "dateCreated": "2022-09-29T18:35:50+00:00",
+        "partners": {
+          "redemption": [
+            {
+              "redemptionLimit": null,
+              "partner": "9003439"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003440"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003441"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003442"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003444"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003445"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003446"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003447"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003448"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003449"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003450"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003452"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003453"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003454"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003455"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003456"
+            },
+            {
+              "redemptionLimit": null,
+              "partner": "9003458"
+            }
+          ],
+          "creation": []
+        },
+        "distributionChannels": {
+          "abscoDigital": {
+            "data": {
+              "digitalListViewImage": {
+                "fieldName": "digitalListViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/0baa94ed-7d73-4dce-a0c7-ea999812c6ec/0cf87a57-53bd-4bbd-8c21-35c4ecc6a972.png",
+                "fieldType": "image"
+              },
+              "digitalDescription": {
+                "fieldName": "digitalDescription",
+                "fieldData": "Buy ONE(1) of Success Rice or Quinoa (Any variety).",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriodLimit": {
+                "fieldName": "consumerLimitPerPeriodLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriod": {
+                "fieldName": "consumerLimitPerPeriod",
+                "fieldData": "0",
+                "fieldType": "text"
+              },
+              "digitalSavingsValue": {
+                "fieldName": "digitalSavingsValue",
+                "fieldData": "$1.00 OFF",
+                "fieldType": "text"
+              },
+              "redemptionFrequency": {
+                "fieldName": "redemptionFrequency",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "redemptionLimit": {
+                "fieldName": "redemptionLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "digitalViewImage": {
+                "fieldName": "digitalViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/0baa94ed-7d73-4dce-a0c7-ea999812c6ec/0cf87a57-53bd-4bbd-8c21-35c4ecc6a972.png",
+                "fieldType": "image"
+              },
+              "rejectionReasonCode": {
+                "fieldName": "rejectionReasonCode",
+                "fieldData": "",
+                "fieldType": "text"
+              },
+              "rejectionDescription": null,
+              "retailerIssuanceLimit": {
+                "fieldName": "retailerIssuanceLimit",
+                "fieldData": "68750",
+                "fieldType": "text"
+              },
+              "campaignLimit": {
+                "fieldName": "campaignLimit",
+                "fieldData": "68750",
+                "fieldType": "text"
+              },
+              "consumerLimit": {
+                "fieldName": "consumerLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "brand": {
+                "fieldName": "brand",
+                "fieldData": "Riviana Foods, Inc",
+                "fieldType": "text"
+              },
+              "consumerLimitActive": {
+                "fieldName": "consumerLimitActive",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "couponDisclaimer": {
+                "fieldName": "couponDisclaimer",
+                "fieldData": "Consumer: Limit one (1) coupon per purchase and quantity stated. No more than one (1) coupon for the same product in the same transaction. Retailer: Coupon will be redeemed for face value plus 8¢ handling if terms of offer have been met. Any other use constitutes fraud. VALID ONLY ON STATED PRODUCT(S). Coupon must be presented at time of purchase and prior to its expiry date. Customer must pay sales tax. No cash back or credit if coupon exceeds selling price. Void if prohibited, altered, transferred, sold, exchanged, taxed, copied or reproduced. Limit one coupon per purchase. Coupons submitted become property of the manufacturer. Reimbursement will be made only to retailer who redeemed the coupon. Cash value 1/20¢. Mail coupons to: Riviana Foods 742, P.O. Box 880001, El Paso, TX 88588-0001.",
+                "fieldType": "text"
+              },
+              "ecommOnly": {
+                "fieldName": "ecommOnly",
+                "fieldData": "false",
+                "fieldType": "checkbox"
+              }
+            },
+            "partners": [
+              null
+            ],
+            "active": "true",
+            "channelId": "4"
+          },
+          "ecrebo": {
+            "data": null,
+            "partners": [
+              null
+            ],
+            "active": false,
+            "channelId": 5
+          }
+        },
+        "details": {
+          "mode": "TARGETED",
+          "endDate": "2022-12-19 23:59:59",
+          "alternativeDescription": "Success Rice or Quinoa ",
+          "name": "Success Rice or Quinoa ",
+          "description": "API Automation $1.00 OFF when you buy ONE(1) Success Rice or Quinoa",
+          "alternativeName": "$1.00 OFF",
+          "printerMessage": "Any variety.",
+          "startDate": "2022-12-19 00:00:00",
+          "screenMessage": "Any variety.",
+          "tags": [
+            "NAM",
+            "Digital",
+            "Register",
+            "reportMFGDigital",
+            "OMS"
+          ]
+        },
+        "id": "319176",
+        "jsonMemberClass": null,
+        "status": "ACTIVE"
+      },
+      "objectType": "campaignEntity"
+    }
+  ],
+  "response": {
+    "code": 200,
+    "body": "",
+    "contentType": false
+  }
+}

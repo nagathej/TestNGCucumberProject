@@ -1,0 +1,50 @@
+[
+  {
+    "entityId": "1896856749",
+    "mobId": "157894",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " ItemDiscount",
+        "error": "Expecting only 1 Product Discount",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  },
+  {
+    "entityId": "1901089101",
+    "mobId": "157895",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " ItemDiscount",
+        "error": "Expecting Product Discount's Discount Type as ITEM_LEVEL",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  },
+  {
+    "entityId": "1933720189",
+    "mobId": "157896",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " ItemDiscount",
+        "error": "Expecting Product Discount's 'Include Product Group'",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  },
+  {
+    "entityId": "1933720189",
+    "mobId": "157896",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " ItemDiscount",
+        "error": "Not Expecting Product Group name as 'Any Product' under Buy Product",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

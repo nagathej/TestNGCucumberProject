@@ -1,0 +1,20 @@
+{
+  "excludeStores": [%s],
+  "includeStores": [%s],
+  "id": "%s",
+  "description":"%s",
+  "storeGroupName":"%s",
+  "isEditable": true,
+  "storesSearchCriteria": {
+    "divisions":[
+      "NOR. CALIFORNIA"
+    ],
+    "divisionRogCds": {
+      "NOR. CALIFORNIA": [
+        "SHAW",
+        "SNCA"
+      ]
+    }
+  },
+  "isAdminEditable": true
+}

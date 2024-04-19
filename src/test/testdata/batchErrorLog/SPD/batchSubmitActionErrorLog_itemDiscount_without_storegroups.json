@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "183862946",
+    "mobId": "128074",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " Delivery Channel Type",
+        "error": "DO - requires digital redemption store groups",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

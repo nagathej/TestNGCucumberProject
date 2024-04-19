@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "%s",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Offer Request ID",
+        "error": "Offer Request Status is Removing.",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

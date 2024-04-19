@@ -1,0 +1,215 @@
+{
+  "info": {
+    "id": {
+      "offerId": 436757066,
+      "externalOfferId": "436757066-ND",
+      "aggregatorOfferId": null,
+      "manufacturerId": null,
+      "manufacturerOfferRefCd": null
+    },
+    "offerProviderName": "OMS",
+    "deliveryChannel": "IS",
+    "categories": null,
+    "primaryCategory": null,
+    "events": null,
+    "hiddenEvents": null,
+    "offerProgramCode": "SC",
+    "programExtraAttributes": {
+      "copientCategory": "002-Store Coupon (paper)",
+      "priority": "Medium",
+      "tiers": "1",
+      "sendOutboundData": "Teradata CRM",
+      "chargebackVendor": "None",
+      "autoTransferable": true,
+      "enableImpressionReporting": true,
+      "limitEligibilityFrequency": "LIMITED",
+      "enableRedemptionReporting": true,
+      "enableIssuance": false,
+      "deferEvaluationUntilEOS": false,
+      "engine": "CPE"
+    },
+    "offerSubProgram": null,
+    "offerStatus": "A",
+    "description": {
+      "priceTitle": null,
+      "priceValue": null,
+      "savingsValueText": null,
+      "titleDescription": null,
+      "productDescription": null,
+      "disclaimerText": null,
+      "receiptDescriptions": null,
+      "desc": null
+    },
+    "productImageId": null,
+    "priceCode": null,
+    "time": null,
+    "year": null,
+    "productCd": null,
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": null,
+    "offerProgramType": null,
+    "shouldReportRedemptions": true,
+    "offerRequestId": "436747103",
+    "isApplicableToJ4U": false,
+    "offerName": "PortlandIS12436757066-ND",
+    "nopaNumbers": null,
+    "adType": "NA",
+    "offerType": null,
+    "auditInfo": {
+      "createdTs": "2020-04-09T08:56:24.170+00:00",
+      "createdApplicationId": "OMS",
+      "createdUserId": "radul01",
+      "lastUpdatedApplicationId": "OMS",
+      "lastUpdatedUserId": "gvuyy00",
+      "lastUpdatedTs": "2020-04-09T10:37:37.563+00:00",
+      "createdUser": {
+        "userId": "radul01",
+        "firstName": "Rajesh",
+        "lastName": "Adulapuram"
+      },
+      "updatedUser": {
+        "userId": "radul01",
+        "firstName": "Rajesh",
+        "lastName": "Adulapuram"
+      }
+    },
+    "printTags": null,
+    "storeTag": null
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2020-04-23T00:00:00.000+00:00",
+      "offerEffectiveStartDate": "2020-04-23T00:00:00.000+00:00",
+      "offerTestEffectiveStartDate": null
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2020-04-23T23:59:59.999+00:00",
+      "offerEffectiveEndDate": "2020-04-23T23:59:59.999+00:00",
+      "offerTestEffectiveEndDate": null
+    },
+    "applicableTo": {
+      "banners": null,
+      "divisions": {
+        "19": "Portland"
+      },
+      "storeGroups": null,
+      "channels": null,
+      "excludedTerminals": null,
+      "storeIds": null,
+      "redemptionStoreIds": null,
+      "postalCodes": null,
+      "upcs": null,
+      "departments": [
+        "Pricing"
+      ],
+      "pluTriggerBarcode": null,
+      "customerSegment": "Any Customer"
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "DOLLARS",
+      "minProdPurchaseUnits": null,
+      "maxProdPurchaseUnits": null,
+      "minOrderTotalAmount": 0.0,
+      "minRewardPoints": 0,
+      "minGetProdPurchaseUnits": null,
+      "isBuyXGetYOffer": false,
+      "productGroups": [
+        {
+          "name": "testyPG",
+          "id": 123,
+          "quantityUnitType": "ITEMS",
+          "excludedProductGroupName": null,
+          "conjunction": "And",
+          "minPurchaseAmount": 0.0,
+          "uniqueproduct": null,
+          "tiers": [
+            {
+              "level": 1,
+              "amount": 0.0
+            }
+          ],
+          "inheritedFromOfferRequest": null,
+          "displayOrder": 1
+        },
+        {
+          "name": "test1234",
+          "quantityUnitType": "ITEMS",
+          "excludedProductGroupName": null,
+          "conjunction": "And",
+          "minPurchaseAmount": 0.0,
+          "uniqueproduct": null,
+          "tiers": [
+            {
+              "level": 1,
+              "amount": 1.0
+            }
+          ],
+          "inheritedFromOfferRequest": null,
+          "displayOrder": 101
+        }
+      ],
+      "storeGroups": {
+        "podStoreGroupIds": [],
+        "redemptionStoreGroupIds": [
+          123
+        ]
+      },
+      "customerGroups": [
+        {
+          "name": "Any Cardholder",
+          "id": 3,
+          "excludeUsers": false,
+          "conjunction": " AND "
+        }
+      ],
+      "pointsGroups": null,
+      "productDisQualifier": null,
+      "day": null,
+      "time": null,
+      "enterpriseInstantWin": null,
+      "triggerCodes": null,
+      "attributes": null
+    },
+    "benefit": {
+      "benefitValueType": null,
+      "benefitValue": null,
+      "discount": [
+        {
+          "benefitValueType": "FREE",
+          "includeProductGroupName": "test1234",
+          "excludeProductGroupName": null,
+          "discountType": "ITEM_LEVEL",
+          "chargebackDepartment": "Item's Department",
+          "advanced": {
+            "bestDeal": null,
+            "allowNegative": null,
+            "flexNegative": null
+          },
+          "discountTier": [
+            {
+              "level": 1,
+              "amount": 0.0,
+              "upTo": 0.0,
+              "itemLimit": 1,
+              "weightLimit": 0.0,
+              "dollarLimit": null,
+              "receiptText": null
+            }
+          ]
+        }
+      ],
+      "points": [],
+      "groupMemberShip": null,
+      "printedMessage": null,
+      "cashierMessage": null
+    },
+    "usageLimits": {
+      "usageLimitTypePerUser": "UNLIMITED",
+      "usageLimitTypePerOffer": null,
+      "usageLimitPerUser": 1,
+      "usageLimitPerOffer": null
+    }
+  },
+  "householdAttrs": null
+}

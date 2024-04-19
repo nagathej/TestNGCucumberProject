@@ -1,0 +1,107 @@
+        {
+            "info": {
+                "id": {
+                    "externalOfferId": "HappyFriday-OfferId-005",
+                    "aggregatorOfferId": null
+                },
+                "offerProviderName": "NextGenStoreCpns",
+                "categories": {
+                    "8": "Dairy, Eggs & Cheese",
+                    "9": "Deli"
+                },
+                "primaryCategory": {
+                    "8": "Dairy, Eggs & Cheese",
+                    "9": "Deli"
+                },
+                "events": {
+                    "125": "Weekly Ad Coupons"
+                },
+                "offerProgramCode": "SC",
+                "offerSubProgram": "02",
+                "offerStatus": "P",
+                "description": {
+                    "priceTitle": null,
+                    "priceValue": null,
+                    "savingsValueText": "$3.65 EACH",
+                    "titleDescription": {
+                        "titleDsc1": "Lactaid"
+                    },
+                    "productDescription": {
+                        "prodDsc1": "Lactose Free Milk Half gallon"
+                    },
+                    "disclaimerText": null,
+                    "receiptDescriptions": "Lactaid ECOM100500"
+                },
+                "productImageId": "999999.gif",
+                "priceCode": null,
+                "isEmployeeOffer": false,
+                "isDefaultAllocationOffer": false,
+                "offerProgramType": null,
+                "shouldReportRedemptions": true,
+                "auditInfo": {
+                    "createdTs": null,
+                    "createdApplicationId": null,
+                    "createdUserId": null,
+                    "lastUpdatedApplicationId": null,
+                    "lastUpdatedUserId": null,
+                    "lastUpdatedTs": null
+                }
+            },
+            "rules": {
+                "startDate": {
+                    "displayEffectiveStartDate": "2019-01-01T07:00:01.235+00:00",
+                    "offerEffectiveStartDate": "2019-01-01T07:00:01.235+00:00",
+                    "offerTestEffectiveStartDate": "2019-01-01T07:00:01.235+00:00"
+                },
+                "endDate": {
+                    "displayEffectiveEndDate": "2019-08-01T07:00:01.235+00:00",
+                    "offerEffectiveEndDate": "2019-08-01T07:00:01.235+00:00",
+                    "offerTestEffectiveEndDate": "2019-08-01T07:00:01.235+00:00"
+                },
+                "applicableTo": {
+                    "banners": null,
+                    "divisions": {
+                        "24": "NORCAL"
+                    },
+                    "storeGroups": [
+                        "7642"
+                    ],
+                    "channels": null,
+                    "terminals": [
+                        "11401"
+                    ],
+                    "storeIds": [
+                        "TESTSTOREPUSH",
+                        "TESTSTOREVAL"
+                    ],
+                    "postalCodes": [
+                        "94025"
+                    ],
+                    "upcs": null,
+                    "departments": null
+                },
+                "qualification": {
+                    "qualificationUnitType": "PRODUCT",
+                    "qualificationUnitSubType": "QUANTITY",
+                    "minProdPurchaseUnits": 1,
+                    "maxProdPurchaseUnits": 1,
+                    "minOrderTotalAmount": 3.65,
+                    "minRewardPoints": null,
+                    "minGetProdPurchaseUnits": null,
+                    "isBuyXGetYOffer": false
+                },
+                "benefit": {
+                    "benefitValueType": "FIXED_PRICE",
+                    "benefitValue": 3.65,
+                    "isBenefitValueApplicableToBuyItems": null,
+                    "isBenefitValueApplicableToGetItems": null,
+                    "isBenefitValueRestrictedToMultiplesOfMinUnits": null
+                },
+                "usageLimits": {
+                    "usageLimitTypePerUser": "ONCE_PER_OFFER",
+                    "usageLimitTypePerOffer": null,
+                    "usageLimitPerUser": 1,
+                    "usageLimitPerOffer": null
+                }
+            }
+        }

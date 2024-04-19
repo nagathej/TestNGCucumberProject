@@ -1,0 +1,196 @@
+{
+  "offer": {
+    "conditions": {
+      "customers": {
+        "included": [
+          {
+            "customerGroupNm": "Customer group for 12022374"
+          }
+        ],
+        "excluded": []
+      },
+      "products": [
+        {
+          "incProductGroupNm": "Product group for 12022374",
+          "excProductGroupNm": "",
+          "productComboConditionOper": "",
+          "amountType": "Items",
+          "uniqueProductInd": false,
+          "minPurchaseAmt": 0,
+          "tiers": [
+            {
+              "productAmt": 1
+            }
+          ],
+          "accumulation": {
+            "minAmt": 0,
+            "limitNbr": 0,
+            "periodDayNbr": 0
+          }
+        }
+      ]
+    },
+    "rewards": {
+      "discount": {
+        "productgroup": {
+          "discountType": "Item Level",
+          "incProductGroupNm": "Product group for 12022374",
+          "excProductGroupNm": ""
+        },
+        "chargebackdepartment": {
+          "name": "Item's Department"
+        },
+        "distribution": {
+          "distributionType": "Fixed Amount Off",
+          "tiers": [
+            {
+              "tierAmt": 1,
+              "tierItemLimitNbr": 10,
+              "tierMaxDollarItemLimitAmt": 0,
+              "tierReceiptTxt": "J4U Kerrygold"
+            }
+          ]
+        },
+        "scorecard": {
+          "scorecardEnableInd": false,
+          "scorecardNm": "",
+          "scorecardLineTxt": ""
+        },
+        "advanced": {
+          "computeDiscountInd": true,
+          "bestdealInd": false,
+          "allowNegativeInd": true,
+          "flexNegativeInd": true
+        }
+      }
+    },
+    "notifications": {},
+    "locations": {
+      "storegroups": {
+        "included": [
+          {
+            "storeGroupNm": "Webtool 9840"
+          }
+        ],
+        "excluded": ""
+      },
+      "terminals": {
+        "included": [
+          {
+            "terminalNm": "All CPE Terminals"
+          }
+        ],
+        "excluded": []
+      }
+    },
+    "incentiveId": 406839,
+    "deployInd": false,
+    "deferDeployInd": false,
+    "engineTypeNm": "CPE",
+    "lastUpdateTs": "2020-07-14T12:49:15.417",
+    "general": {
+      "identification": {
+        "offerNm": "OMS: 9857410 - Kerrygold - 1.00 - Buy 1 Get $1.00",
+        "offerDsc": "OMS: 9857410 - Kerrygold - 1.00 - Buy 1 Get $1.00(offer imported - original offer ID 12022374)",
+        "offerExternaId": "09381-100001-00",
+        "categoryDsc": "007-J4U Manufacturer eCoupons"
+      },
+      "priority": {
+        "priorityNm": "",
+        "footerPriorityMsgTxt": 0
+      },
+      "dates": {
+        "testing": {
+          "testingStartDt": "2020-07-13T00:00:00",
+          "testingEndDt": "2020-08-15T00:00:00"
+        },
+        "eligibility": {
+          "eligibilityStartDt": "2020-07-13T00:00:00",
+          "eligibilityEndDt": "2020-08-15T00:00:00"
+        },
+        "production": {
+          "productionStartDt": "2020-07-13T00:00:00",
+          "productionEndDt": "2020-08-15T00:00:00"
+        }
+      },
+      "limits": {
+        "eligibility": {
+          "eligibilityFrequencyNm": "Once Per Transaction"
+        },
+        "reward": {
+          "rewardsFrequencyNm": "Once Per Offer"
+        }
+      },
+      "inboundoutbound": {
+        "creationSourceNm": "Logix",
+        "outboundSourceNm": "",
+        "chargebackVendorId": ""
+      },
+      "employees": {
+        "employeeEligibilityTypNm": "None"
+      },
+      "advanced": {
+        "eosDeferInd": false,
+        "issuanceInd": false,
+        "manufacturerCouponInd": true,
+        "reporting": {
+          "impressionInd": false,
+          "redemptionInd": true
+        }
+      }
+    }
+  },
+  "productgroups": [
+    {
+      "productGroupNm": "Product group for 12022374",
+      "productGroupDsc": "",
+      "lastUpdateTs": "2020-07-14T12:48:17.550",
+      "products": [
+        {
+          "extProductId": "00076770701328",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "KERRYGOLD MILD CHEDDAR SLICES"
+        },
+        {
+          "extProductId": "00076770701329",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "KERRYGOLD MILD CHEDDAR SHREDS"
+        },
+        {
+          "extProductId": "00076770701330",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "KERRYGOLD SAVORY CHEDDAR SLICES"
+        },
+        {
+          "extProductId": "00076770701331",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "KERRYGOLD SAVORY CHEDDAR SHREDS"
+        },
+        {
+          "extProductId": "00076770701334",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        }
+      ]
+    }
+  ],
+  "storegroups": [
+    {
+      "storeGroupNm": "Webtool 9840",
+      "lastUpdateTs": "2020-07-09T16:13:05.790",
+      "stores": [
+        {
+          "extLocationCd": "q259840",
+          "storeNm": "q259840",
+          "storeDsc": "Livermore Lab",
+          "storeTestingInd": false,
+          "addressTxt": " ",
+          "cityNm": "",
+          "state": "",
+          "postalCd": "",
+          "countryNm": "United States"
+        }
+      ]
+    }
+  ]
+}

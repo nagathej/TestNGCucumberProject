@@ -1,0 +1,24 @@
+[
+  {
+    "entityId": "1277636266",
+    "mobId": "108917",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": "rewardsRequired",
+        "error": "Rewards is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "priceText-1",
+        "error": "Price Text is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": " offerDescription-1",
+        "error": "Offer Description is required",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

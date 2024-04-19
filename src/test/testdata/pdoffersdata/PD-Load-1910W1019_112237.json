@@ -1,0 +1,75 @@
+{
+  "info" : {
+    "id" : {
+      "externalOfferId" : "1910W1019_112237",
+      "aggregatorOfferId": "15327"
+    },
+    "offerProviderName" : "JPApiTestDataCreation5",
+    "categories" : {
+      "8" : "Dairy, Eggs & Cheese",
+      "9" : "Deli"
+    },
+    "primaryCategory" : {
+      "8" : "Dairy, Eggs & Cheese",
+      "9" : "Deli"
+    },
+    "events" : {
+      "125" : "Weekly Ad Coupons"
+    },
+    "offerProgramCode" : "PD",
+    "offerSubProgram" : "02",
+    "offerStatus" : "O",
+    "description" : {
+      "savingsValueText" : "$3.99 EACH",
+      "titleDescription" : {
+        "titleDsc1" : "Lactaid"
+      },
+      "productDescription" : {
+        "prodDsc1" : "Lactose Free Milk Half gallon"
+      },
+      "receiptDescriptions" : "Lactaid ECOM100500"
+    },
+    "productImageId" : "999999",
+    "isDefaultAllocationOffer" : false,
+    "shouldReportRedemptions" : true
+  },
+  "rules" : {
+    "startDate" : {
+      "displayEffectiveStartDate" : "2019-03-03T00:00:01.235-07:00",
+      "offerEffectiveStartDate" : "2019-03-03T00:00:01.235-07:00",
+      "offerTestEffectiveStartDate" : "2019-03-03T00:00:01.235-07:00"
+    },
+    "endDate" : {
+      "displayEffectiveEndDate" : "2019-03-16T11:59:59.235-07:00",
+      "offerEffectiveEndDate" : "2019-03-16T11:59:59.235-07:00",
+      "offerTestEffectiveEndDate" : "2019-03-16T11:59:59.235-07:00"
+    },
+    "applicableTo" : {
+      "divisions" : {
+        "19" : "PORTLAND"
+      },
+      "storeGroups" : [ "8220" ],
+      "terminals" : [ "11401" ],
+      "storeIds" : [],
+
+      "postalCodes" : [],
+      "upcs" : ["1234567890", "0987654321"]
+    },
+    "qualification" : {
+      "qualificationUnitType" : "PRODUCT",
+      "qualificationUnitSubType" : "QUANTITY",
+      "minProdPurchaseUnits" : 1,
+      "maxProdPurchaseUnits" : 1,
+      "minOrderTotalAmount" : 3.99,
+      "isBuyXGetYOffer" : false
+    },
+    "benefit" : {
+      "benefitValueType" : "FIXED_PRICE",
+      "benefitValue" : 3.99
+    },
+    "usageLimits" : {
+      "usageLimitTypePerUser" : "ONCE_PER_OFFER",
+      "usageLimitPerUser" : 1
+    }
+  }
+}

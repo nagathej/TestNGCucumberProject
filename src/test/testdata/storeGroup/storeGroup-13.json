@@ -1,0 +1,20 @@
+{
+  "excludeStores": [],
+  "includeStores": [],
+  "description": "",
+  "id": "",
+  "storeGroupName": "MIDATLANTIC-SG-env",
+  "storesSearchCriteria": {
+    "divisions": [
+      "MID-ATLANTIC"
+    ],
+    "divisionRogCds": {
+      "MID-ATLANTIC": [
+        "ACME",
+        "AKBA",
+        "SWMA"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

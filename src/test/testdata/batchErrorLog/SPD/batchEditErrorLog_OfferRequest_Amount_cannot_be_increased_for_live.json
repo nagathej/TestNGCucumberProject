@@ -1,0 +1,14 @@
+[
+  {
+    "entityId":"12566445",
+    "rowNumber":2,
+    "status":"Failed",
+    "errors":[
+      {
+        "columnName":"Amount",
+        "error":"Offer is currently Live - price cannot be increased",
+        "errorType":"ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

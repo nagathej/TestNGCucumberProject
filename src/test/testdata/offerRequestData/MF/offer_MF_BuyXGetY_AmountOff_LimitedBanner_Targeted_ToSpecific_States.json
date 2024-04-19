@@ -1,0 +1,542 @@
+{
+  "headers": {
+    "eesEnvironmentType": "testEnvironment",
+    "clientId": false,
+    "eesSubsystemId": "hydra-69gf",
+    "unitFriendlyName": "Albertsons",
+    "externalMessageId": "",
+    "eesMasterEventId": "Y4BkcecqGjSnIGkC00FtoAAAAAc",
+    "callerIp": "127.0.0.1",
+    "eesEventId": "bc0a50c6-3327-4283-84b1-7cfbdda00286",
+    "eesApiVersion": "2.0",
+    "clientIdFriendlyName": "api",
+    "eventName": "CAMPAIGN.UPDATE",
+    "unitId": "9003438",
+    "eventDate": "2022-11-25T06:45:05.403721"
+  },
+  "request": {
+    "method": "PUT",
+    "resource": "campaigns",
+    "body": "",
+    "contentType": "application/x-www-form-urlencoded",
+    "customHeaders": []
+  },
+  "atomicOperations": [
+    {
+      "operationType": "UPDATE",
+      "objectValue": {
+        "settings": {
+          "tokenProvider": "ThirdPartyRealTime",
+          "walletEnabled": false,
+          "accountClientType": "MANUFACTURER",
+          "defaultAccountClientState": null,
+          "issuanceMethod": null,
+          "tokenFormat": "000000089"
+        },
+        "custom": {
+          "mfg": {
+            "manufacturerName": "Heineken USA",
+            "manufacturerOfferId": "201072",
+            "productBrand": "HEINEKEN",
+            "nchManufacturerId": "",
+            "countryId": "US",
+            "excludedZip": null,
+            "departmentCategory": "Wine, Beer & Spirits",
+            "familyCodes": "000",
+            "actionPeriodDuration": 0,
+            "targetedBanners": "jewelosco",
+            "variantId": "6726ddac-3279-4f9c-b44c-cd71db4ada82",
+            "productDescription": "Heineken 12-pack or larger, Coca-Cola product",
+            "incentiveId": "ec95f49d-6548-4fa1-af7d-8dbf5b1260e9",
+            "brandName": "HEINEKEN",
+            "product": "Heineken 12-pack or larger",
+            "includedZip": null,
+            "includedStates": "IA,IL",
+            "requirementDescription": "Valid on HEINEKEN family product 12-pack or larger.",
+            "manufacturerCode": "072890",
+            "clearingHouseMfgId": "17546",
+            "targetingData": "{\"location\":{\"type\":\"State\",\"option\":\"Includes\",\"state_targeting_ids\":[\"IA\",\"IL\"]},\"store_conditions\":{\"type\":\"Valid At\",\"retailers\":[{\"freedom_store_id\":\"91\",\"freedom_store_name\":\"Jewel-Osco\",\"distributor_store_name\":\"jewelosco\"}]}}",
+            "excludedStates": null,
+            "offerCode": "201072",
+            "freedomLastUpdated": "2022-11-24T21:16:50+00:00",
+            "currencyCode": "USD",
+            "householdTargeting": null
+          }
+        },
+        "rules": {
+          "useLocalTime": null,
+          "redemption": {
+            "redemption": null,
+            "exclusion": null,
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 1,
+            "dates": {
+              "redemption": null,
+              "exclusion": {
+                "active": false
+              }
+            },
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 1,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": true,
+            "hiddenFromRelatedWallets": false
+          },
+          "start": null,
+          "locations": null,
+          "expiry": {
+            "date": "2023-05-31 23:59:59",
+            "valueType": null,
+            "type": "DATE",
+            "value": null
+          },
+          "creation": {
+            "campaignLimit": 75000,
+            "consumerLimit": 1,
+            "consumerLimitPerPeriod": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "consumerLimitActive": 1
+          },
+          "verification": {
+            "lock": false,
+            "lockOnVerify": true
+          }
+        },
+        "dates": {
+          "redemption": {
+            "redemption": [],
+            "exclusion": [],
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 0,
+            "dates": null,
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": null,
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 0,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": false,
+            "hiddenFromRelatedWallets": false
+          },
+          "exclusion": null
+        },
+        "artwork": {
+          "imageUrl": "https://images.freedomapi.com/creatives/44c6ad49-107d-47bf-b761-bcc83b50674b/fab8bbd7-cc1f-4687-b058-2dac77c2eb2c.png",
+          "encodedImage": null
+        },
+        "type": "COMBO_PROMOTION",
+        "windows": {
+          "redemption": [],
+          "creation": [],
+          "active": false
+        },
+        "version": 2,
+        "reference": "000032959",
+        "offer": {
+          "reward": {
+            "standard": null,
+            "basket": null,
+            "pointSpendRates": [],
+            "product": {
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "500",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "2500005838",
+                          "2500005824",
+                          "2500005899",
+                          "2500005819",
+                          "2500012115",
+                          "2500003223",
+                          "2500005828",
+                          "2500005392",
+                          "2500005381",
+                          "4900001278",
+                          "4900004284",
+                          "4900001063",
+                          "4900001938",
+                          "4900003108",
+                          "4900003012",
+                          "4900009328",
+                          "4900009334",
+                          "4900008107",
+                          "4900002933",
+                          "4900002890",
+                          "4900004269",
+                          "4900007893",
+                          "4900003103",
+                          "4900004255",
+                          "4900006090",
+                          "4900007890",
+                          "4900004751",
+                          "4900003104",
+                          "4900002934",
+                          "4900002891",
+                          "4900003637",
+                          "4900003124",
+                          "4900053313",
+                          "4900007545",
+                          "4900007544",
+                          "4900053318",
+                          "4900003073",
+                          "4900003074",
+                          "4900003076",
+                          "4900003075",
+                          "4900053185",
+                          "4900003105",
+                          "4900053187",
+                          "4900002893",
+                          "4900003077",
+                          "4900006159",
+                          "4900006163",
+                          "4900009316",
+                          "4900009324",
+                          "4900008083",
+                          "4900002892",
+                          "4900008112",
+                          "4900003711",
+                          "4900003109",
+                          "4900004825",
+                          "4900000548",
+                          "4900000594",
+                          "4900000613",
+                          "4900000684",
+                          "4900007484",
+                          "4900004665",
+                          "4900000612",
+                          "4900007594",
+                          "4900002963",
+                          "4900007596",
+                          "4900053069",
+                          "4900002468",
+                          "4900008019",
+                          "4900004584",
+                          "4900002542",
+                          "4900002469",
+                          "4900003717",
+                          "4900002470",
+                          "4900002563",
+                          "4900003168",
+                          "4900005023",
+                          "4900005016",
+                          "4900005010",
+                          "4900007234",
+                          "4900007235",
+                          "4900005014",
+                          "4900005199",
+                          "4900005012",
+                          "4900005011",
+                          "4900005013",
+                          "4900006774",
+                          "4900005024",
+                          "4900005026",
+                          "4900005025",
+                          "4900005027",
+                          "4900005028",
+                          "4900005029",
+                          "4900006158",
+                          "4900006162",
+                          "4900009318",
+                          "4900005015",
+                          "4900008115",
+                          "4900005017",
+                          "7297900334",
+                          "7297900416",
+                          "7297900432",
+                          "7297900418",
+                          "8079380887",
+                          "4900001834",
+                          "4900001899",
+                          "4900006525",
+                          "4900001980"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "treatAs": {
+              "type": "tender"
+            }
+          },
+          "offerType": "FIXED_AMOUNT_OFF_PRODUCTS",
+          "qualification": {
+            "basket": null,
+            "product": {
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "7289000020",
+                          "7289000027",
+                          "7289000152",
+                          "7289000494",
+                          "72890420000",
+                          "7289000042",
+                          "7289000083",
+                          "7289000481",
+                          "7289000644",
+                          "7289000529",
+                          "7289000016",
+                          "7289000660",
+                          "7289000031",
+                          "7289000161",
+                          "7289000423",
+                          "7289000188",
+                          "7289000483",
+                          "7289000159",
+                          "7289000158",
+                          "7289000620",
+                          "7289000621",
+                          "7289000654"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "tenders": [],
+            "locations": {
+              "jewelosco": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "jewelosco": [
+                      "State-IA",
+                      "State-IL"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              }
+            }
+          },
+          "continuity": null,
+          "promoId": "811010072890201072350035011000323010396000",
+          "boltOn": null
+        },
+        "relationships": null,
+        "lastUpdated": "2022-11-25T06:45:05+00:00",
+        "dateCreated": "2022-11-24T21:16:50+00:00",
+        "partners": {
+          "redemption": [
+            {
+              "redemptionLimit": null,
+              "partner": "9003447"
+            }
+          ],
+          "creation": []
+        },
+        "distributionChannels": {
+          "abscoDigital": {
+            "data": {
+              "digitalListViewImage": {
+                "fieldName": "digitalListViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/44c6ad49-107d-47bf-b761-bcc83b50674b/fab8bbd7-cc1f-4687-b058-2dac77c2eb2c.png",
+                "fieldType": "image"
+              },
+              "digitalDescription": {
+                "fieldName": "digitalDescription",
+                "fieldData": "Buy ONE(1) of Heineken 12-pack or larger (Valid on HEINEKEN family product 12-pack or larger), get $5.00 OFF Coca-Cola product.",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriodLimit": {
+                "fieldName": "consumerLimitPerPeriodLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriod": {
+                "fieldName": "consumerLimitPerPeriod",
+                "fieldData": "0",
+                "fieldType": "text"
+              },
+              "digitalSavingsValue": {
+                "fieldName": "digitalSavingsValue",
+                "fieldData": "$5.00 OFF",
+                "fieldType": "text"
+              },
+              "redemptionFrequency": {
+                "fieldName": "redemptionFrequency",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "redemptionLimit": {
+                "fieldName": "redemptionLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "digitalViewImage": {
+                "fieldName": "digitalViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/44c6ad49-107d-47bf-b761-bcc83b50674b/fab8bbd7-cc1f-4687-b058-2dac77c2eb2c.png",
+                "fieldType": "image"
+              },
+              "rejectionReasonCode": {
+                "fieldName": "rejectionReasonCode",
+                "fieldData": "",
+                "fieldType": "text"
+              },
+              "rejectionDescription": null,
+              "retailerIssuanceLimit": {
+                "fieldName": "retailerIssuanceLimit",
+                "fieldData": "75000",
+                "fieldType": "text"
+              },
+              "campaignLimit": {
+                "fieldName": "campaignLimit",
+                "fieldData": "75000",
+                "fieldType": "text"
+              },
+              "consumerLimit": {
+                "fieldName": "consumerLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "brand": {
+                "fieldName": "brand",
+                "fieldData": "Heineken USA",
+                "fieldType": "text"
+              },
+              "consumerLimitActive": {
+                "fieldName": "consumerLimitActive",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "couponDisclaimer": {
+                "fieldName": "couponDisclaimer",
+                "fieldData": "TO CONSUMER: TERMS AND CONDITIONS OF OFFER: MUST BE A RESIDENT OF VALID STATE AND AT LEAST 21 YEARS OF AGE OR OLDER AT TIME OF PURCHASE. Offer valid only in IL and IA for individuals 21 years of age or older. To receive $5.00 through this coupon, you must purchase ONE (1) 12-pack (equivalent or larger) of any HEINEKEN family product AND ONE (1) Coca-Cola product. Limit one (1) offer per customer per qualifying purchase. Offer not to be combined with any other offer or promotion. Void if copied and where taxed or prohibited by law. Offer not to be purchased, sold, or transferred. Valid at all participating licensed off-premise retailers in indicated states. You are responsible for sales tax. Offer not available to groups or organizations, or to employees of HEINEKEN USA Inc., its affiliated companies and agencies, licensed alcohol beverage suppliers, wholesalers, and retailers, or members of their immediate families or households. For coupon redemption, send to HEINEKEN USA Inc., Inmar Brand Solutions Dept. 72890 Mfr Rcv Office 801 UNION PACIFIC BLVD STE 5 LAREDO TX 78045-9475. Purchases must be made between 11/02/2022 and 01/03/2023. ENJOY RESPONSIBLY. ©2022 Imported by HEINEKEN USA, White Plains, NY. ",
+                "fieldType": "text"
+              },
+              "ecommOnly": {
+                "fieldName": "ecommOnly",
+                "fieldData": "false",
+                "fieldType": "checkbox"
+              }
+            },
+            "partners": [
+              null
+            ],
+            "active": "true",
+            "channelId": "4"
+          },
+          "ecrebo": {
+            "data": null,
+            "partners": [
+              null
+            ],
+            "active": false,
+            "channelId": 5
+          }
+        },
+        "details": {
+          "mode": "TARGETED",
+          "endDate": "2023-05-31 23:59:59",
+          "alternativeDescription": "Heineken 12-pack or larger, Coca-Cola product",
+          "name": "Heineken 12-pack or larger, Coca-Cola product",
+          "description": "API Automation $5.00 OFF Coca-Cola product when you buy ONE(1) Heineken 12-pack or larger",
+          "alternativeName": "$5.00 OFF Coca-Cola product",
+          "printerMessage": "Valid on HEINEKEN family product 12-pack or larger.",
+          "startDate": "2022-12-02 00:00:00",
+          "screenMessage": "Valid on HEINEKEN family product 12-pack or larger.",
+          "tags": [
+            "NAM",
+            "Digital",
+            "Register",
+            "reportMFGDigital",
+            "OMS"
+          ]
+        },
+        "id": "329725",
+        "jsonMemberClass": null,
+        "status": "ACTIVE"
+      },
+      "objectType": "campaignEntity"
+    }
+  ],
+  "response": {
+    "code": 201,
+    "body": "",
+    "contentType": false
+  }
+}

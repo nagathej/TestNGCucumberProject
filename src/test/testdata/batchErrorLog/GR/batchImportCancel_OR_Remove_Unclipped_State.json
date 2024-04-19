@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "%s",
+    "rowNumber": 1,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Offer Request ID",
+        "error": "This Offer Request can only be 'Removed for All'",
+        "errorType": "ERROR_DURING_VERIFICATION"
+      }
+    ]
+  }
+]

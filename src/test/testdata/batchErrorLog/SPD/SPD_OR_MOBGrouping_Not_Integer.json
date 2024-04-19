@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "MOB Grouping #",
+        "error": "MOB Grouping number must be an integer",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

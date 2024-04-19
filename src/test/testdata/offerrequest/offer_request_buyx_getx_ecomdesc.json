@@ -1,0 +1,174 @@
+    {
+      "info": {
+        "id": 1330265384,
+        "pluTriggerBarcode": "",
+        "pluTriggerBarcodeType": null,
+        "validatePluTriggerBarcode": false,
+        "deliveryChannel": "DO",
+        "brandAndSize": "brand",
+        "nopaNumbers": null,
+        "nopaStartDate": null,
+        "nopaEndDate": null,
+        "billingOptions": "",
+        "desc": "sadasdsadasdasd",
+        "programCode": "SC",
+        "attachments": null,
+        "adType": "NIA",
+        "offerRequestType": "BUYX_GETX",
+        "numOfVersions": null,
+        "numOfTiers": null,
+        "numOfProducts": null,
+        "digitalUser": {
+          "userId": "pkuma24",
+          "firstName": "Prashant",
+          "lastName": "Kumar"
+        },
+        "nonDigitalUser": null,
+        "digitalStatus": "P",
+        "nonDigitalStatus": "NA",
+        "digitalEditStatus": null,
+        "nonDigitalEditStatus": null,
+        "digitalUiStatus": "P",
+        "nonDigitalUiStatus": "NA",
+        "isBilled": false,
+        "justification": "",
+        "group": "AM",
+        "groupDivision": null
+      },
+      "rules": {
+        "startDate": {
+          "offerEffectiveStartDate": "2020-08-25T00:00:00.000+00:00"
+        },
+        "endDate": {
+          "offerEffectiveEndDate": "2020-08-25T23:59:59.999+00:00"
+        },
+        "qualificationAndBenefit": {
+          "offerRequestOffers": [
+            {
+              "id": 1329881832,
+              "storeGroupVersion": {
+                "id": 1329881833,
+                "displayOrder": 1,
+                "offerPrototype": "BUYX_GETX",
+                "storeGroup": {
+                  "podStoreGroupIds": [
+                    123
+                  ],
+                  "digitalRedemptionStoreGroupIds": [
+                    345
+                  ]
+                },
+                "productGroupVersions": [
+                  {
+                    "displayOrder": 1,
+                    "id": 1329881834,
+                    "anyProduct": null,
+                    "isGiftCard": false,
+                    "productGroup": {
+                      "name": "ABTestProductGroup1",
+                      "id": 123,
+                      "quantityUnitType": "ITEMS",
+                      "excludedProductGroupName": null,
+                      "conjunction": null,
+                      "minPurchaseAmount": 0.0,
+                      "uniqueproduct": null,
+                      "tiers": [
+                        {
+                          "level": 1,
+                          "amount": 1.0
+                        }
+                      ],
+                      "inheritedFromOfferRequest": null,
+                      "displayOrder": 1
+                    },
+                    "discountVersion": {
+                      "id": 1329881835,
+                      "discounts": [
+                        {
+                          "displayOrder": 1,
+                          "id": 1329881836,
+                          "benefitValueType": "PRICE_POINT_ITEMS",
+                          "discountType": "ITEM_LEVEL",
+                          "includeProductGroupName": "ABTestProductGroup1",
+                          "excludeProductGroupName": null,
+                          "chargebackDepartment": null,
+                          "tiers": [
+                            {
+                              "level": 1,
+                              "amount": 1.0,
+                              "upTo": null,
+                              "itemLimit": 1,
+                              "weightLimit": null,
+                              "dollarLimit": null,
+                              "receiptText": null,
+                              "rewards": null
+                            }
+                          ]
+                        }
+                      ],
+                      "airMiles": []
+                    }
+                  }
+                ],
+                "instantWin": null,
+                "storeTag": {
+                  "printJ4uTagEnabled": false,
+                  "multiple": null,
+                  "amount": null,
+                  "comments": null
+                },
+                "podDetails": {
+                  "ivieImageId": "test123453451233",
+                  "scene7ImageId": null,
+                  "headline": "healines details",
+                  "displayEndDate": "2020-08-25T23:59:59.999+00:00",
+                  "offerDescription": "offer description filed",
+                  "priceText": "price text",
+                  "disclaimer": "sadadasdsadas",
+                  "eventIds": [
+                    "125"
+                  ],
+                  "categoryId": "4"
+                }
+              },
+              "offers": [
+                {
+                  "storeGroupVersion": 1329881833,
+                  "productGroupVersion": 1329881834,
+                  "discountVersion": 1329881835,
+                  "genericDiscountId": 1329881836,
+                  "instantWinVersion": null,
+                  "offerId": 1329881837,
+                  "externalOfferId": "1329881837-D",
+                  "offerStatus": "I",
+                  "isApplicableToJ4U": true,
+                  "distinctIdentifier": "DEFAULT",
+                  "isPodApplicable": true
+                }
+              ]
+            }
+          ],
+          "day": null,
+          "time": null
+        },
+        "department": "Consumer Brands",
+        "customerSegment": "Any Customer",
+        "usageLimitTypePerUser": "ONCE_PER_OFFER"
+      },
+      "lastUpdatedTs": 1597754515.741000000,
+      "createdTs": 1597754515.741000000,
+      "createdApplicationId": "OMS",
+      "createdUserId": "pkuma24",
+      "lastUpdatedApplicationId": "OMS",
+      "lastUpdatedUserId": "pkuma24",
+      "createdUser": {
+        "userId": "pkuma24",
+        "firstName": "Prashant",
+        "lastName": "Kumar"
+      },
+      "updatedUser": {
+        "userId": "pkuma24",
+        "firstName": "Prashant",
+        "lastName": "Kumar"
+      }
+    }

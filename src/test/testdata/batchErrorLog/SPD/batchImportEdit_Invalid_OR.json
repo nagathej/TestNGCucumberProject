@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "12566445",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Offer Request ID",
+        "error": "Invalid offer request id 12566445",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

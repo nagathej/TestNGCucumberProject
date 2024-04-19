@@ -1,0 +1,39 @@
+[
+  {
+    "entityId": "1415328198",
+    "mobId": "242365",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": "headLine1-1",
+        "error": "Headline 1 is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "rewardsRequired",
+        "error": "Rewards is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "priceText-1",
+        "error": "Price Text is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "brandAndSize",
+        "error": "Brand and Size is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": " offerDescription-1",
+        "error": "Offer Description is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "displayEndDate-1",
+        "error": "Display End Date is required",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

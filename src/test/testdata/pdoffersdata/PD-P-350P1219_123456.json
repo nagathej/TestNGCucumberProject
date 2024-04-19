@@ -1,0 +1,83 @@
+{
+  "info" : {
+    "id" : {
+      "externalOfferId" : "3520P1219_123456",
+      "aggregatorOfferId": "15327"
+    },
+    "offerProviderName" : "JPApiTestDataCreation",
+    "categories" : {
+      "8" : "Dairy, Eggs & Cheese",
+      "9" : "Deli"
+    },
+    "primaryCategory" : {
+      "8" : "Dairy, Eggs & Cheese",
+      "9" : "Deli"
+    },
+    "events" : {
+      "125" : "Weekly Ad Coupons"
+    },
+    "offerProgramCode" : "PD",
+    "offerSubProgram" : "02",
+    "offerStatus" : "P",
+    "description" : {
+      "savingsValueText" : "$5.65 EACH",
+      "titleDescription" : {
+        "titleDsc1" : "Lactaid"
+      },
+      "productDescription" : {
+        "prodDsc1" : "Lactose Free Milk Half gallon"
+      },
+      "receiptDescriptions" : "Lactaid ECOM100500"
+    },
+    "auditInfo": {
+      "createdTs": "2019-02-01T00:00:01.235-07:00",
+      "createdApplicationId": "Automation",
+      "createdUserId": "Automation",
+      "lastUpdatedApplicationId": "Automation",
+      "lastUpdatedUserId": "Automation",
+      "lastUpdatedTs": "2019-02-01T00:00:01.235-07:00"
+    },
+    "productImageId" : "999999",
+    "isDefaultAllocationOffer" : false,
+    "shouldReportRedemptions" : true
+  },
+  "rules" : {
+    "startDate" : {
+      "displayEffectiveStartDate" : "2019-01-06T00:00:01.235-07:00",
+      "offerEffectiveStartDate" : "2019-01-06T00:00:01.235-07:00",
+      "offerTestEffectiveStartDate" : "2019-01-06T00:00:01.235-07:00"
+    },
+    "endDate" : {
+      "displayEffectiveEndDate" : "2019-12-12T11:59:59.235-07:00",
+      "offerEffectiveEndDate" : "2019-12-12T11:59:59.235-07:00",
+      "offerTestEffectiveEndDate" : "2019-12-12T11:59:59.235-07:00"
+    },
+    "applicableTo" : {
+      "divisions" : {
+        "33" : "SHAWS"
+      },
+      "storeGroups" : [ "7927" ],
+      "terminals" : [ "11401" ],
+      "storeIds" : [],
+
+      "postalCodes" : [],
+      "upcs" : ["1234567890", "0987654321"]
+    },
+    "qualification" : {
+      "qualificationUnitType" : "PRODUCT",
+      "qualificationUnitSubType" : "QUANTITY",
+      "minProdPurchaseUnits" : 1,
+      "maxProdPurchaseUnits" : 1,
+      "minOrderTotalAmount" : 5.65,
+      "isBuyXGetYOffer" : false
+    },
+    "benefit" : {
+      "benefitValueType" : "FIXED_PRICE",
+      "benefitValue" : 5.65
+    },
+    "usageLimits" : {
+      "usageLimitTypePerUser" : "ONCE_PER_OFFER",
+      "usageLimitPerUser" : 1
+    }
+  }
+}

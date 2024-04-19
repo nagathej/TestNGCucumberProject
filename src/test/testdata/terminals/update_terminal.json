@@ -1,0 +1,9 @@
+{
+  "jobSubType": "TERMINALS_UPDATE",
+  "jobType": "O",
+  "programCodeType": "%s",
+  "searchQuery": {
+    "query": "externalOfferId=(%s);"
+  },
+  "requestPayload": "{\"terminals\":[\"Cafe Starbucks\",\"China/Panda Express\",\"Customer Service Desk\",\"Deli\",\"Deli Sandwich Kiosk\",\"Dry Cleaners\",\"Floral\",\"Front End\",\"Fuel Display\",\"Fuel Pumps (Power Pump)\",\"Fuel pay-inside (kiosk)\",\"Gas Station (Pay at Pump)\",\"Groceryworks (Safeway.com)\",\"Jamba Juice\",\"Line Buster\",\"Liquor\",\"Pharmacy\",\"Pharmacy Drive-Up\",\"Post Office\",\"PowerPump\",\"Rx Refill Kiosk\",\"Self-Checkout\",\"Smart Cart (QVS Virtual Terminals)\",\"Standard Checkout\",\"Testing Lane\",\"Tobacco\",\"Video\"],\"excludedTerminals\":[\"Bakery\"]}"
+}

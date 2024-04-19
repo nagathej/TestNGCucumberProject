@@ -1,0 +1,18 @@
+{
+  "excludeStores":[],
+  "includeStores":[],
+  "description":"",
+  "id": "",
+  "storeGroupName":"SG for Haggen Division test automation_env",
+  "storesSearchCriteria":{
+    "divisions":[
+      "Haggen"
+    ],
+    "divisionRogCds": {
+      "HAGGEN": [
+        "SHGN"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

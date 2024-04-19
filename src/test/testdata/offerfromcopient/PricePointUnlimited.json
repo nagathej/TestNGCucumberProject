@@ -1,0 +1,1366 @@
+{
+  "offer":{
+    "conditions":{
+      "customers":{
+        "included":[
+          {
+            "customerGroupNm":"Customer group for 1512244"
+          }
+        ],
+        "excluded":[
+
+        ]
+      },
+      "products":[
+        {
+          "incProductGroupNm":"Product group for 1512244",
+          "excProductGroupNm":"",
+          "productComboConditionOper":"",
+          "amountType":"Items",
+          "uniqueProductInd":false,
+          "minPurchaseAmt":0.000,
+          "tiers":[
+            {
+              "productAmt":1.000
+            }
+          ],
+          "accumulation":{
+            "minAmt":0.000,
+            "limitNbr":0.000,
+            "periodDayNbr":0
+          }
+        }
+      ]
+    },
+    "rewards":{
+      "discount":{
+        "productgroup":{
+          "discountType":"Item Level",
+          "incProductGroupNm":"Product group for 1512244",
+          "excProductGroupNm":""
+        },
+        "chargebackdepartment":{
+          "DepartmentNm":"Item's Department",
+          "DepartmentID":"0"
+        },
+        "distribution":{
+          "distributionType":"Price Point (Items)",
+          "tiers":[
+            {
+              "tierAmt":4.240,
+              "tierItemLimitNbr":0,
+              "tierMaxDollarItemLimitAmt":0.000,
+              "tierReceiptTxt":"J4U Cortizone-10Cr"
+            }
+          ]
+        },
+        "scorecard":{
+          "scorecardEnableInd":true,
+          "scorecardNm":"blah",
+          "scorecardLineTxt":""
+        },
+        "advanced":{
+          "computeDiscountInd":true,
+          "bestdealInd":true,
+          "allowNegativeInd":false,
+          "flexNegativeInd":true
+        }
+      }
+    },
+    "notifications":{
+
+    },
+    "locations":{
+      "storegroups":{
+        "included":[
+          {
+            "storeGroupNm":"!!!*Denver All Stores"
+          }
+        ],
+        "excluded":""
+      },
+      "terminals":{
+        "included":[
+          {
+            "terminalNm":"Cafe Starbucks"
+          },
+          {
+            "terminalNm":"Customer Service Desk"
+          },
+          {
+            "terminalNm":"Fuel Pumps (Power Pump)"
+          },
+          {
+            "terminalNm":"Tobacco"
+          }
+        ],
+        "excluded":[
+
+        ]
+      }
+    },
+    "incentiveId":1512244,
+    "deployInd":false,
+    "deferDeployInd":false,
+    "engineTypeNm":"CPE",
+    "lastUpdateTs":"2020-07-28T17:33:09.573",
+    "general":{
+      "identification":{
+        "offerNm":"J4U0520W4016002557$4.24Cortizone-10Cream or Ointment1 to 3.5-oz.",
+        "offerDsc":"BuyCortizone-10Cream or Ointment1 to 3.5-oz.",
+        "offerExternaId":"0520W4016_002557",
+        "categoryDsc":"004-J4U Personalized Savings"
+      },
+      "priority":{
+        "priorityNm":"",
+        "footerPriorityMsgTxt":0
+      },
+      "dates":{
+        "testing":{
+          "testingStartDt":"2018-07-16T00:00:00",
+          "testingEndDt":"2030-07-16T00:00:00"
+        },
+        "eligibility":{
+          "eligibilityStartDt":"2018-07-16T00:00:00",
+          "eligibilityEndDt":"2030-07-16T00:00:00"
+        },
+        "production":{
+          "productionStartDt":"2018-07-16T00:00:00",
+          "productionEndDt":"2030-07-16T00:00:00"
+        }
+      },
+      "limits":{
+        "eligibility":{
+          "eligibilityFrequencyNm":"Once Per Transaction"
+        },
+        "reward":{
+          "rewardsFrequencyNm":"Once Per Transaction"
+        }
+      },
+      "inboundoutbound":{
+        "creationSourceNm":"NextGenAutoLoadStoreCpns",
+        "outboundSourceNm":"",
+        "chargebackVendorId":"Unspecified"
+      },
+      "employees":{
+        "employeeEligibilityTypNm":"None"
+      },
+      "advanced":{
+        "eosDeferInd":false,
+        "issuanceInd":false,
+        "manufacturerCouponInd":false,
+        "reporting":{
+          "impressionInd":false,
+          "redemptionInd":true
+        }
+      }
+    }
+  },
+  "productgroups":[
+    {
+      "productGroupNm":"Product group for 1512244",
+      "productGroupDsc":"",
+      "lastUpdateTs":"2020-07-28T17:31:31.007",
+      "products":[
+        {
+          "extProductId":"00004116700350",
+          "productTypeNm":"Items (UPC)",
+          "productDsc":"CORTIZONE 10 CREAM INTENSIVE HEALING"
+        },
+        {
+          "extProductId":"00004116700353",
+          "productTypeNm":"Items (UPC)",
+          "productDsc":"CORTIZONE-10 HEALING CREAM INTENSIVE"
+        },
+        {
+          "extProductId":"00004116700360",
+          "productTypeNm":"Items (UPC)",
+          "productDsc":"COTRIZONE RELIEF COOL"
+        },
+        {
+          "extProductId":"00004116700391",
+          "productTypeNm":"Items (UPC)",
+          "productDsc":"CORTIZONE 10 CREAM"
+        },
+        {
+          "extProductId":"00004116700393",
+          "productTypeNm":"Items (UPC)",
+          "productDsc":"CORTIZONE 10 OINTMENT"
+        },
+        {
+          "extProductId":"00004116701056",
+          "productTypeNm":"Items (UPC)",
+          "productDsc":"CORTIZONE 10 PLUS CREAM"
+        },
+        {
+          "extProductId":"00004116703310",
+          "productTypeNm":"Items (UPC)",
+          "productDsc":"CORTIZONE 10 INTENSIVE HEALING LTN ECZEM"
+        }
+      ]
+    }
+  ],
+  "storegroups":[
+    {
+      "storeGroupNm":"!!!*Denver All Stores",
+      "lastUpdateTs":"2008-03-19T13:25:43.503",
+      "stores":[
+        {
+          "extLocationCd":"q050008",
+          "storeNm":"05 - 0008",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"7375 ARAPAHOE ROAD ",
+          "cityNm":"CENTENNIAL",
+          "state":"CO",
+          "postalCd":"80112",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050017",
+          "storeNm":"05 - 0017",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"201 EAST JEFFERSON ",
+          "cityNm":"ENGLEWOOD",
+          "state":"CO",
+          "postalCd":"80113",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050041",
+          "storeNm":"05 - 0041",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"13111 WEST ALAMEDA PARKWAY ",
+          "cityNm":"LAKEWOOD",
+          "state":"CO",
+          "postalCd":"80228",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050137",
+          "storeNm":"05 - 0137",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"12200 EAST MISSISSIPPI ",
+          "cityNm":"AURORA",
+          "state":"CO",
+          "postalCd":"80012",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050244",
+          "storeNm":"05 - 0244",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3800 WEST 44TH AVE ",
+          "cityNm":"DENVER",
+          "state":"CO",
+          "postalCd":"80211",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050322",
+          "storeNm":"05 - 0322",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1701 JACKSON STREET ",
+          "cityNm":"GOLDEN",
+          "state":"CO",
+          "postalCd":"80401",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q05034434343",
+          "storeNm":"05 - 0344",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"9160 WEST COLFAX ",
+          "cityNm":"LAKEWOOD",
+          "state":"CO",
+          "postalCd":"80215",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050390",
+          "storeNm":"05 - 0390",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2425 MINER STREET ",
+          "cityNm":"IDAHO SPRINGS",
+          "state":"CO",
+          "postalCd":"80452",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050461",
+          "storeNm":"05 - 0461",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"709 NORTH FEDERAL BOULEVARD ",
+          "cityNm":"RIVERTON",
+          "state":"WY",
+          "postalCd":"82501",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050467",
+          "storeNm":"05 - 0467",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1900 EAST RICHARDS ",
+          "cityNm":"DOUGLAS",
+          "state":"WY",
+          "postalCd":"82633",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050549",
+          "storeNm":"05 - 0549",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"500 EAST THIRD STREET ",
+          "cityNm":"ALLIANCE",
+          "state":"NE",
+          "postalCd":"69301",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050556",
+          "storeNm":"05 - 0556",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"601 BROADWAY ",
+          "cityNm":"SCOTTSBLUFF",
+          "state":"NE",
+          "postalCd":"69361",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050557",
+          "storeNm":"05 - 0557",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"611 NORTH SPRUCE ",
+          "cityNm":"OGALLALA",
+          "state":"NE",
+          "postalCd":"69153",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050581",
+          "storeNm":"05 - 0581",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2120 MOUNT RUSHMORE RD ",
+          "cityNm":"RAPID CITY",
+          "state":"SD",
+          "postalCd":"57701",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050583",
+          "storeNm":"05 - 0583",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1606 NORTH AVENUE ",
+          "cityNm":"SPEARFISH",
+          "state":"SD",
+          "postalCd":"57783",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050617",
+          "storeNm":"05 - 0617",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"112 SOUTH SPRUCE STREET ",
+          "cityNm":"GUNNISON",
+          "state":"CO",
+          "postalCd":"81230",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050631",
+          "storeNm":"05 - 0631",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2131 NORTH FRONTAGE ROAD WEST ",
+          "cityNm":"VAIL",
+          "state":"CO",
+          "postalCd":"81657",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050637",
+          "storeNm":"05 - 0637",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"37500 E US HWY 40 ",
+          "cityNm":"STEAMBOAT SPRINGS",
+          "state":"CO",
+          "postalCd":"80487",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050683",
+          "storeNm":"05 - 0683",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"730 WEST MAIN STREET ",
+          "cityNm":"FARMINGTON",
+          "state":"NM",
+          "postalCd":"87401",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050722",
+          "storeNm":"05 - 0722",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"457 WEST MAIN STREET ",
+          "cityNm":"TRINIDAD",
+          "state":"CO",
+          "postalCd":"81082",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050812",
+          "storeNm":"05 - 0812",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2210 WAHSATCH ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80907",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050835",
+          "storeNm":"05 - 0835",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"5060 NORTH ACADEMY BOULEVARD ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80918",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050836",
+          "storeNm":"05 - 0836",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1008 N. SUMMIT BLVD ",
+          "cityNm":"FRISCO",
+          "state":"CO",
+          "postalCd":"80443",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050914",
+          "storeNm":"05 - 0914",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2321 WEST EISENHOWER ",
+          "cityNm":"LOVELAND",
+          "state":"CO",
+          "postalCd":"80537",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q050920",
+          "storeNm":"05 - 0920",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"451 EAST WONDERVIEW AVENUE ",
+          "cityNm":"ESTES PARK",
+          "state":"CO",
+          "postalCd":"80517",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051038",
+          "storeNm":"05 - 1038",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1653 S. COLORADO BOULEVARD ",
+          "cityNm":"DENVER",
+          "state":"CO",
+          "postalCd":"80222",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051045",
+          "storeNm":"05 - 1045",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1300 DEXTER STREET ",
+          "cityNm":"FORT LUPTON",
+          "state":"CO",
+          "postalCd":"80621",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051116",
+          "storeNm":"05 - 1116",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1050 KEN PRATT BOULEVARD ",
+          "cityNm":"LONGMONT",
+          "state":"CO",
+          "postalCd":"80501",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051131",
+          "storeNm":"05 - 1131",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1329 SOUTH TOWNSEND AVENUE ",
+          "cityNm":"MONTROSE",
+          "state":"CO",
+          "postalCd":"81401",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051248",
+          "storeNm":"05 - 1248",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2660 NORTH FEDERAL BOULEVARD ",
+          "cityNm":"DENVER",
+          "state":"CO",
+          "postalCd":"80211",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051267",
+          "storeNm":"05 - 1267",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"6460 EAST YALE AVE. ",
+          "cityNm":"DENVER",
+          "state":"CO",
+          "postalCd":"80222",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051286",
+          "storeNm":"05 - 1286",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3275 WEST COLORADO AVENUE ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80904",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051438",
+          "storeNm":"05 - 1438",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"415 NORTH MAIN ST. ",
+          "cityNm":"AZTEC",
+          "state":"NM",
+          "postalCd":"87410",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051440",
+          "storeNm":"05 - 1440",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"624 HIGHWAY 105 ",
+          "cityNm":"MONUMENT",
+          "state":"CO",
+          "postalCd":"80132",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051446",
+          "storeNm":"05 - 1446",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"11051 SOUTH PARKER ROAD ",
+          "cityNm":"PARKER",
+          "state":"CO",
+          "postalCd":"80134",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051463",
+          "storeNm":"05 - 1463",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2150 SOUTH DOWNING ",
+          "cityNm":"DENVER",
+          "state":"CO",
+          "postalCd":"80210",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051466",
+          "storeNm":"05 - 1466",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1121 NORTH CIRCLE ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80909",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051479",
+          "storeNm":"05 - 1479",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3900 WADSWORTH BLVD ",
+          "cityNm":"WHEAT RIDGE",
+          "state":"CO",
+          "postalCd":"80033",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051480",
+          "storeNm":"05 - 1480",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"9255 S. BROADWAY ",
+          "cityNm":"HIGHLANDS RANCH",
+          "state":"CO",
+          "postalCd":"80129",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051499",
+          "storeNm":"05 - 1499",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2890 NO POWERS ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80922",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051532",
+          "storeNm":"05 - 1532",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"220 S. ELIZABETH STREET ",
+          "cityNm":"ELIZABETH",
+          "state":"CO",
+          "postalCd":"80107",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051533",
+          "storeNm":"05 - 1533",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2901 F. ROAD ",
+          "cityNm":"GRAND JUNCTION",
+          "state":"CO",
+          "postalCd":"81504",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051548",
+          "storeNm":"05 - 1548",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"9229 EAST LINCOLN AVE. ",
+          "cityNm":"LONE TREE",
+          "state":"CO",
+          "postalCd":"80124",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051552",
+          "storeNm":"05 - 1552",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1426 E. HARMONY ROAD ",
+          "cityNm":"FORT COLLINS",
+          "state":"CO",
+          "postalCd":"80525",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051554",
+          "storeNm":"05 - 1554",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"730 MOUNTAIN VIEW ROAD ",
+          "cityNm":"RAPID CITY",
+          "state":"SD",
+          "postalCd":"57702",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051568",
+          "storeNm":"05 - 1568",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"40 COUNTY ROAD 804 ",
+          "cityNm":"FRASER",
+          "state":"CO",
+          "postalCd":"80442",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051577",
+          "storeNm":"05 - 1577",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"6520 S. ACADEMY BLVD. ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80906",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051578",
+          "storeNm":"05 - 1578",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1101 E. U.S. HIGHWAY 24 ",
+          "cityNm":"WOODLAND PARK",
+          "state":"CO",
+          "postalCd":"80863",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051599",
+          "storeNm":"05 - 1599",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"12442 W. KEN CARYL AVE. ",
+          "cityNm":"LITTLETON",
+          "state":"CO",
+          "postalCd":"80127",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051614",
+          "storeNm":"05 - 1614",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"560 CORONA STREET ",
+          "cityNm":"DENVER",
+          "state":"CO",
+          "postalCd":"80218",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051615",
+          "storeNm":"05 - 1615",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3325 28TH STREET ",
+          "cityNm":"BOULDER",
+          "state":"CO",
+          "postalCd":"80301",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051635",
+          "storeNm":"05 - 1635",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"10300 FEDERAL BOULEVARD ",
+          "cityNm":"FEDERAL HEIGHTS",
+          "state":"CO",
+          "postalCd":"80260",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051644",
+          "storeNm":"05 - 1644",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"7655 MCLAUGHLIN RD. ",
+          "cityNm":"FALCON",
+          "state":"CO",
+          "postalCd":"80831",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051656",
+          "storeNm":"05 - 1656",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1601 COALTON ROAD ",
+          "cityNm":"SUPERIOR",
+          "state":"CO",
+          "postalCd":"80027",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051667",
+          "storeNm":"05 - 1667",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3333 ARAPAHOE ROAD #B ",
+          "cityNm":"ERIE",
+          "state":"CO",
+          "postalCd":"80516",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051681",
+          "storeNm":"05 - 1681",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1301 MAIN STREET ",
+          "cityNm":"ALAMOSA",
+          "state":"CO",
+          "postalCd":"81101",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051721",
+          "storeNm":"05 - 1721",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"906 E. OLIVE ",
+          "cityNm":"LAMAR",
+          "state":"CO",
+          "postalCd":"81052",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051760",
+          "storeNm":"05 - 1760",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1017 NORTH MARKET PLAZA ",
+          "cityNm":"PUEBLO",
+          "state":"CO",
+          "postalCd":"81007",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051791",
+          "storeNm":"05 - 1791",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1535 MAIN STREET ",
+          "cityNm":"WINDSOR",
+          "state":"CO",
+          "postalCd":"80550",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051792",
+          "storeNm":"05 - 1792",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1425 S. MURRAY BLVD ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80916",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051828",
+          "storeNm":"05 - 1828",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"8134 COLORADO BLVD ",
+          "cityNm":"FIRESTONE",
+          "state":"CO",
+          "postalCd":"80504",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051863",
+          "storeNm":"05 - 1863",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1550 HIGHWAY 92 ",
+          "cityNm":"DELTA",
+          "state":"CO",
+          "postalCd":"81416",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051873",
+          "storeNm":"05 - 1873",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"771 THORNTON PARKWAY ",
+          "cityNm":"THORNTON",
+          "state":"CO",
+          "postalCd":"80229",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051877",
+          "storeNm":"05 - 1877",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"880 SOUTH PERRY STREET ",
+          "cityNm":"CASTLE ROCK",
+          "state":"CO",
+          "postalCd":"80104",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051892",
+          "storeNm":"05 - 1892",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1580 E. MAIN STREET ",
+          "cityNm":"CORTEZ",
+          "state":"CO",
+          "postalCd":"81321",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051928",
+          "storeNm":"05 - 1928",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"18730 EAST HAMPDEN AVE. ",
+          "cityNm":"AURORA",
+          "state":"CO",
+          "postalCd":"80013",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051975",
+          "storeNm":"05 - 1975",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"6925 MESA RIDGE PARKWAY ",
+          "cityNm":"FOUNTAIN",
+          "state":"CO",
+          "postalCd":"80817",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q051998",
+          "storeNm":"05 - 1998",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"7561 WEST 80TH AVENUE ",
+          "cityNm":"ARVADA",
+          "state":"CO",
+          "postalCd":"80003",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052004",
+          "storeNm":"05 - 2004",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3540 EAST MAIN STREET ",
+          "cityNm":"FARMINGTON",
+          "state":"NM",
+          "postalCd":"87402",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052246",
+          "storeNm":"05 - 2246",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"757 EAST 20TH AVENUE ",
+          "cityNm":"DENVER",
+          "state":"CO",
+          "postalCd":"80205",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052341",
+          "storeNm":"05 - 2341",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"620 WEST PLATTE AVENUE ",
+          "cityNm":"FORT MORGAN",
+          "state":"CO",
+          "postalCd":"80701",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052342",
+          "storeNm":"05 - 2342",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"11088 WEST JEWELL ",
+          "cityNm":"LAKEWOOD",
+          "state":"CO",
+          "postalCd":"80232",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052462",
+          "storeNm":"05 - 2462",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1307 16TH STREET ",
+          "cityNm":"WHEATLAND",
+          "state":"WY",
+          "postalCd":"82201",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052466",
+          "storeNm":"05 - 2466",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"554 NORTH THIRD STREET. ",
+          "cityNm":"LARAMIE",
+          "state":"WY",
+          "postalCd":"82072",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052520",
+          "storeNm":"05 - 2520",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"111-18TH STREET ",
+          "cityNm":"BURLINGTON",
+          "state":"CO",
+          "postalCd":"80807",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052555",
+          "storeNm":"05 - 2555",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1944 ILLINOIS STREET ",
+          "cityNm":"SIDNEY",
+          "state":"NE",
+          "postalCd":"69162",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052563",
+          "storeNm":"05 - 2563",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"230 MOREHEAD STREET ",
+          "cityNm":"CHADRON",
+          "state":"NE",
+          "postalCd":"69337",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052612",
+          "storeNm":"05 - 2612",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1677 S. HAVANA ",
+          "cityNm":"AURORA",
+          "state":"CO",
+          "postalCd":"80012",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052624",
+          "storeNm":"05 - 2624",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3602 W. 144TH AVE. ",
+          "cityNm":"BROOMFIELD",
+          "state":"CO",
+          "postalCd":"80020",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052625",
+          "storeNm":"05 - 2625",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"681 HORIZON DRIVE ",
+          "cityNm":"GRAND JUNCTION",
+          "state":"CO",
+          "postalCd":"81506",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052666",
+          "storeNm":"05 - 2666",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"4548 CENTERPLACE DRIVE ",
+          "cityNm":"GREELEY",
+          "state":"CO",
+          "postalCd":"80634",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052667",
+          "storeNm":"05 - 2667",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"700 S. GREELEY HWY ",
+          "cityNm":"CHEYENNE",
+          "state":"WY",
+          "postalCd":"82007",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052714",
+          "storeNm":"05 - 2714",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"6220 EAST 14TH AVENUE ",
+          "cityNm":"DENVER",
+          "state":"CO",
+          "postalCd":"80220",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052722",
+          "storeNm":"05 - 2722",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"8355 N RAMPART RANGE ROAD ",
+          "cityNm":"LITTLETON",
+          "state":"CO",
+          "postalCd":"80125",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052761",
+          "storeNm":"05 - 2761",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1165 MAIN STREET ",
+          "cityNm":"LANDER",
+          "state":"WY",
+          "postalCd":"82520",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052810",
+          "storeNm":"05 - 2810",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1200 SECOND AVENUE ",
+          "cityNm":"MONTE VISTA",
+          "state":"CO",
+          "postalCd":"81144",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052816",
+          "storeNm":"05 - 2816",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1920 SOUTH NEVADA AVENUE ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80905",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052817",
+          "storeNm":"05 - 2817",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"232 G STREET ",
+          "cityNm":"SALIDA",
+          "state":"CO",
+          "postalCd":"81201",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052824",
+          "storeNm":"05 - 2824",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1900 HIGHWAY 24 ",
+          "cityNm":"LEADVILLE",
+          "state":"CO",
+          "postalCd":"80461",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052839",
+          "storeNm":"05 - 2839",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"840 VILLAGE CENTER DRIVE ",
+          "cityNm":"COLORADO SPRINGS",
+          "state":"CO",
+          "postalCd":"80919",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052910",
+          "storeNm":"05 - 2910",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1632 HOVER ROAD ",
+          "cityNm":"LONGMONT",
+          "state":"CO",
+          "postalCd":"80501",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052911",
+          "storeNm":"05 - 2911",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2798 ARAPAHOE ",
+          "cityNm":"BOULDER",
+          "state":"CO",
+          "postalCd":"80302",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052913",
+          "storeNm":"05 - 2913",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"2160 WEST DRAKE ROAD UNIT 6 ",
+          "cityNm":"FORT COLLINS",
+          "state":"CO",
+          "postalCd":"80526",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052915",
+          "storeNm":"05 - 2915",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"860 CLEVELAND_AVENUE ",
+          "cityNm":"LOVELAND",
+          "state":"CO",
+          "postalCd":"80537",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052917",
+          "storeNm":"05 - 2917",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1605 BRIDGE STREET ",
+          "cityNm":"BRIGHTON",
+          "state":"CO",
+          "postalCd":"80601",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052918",
+          "storeNm":"05 - 2918",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3526 WEST TENTH STREET ",
+          "cityNm":"GREELEY",
+          "state":"CO",
+          "postalCd":"80634",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q052919",
+          "storeNm":"05 - 2919",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"4800 EAST BASELINE ROAD ",
+          "cityNm":"BOULDER",
+          "state":"CO",
+          "postalCd":"80303",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q053723",
+          "storeNm":"05 - 3723",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"315 WEST 2ND ST ",
+          "cityNm":"LA JUNTA",
+          "state":"CO",
+          "postalCd":"81050",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q053727",
+          "storeNm":"05 - 3727",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"222 WEST SEVENTH ",
+          "cityNm":"WALSENBURG",
+          "state":"CO",
+          "postalCd":"81089",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q053728",
+          "storeNm":"05 - 3728",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1414 MAIN STREET ",
+          "cityNm":"CANON CITY",
+          "state":"CO",
+          "postalCd":"81212",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q053729",
+          "storeNm":"05 - 3729",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1231 SOUTH PRAIRIE ",
+          "cityNm":"PUEBLO",
+          "state":"CO",
+          "postalCd":"81005",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q054613",
+          "storeNm":"05 - 4613",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"1039 US HWY 24 ",
+          "cityNm":"WOODLAND PARK",
+          "state":"CO",
+          "postalCd":"80866",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q054614",
+          "storeNm":"05 - 4614",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"8206 COLORADO BLVD ",
+          "cityNm":"FIRESTONE",
+          "state":"CO",
+          "postalCd":"80520",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q054615",
+          "storeNm":"05 - 4615",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"7505 MCLAUGHLIN RD ",
+          "cityNm":"FALCON",
+          "state":"CO",
+          "postalCd":"80831",
+          "countryNm":"United States"
+        },
+        {
+          "extLocationCd":"q270219",
+          "storeNm":"27 - 0219",
+          "storeDsc":"",
+          "storeTestingInd":false,
+          "addressTxt":"3900 SOUTH OTHELLO ",
+          "cityNm":"SEATTLE",
+          "state":"WA",
+          "postalCd":"98118",
+          "countryNm":"United States"
+        }
+      ]
+    }
+  ]
+}

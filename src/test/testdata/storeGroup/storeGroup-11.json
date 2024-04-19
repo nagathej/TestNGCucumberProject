@@ -1,0 +1,28 @@
+{
+  "excludeStores":[
+
+  ],
+  "includeStores":[
+
+  ],
+  "id":"",
+  "description":"",
+  "storeGroupName":"APIAutoSocalHaggenWithRogsStoreGroup_env",
+  "storesSearchCriteria":{
+    "divisions":[
+      "HAGGEN",
+      "SO CALIFORNIA"
+    ],
+    "divisionRogCds":{
+      "SO CALIFORNIA":[
+        "PSOC",
+        "ASOC",
+        "VSOC"
+      ],
+      "HAGGEN":[
+        "SHGN"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

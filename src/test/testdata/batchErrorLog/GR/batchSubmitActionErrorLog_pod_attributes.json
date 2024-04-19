@@ -1,0 +1,50 @@
+[
+  {
+    "entityId": "884223049",
+    "mobId": "137722",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " leftNavCategory",
+        "error": "Left Nav Category is invalid",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  },
+  {
+    "entityId": "872522921",
+    "mobId": "137723",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " shoppingListCategory",
+        "error": "Shopping List Category is invalid",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  },
+  {
+    "entityId": "937601641",
+    "mobId": "137724",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " headLine1-1",
+        "error": "Headline 1 is required",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  },
+  {
+    "entityId": "927580121",
+    "mobId": "137725",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " leftNavCategory",
+        "error": "Left Nav Category is invalid",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

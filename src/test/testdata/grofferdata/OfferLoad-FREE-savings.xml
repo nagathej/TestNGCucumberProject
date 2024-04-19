@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Offer xmlns="http://www.safeway.com/services/emjos/offermanagement">
+    <Program>GR</Program>
+    <UsageLimit>O</UsageLimit>
+    <PromoStartDt>2018-12-01-07:00</PromoStartDt>
+    <PromoEndDt>2019-01-31-07:00</PromoEndDt>
+    <DisplayStartDt>2018-12-01-07:00</DisplayStartDt>
+    <DisplayEndDt>2018-12-31-07:00</DisplayEndDt>
+    <OfferProvider>Grocery Rewards</OfferProvider>
+    <ClientOfferID>%s</ClientOfferID>
+    <ExternalOfferID>%s</ExternalOfferID>
+    <ImageFileName>106504.gif</ImageFileName>
+    <CouponType>SUPER COUPON</CouponType>
+    <Category>
+        <SLCategoryNm>Meat &amp; Seafood</SLCategoryNm>
+        <SecondaryCategoryNm>Meat &amp; Seafood</SecondaryCategoryNm>
+    </Category>
+    <Verbiage>
+        <Type>priceValue1</Type>
+        <Value>3</Value>
+    </Verbiage>
+    <Verbiage>
+        <Type>titleDsc1</Type>
+        <Value>Open Nature Uncured Bacon</Value>
+    </Verbiage>
+    <Verbiage>
+        <Type>disclaimer</Type>
+        <Value>*Registered phone number linked to your account must be used at the time of checkout for offer to apply. Rewards are deducted from your account upon clipping offer. Offer expires at the end of this month, but item may be claimed until the end of next month. For items with multiple varieties, the offer will apply toward the lowest priced variety.</Value>
+    </Verbiage>
+    <Verbiage>
+        <Type>prodDsc1</Type>
+        <Value>12-oz. Limit 1.</Value>
+    </Verbiage>
+    <Verbiage>
+        <Type>savingsValue</Type>
+        <Value>FREE</Value>
+    </Verbiage>
+    <PostalZone>9999</PostalZone>
+</Offer>

@@ -1,0 +1,246 @@
+{
+  "offer": {
+    "conditions": {
+      "customers": {
+        "included": [
+          {
+            "customerGroupNm": "Customer group for 12026434"
+          }
+        ],
+        "excluded": []
+      },
+      "products": [
+        {
+          "incProductGroupNm": "Product group for 12026434",
+          "excProductGroupNm": "",
+          "productComboConditionOper": "",
+          "amountType": "Items",
+          "uniqueProductInd": false,
+          "minPurchaseAmt": 0,
+          "tiers": [
+            {
+              "productAmt": 3
+            }
+          ],
+          "accumulation": {
+            "minAmt": 0,
+            "limitNbr": 0,
+            "periodDayNbr": 0
+          }
+        }
+      ]
+    },
+    "rewards": {
+      "printedmessage": {
+        "tiers": [
+          {
+            "printedMessageTxt": "|STARS|\r\n|B|Your Digital Rebate is Under Review\r\n|B|If the transaction qualifies, you\r\n|B|will receive an email for\r\n|B|additional information.\r\n|STARS|\r\n"
+          }
+        ]
+      },
+      "points": [
+        {
+          "programNm": "Offer #12026434: Rebate",
+          "chargebackDepartmentCd": "Whole Order Discount",
+          "Maximumadjustment": {
+            "pointMaxAdjustmentInd": false,
+            "maxPointAllowNbr": 0
+          },
+          "scorecard": {
+            "scorecardEnableInd": false,
+            "programNm": "",
+            "scorecardLineTxt": ""
+          },
+          "tiers": [
+            {
+              "tierPointNbr": 1
+            }
+          ]
+        }
+      ]
+    },
+    "notifications": {},
+    "locations": {
+      "storegroups": {
+        "included": [
+          {
+            "storeGroupNm": "Webtool 9840"
+          }
+        ],
+        "excluded": ""
+      },
+      "terminals": {
+        "included": [
+          {
+            "terminalNm": "All CPE Terminals"
+          }
+        ],
+        "excluded": []
+      }
+    },
+    "incentiveId": 404635,
+    "deployInd": false,
+    "deferDeployInd": false,
+    "engineTypeNm": "CPE",
+    "lastUpdateTs": "2020-07-13T15:05:59.287",
+    "general": {
+      "identification": {
+        "offerNm": "Rebate OMS: 9857434 - Crook and Marker - 0.00 - on ONE 1",
+        "offerDsc": "OMS: 9857434 - Crook & Marker - 0.00 - on ONE 1(offer imported - original offer ID 12026434)",
+        "offerExternaId": "25515-100014-03",
+        "categoryDsc": "011-Non Discount Offers"
+      },
+      "priority": {
+        "priorityNm": "",
+        "footerPriorityMsgTxt": 0
+      },
+      "dates": {
+        "testing": {
+          "testingStartDt": "2020-07-08T00:00:00",
+          "testingEndDt": "2020-07-14T00:00:00"
+        },
+        "eligibility": {
+          "eligibilityStartDt": "2020-07-08T00:00:00",
+          "eligibilityEndDt": "2020-07-14T00:00:00"
+        },
+        "production": {
+          "productionStartDt": "2020-07-08T00:00:00",
+          "productionEndDt": "2020-07-14T00:00:00"
+        }
+      },
+      "limits": {
+        "eligibility": {
+          "eligibilityFrequencyNm": "Once Per Transaction"
+        },
+        "reward": {
+          "rewardsFrequencyNm": "Once Per Offer"
+        }
+      },
+      "inboundoutbound": {
+        "creationSourceNm": "Logix",
+        "outboundSourceNm": "",
+        "chargebackVendorId": ""
+      },
+      "employees": {
+        "employeeEligibilityTypNm": "None"
+      },
+      "advanced": {
+        "eosDeferInd": false,
+        "issuanceInd": true,
+        "manufacturerCouponInd": false,
+        "reporting": {
+          "impressionInd": false,
+          "redemptionInd": true
+        }
+      }
+    }
+  },
+  "productgroups": [
+    {
+      "productGroupNm": "Product group for 12026434",
+      "productGroupDsc": "",
+      "lastUpdateTs": "2020-07-13T15:04:43.623",
+      "products": [
+        {
+          "extProductId": "00085531000806",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000807",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000808",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000809",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000810",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000811",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000812",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000814",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000827",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000828",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000867",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000868",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000869",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000870",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000871",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00085531000872",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        }
+      ]
+    }
+  ],
+  "storegroups": [
+    {
+      "storeGroupNm": "Webtool 9840",
+      "lastUpdateTs": "2020-07-09T16:13:05.790",
+      "stores": [
+        {
+          "extLocationCd": "q259840",
+          "storeNm": "q259840",
+          "storeDsc": "Livermore Lab",
+          "storeTestingInd": false,
+          "addressTxt": " ",
+          "cityNm": "",
+          "state": "",
+          "postalCd": "",
+          "countryNm": "United States"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Program Type is required when Program Subtype is present",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

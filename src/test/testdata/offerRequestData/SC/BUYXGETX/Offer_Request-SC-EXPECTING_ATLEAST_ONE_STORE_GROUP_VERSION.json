@@ -1,0 +1,60 @@
+{
+  "lastUpdatedTs": "",
+  "lastUpdatedUserId": "",
+  "lastUpdatedApplicationId": "",
+  "info": {
+    "id": "",
+    "offerRequestType": "BUYX_GETX",
+    "deliveryChannel": "%s",
+    "adType": "%s",
+    "pluTriggerBarcode": "%s",
+    "discountType": "AMOUNT_OFF",
+    "brandAndSize": "API Test Automation",
+    "nopaNumbers": [
+      "5546789"
+    ],
+    "nopaStartDate": "2032-10-10T00:00:00.000-07:00",
+    "nopaEndDate": "2034-11-30T23:59:58.000-07:00",
+    "billingOptions": "",
+    "desc": "Test Auto Offer Desc",
+    "groupDivision": "NC HI",
+    "group": "NC",
+    "programCode": "SC",
+    "numOfTiers": 1,
+    "justification": null,
+    "status": "I",
+    "offerFlag": null,
+    "fulfillmentChannel": {
+      "delivery": true,
+      "dug": true,
+      "inStorePurchase": true,
+      "wug": true
+    },
+    "ecommPromoType": null,
+    "ecommPromoCode": null,
+    "order": null,
+    "isAutoApplyPromoCode": false
+  },
+  "rules": {
+    "startDate": {
+      "offerEffectiveStartDate": "2032-10-10T00:00:00.000-07:00"
+    },
+    "endDate": {
+      "offerEffectiveEndDate": "2034-11-30T23:59:58.000-07:00"
+    },
+    "department": "Advertising",
+    "customerSegment": "Employee Only",
+    "qualificationAndBenefit": {
+      "day": null,
+      "time": null,
+      "offerRequestOffers": [
+        {
+          "id": null,
+          "offers": []
+        }
+      ]
+    },
+    "usageLimitTypePerUser": "UNLIMITED"
+  },
+    "updateOffers": true
+}

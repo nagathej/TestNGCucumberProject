@@ -1,0 +1,132 @@
+{
+  "info": {
+    "id": {
+      "externalOfferId": "1920W1520_897454",
+      "aggregatorOfferId": "897454"
+    },
+    "offerProviderName": "AutomationApiTestDataCreation",
+    "categories": {
+      "7": "Cookies, Snacks & Candy"
+    },
+    "primaryCategory": {
+      "7": "Cookies, Snacks & Candy"
+    },
+    "events": null,
+    "hiddenEvents": null,
+    "offerProgramCode": "PD",
+    "offerSubProgram": null,
+    "offerStatus": "P",
+    "description": {
+      "priceTitle": "Personalized Price",
+      "priceValue": "$1.00",
+      "savingsValueText": "$1",
+      "titleDescription": {
+        "titleDsc2": "Gluten Free Almond Horn Cookies",
+        "titleDsc1": "Aleia's"
+      },
+      "productDescription": {
+        "prodDsc2": "Limit 2.",
+        "prodDsc1": "12 oz. "
+      },
+      "disclaimerText": "Offer is valid only at Safeway and Albertsons stores located in Washington, Oregon and Northern Idaho.",
+      "receiptDescriptions": "Buy_Aleia's_Gluten Free Almond Horn Cookies_12 oz. "
+    },
+    "productImageId": "999999.gif",
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": false,
+    "offerProgramType": "W",
+    "shouldReportRedemptions": true,
+    "auditInfo": {
+      "createdTs": "2019-01-31T19:03:29.000+00:00",
+      "createdApplicationId": "EMOM",
+      "createdUserId": "emq1om",
+      "lastUpdatedApplicationId": "EMOM",
+      "lastUpdatedUserId": "emq1om",
+      "lastUpdatedTs": "2019-03-22T15:53:22.821+00:00"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2019-12-01T07:00:00.000+00:00",
+      "offerEffectiveStartDate": "2019-12-01T07:00:00.000+00:00",
+      "offerTestEffectiveStartDate": "2019-12-01T07:00:00.000+00:00"
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2030-12-16T06:59:00.000+00:00",
+      "offerEffectiveEndDate": "2030-12-16T06:59:00.000+00:00",
+      "offerTestEffectiveEndDate": "2030-12-16T06:59:00.000+00:00"
+    },
+    "applicableTo": {
+      "banners": null,
+      "divisions": {
+        "19": "PORTLAND",
+        "17": "SOUTHWEST"
+      },
+      "storeGroups": [
+        "8220",
+        "8219",
+        "2939",
+        "7625",
+        "2879"
+      ],
+      "channels": null,
+      "terminals": [
+        "13",
+        "15",
+        "28",
+        "11405",
+        "100",
+        "11404",
+        "11407",
+        "113",
+        "11406",
+        "13979",
+        "11409",
+        "11408",
+        "13554",
+        "13553",
+        "11401",
+        "11412",
+        "11411",
+        "11403",
+        "11414",
+        "13556",
+        "10",
+        "11402"
+      ],
+      "storeIds": ["309"],
+      "postalCodes": [],
+      "upcs": [
+        85593000154,
+        85593000155,
+        85593000116,
+        85593000117
+      ],
+      "departments": []
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "QUANTITY",
+      "minProdPurchaseUnits": 1,
+      "maxProdPurchaseUnits": 0,
+      "minOrderTotalAmount": null,
+      "minRewardPoints": null,
+      "minGetProdPurchaseUnits": null,
+      "isBuyXGetYOffer": false
+    },
+    "benefit": {
+      "benefitValueType": "FIXED_PRICE",
+      "benefitValue": 1,
+      "isBenefitValueApplicableToBuyItems": null,
+      "isBenefitValueApplicableToGetItems": null,
+      "isBenefitValueRestrictedToMultiplesOfMinUnits": null
+    },
+    "usageLimits": {
+      "usageLimitTypePerUser": "UNLIMITED",
+      "usageLimitTypePerOffer": null,
+      "usageLimitPerUser": null,
+      "usageLimitPerOffer": null
+    }
+  },
+  "householdAttrs": null
+}

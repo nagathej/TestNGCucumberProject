@@ -1,0 +1,22 @@
+{
+ "excludeStores":[
+
+ ],
+ "includeStores":[
+
+ ],
+ "id":"",
+ "description":"Test_SG_Admin_Only_011_Desc",
+ "storeGroupName":"%s",
+ "storesSearchCriteria":{
+ "divisions":[
+ "DENVER"
+ ],
+ "divisionRogCds":{
+ "DENVER":[
+ "SDEN"
+ ]
+ }
+ },
+ "isAdminEditable": true
+}

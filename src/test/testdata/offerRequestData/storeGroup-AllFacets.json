@@ -1,0 +1,53 @@
+{
+  "totalStores": 2267,
+  "facets": {
+    "features": {
+      "Pharmacy": 1733,
+      "Delivery": 1336,
+      "Starbucks": 1230,
+      "Fuel": 336,
+      "DUG": 294,
+      "Jamba Juice": 43
+    },
+    "banners": {
+      "Safeway": 897,
+      "Albertsons": 402,
+      "Vons": 200,
+      "Jewel-Osco": 189,
+      "Acme Market": 168,
+      "Shaw's": 129,
+      "Tom Thumb": 62,
+      "United Supermarkets": 43,
+      "Randalls": 38,
+      "Albertsons Market": 28,
+      "Pavilions": 26,
+      "Star Market": 20,
+      "Market Street": 19,
+      "Haggen": 15,
+      "Carrs": 11,
+      "Lucky": 5,
+      "Amigos": 4,
+      "Safeway Community Markets": 4,
+      "Pak 'N Save": 3,
+      "Andronicos": 2,
+      "Eagle": 2
+    },
+    "divisions": {
+      "SoCal": 342,
+      "Norcal": 282,
+      "Seattle": 217,
+      "Southwest": 192,
+      "JewelOsco": 189,
+      "Acme": 168,
+      "Southern": 153,
+      "Shaws": 149,
+      "Portland": 141,
+      "Denver": 123,
+      "Eastern": 114,
+      "United": 94,
+      "InterMtn": 84,
+      "Haggen": 15,
+      "Value": 4
+    }
+  }
+}

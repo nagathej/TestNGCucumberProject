@@ -1,0 +1,8 @@
+{
+  "ids": {
+    "upcids": [%s],
+    "departmentids": [%s],
+    "manufactureids": [%s]
+  },
+  "name": "%s"
+}

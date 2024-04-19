@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "%s",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Offer Start Date",
+        "error": "Field Offer Start Date is required and can not be removed",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

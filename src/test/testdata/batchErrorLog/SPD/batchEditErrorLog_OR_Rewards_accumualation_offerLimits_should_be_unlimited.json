@@ -1,0 +1,15 @@
+[
+  {
+    "entityId": "788387133",
+    "offerId": "",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Error occurred while updating Offer Request. \n400 BAD_REQUEST \"RewardsAccumulation: Offer Limits must be Unlimited for Rewards - Accumulation offers\"",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "info" : {
+    "id" : {
+      "externalOfferId" : "2410N4618_112233",
+      "aggregatorOfferId": "15327"
+    },
+    "offerProviderName" : "JPApiTestDataCreation1",
+    "categories" : {
+      "5" : "Canned Goods & Soups",
+      "9" : "Deli"
+    },
+    "primaryCategory" : {
+      "5" : "Canned Goods & Soups",
+      "9" : "Deli"
+    },
+    "events" : {
+      "125" : "Weekly Ad Coupons"
+    },
+    "offerProgramCode" : "PD",
+    "offerSubProgram" : "02",
+    "offerStatus" : "A",
+    "description" : {
+      "savingsValueText" : "$1.99 EACH",
+      "titleDescription" : {
+        "titleDsc1" : "Lactaid"
+      },
+      "productDescription" : {
+        "prodDsc1" : "Lactose Free Milk Half gallon"
+      },
+      "receiptDescriptions" : "Lactaid ECOM100500"
+    },
+    "productImageId" : "999999",
+    "productCd": "112233",
+    "isDefaultAllocationOffer" : false,
+    "shouldReportRedemptions" : true
+  },
+  "rules" : {
+    "startDate" : {
+      "displayEffectiveStartDate" : "2018-11-11T00:00:01.235-07:00",
+      "offerEffectiveStartDate" : "2018-11-11T00:00:01.235-07:00",
+      "offerTestEffectiveStartDate" : "2018-11-11T00:00:01.235-07:00"
+    },
+    "endDate" : {
+      "displayEffectiveEndDate" : "2018-11-17T11:59:59.235-07:00",
+      "offerEffectiveEndDate" : "2018-11-17T11:59:59.235-07:00",
+      "offerTestEffectiveEndDate" : "2018-11-17T11:59:59.235-07:00"
+    },
+    "applicableTo" : {
+      "divisions" : {
+        "25" : "NORCAL",
+        "17" : "SOUTHWEST"
+      },
+      "storeGroups" : [ "8220" ],
+      "terminals" : [ "11401" ],
+      "storeIds" : ["118"],
+      "postalCodes" : ["89129"],
+      "upcs" : ["1234567890", "0987654321"]
+    },
+    "qualification" : {
+      "qualificationUnitType" : "PRODUCT",
+      "qualificationUnitSubType" : "QUANTITY",
+      "minProdPurchaseUnits" : 1,
+      "maxProdPurchaseUnits" : 1,
+      "minOrderTotalAmount" : 1.99,
+      "isBuyXGetYOffer" : false
+    },
+    "benefit" : {
+      "benefitValueType" : "FIXED_PRICE",
+      "benefitValue" : 1.99
+    },
+    "usageLimits" : {
+      "usageLimitTypePerUser" : "ONCE_PER_OFFER",
+      "usageLimitPerUser" : 1
+    }
+  }
+}

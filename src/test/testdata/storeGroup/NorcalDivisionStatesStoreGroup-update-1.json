@@ -1,0 +1,22 @@
+{
+  "excludeStores":[
+    111
+  ],
+  "includeStores":[
+  ],
+  "description":"",
+  "id": "%s",
+  "storeGroupName":"NorcalDivisonStatesStoreGroup_env",
+  "storesSearchCriteria":{
+    "divisions":[
+      "NOR. CALIFORNIA"
+    ],
+    "divisionRogCds": {
+      "NOR. CALIFORNIA": [
+        "SHAW",
+        "SNCA"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "entityId": "40283481",
+    "entityType": "OT",
+    "mobId": null,
+    "error": {
+      "timestamp": null,
+      "status": null,
+      "message": "You must deselect issue flags in order to change the status to Active.",
+      "errors": null
+    }
+  }
+]

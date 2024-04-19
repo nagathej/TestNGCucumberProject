@@ -1,0 +1,157 @@
+{
+  "lastUpdatedTs": "",
+  "createdApplicationId": "",
+  "createdTs": "",
+  "createdUserId": "",
+  "info": {
+    "id": null,
+    "deliveryChannel": "%s",
+    "adType": "%s",
+    "offerRequestType": "CONTINUITY",
+    "brandAndSize": "API Test Automation",
+    "nopaNumbers": [
+      "4436789"
+    ],
+    "nopaStartDate": "2032-10-10T00:00:00.000-07:00",
+    "nopaEndDate": "2034-11-30T23:59:58.000-07:00",
+    "billingOptions": "",
+    "pluTriggerBarcode": "%s",
+    "desc": "Test Auto Offer Desc",
+    "groupDivision": "NC HI",
+    "group": "NC",
+    "programCode": "SC",
+    "attachments": null,
+    "digitalUser": {
+    },
+    "nonDigitalUser": {
+    },
+    "digitalStatus": null,
+    "nonDigitalStatus": null,
+    "editStatus": null,
+    "digitalEditStatus": null,
+    "nonDigitalEditStatus": null,
+    "numOfTiers": 1,
+    "justification": "",
+    "offerFlag": null,
+    "fulfillmentChannel": {
+      "delivery": true,
+      "dug": true,
+      "inStorePurchase": true,
+      "wug": true
+    },
+    "ecommPromoType": null,
+    "ecommPromoCode": null,
+    "order": null,
+    "isAutoApplyPromoCode": false
+  },
+  "rules": {
+    "startDate": {
+      "offerEffectiveStartDate": "2032-10-10T00:00:00.000-07:00"
+    },
+    "endDate": {
+      "offerEffectiveEndDate": "2034-11-30T23:59:58.000-07:00"
+    },
+    "department": "Advertising",
+    "customerSegment": "Employee Only",
+    "qualificationAndBenefit": {
+      "day": {
+      },
+      "time": {
+      },
+      "offerRequestOffers": [
+        {
+          "id": null,
+          "offers": [
+          ],
+          "storeGroupVersion": {
+            "displayOrder": 1,
+            "id": null,
+            "podDetails": {
+              "ivieImageId": "Chicken_Breast_and_Turkey_Breast_Sliced_005",
+              "headline": "OMS Offer Request test Automation HeadLine NIA",
+              "displayStartDate": "2032-10-10T00:00:00.000+00:00",
+              "scene7ImageId": "999999",
+              "displayEndDate": "2034-11-30T23:59:59.999+00:00",
+              "offerDescription": "Offer Request Test Automation NIA",
+              "priceText": "$15 Savings Value",
+              "eventIds": [
+                "2325"
+              ],
+              "categoryId": "15",
+              "disclaimer": "Save $A when you spend $X, or Save $B when you spend $Y, or Save $C when you spend $Z or more in qualifying purchases in a single transaction using your just for U account ($X or $Y or $Z minimum purchase calculated after deduction of promotional and loyalty card savings, coupons and all other discounts, offers and savings). Offer is valid [INSERT START DATE] - [INSERT END DATE] only at participating Safeway and Albertsons stores located in Colorado, Nebraska, South Dakota, Eastern Wyoming, Farmington, NM and Aztec, NM. Qualifying purchases exclude: alcoholic beverages, tobacco products, fluid dairy, fuel, prescription items and co-payments, fishing/hunting licenses and tags, postage stamps, money orders/transfers, bus/commuter passes, amusement park/ski/event/lottery tickets, phone cards, gift cards/certificates and applicable taxes, bottle/container deposits and bag fees."
+            },
+            "offerPrototype": "CONTINUITY",
+            "day": null,
+            "time": null,
+            "storeGroup": {
+              "nonDigitalRedemptionStoreGroupNames": [
+                "APIAutoNorcalStoreGroup_env"
+              ],
+              "digitalRedemptionStoreGroupNames": [
+                "APIAutoNorcalStoreGroup_env"
+              ],
+              "podStoreGroupNames": [
+                "APIAutoNorcalStoreGroup_env"
+              ]
+            },
+            "productGroupVersions": [
+              {
+                "displayOrder": 1,
+                "id": null,
+                "anyProduct": null,
+                "isGiftCard": null,
+                "discountVersion": {
+                  "id": null,
+                  "airMiles": [
+                  ],
+                  "discounts": [
+                    {
+                      "id": null,
+                      "displayOrder": 1,
+                      "benefitValueType": "PRICE_POINT_ITEMS",
+                      "discountType": "ITEM_LEVEL",
+                      "includeProductGroupName": "PGTestAutomationUPCGroup1_env",
+                      "excludeProductGroupName": null,
+                      "chargebackDepartment": null,
+                      "tiers": [
+                        {
+                          "amount": "6",
+                          "upTo": 0,
+                          "itemLimit": 2,
+                          "dollarLimit": null,
+                          "level": 1,
+                          "receiptText": null,
+                          "rewards": null,
+                          "weightLimit": 3,
+                          "points": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "productGroup": {
+                  "name": "PGTestAutomationUPCGroup2_env",
+                  "quantityUnitType": "DOLLARS",
+                  "excludedProductGroupName": null,
+                  "conjunction": null,
+                  "minPurchaseAmount": 0,
+                  "uniqueproduct": null,
+                  "inheritedFromOfferRequest": null,
+                  "tiers": [
+                    {
+                      "level": 1,
+                      "amount": 7
+                    }
+                  ]
+                }
+              }
+            ],
+            "instantWin": null
+          }
+        }
+      ]
+    },
+    "usageLimitTypePerUser": "UNLIMITED"
+  },
+    "updateOffers": true
+}

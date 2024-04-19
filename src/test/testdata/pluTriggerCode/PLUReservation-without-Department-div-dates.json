@@ -1,0 +1,10 @@
+{
+  "division" : null,
+  "department" : null,
+  "code" : "",
+  "pluRangeName": "General",
+  "codeType" : "P",
+  "itemDescription" : null,
+  "addlDescription" : null,
+  "validatePluTriggerBarcodeAndRetailSectionCombination" : true
+}

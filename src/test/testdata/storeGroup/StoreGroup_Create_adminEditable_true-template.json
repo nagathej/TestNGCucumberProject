@@ -1,0 +1,36 @@
+{
+  "excludeStores": [
+    "121",
+    "222",
+    "326",
+    "529",
+    "530",
+    "610",
+    "615",
+    "616",
+    "649",
+    "1219",
+    "1323",
+    "1324",
+    "2325",
+    "2518",
+    "2527",
+    "2531",
+    "2536",
+    "3528"
+  ],
+  "includeStores": [
+    "2479"
+  ],
+  "id": "",
+  "description": "",
+  "storeGroupName": "%s",
+  "storesSearchCriteria": {
+    "divisionRogCds": {
+      "SHAWS": [
+        "AVMT"
+      ]
+    }
+  },
+  "isAdminEditable": true
+}

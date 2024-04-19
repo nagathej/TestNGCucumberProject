@@ -1,0 +1,12 @@
+{
+  "error": [
+    {
+      "upc": "60308429394",
+      "message": "This is a Displayer UPC"
+    },
+    {
+      "upc": "71375737233",
+      "message": "UPC is not valid in any ROG"
+    }
+  ]
+}

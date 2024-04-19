@@ -1,0 +1,138 @@
+{
+  "lastUpdatedTs": null,
+  "createdApplicationId": null,
+  "createdTs": null,
+  "createdUserId": null,
+  "info": {
+    "id": null,
+    "deliveryChannel": "CC",
+    "adType": null,
+    "offerRequestType": "ITEM_DISCOUNT",
+    "brandAndSize": null,
+    "group":"NC",
+    "groupDivision":"NC",
+    "nopaNumbers": [
+      
+    ],
+    "nopaStartDate": "",
+    "nopaEndDate": "",
+    "billingOptions": "",
+    "pluTriggerBarcode": 77111,
+    "desc": "Additional Details Info",
+    "programCode": "SC",
+    "attachments": null,
+    "digitalUser": {
+      
+    },
+    "nonDigitalUser": {
+      
+    },
+    "digitalStatus": null,
+    "nonDigitalStatus": null,
+    "digitalEditStatus": null,
+    "nonDigitalEditStatus": null
+  },
+  "rules": {
+    "startDate": {
+      "offerEffectiveStartDate": "2020-04-08T00:00:00.000+00:00"
+    },
+    "endDate": {
+      "offerEffectiveEndDate": "2020-04-08T23:59:59.999+00:00"
+    },
+    "customerSegment": "Any Customer",
+    "department":"Family Care",
+    "usageLimitTypePerUser": "ONCE_PER_OFFER",
+    "qualificationAndBenefit": {
+	  "day": {
+	   "monday":true,
+	   "tuesday":true,
+	   "wednesday":false,
+	   "thursday":true,
+	   "friday":true,
+	   "saturday":true,
+	   "sunday":false
+	  },
+	  "time": {
+		  "start": "01:30 AM",
+          "end": "06:50 PM"        
+	  },
+      "offerRequestOffers": [
+        {
+          "id": null,
+          "offers": [
+            
+          ],
+          "storeGroupVersion": {
+            "displayOrder": 1,
+            "id": null,
+            "offerPrototype": "ITEM_DISCOUNT",
+            "instantWin": null,
+            "storeGroup": {
+              "digitalRedemptionStoreGroupIds": [
+                123
+              ],
+              "nonDigitalRedemptionStoreGroupIds": [
+                456
+              ],
+              "podStoreGroupIds": [
+                123
+              ]
+            },
+            "productGroupVersions": [
+              {
+                "displayOrder": 1,
+                "id": null,
+                "anyProduct": null,
+                "isGiftCard": null,
+                "discountVersion": {
+                  "id": null,
+                  "airMiles": [
+                    
+                  ],
+                  "discounts": [
+                    {
+                      "id": null,
+                      "displayOrder": 1,
+                      "benefitValueType": "PRICE_POINT_ITEMS",
+                      "discountType": "ITEM_LEVEL",
+                      "includeProductGroupName": "testuserid",
+                      "excludeProductGroupName": null,
+                      "chargebackDepartment": null,
+                      "tiers": [
+                        {
+                          "amount": 0.01,
+                          "upTo": 0,
+                          "itemLimit": 1,
+                          "dollarLimit": 0,
+                          "level": 1,
+                          "receiptText": null,
+                          "rewards": null,
+                          "weightLimit": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "productGroup": {
+                  "name": "testuserid",
+                  "quantityUnitType": "ITEMS",
+                  "excludedProductGroupName": null,
+                  "conjunction": null,
+                  "minPurchaseAmount": null,
+                  "uniqueproduct": null,
+                  "inheritedFromOfferRequest": null,
+                  "tiers": [
+                    {
+                      "level": 1,
+                      "amount": 0
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "info": {
+    "id": {
+      "offerId": 817775527,
+      "externalOfferId": "817775527-ND",
+      "aggregatorOfferId": null,
+      "manufacturerId": null,
+      "manufacturerOfferRefCd": null
+    },
+    "offerProviderName": "OMS Non-Digital",
+    "deliveryChannel": "IS",
+    "categories": null,
+    "primaryCategory": null,
+    "events": null,
+    "hiddenEvents": null,
+    "offerProgramCode": "SC",
+    "programExtraAttributes": {
+      "terminals": [
+        "Groceryworks (Safeway.com)",
+        "Smart Cart (QVS Virtual Terminals)",
+        "Post Office",
+        "Bakery",
+        "Customer Service Desk",
+        "Liquor",
+        "Self-Checkout",
+        "Testing Lane",
+        "Dry Cleaners",
+        "Floral",
+        "Standard Checkout",
+        "Jamba Juice",
+        "Tobacco",
+        "Front End",
+        "Deli Sandwich Kiosk",
+        "Pharmacy Drive-Up",
+        "Pharmacy",
+        "Video",
+        "Cafe Starbucks",
+        "Deli",
+        "Fuel pay-inside (kiosk)",
+        "China/Panda Express"
+      ],
+      "copientCategory": "001-Club Card Savings",
+      "priority": "2",
+      "tiers": "null",
+      "sendOutboundData": "Teradata CRM",
+      "chargebackVendor": "None",
+      "autoTransferable": true,
+      "enableImpressionReporting": false,
+      "limitEligibilityFrequency": "LIMITED",
+      "enableRedemptionReporting": true,
+      "enableIssuance": false,
+      "deferEvaluationUntilEOS": false,
+      "engine": "CPE"
+    },
+    "offerSubProgram": null,
+    "offerStatus": "I",
+    "description": {
+      "priceTitle": null,
+      "priceValue": null,
+      "savingsValueText": null,
+      "titleDescription": null,
+      "productDescription": null,
+      "disclaimerText": null,
+      "receiptDescriptions": null,
+      "desc": null
+    },
+    "productImageId": null,
+    "priceCode": null,
+    "time": null,
+    "year": null,
+    "productCd": null,
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": null,
+    "offerProgramType": null,
+    "shouldReportRedemptions": true,
+    "offerRequestId": "817785534",
+    "isApplicableToJ4U": false,
+    "isJ4UReady": null,
+    "isCopientReady": null,
+    "isPublishedToRedemptionEngine": false,
+    "isCancellable": null,
+    "clonedFrom": null,
+    "clones": null,
+    "offerName": "NorcalIScxz817775527-ND",
+    "nopaNumbers": null,
+    "adType": "NA",
+    "offerProtoType": "MEAL_DEAL",
+    "offerType": null,
+    "auditInfo": {
+      "createdTs": "2020-04-22T00:32:43.038+00:00",
+      "createdApplicationId": "OMS",
+      "createdUserId": "sseng07",
+      "lastUpdatedApplicationId": null,
+      "lastUpdatedUserId": null,
+      "lastUpdatedTs": "2020-04-22T00:45:57.509+00:00",
+      "createdUser": null,
+      "updatedUser": null
+    },
+    "printTags": null,
+    "storeTag": null,
+    "offerRequestEditStatus": {
+      "editStatus": "U",
+      "userId": "sseng07",
+      "firstName": "Santanu",
+      "lastName": "Sengupta",
+      "editTs": 1587516357.446000000
+    },
+    "assignment": {
+      "userId": "sseng07",
+      "firstName": "Santanu",
+      "lastName": "Sengupta"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2020-05-01T00:00:00.000+00:00",
+      "offerEffectiveStartDate": "2020-05-01T00:00:00.000+00:00",
+      "offerTestEffectiveStartDate": null
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2020-05-01T23:59:59.999+00:00",
+      "offerEffectiveEndDate": "2020-05-01T23:59:59.999+00:00",
+      "offerTestEffectiveEndDate": null
+    },
+    "applicableTo": {
+      "banners": null,
+      "divisions": {
+        "25": "Norcal"
+      },
+      "storeGroups": null,
+      "channels": null,
+      "terminals": [
+        "Groceryworks (Safeway.com)",
+        "Smart Cart (QVS Virtual Terminals)",
+        "Post Office",
+        "Bakery",
+        "Customer Service Desk",
+        "Liquor",
+        "Self-Checkout",
+        "Testing Lane",
+        "Dry Cleaners",
+        "Floral",
+        "Standard Checkout",
+        "Jamba Juice",
+        "Tobacco",
+        "Front End",
+        "Deli Sandwich Kiosk",
+        "Pharmacy Drive-Up",
+        "Pharmacy",
+        "Video",
+        "Cafe Starbucks",
+        "Deli",
+        "Fuel pay-inside (kiosk)",
+        "China/Panda Express"
+      ],
+      "excludedTerminals": null,
+      "storeIds": null,
+      "redemptionStoreIds": null,
+      "postalCodes": null,
+      "upcs": null,
+      "departments": [
+        "Family Care"
+      ],
+      "pluTriggerBarcode": null,
+      "customerSegment": "Any Customer"
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "DOLLARS",
+      "minProdPurchaseUnits": null,
+      "maxProdPurchaseUnits": null,
+      "minOrderTotalAmount": 0.0,
+      "minRewardPoints": 0,
+      "minGetProdPurchaseUnits": null,
+      "isBuyXGetYOffer": false,
+      "productGroups": [
+        {
+          "name": "orange",
+          "quantityUnitType": "ITEMS",
+          "excludedProductGroupName": null,
+          "conjunction": "And",
+          "minPurchaseAmount": 0.0,
+          "uniqueproduct": null,
+          "tiers": [
+            {
+              "level": 1,
+              "amount": 20.0
+            }
+          ],
+          "inheritedFromOfferRequest": null,
+          "displayOrder": 2
+        },
+        {
+          "name": "banana",
+          "quantityUnitType": "ITEMS",
+          "excludedProductGroupName": null,
+          "conjunction": "And",
+          "minPurchaseAmount": 0.0,
+          "uniqueproduct": null,
+          "tiers": [
+            {
+              "level": 1,
+              "amount": 10.0
+            }
+          ],
+          "inheritedFromOfferRequest": null,
+          "displayOrder": 1
+        }
+      ],
+      "storeGroups": {
+        "podStoreGroups": [],
+        "redemptionStoreGroups": [
+          "APIAutoNorcalStoreGroup"
+        ]
+      },
+      "customerGroups": [
+        {
+          "name": "Any Cardholder",
+          "excludeUsers": false,
+          "conjunction": " AND "
+        }
+      ],
+      "pointsGroups": null,
+      "productDisQualifier": null,
+      "day": null,
+      "time": null,
+      "enterpriseInstantWin": null,
+      "triggerCodes": null,
+      "attributes": null
+    },
+    "benefit": {
+      "benefitValueType": null,
+      "benefitValue": null,
+      "discount": [
+        {
+          "benefitValueType": "PERCENT_OFF_ITEMS",
+          "includeProductGroupName": "banana",
+          "excludeProductGroupName": null,
+          "discountType": "ITEM_LEVEL",
+          "chargebackDepartment": "Item's Department",
+          "advanced": {
+            "bestDeal": false,
+            "allowNegative": null,
+            "flexNegative": true
+          },
+          "discountTier": [
+            {
+              "level": 1,
+              "amount": 10.0,
+              "upTo": 5.0,
+              "itemLimit": 2,
+              "weightLimit": 0.0,
+              "dollarLimit": null,
+              "receiptText": null
+            }
+          ]
+        }
+      ],
+      "points": [],
+      "groupMemberShip": null,
+      "printedMessage": null,
+      "cashierMessage": null
+    },
+    "usageLimits": {
+      "usageLimitTypePerUser": "LIMITED",
+      "usageLimitTypePerOffer": null,
+      "usageLimitPerUser": 1,
+      "usageLimitPerOffer": null
+    }
+  },
+  "householdAttrs": null
+}

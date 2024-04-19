@@ -1,0 +1,304 @@
+{
+  "dev": {
+    "testGetOfferSearchByOfferStatus": [
+      {
+        "q": "offerStatus=E"
+      }
+    ],
+    "testGetOfferSearchByOfferStatus2": [
+      {
+        "q": "offerStatus=(A or E)"
+      }
+    ],
+    "testGetOfferSearchByOfferId": [
+      {
+        "q": "offerId=500501"
+      }
+    ],
+    "testGetOfferSearchByExternalOfferId":[
+      {
+        "q": "externalOfferId=2510N0817H05_830034E"
+      }
+    ],
+    "testGetOfferSearchByPostalCode":[
+      {
+        "q": "postalCd=94025"
+      }
+    ],
+    "testGetOfferSearchByStoreId":[
+      {
+        "q": "storeId=200200"
+      }
+    ],
+    "testGetOfferSearchByStartDate":[
+      {
+        "q":"startDt=[2018-09-01T00:00:00Z TO *]"
+      }
+    ],
+    "testGetOfferSearchByEndDate":[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z]"
+      }
+    ],
+    "testGetOfferSearchByOfferProgramCode":[
+      {
+        "q":"offerProgramCd=SC"
+      }
+    ],
+    "testGetOfferSearchByZipCodeandStatus":[
+      {"q" : "postalCd=94025;offerStatus=A"}
+    ],
+    "testGetOfferSearchByStartDateandStatus" :[
+      {
+        "q":"startDt=[2018-09-01T00:00:00Z TO *];offerStatus=A"
+      }
+    ],
+    "testGetOfferSearchByEndDateandStatus" :[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z];offerStatus=E"
+      }
+    ],
+
+    "testGetOfferSearchByExternalOfferIdandStatus":[
+      {
+        "q":"externalOfferId=NAISC-5000268823;offerStatus=A"
+      }
+    ],
+    "testGetOfferSearchByExternalOfferIdAndStatusAndProgramCode":[
+      {
+        "q":"offerStatus=(P or E);offerProgramCd=SC;externalOfferId=HappyFriday-OfferId-004"
+      }
+    ],
+    "testGetOfferSearchByEndDateAndStoreIdAndExternalOfferId":[
+      {
+        "q":"endDt=[* TO 2019-08-31T09:00:00Z];externalOfferId=HappyFriday-OfferId-005;storeId=TESTSTOREVAL"
+      }
+    ],
+    "testGetOfferSearchByProgramCodeAndStoreIdAndOfferStatusAndExternalOfferId":[
+      {
+        "q":"offerProgramCd=SC;externalOfferId=HappyFriday-OfferId-004;storeId=(200200 or SWY01);offerStatus=P"
+      }
+    ],
+    "testGetOfferSearchByEndDateAndOfferStatusAndExternalOfferIdAndStoreID":[
+      {
+        "q":"endDt=[* TO 2019-12-31T09:00:00Z];externalOfferId=HappyFriday-OfferId-005;offerStatus=(A or E or P);storeId=(200200 or TESTSTOREVAL)"
+      }
+    ],
+    "testGetOfferSearchByNullParameter":[
+      {
+        "q":""
+      }
+    ],
+    "testGetOfferSearchByPartialParameter":[
+      {
+        "q":"storeId="
+      }
+    ],
+    "testGetOfferSearchByInvalidParameter":[
+      {
+        "q":"offerStatus=&*"
+      }
+    ],
+    "testGetOfferSearchBySpecialCharacters":[
+      {
+        "q":"storeId=1455&_fac"
+      }
+    ],
+    "testGetOfferSearchBySpecialCharacters2":[
+      {
+        "q" :"offerId=99397520&!!"
+      }
+    ],
+    "testGetOfferSearchBySpecialCharacters3":[
+      {
+        "q" :"offerStatus=99397520&!!090"
+      }
+    ],
+    "testGetOfferSearchByMissingParamValue":[
+      {
+        "q":"storeId=(1455 or "
+      }
+    ],
+    "testGetOfferSearchByLengthyParam":[
+      {
+        "q":"offerStatus=(Q or ovwhudhahoahdoacjdoi)"
+      }
+    ],
+    "testGetOfferSearchByUnavailableParameter2":[
+      {
+        "q":"offerProgramCd=89@#"
+      }
+    ],
+    "testGetOfferSearchByWrongParam":[
+      {
+        "q":"storeId=1"
+      }
+    ],
+    "testGetOfferSearchByInvalidPaginationParam1":[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z]storeId=1455;limit=2"
+      }
+    ],
+    "testGetOfferSearchByInvalidPaginationParam2" :[
+      {
+        "q":"sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=1?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=2?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=3?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=4?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=5?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=6?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=7"
+      }
+    ],
+    "testGetOfferSearchByInvalidPaginationParam3" :[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z]:storeId=1455:limit=2"
+      }
+    ]
+  },
+  "local": {
+    "testGetOfferSearchByOfferStatus": [
+      {
+        "q": "offerStatus=E"
+      }
+    ],
+    "testGetOfferSearchByOfferStatus2": [
+      {
+        "q": "offerStatus=(A or E)"
+      }
+    ],
+    "testGetOfferSearchByOfferId": [
+      {
+        "q": "offerId=500501"
+      }
+    ],
+    "testGetOfferSearchByExternalOfferId":[
+      {
+        "q": "externalOfferId=2510N0817H05_830034E"
+      }
+    ],
+    "testGetOfferSearchByPostalCode":[
+      {
+        "q": "postalCd=94025"
+      }
+    ],
+    "testGetOfferSearchByStoreId":[
+      {
+        "q": "storeId=200200"
+      }
+    ],
+    "testGetOfferSearchByStartDate":[
+      {
+        "q":"startDt=[2018-09-01T00:00:00Z TO *]"
+      }
+    ],
+    "testGetOfferSearchByEndDate":[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z]"
+      }
+    ],
+    "testGetOfferSearchByOfferProgramCode":[
+      {
+        "q":"offerProgramCd=SC"
+      }
+    ],
+    "testGetOfferSearchByZipCodeandStatus":[
+      {"q" : "postalCd=94025;offerStatus=A"}
+    ],
+    "testGetOfferSearchByStartDateandStatus" :[
+      {
+        "q":"startDt=[2018-09-01T00:00:00Z TO *];offerStatus=A"
+      }
+    ],
+    "testGetOfferSearchByEndDateandStatus" :[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z];offerStatus=E"
+      }
+    ],
+
+    "testGetOfferSearchByExternalOfferIdandStatus":[
+      {
+        "q":"externalOfferId=NAISC-5000268823;offerStatus=A"
+      }
+    ],
+    "testGetOfferSearchByExternalOfferIdAndStatusAndProgramCode":[
+      {
+        "q":"offerStatus=(P or E);offerProgramCd=SC;externalOfferId=HappyFriday-OfferId-004"
+      }
+    ],
+    "testGetOfferSearchByEndDateAndStoreIdAndExternalOfferId":[
+      {
+        "q":"endDt=[* TO 2019-08-31T09:00:00Z];externalOfferId=HappyFriday-OfferId-005;storeId=TESTSTOREVAL"
+      }
+    ],
+    "testGetOfferSearchByProgramCodeAndStoreIdAndOfferStatusAndExternalOfferId":[
+      {
+        "q":"offerProgramCd=SC;externalOfferId=HappyFriday-OfferId-004;storeId=(200200 or SWY01);offerStatus=P"
+      }
+    ],
+    "testGetOfferSearchByEndDateAndOfferStatusAndExternalOfferIdAndStoreID":[
+      {
+        "q":"endDt=[* TO 2019-12-31T09:00:00Z];externalOfferId=HappyFriday-OfferId-005;offerStatus=(A or E or P);storeId=(200200 or TESTSTOREVAL)"
+      }
+    ],
+    "testGetOfferSearchByNullParameter":[
+      {
+        "q":""
+      }
+    ],
+    "testGetOfferSearchByPartialParameter":[
+      {
+        "q":"storeId="
+      }
+    ],
+    "testGetOfferSearchByInvalidParameter":[
+      {
+        "q":"offerStatus=&*"
+      }
+    ],
+    "testGetOfferSearchBySpecialCharacters":[
+      {
+        "q":"storeId=1455&_fac"
+      }
+    ],
+    "testGetOfferSearchBySpecialCharacters2":[
+      {
+        "q" :"offerId=99397520&!!"
+      }
+    ],
+    "testGetOfferSearchBySpecialCharacters3":[
+      {
+        "q" :"offerStatus=99397520&!!090"
+      }
+    ],
+    "testGetOfferSearchByMissingParamValue":[
+      {
+        "q":"storeId=(1455 or "
+      }
+    ],
+    "testGetOfferSearchByLengthyParam":[
+      {
+        "q":"offerStatus=(Q or ovwhudhahoahdoacjdoi)"
+      }
+    ],
+    "testGetOfferSearchByUnavailableParameter2":[
+      {
+        "q":"offerProgramCd=89@#"
+      }
+    ],
+    "testGetOfferSearchByWrongParam":[
+      {
+        "q":"storeId=1"
+      }
+    ],
+    "testGetOfferSearchByInvalidPaginationParam1":[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z]storeId=1455;limit=2"
+      }
+    ],
+    "testGetOfferSearchByInvalidPaginationParam2" :[
+      {
+        "q":"sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=1?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=2?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=3?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=4?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=5?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=6?q=sid=55a21140-cd81-11e8-921e-e3a2c5783126;next=7"
+      }
+    ],
+    "testGetOfferSearchByInvalidPaginationParam3" :[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z]:storeId=1455:limit=2"
+      }
+    ]
+  }
+}

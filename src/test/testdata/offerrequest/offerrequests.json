@@ -1,0 +1,74 @@
+[
+{
+  "info": {
+    "id": 40180322,
+    "programCode": "BPD",
+    "pluTriggerBarcode": "327122",
+    "deliveryChannel": "DO",
+    "brandAndSize": "Brand Details",
+    "billingOptions": "PANERA SALAD DRESSING BLUE CHEESE 12 OZ",
+	"mobId": "013102"
+  },
+  "rules": {
+    "startDate": {
+      "offerEffectiveStartDate": "2019-02-08T07:00:00.000+00:00"
+    },
+    "endDate": {
+      "offerEffectiveEndDate": "2019-02-10T07:00:00.000+00:00"
+    },
+    "customerSegment": "customerSegment",
+    "department": "Dept1",
+    "usageLimitTypePerUser": "ONCE_PER_OFFER",
+     "qualificationAndBenefit": {
+    }
+  }
+},
+{
+  "info": {
+    "id": 40182011,
+    "programCode": "BPD",
+    "pluTriggerBarcode": "327122",
+    "deliveryChannel": "DO",
+    "brandAndSize": "Brand Details",
+    "billingOptions": "PANERA SALAD DRESSING BLUE CHEESE 12 OZ",
+	"mobId": "013108"
+  },
+  "rules": {
+    "startDate": {
+      "offerEffectiveStartDate": "2019-02-08T07:00:00.000+00:00"
+    },
+    "endDate": {
+      "offerEffectiveEndDate": "2019-02-10T07:00:00.000+00:00"
+    },
+    "customerSegment": "customerSegment",
+    "department": "Dept1",
+    "usageLimitTypePerUser": "ONCE_PER_OFFER",
+     "qualificationAndBenefit": {
+    }
+  }
+},
+{
+  "info": {
+    "id": 40180321,
+    "programCode": "BPD",
+    "pluTriggerBarcode": "327122",
+    "deliveryChannel": "DO",
+    "brandAndSize": "Brand Details",
+    "billingOptions": "PANERA SALAD DRESSING BLUE CHEESE 12 OZ",
+	"mobId": "013111"
+  },
+  "rules": {
+    "startDate": {
+      "offerEffectiveStartDate": "2019-02-08T07:00:00.000+00:00"
+    },
+    "endDate": {
+      "offerEffectiveEndDate": "2019-02-10T07:00:00.000+00:00"
+    },
+    "customerSegment": "customerSegment",
+    "department": "Dept1",
+    "usageLimitTypePerUser": "ONCE_PER_OFFER",
+     "qualificationAndBenefit": {
+    }
+  }
+}
+]

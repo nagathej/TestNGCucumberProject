@@ -1,0 +1,38 @@
+[
+  {
+    "entityId": "1949937429",
+    "mobId": "100224",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " Error",
+        "error": "Digital User cannot be put in P (PROCESSING) if Offer Request is not in S (SUBMITTED) or if Offer Request - digital track is in E (EDITING) or U (UPDATING)",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  },
+  {
+    "entityId": "1174481080",
+    "mobId": "101810",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " Error",
+        "error": "Digital User cannot be put in P (PROCESSING) if Offer Request is not in S (SUBMITTED) or if Offer Request - digital track is in E (EDITING) or U (UPDATING)",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  },
+  {
+    "entityId": "2001328414",
+    "mobId": "104900",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": " Error",
+        "error": "Digital User cannot be put in P (PROCESSING) if Offer Request is not in S (SUBMITTED) or if Offer Request - digital track is in E (EDITING) or U (UPDATING)",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  }
+]

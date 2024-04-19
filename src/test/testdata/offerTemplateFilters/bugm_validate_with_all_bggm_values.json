@@ -1,0 +1,38 @@
+{
+  "bggm": {
+    "12": "BAKERY",
+    "2": "BSMI",
+    "1": "DAIRY REFRIGERATED FROZEN",
+    "6": "DELI FOOD SERVICE",
+    "4": "GMHBCAT",
+    "3": "HEALTH AND WELLNESS",
+    "7": "MEAT AND SEAFOOD",
+    "14": "PROCUREMENT",
+    "8": "PRODUCE AND FLORAL",
+    "11": "STARBUCKS JAMBA JUICE"
+  },
+  "bugm": {
+    "4": "ALCOHOL TOBACCO",
+    "3": "BEVERAGE SNACKS",
+    "10": "COMMERCIAL BAKERY",
+    "1": "DAIRY REFRIGERATED",
+    "19": "DELI",
+    "5": "FAMILY CARE",
+    "14": "FLORAL",
+    "11": "FOOD SERVICE",
+    "2": "FROZEN",
+    "7": "GENERAL MERCHANDISE",
+    "6": "HOME CARE",
+    "22": "IN-STORE BAKERY",
+    "20": "JAMBA JUICE",
+    "8": "MAIN MEAL",
+    "9": "MEALS AND INGREDIENTS",
+    "12": "MEAT",
+    "16": "PHARMACY",
+    "23": "PROCUREMENT",
+    "13": "PRODUCE",
+    "18": "SEAFOOD",
+    "21": "STARBUCKS"
+  },
+  "smic": {}
+}

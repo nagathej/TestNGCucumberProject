@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "",
+    "rowNumber": 7,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Allocation Code is invalid : 500",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+dev:
+  CopientCategory:
+    4U_STORE_ECOUPONS_ELEC: 003-J4U Store eCoupons (elec),
+    CLUB_CARD_SAVINGS: 001-Club Card Savings,
+    STORE_COUPON_PAPER: 002-Store Coupon (paper),
+    Age: 25
+    oms:
+      offer:
+        request:
+          host: https://dummyapi.online/api/movies/1
+
+
+
+

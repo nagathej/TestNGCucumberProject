@@ -1,0 +1,101 @@
+{
+  "info": {
+    "id": {
+      "externalOfferId": "00219-630004-09",
+      "aggregatorOfferId": "45000054"
+    },
+    "offerProviderName": "MFTestAutomationDataCreation1",
+    "categories": {
+      "6": "Condiments, Spices & Bake"
+    },
+    "primaryCategory": {
+      "6": "Condiments, Spices & Bake"
+    },
+    "events": {},
+    "offerProgramCode": "MF",
+    "offerStatus": "P",
+    "offerSubProgram": "MC",
+    "description": {
+      "savingsValueText": "Save $3.07",
+      "titleDescription": {
+        "titleDsc1": "OMS Air Wick Reg QAi"
+      },
+      "productDescription": {
+        "prodDsc1": "TC SLCT National offer 16"
+      },
+      "disclaimerText": "test offer disclaimer",
+      "priceValue": "$2.00"
+    },
+    "productImageId": "999999.gif",
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": false,
+    "auditInfo": {
+      "createdTs": "2019-03-06T11:08:35.426-07:00",
+      "createdApplicationId": "EMOM",
+      "createdUserId": "emq1om",
+      "lastUpdatedApplicationId": "EMOM",
+      "lastUpdatedUserId": "emq1om",
+      "lastUpdatedTs": "2019-03-06T11:08:35.426-07:00"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2019-02-01T00:00:00.000-07:00",
+      "offerEffectiveStartDate": "2019-02-01T00:00:00.000-07:00"
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2025-05-01T01:00:00.000-06:00",
+      "offerEffectiveEndDate": "2025-05-01T01:00:00.000-06:00"
+    },
+    "applicableTo": {
+      "banners": {
+        "P": "ad67f51e-d840-491e-8f61-a7a79c3471f4",
+        "R": "2c3f6294-a3e9-4536-a7d3-142d8af481f9",
+        "S": "8a291a5b-3f33-402d-95bb-63f956d2f64c",
+        "C": "425c8e36-d8e2-40d7-a345-3ffa5771ca9a",
+        "T": "63059d46-ba50-4310-992b-23bf4da3efad",
+        "V": "492c3e3f-8c56-4ef2-a14a-95c0905c77f8"
+      },
+      "divisions": {},
+      "channels": [],
+      "terminals": [
+        "13",
+        "15",
+        "28",
+        "11405",
+        "100",
+        "11404",
+        "11407",
+        "11406",
+        "13979",
+        "113",
+        "11409",
+        "11408",
+        "13554",
+        "13553",
+        "11401",
+        "11412",
+        "11411",
+        "11414",
+        "11403",
+        "13556",
+        "11402",
+        "10"
+      ],
+      "storeIds": [
+        "1462"
+      ],
+      "postalCodes": [95004,63043]
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "QUANTITY",
+      "minProdPurchaseUnits": 1,
+      "isBuyXGetYOffer": false
+    },
+    "benefit": {},
+    "usageLimits": {
+      "usageLimitTypePerUser": "ONCE_PER_OFFER"
+    }
+  }
+}

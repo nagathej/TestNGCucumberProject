@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "program Type is Required.",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  }
+]

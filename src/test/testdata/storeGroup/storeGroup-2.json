@@ -1,0 +1,17 @@
+{
+  "excludeStores": [],
+  "includeStores": [
+    "2121"
+  ],
+  "id": "",
+  "description": "",
+  "storeGroupName": "APIAutoSocalStoreGroup_env",
+  "storesSearchCriteria": {
+    "divisionRogCds": {
+      "SO CALIFORNIA": [
+        "PSOC"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

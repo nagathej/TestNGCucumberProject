@@ -1,0 +1,220 @@
+{
+  "info": {
+    "id": 1565087281,
+    "pluTriggerBarcode": null,
+    "pluTriggerBarcodeType": null,
+    "validatePluTriggerBarcode": true,
+    "pluReferenceId": null,
+    "deliveryChannel": "DO",
+    "shoppingChannel": null,
+    "displayChannel": null,
+    "brandAndSize": "ORGANIC BROWN FLAX 25 LB",
+    "nopaNumbers": null,
+    "nopaStartDate": null,
+    "nopaEndDate": null,
+    "billingOptions": null,
+    "desc": null,
+    "programCode": "BPD",
+    "attachments": null,
+    "adType": "NIA",
+    "offerRequestType": "ITEM_DISCOUNT",
+    "numOfVersions": null,
+    "numOfTiers": null,
+    "numOfProducts": null,
+    "digitalUser": null,
+    "nonDigitalUser": null,
+    "digitalStatus": null,
+    "nonDigitalStatus": null,
+    "digitalEditStatus": null,
+    "nonDigitalEditStatus": null,
+    "digitalUiStatus": null,
+    "nonDigitalUiStatus": null,
+    "isBilled": false,
+    "justification": null,
+    "group": null,
+    "groupDivision": "FRESH PRODUCE",
+    "defaultPromoWeekIds": null,
+    "periodId": null,
+    "actionFailedState": null,
+    "actionFailedStateTs": null,
+    "changeAction": null,
+    "changeReason": null,
+    "changeType": null,
+    "changeComments": null,
+    "changeReasonCategory": null,
+    "userChangeComment": null,
+    "isOfferTemplate": true,
+    "lastPeriodCreated": null,
+    "bggm": "PRODUCE AND FLORAL",
+    "bugm": "PRODUCE",
+    "categoryId": "8494",
+    "category": "BULK FOODS",
+    "cic": "84941382",
+    "cpg": "CPG Place Holder",
+    "repUpc": "48494138201",
+    "otStatus": "NEW",
+    "reviewFlags": null,
+    "otStatusReason": null,
+    "otStatusReasonComment": null,
+    "otStatusSetUntil": null,
+    "autoAssignMob": null,
+    "mobId": "012643",
+    "mobName": null,
+    "templateId": null,
+    "regionId": "25",
+    "programType": "BASE",
+    "promoWeekId": null,
+    "programSubType": null,
+    "period_week": null,
+    "isCopied": false,
+    "fulfillmentChannel": {
+      "delivery": false,
+      "dug": false,
+      "inStorePurchase": false,
+      "wug": false
+    },
+    "offerFlag": null
+  },
+  "rules": {
+    "startDate": {
+      "offerEffectiveStartDate": null
+    },
+    "endDate": {
+      "offerEffectiveEndDate": null
+    },
+    "priceUntil": {
+      "offerEffectiveEndDate": null
+    },
+    "qualificationAndBenefit": {
+      "offerTemplateOffers": [
+        {
+          "id": null,
+          "storeGroupVersion": {
+            "id": null,
+            "displayOrder": 1,
+            "offerPrototype": "ITEM_DISCOUNT",
+            "storeGroup": {
+              "digitalRedemptionStoreGroupIds": [
+                1912684751,
+                151419768
+              ],
+              "podStoreGroupNames": null,
+              "digitalRedemptionStoreGroupNames": [
+                "Corporate Digital Socal All Stores",
+                "Corporate Digital Norcal Base Stores"
+              ],
+              "updateDigitalStoreGroup": false,
+              "updatePODStoreGroup": false
+            },
+            "productGroupVersions": [
+              {
+                "id": null,
+                "displayOrder": 1,
+                "anyProduct": null,
+                "productGroup": {
+                  "id": 27931478,
+                  "quantityUnitType": "ITEMS",
+                  "excludedProductGroupId": null,
+                  "conjunction": null,
+                  "minPurchaseAmount": 0,
+                  "uniqueProduct": null,
+                  "tiers": [
+                    {
+                      "level": 1,
+                      "amount": null
+                    }
+                  ],
+                  "inheritedFromOfferRequest": null,
+                  "displayOrder": 1,
+                  "name": null,
+                  "excludedProductGroupName": null,
+                  "updateProductGroup": false,
+                  "includeTheseProducts": null
+                },
+                "discountVersion": {
+                  "id": null,
+                  "discounts": [
+                    {
+                      "id": null,
+                      "displayOrder": 1,
+                      "benefitValueType": "PRICE_POINT_WEIGHT_VOLUME",
+                      "discountType": "ITEM_LEVEL",
+                      "includeProductGroupId": 27931478,
+                      "excludeProductGroupId": null,
+                      "chargebackDepartment": null,
+                      "tiers": [
+                        {
+                          "level": 1,
+                          "amount": null,
+                          "upTo": null,
+                          "itemLimit": null,
+                          "weightLimit": null,
+                          "dollarLimit": null,
+                          "receiptText": null,
+                          "rewards": null
+                        }
+                      ],
+                      "includeProductGroupName": null,
+                      "excludeProductGroupName": null,
+                      "updateProductDiscount": null
+                    }
+                  ]
+                }
+              }
+            ],
+            "podDetails": {
+              "scene7ImageId": null,
+              "priceText": null,
+              "headline1": "ORGANIC BROWN FLAX",
+              "headline2": "",
+              "offerDescription": "25 LB",
+              "offerDetailsCode": "Base",
+              "shoppingListCategory": "12",
+              "podUsageLimit": "UNLIMITED",
+              "leftNavCategory": [
+                "12"
+              ]
+            }
+          }
+        }
+      ],
+      "offerRequestOffers": null,
+      "grOfferRequestOffers": null,
+      "spdOfferRequestOffers": null,
+      "day": null,
+      "time": null
+    },
+    "department": null,
+    "customerSegment": "Any Customer",
+    "usageLimitTypePerUser": "LIMITED",
+    "usageLimitPerUser": null,
+    "qty": "25",
+    "uom": "LB",
+    "customPeriod": null,
+    "customType": null,
+    "rewardsRequired": null,
+    "rank": 62845
+  },
+  "lastUpdatedTs": 1642410516.429,
+  "createdTs": 1642410516.394,
+  "createdApplicationId": "OMS",
+  "createdUserId": "sredd38",
+  "lastUpdatedApplicationId": "OMS",
+  "lastUpdatedUserId": "sredd38",
+  "createdUser": {
+    "userId": "sredd38",
+    "firstName": "Sreenivasa",
+    "lastName": "Reddy"
+  },
+  "updatedUser": {
+    "userId": "sredd38",
+    "firstName": "Sreenivasa",
+    "lastName": "Reddy"
+  },
+  "batchLogInfo": null,
+  "updateOffers": true,
+  "cachedDigitalOfferStatus": null,
+  "cachedNonDigitalOfferStatus": null,
+  "allOffersAlongWithOfferRequestUpdate": false,
+  "updateOnlyPluTriggerBarcode": false
+}

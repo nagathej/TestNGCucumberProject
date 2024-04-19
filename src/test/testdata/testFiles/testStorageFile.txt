@@ -1,0 +1,89 @@
+CREATE TABLE offers.offer_details (
+    offer_id bigint PRIMARY KEY,
+    aggregator_offer_id text,
+    banners map<text, text>,
+    banners_set set<text>,
+    benefit_value double,
+    benefit_value_type text,
+    categories map<text, text>,
+    categories_set set<text>,
+    channels set<text>,
+    create_app_id text,
+    create_ts timestamp,
+    create_user_id text,
+    departments set<text>,
+    disclaimer_txt text,
+    display_effective_end_dt timestamp,
+    display_effective_start_dt timestamp,
+    divisions map<text, text>,
+    divisions_set set<text>,
+    events map<text, text>,
+    events_set set<text>,
+    external_offer_id text,
+    hidden_events map<text, text>,
+    hidden_events_set set<text>,
+    is_buy_x_get_y_offer boolean,
+    is_default_allocation_offer boolean,
+    is_employee_offer boolean,
+    last_update_ts timestamp,
+    last_updated_app_id text,
+    last_updated_user_id text,
+    manufacturer_id text,
+    manufacturer_offer_ref_cd text,
+    max_prod_purchase_units int,
+    min_get_prod_purchase_units int,
+    min_order_total_amount double,
+    min_prod_purchase_units int,
+    min_reward_points int,
+    offer_effective_end_dt timestamp,
+    offer_effective_start_dt timestamp,
+    offer_program_cd text,
+    offer_program_type text,
+    offer_provider_nm text,
+    offer_status text,
+    offer_sub_program text,
+    offer_test_effective_end_dt timestamp,
+    offer_test_effective_start_dt timestamp,
+    postal_codes set<int>,
+    price_code text,
+    price_title text,
+    price_value text,
+    primary_category map<text, text>,
+    primary_category_set set<text>,
+    product_cd text,
+    product_desc map<text, text>,
+    product_desc_set set<text>,
+    product_img_id text,
+    promo_class_id text,
+    qualification_unit_sub_type text,
+    qualification_unit_type text,
+    savings_value_txt text,
+    should_report_redemptions boolean,
+    solr_query text,
+    store_groups set<text>,
+    store_ids set<text>,
+    terminals set<text>,
+    time text,
+    title_desc map<text, text>,
+    title_desc_set set<text>,
+    upcs set<bigint>,
+    usage_limit_per_offer bigint,
+    usage_limit_per_user bigint,
+    usage_limit_type_per_offer text,
+    usage_limit_type_per_user text,
+    year text
+) WITH bloom_filter_fp_chance = 0.01
+    AND caching = {'keys': 'ALL', 'rows_per_partition': 'NONE'}
+    AND comment = ''
+    AND compaction = {'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold': '32', 'min_threshold': '4'}
+    AND compression = {'chunk_length_in_kb': '64', 'class': 'org.apache.cassandra.io.compress.LZ4Compressor'}
+    AND crc_check_chance = 1.0
+    AND dclocal_read_repair_chance = 0.1
+    AND default_time_to_live = 0
+    AND gc_grace_seconds = 864000
+    AND max_index_interval = 2048
+    AND memtable_flush_period_in_ms = 0
+    AND min_index_interval = 128
+    AND read_repair_chance = 0.0
+    AND speculative_retry = '99PERCENTILE';
+CREATE CUSTOM INDEX offers_offer_details_solr_query_index ON offers.offer_details (solr_query) USING 'com.datastax.bdp.search.solr.Cql3SolrSecondaryIndex';

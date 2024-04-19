@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "displayEndDate",
+        "error": "If you enter one date, then all dates must be entered:",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

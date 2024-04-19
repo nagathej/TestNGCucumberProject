@@ -1,0 +1,12 @@
+{
+  "division": "%s",
+  "department": null,
+  "code": "%s",
+  "pluRangeName": "%s",
+  "codeType": "%s",
+  "startDate": "%s",
+  "endDate": "%s",
+  "itemDescription": "%s",
+  "addlDescription": "%s",
+  "validatePluTriggerBarcodeAndRetailSectionCombination": true
+}

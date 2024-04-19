@@ -1,0 +1,215 @@
+{
+  "offer": {
+    "conditions": {
+      "customers": {
+        "included": [
+          {
+            "customerGroupNm": "Customer group for 11858814"
+          }
+        ],
+        "excluded": []
+      },
+      "products": [
+        {
+          "incProductGroupNm": "ProductList(48678)",
+          "excProductGroupNm": "",
+          "productComboConditionOper": "",
+          "amountType": "Items",
+          "uniqueProductInd": false,
+          "minPurchaseAmt": 0,
+          "tiers": [
+            {
+              "productAmt": 1
+            }
+          ],
+          "accumulation": {
+            "minAmt": 0,
+            "limitNbr": 0,
+            "periodDayNbr": 0
+          }
+        }
+      ]
+    },
+    "rewards": {
+      "discount": {
+        "productgroup": {
+          "discountType": "Item Level",
+          "incProductGroupNm": "ProductList(48678)",
+          "excProductGroupNm": ""
+        },
+        "chargebackdepartment": {
+          "name": "Item's Department"
+        },
+        "distribution": {
+          "distributionType": "Free",
+          "tiers": [
+            {
+              "tierItemLimitNbr": 1,
+              "tierMaxDollarItemLimitAmt": 0,
+              "tierReceiptTxt": ""
+            }
+          ]
+        },
+        "scorecard": {
+          "scorecardEnableInd": false,
+          "scorecardNm": "",
+          "scorecardLineTxt": ""
+        },
+        "advanced": {
+          "computeDiscountInd": true,
+          "bestdealInd": true,
+          "allowNegativeInd": false,
+          "flexNegativeInd": true
+        }
+      }
+    },
+    "notifications": {},
+    "locations": {
+      "storegroups": {
+        "included": [
+          {
+            "storeGroupNm": "Webtool 9842"
+          }
+        ],
+        "excluded": ""
+      },
+      "terminals": {
+        "included": [
+          {
+            "terminalNm": "All CPE Terminals"
+          }
+        ],
+        "excluded": []
+      }
+    },
+    "incentiveId": 404470,
+    "deployInd": false,
+    "deferDeployInd": false,
+    "engineTypeNm": "CPE",
+    "lastUpdateTs": "2020-07-13T14:39:50.010",
+    "general": {
+      "identification": {
+        "offerNm": "J4UE2520E2720300441FREEOpen NatureNon-Dairy Frozen Dessert",
+        "offerDsc": "Buy Open NatureNon-Dairy Frozen Dessert1-pint.Limit 1. In the Ice Cream Section. at FREE(offer imported - original offer ID 11858814)",
+        "offerExternaId": "2520E2720_300441",
+        "categoryDsc": "006-Employee Savings"
+      },
+      "priority": {
+        "priorityNm": "",
+        "footerPriorityMsgTxt": 0
+      },
+      "dates": {
+        "testing": {
+          "testingStartDt": "2020-07-01T00:00:00",
+          "testingEndDt": "2020-07-31T00:00:00"
+        },
+        "eligibility": {
+          "eligibilityStartDt": "2020-07-01T00:00:00",
+          "eligibilityEndDt": "2020-07-31T00:00:00"
+        },
+        "production": {
+          "productionStartDt": "2020-07-01T00:00:00",
+          "productionEndDt": "2020-07-31T00:00:00"
+        }
+      },
+      "limits": {
+        "eligibility": {
+          "eligibilityFrequencyNm": "Once Per Transaction"
+        },
+        "reward": {
+          "rewardsFrequencyNm": "Once Per Offer"
+        }
+      },
+      "inboundoutbound": {
+        "creationSourceNm": "Logix",
+        "outboundSourceNm": "",
+        "chargebackVendorId": ""
+      },
+      "employees": {
+        "employeeEligibilityTypNm": "None"
+      },
+      "advanced": {
+        "eosDeferInd": false,
+        "issuanceInd": false,
+        "manufacturerCouponInd": false,
+        "reporting": {
+          "impressionInd": false,
+          "redemptionInd": true
+        }
+      }
+    }
+  },
+  "productgroups": [
+    {
+      "productGroupNm": "ProductList(48678)",
+      "productGroupDsc": "",
+      "lastUpdateTs": "2020-07-13T14:37:59.980",
+      "products": [
+        {
+          "extProductId": "00007989309327",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OPN NAT CASHEWMILK SALTD CARAMEL CLUSTER"
+        },
+        {
+          "extProductId": "00007989309328",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OPN NAT ALMONDMILK CHOC FUDGE BROWNIE"
+        },
+        {
+          "extProductId": "00007989309329",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OPN NAT ALMONDMILK COFFEE CARAMEL FUDGE"
+        },
+        {
+          "extProductId": "00007989309330",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OPN NAT CASHEWMILK COOKIE DOUGH"
+        },
+        {
+          "extProductId": "00007989309357",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OPN NAT CASHEWMILK VANILLA BEAN"
+        },
+        {
+          "extProductId": "00007989312263",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00007989312264",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00007989312266",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00007989312267",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        }
+      ]
+    }
+  ],
+  "storegroups": [
+    {
+      "storeGroupNm": "Webtool 9842",
+      "lastUpdateTs": "2018-03-27T18:12:23.970",
+      "stores": [
+        {
+          "extLocationCd": "q259842",
+          "storeNm": "q259842",
+          "storeDsc": "",
+          "storeTestingInd": false,
+          "addressTxt": " ",
+          "cityNm": "",
+          "state": "",
+          "postalCd": "",
+          "countryNm": "United States"
+        }
+      ]
+    }
+  ]
+}

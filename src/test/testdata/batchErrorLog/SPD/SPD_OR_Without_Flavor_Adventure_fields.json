@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Land/Slot/Space cannot be null or empty for Program type EPISODIC and subtypeFLAVOR ADVENTURE",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "excludeStores": [%s],
+  "includeStores": [%s],
+  "id": "%s",
+  "storeGroupName": "%s",
+  "description": "%s",
+  "storesSearchCriteria": {
+    "divisions":[
+      "PORTLAND",
+      "HAGGEN"
+    ],
+    "divisionRogCds": {
+      "PORTLAND": [
+        "SPOR",
+        "SPRT"
+      ],
+      "HAGGEN": [
+        "SHGN"
+      ]
+    }
+  },
+  "isAdminEditable": "%s"
+}

@@ -1,0 +1,75 @@
+{
+  "info" : {
+    "id" : {
+      "externalOfferId" : "0000Z0000_000000",
+      "aggregatorOfferId": "15327"
+    },
+    "offerProviderName" : "JPApiTestDataForPadding0",
+    "categories" : {
+      "8" : "Dairy, Eggs & Cheese",
+      "9" : "Deli"
+    },
+    "primaryCategory" : {
+      "8" : "Dairy, Eggs & Cheese",
+      "9" : "Deli"
+    },
+    "events" : {
+      "125" : "Weekly Ad Coupons"
+    },
+    "offerProgramCode" : "PD",
+    "offerSubProgram" : "02",
+    "offerStatus" : "P",
+    "description" : {
+      "savingsValueText" : "$8.65 EACH",
+      "titleDescription" : {
+        "titleDsc1" : "Lactaid"
+      },
+      "productDescription" : {
+        "prodDsc1" : "Lactose Free Milk Half gallon"
+      },
+      "receiptDescriptions" : "Lactaid ECOM100500"
+    },
+    "productImageId" : "999999",
+    "isDefaultAllocationOffer" : false,
+    "shouldReportRedemptions" : true
+  },
+  "rules" : {
+    "startDate" : {
+      "displayEffectiveStartDate" : "2019-02-03T00:00:01.235-07:00",
+      "offerEffectiveStartDate" : "2019-02-03T00:00:01.235-07:00",
+      "offerTestEffectiveStartDate" : "2019-02-03T00:00:01.235-07:00"
+    },
+    "endDate" : {
+      "displayEffectiveEndDate" : "2030-02-09T11:59:59.235-07:00",
+      "offerEffectiveEndDate" : "2030-02-09T11:59:59.235-07:00",
+      "offerTestEffectiveEndDate" : "2030-02-09T11:59:59.235-07:00"
+    },
+    "applicableTo" : {
+      "divisions" : {
+        "23" : "HOUSTON"
+      },
+      "storeGroups" : [ "8218" ],
+      "terminals" : [ "11401" ],
+      "storeIds" : ["118"],
+
+      "postalCodes" : [],
+      "upcs" : ["1234567890", "0987654321"]
+    },
+    "qualification" : {
+      "qualificationUnitType" : "PRODUCT",
+      "qualificationUnitSubType" : "QUANTITY",
+      "minProdPurchaseUnits" : 1,
+      "maxProdPurchaseUnits" : 1,
+      "minOrderTotalAmount" : 8.65,
+      "isBuyXGetYOffer" : false
+    },
+    "benefit" : {
+      "benefitValueType" : "FIXED_PRICE",
+      "benefitValue" : 8.65
+    },
+    "usageLimits" : {
+      "usageLimitTypePerUser" : "ONCE_PER_OFFER",
+      "usageLimitPerUser" : 1
+    }
+  }
+}

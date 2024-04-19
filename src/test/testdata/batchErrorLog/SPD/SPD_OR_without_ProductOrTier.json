@@ -1,0 +1,24 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "ProductNumOrTier",
+        "error": "If you have more than one row in the same OR Group then you must include a 'Product or Tier #'.",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  },
+  {
+    "rowNumber": 3,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "ProductNumOrTier",
+        "error": "If you have more than one row in the same OR Group then you must include a 'Product or Tier #'.",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

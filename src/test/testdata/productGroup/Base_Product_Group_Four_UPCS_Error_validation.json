@@ -1,0 +1,20 @@
+{
+  "error": [
+    {
+      "upc": "73402790920",
+      "message": "This UPC doesn't have recent sales"
+    },
+    {
+      "upc": "71375737233",
+      "message": "UPC is not valid in any ROG"
+    },
+    {
+      "upc": "60308429394",
+      "message": "This is a Displayer UPC"
+    },
+    {
+      "upc": "12345",
+      "message": "Invalid UPC"
+    }
+  ]
+}

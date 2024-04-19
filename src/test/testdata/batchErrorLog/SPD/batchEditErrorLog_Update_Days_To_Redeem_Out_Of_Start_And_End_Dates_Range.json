@@ -1,0 +1,28 @@
+[
+  {
+    "entityId": "1166020604",
+    "offerId": "",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "DynamicOffer Offer redeemable days cannot exceed the number of days from the Start & End Date of the Offer",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  },
+  {
+    "entityId": "1166020604",
+    "offerId": "",
+    "rowNumber": 3,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "DynamicOffer Offer redeemable days cannot exceed the number of days from the Start & End Date of the Offer",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  }
+]

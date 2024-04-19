@@ -1,0 +1,562 @@
+{
+  "offer": {
+    "conditions": {
+      "customers": {
+        "included": [
+          {
+            "customerGroupNm": "Customer group for 12026049"
+          }
+        ],
+        "excluded": []
+      },
+      "products": [
+        {
+          "incProductGroupNm": "Product group for 12026049",
+          "excProductGroupNm": "",
+          "productComboConditionOper": "",
+          "amountType": "Items",
+          "uniqueProductInd": false,
+          "minPurchaseAmt": 0,
+          "tiers": [
+            {
+              "productAmt": 2
+            }
+          ],
+          "accumulation": {
+            "minAmt": 0,
+            "limitNbr": 0,
+            "periodDayNbr": 0
+          }
+        }
+      ]
+    },
+    "rewards": {
+      "discount": {
+        "productgroup": {
+          "discountType": "Item Level",
+          "incProductGroupNm": "Product group for 12026049",
+          "excProductGroupNm": ""
+        },
+        "chargebackdepartment": {
+          "name": "Item's Department"
+        },
+        "distribution": {
+          "distributionType": "Fixed Amount Off",
+          "tiers": [
+            {
+              "tierAmt": 0.5,
+              "tierItemLimitNbr": 0,
+              "tierMaxDollarItemLimitAmt": 0,
+              "tierReceiptTxt": "WC Oreo Cookies"
+            }
+          ]
+        },
+        "scorecard": {
+          "scorecardEnableInd": false,
+          "scorecardNm": "",
+          "scorecardLineTxt": ""
+        },
+        "advanced": {
+          "computeDiscountInd": true,
+          "bestdealInd": false,
+          "allowNegativeInd": false,
+          "flexNegativeInd": true
+        }
+      }
+    },
+    "notifications": {},
+    "locations": {
+      "storegroups": {
+        "included": [
+          {
+            "storeGroupNm": "Webtool 9842"
+          }
+        ],
+        "excluded": ""
+      },
+      "terminals": {
+        "included": [
+          {
+            "terminalNm": "All CPE Terminals"
+          }
+        ],
+        "excluded": []
+      }
+    },
+    "incentiveId": 404559,
+    "deployInd": false,
+    "deferDeployInd": false,
+    "engineTypeNm": "CPE",
+    "lastUpdateTs": "2020-07-13T14:45:53.707",
+    "general": {
+      "identification": {
+        "offerNm": "NC HI CWI WC JUL BBOS Oreos PLU 77151 06162000176P002",
+        "offerDsc": "Save $1 when you buy any 2 Oreo Cookies PLU 77151(offer imported - original offer ID 12026049)",
+        "offerExternaId": "06162000176P002",
+        "categoryDsc": "003-J4U Store eCoupons (elec)",
+        "vendorCouponCd": ""
+      },
+      "priority": {
+        "priorityNm": "Medium",
+        "footerPriorityMsgTxt": 0
+      },
+      "dates": {
+        "testing": {
+          "testingStartDt": "2020-06-16T00:00:00",
+          "testingEndDt": "2020-07-28T00:00:00"
+        },
+        "eligibility": {
+          "eligibilityStartDt": "2020-07-01T00:00:00",
+          "eligibilityEndDt": "2020-07-28T00:00:00"
+        },
+        "production": {
+          "productionStartDt": "2020-07-01T00:00:00",
+          "productionEndDt": "2020-07-28T00:00:00"
+        }
+      },
+      "limits": {
+        "eligibility": {
+          "eligibilityFrequencyNm": "Once Per Transaction"
+        },
+        "reward": {
+          "rewardsFrequencyNm": "Once Per Offer"
+        }
+      },
+      "inboundoutbound": {
+        "creationSourceNm": "Logix",
+        "outboundSourceNm": "None",
+        "chargebackVendorId": ""
+      },
+      "employees": {
+        "employeeEligibilityTypNm": "None"
+      },
+      "advanced": {
+        "eosDeferInd": false,
+        "issuanceInd": false,
+        "manufacturerCouponInd": false,
+        "reporting": {
+          "impressionInd": false,
+          "redemptionInd": true
+        }
+      }
+    }
+  },
+  "productgroups": [
+    {
+      "productGroupNm": "Product group for 12026049",
+      "productGroupDsc": "",
+      "lastUpdateTs": "2020-07-13T14:44:36.323",
+      "products": [
+        {
+          "extProductId": "00000000077151",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "CPN SNACKS COPIENT 77151"
+        },
+        {
+          "extProductId": "00002113099999",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "JUST FOR U WEEKLY COUPONS"
+        },
+        {
+          "extProductId": "00004400002529",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC COOKIES OREO CHOCOLATE CREME"
+        },
+        {
+          "extProductId": "00004400002540",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC COOKIES OREO GOLDEN DOUBLE STUF"
+        },
+        {
+          "extProductId": "00004400002541",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC COOKIES OREO PEANUT BUTTER CREME"
+        },
+        {
+          "extProductId": "00004400002542",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC COOKIES OREO MINT CREME"
+        },
+        {
+          "extProductId": "00004400002854",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO COOKIES DOUBLE STUFF"
+        },
+        {
+          "extProductId": "00004400002859",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC COOKIES WINTER OREO"
+        },
+        {
+          "extProductId": "00004400003101",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO CKY SANDWICH CREME LEMON TWIST"
+        },
+        {
+          "extProductId": "00004400003202",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO COOKIES REGULAR"
+        },
+        {
+          "extProductId": "00004400003258",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC COOKIE OREO SANDWICH GOLDEN"
+        },
+        {
+          "extProductId": "00004400003259",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC COOKIES OREO REDUCED FAT"
+        },
+        {
+          "extProductId": "00004400003271",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC CAKE OREO BIRTHDAY"
+        },
+        {
+          "extProductId": "00004400003323",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO MEGA STUF LIMITED EDITION"
+        },
+        {
+          "extProductId": "00004400003324",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC SNDWCH CKY GOLDEN OREO FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400003325",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO COOKIES DOUBLE STUF FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400003327",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO MLK COOKIE FAVORITE FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400003946",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO SMORES"
+        },
+        {
+          "extProductId": "00004400004257",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO CHOCOLATE THIN"
+        },
+        {
+          "extProductId": "00004400004258",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO THIN GOLDEN"
+        },
+        {
+          "extProductId": "00004400004260",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO THIN MINT"
+        },
+        {
+          "extProductId": "00004400004387",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO THINS LEMON"
+        },
+        {
+          "extProductId": "00004400004454",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO RED VELVET"
+        },
+        {
+          "extProductId": "00004400004469",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO MINT FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400004470",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO GOLDEN DOUBLE STUF FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400004717",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC HONEY MAID GRAHAMS FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400005045",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO FIREWORK"
+        },
+        {
+          "extProductId": "00004400005046",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO APPLE PIE"
+        },
+        {
+          "extProductId": "00004400005126",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NBC OREO THINS COCONUT CREME"
+        },
+        {
+          "extProductId": "00004400005161",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THIN BITES COOKIES ORIGINAL"
+        },
+        {
+          "extProductId": "00004400005176",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THIN BITES COOKIES DIPPED ORIGINAL"
+        },
+        {
+          "extProductId": "00004400005177",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THIN BITES COOKIES DIPPED MINT CREM"
+        },
+        {
+          "extProductId": "00004400005371",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO COOKIES PARTY SIZE"
+        },
+        {
+          "extProductId": "00004400005372",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO COOKIES DOUBLE STUF"
+        },
+        {
+          "extProductId": "00004400005387",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO LEMON FAMILY SIZE"
+        },
+        {
+          "extProductId": "00004400005389",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO FAMILY SIZE HLWN"
+        },
+        {
+          "extProductId": "00004400005489",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THINS COOKIES FAMILY SIZE ORGINIAL1"
+        },
+        {
+          "extProductId": "00004400005490",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THINS COOKIES MINT CREME 1X13.1 OZ"
+        },
+        {
+          "extProductId": "00004400005503",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THINS COOKIES PISTACHIO"
+        },
+        {
+          "extProductId": "00004400005544",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO COOKIES MYSTERY"
+        },
+        {
+          "extProductId": "00004400005579",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO SNDWCH CKY CHOC PEANUT BUTTER PIE"
+        },
+        {
+          "extProductId": "00004400005667",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO COOKIES PEPPERMINT BARK"
+        },
+        {
+          "extProductId": "00004400005802",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO THIN BITES COOKIES WHITE FUDGE 1X6."
+        },
+        {
+          "extProductId": "00004400005803",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO SANDWICH COOKIES DARK CHOCOLATE"
+        },
+        {
+          "extProductId": "00004400005804",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO SANDWICH COOKIES CARROT CAKE"
+        },
+        {
+          "extProductId": "00004400005805",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "CHIPS AHOY THIN BITES CKY DIPPED ORIG"
+        },
+        {
+          "extProductId": "00004400005833",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "GOLDEN OREO SANDWICH COOKIES"
+        },
+        {
+          "extProductId": "00004400005842",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO COOKIES LOVE 1X10.7 OZ"
+        },
+        {
+          "extProductId": "00004400005844",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO COOKIES CHOCOLATE FUDGE"
+        },
+        {
+          "extProductId": "00004400005845",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NUTTER BUTTER COOKIES CHOCOLATE FUDGE"
+        },
+        {
+          "extProductId": "00004400005866",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO COOKIES EASTER EGG"
+        },
+        {
+          "extProductId": "00004400005867",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO COOKIES THE MOST STUF"
+        },
+        {
+          "extProductId": "00004400005869",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO SANDWICH COOKIES MEGA STUFF"
+        },
+        {
+          "extProductId": "00004400005870",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400005876",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "OREO SANDWICH COOKIES CHOCOLATE CREAM"
+        },
+        {
+          "extProductId": "00004400005914",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400005955",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400005956",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400005957",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006014",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006015",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006038",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006039",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006041",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006043",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006045",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006050",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006103",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006107",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006112",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006113",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006140",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006141",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006344",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006375",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006376",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006516",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00004400006518",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        }
+      ]
+    }
+  ],
+  "storegroups": [
+    {
+      "storeGroupNm": "Webtool 9842",
+      "lastUpdateTs": "2018-03-27T18:12:23.970",
+      "stores": [
+        {
+          "extLocationCd": "q259842",
+          "storeNm": "q259842",
+          "storeDsc": "",
+          "storeTestingInd": false,
+          "addressTxt": " ",
+          "cityNm": "",
+          "state": "",
+          "postalCd": "",
+          "countryNm": "United States"
+        }
+      ]
+    }
+  ]
+}

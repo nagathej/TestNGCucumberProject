@@ -1,0 +1,18 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "offerType",
+        "error": "Offer Type is required",
+        "errorType": "ERROR_DURING_VALIDATION"
+      },
+      {
+        "columnName": "",
+        "error": "Invalid UoM Items for Offer Type ",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

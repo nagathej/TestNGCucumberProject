@@ -1,0 +1,446 @@
+{
+  "headers": {
+    "eesEnvironmentType": "testEnvironment",
+    "clientId": false,
+    "eesSubsystemId": "hydra-zk7d",
+    "unitFriendlyName": "Albertsons",
+    "externalMessageId": "",
+    "eesMasterEventId": "Y4FhlgoNklLqzg6iQEspVQAAAPU",
+    "callerIp": "127.0.0.1",
+    "eesEventId": "bda0ca66-d135-4470-9a09-ea35880976e0",
+    "eesApiVersion": "2.0",
+    "clientIdFriendlyName": "api",
+    "eventName": "CAMPAIGN.UPDATE",
+    "unitId": "9003438",
+    "eventDate": "2022-11-26T00:45:10.071202"
+  },
+  "request": {
+    "method": "PUT",
+    "resource": "campaigns",
+    "body": "",
+    "contentType": "application/x-www-form-urlencoded",
+    "customHeaders": []
+  },
+  "atomicOperations": [
+    {
+      "operationType": "UPDATE",
+      "objectValue": {
+        "settings": {
+          "tokenProvider": "ThirdPartyRealTime",
+          "walletEnabled": false,
+          "accountClientType": "MANUFACTURER",
+          "defaultAccountClientState": null,
+          "issuanceMethod": null,
+          "tokenFormat": "000000089"
+        },
+        "custom": {
+          "mfg": {
+            "manufacturerName": "W.J. DEUTSCH & SONS",
+            "manufacturerOfferId": "030177",
+            "productBrand": "yellow tail",
+            "nchManufacturerId": "",
+            "countryId": "US",
+            "excludedZip": null,
+            "departmentCategory": "Wine, Beer & Spirits",
+            "familyCodes": "200",
+            "actionPeriodDuration": 0,
+            "targetedBanners": "jewelosco",
+            "variantId": "b9202fa9-ccb5-41a0-bc71-c029780a8154",
+            "productDescription": "yellow tail wine",
+            "incentiveId": "65d3343f-39b3-4018-b1d7-bde918a0c7ce",
+            "brandName": "yellow tail",
+            "product": "yellow tail wine",
+            "includedZip": null,
+            "includedStates": "IL",
+            "requirementDescription": "Valid on 1.5L, any variety. Items must appear on the same receipt.",
+            "manufacturerCode": "0031259",
+            "clearingHouseMfgId": "14650",
+            "targetingData": "{\"location\":{\"type\":\"State\",\"option\":\"Includes\",\"state_targeting_ids\":[\"IL\"]},\"store_conditions\":{\"type\":\"Valid At\",\"retailers\":[{\"freedom_store_id\":\"91\",\"freedom_store_name\":\"Jewel-Osco\",\"distributor_store_name\":\"jewelosco\"}]}}",
+            "excludedStates": null,
+            "offerCode": "030177",
+            "freedomLastUpdated": "2022-11-25T22:37:50+00:00",
+            "currencyCode": "USD",
+            "householdTargeting": null
+          }
+        },
+        "rules": {
+          "useLocalTime": null,
+          "redemption": {
+            "redemption": null,
+            "exclusion": null,
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 1,
+            "dates": {
+              "redemption": null,
+              "exclusion": {
+                "active": false
+              }
+            },
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 1,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": true,
+            "hiddenFromRelatedWallets": false
+          },
+          "start": null,
+          "locations": null,
+          "expiry": {
+            "date": "2023-01-31T23:59:59+00:00",
+            "valueType": null,
+            "type": "DATE",
+            "value": null
+          },
+          "creation": {
+            "campaignLimit": 3000,
+            "consumerLimit": 1,
+            "consumerLimitPerPeriod": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "consumerLimitActive": 1
+          },
+          "verification": {
+            "lock": false,
+            "lockOnVerify": true
+          }
+        },
+        "dates": {
+          "redemption": {
+            "redemption": [],
+            "exclusion": [],
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 0,
+            "dates": null,
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": null,
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 0,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": false,
+            "hiddenFromRelatedWallets": false
+          },
+          "exclusion": null
+        },
+        "artwork": {
+          "imageUrl": "https://images.freedomapi.com/creatives/2da8b752-36c4-4cca-a5ad-b8473c3c13f9/ae68a18c-f4de-4cc6-ae17-29003533bc99.png",
+          "encodedImage": null
+        },
+        "type": "DISCOUNT_PRODUCTS",
+        "windows": {
+          "redemption": [],
+          "creation": [],
+          "active": false
+        },
+        "version": 2,
+        "reference": "000032993",
+        "offer": {
+          "reward": {
+            "standard": null,
+            "basket": null,
+            "pointSpendRates": [],
+            "product": {
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "300",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "3125900893",
+                          "3125900895",
+                          "3125900923",
+                          "3125903286",
+                          "3125900972",
+                          "3125903265",
+                          "3125900946",
+                          "83974300158",
+                          "83974300169",
+                          "83974300149",
+                          "83974300152",
+                          "31259004410",
+                          "3125901869",
+                          "3125903266",
+                          "3125901405",
+                          "3125900955",
+                          "3125901407"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "treatAs": {
+              "type": "tender"
+            }
+          },
+          "offerType": "FIXED_AMOUNT_OFF_PRODUCTS",
+          "qualification": {
+            "basket": null,
+            "product": {
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "3125900893",
+                          "3125900895",
+                          "3125900923",
+                          "3125903286",
+                          "3125900972",
+                          "3125903265",
+                          "3125900946",
+                          "83974300158",
+                          "83974300169",
+                          "83974300149",
+                          "83974300152",
+                          "31259004410",
+                          "3125901869",
+                          "3125903266",
+                          "3125901405",
+                          "3125900955",
+                          "3125901407"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 2,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "tenders": [],
+            "locations": {
+              "jewelosco": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "jewelosco": [
+                      "State-IL"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              }
+            }
+          },
+          "continuity": null,
+          "promoId": "81101003125903017733001202001312011030839743003230108",
+          "boltOn": null
+        },
+        "relationships": null,
+        "lastUpdated": "2022-11-26T00:45:10+00:00",
+        "dateCreated": "2022-11-25T22:37:50+00:00",
+        "partners": {
+          "redemption": [
+            {
+              "redemptionLimit": null,
+              "partner": "9003447"
+            }
+          ],
+          "creation": []
+        },
+        "distributionChannels": {
+          "abscoDigital": {
+            "data": {
+              "digitalListViewImage": {
+                "fieldName": "digitalListViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/2da8b752-36c4-4cca-a5ad-b8473c3c13f9/ae68a18c-f4de-4cc6-ae17-29003533bc99.png",
+                "fieldType": "image"
+              },
+              "digitalDescription": {
+                "fieldName": "digitalDescription",
+                "fieldData": "Buy TWO(2) of yellow tail wine (Valid on 1.5L, any variety. Items must appear on the same receipt).",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriodLimit": {
+                "fieldName": "consumerLimitPerPeriodLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriod": {
+                "fieldName": "consumerLimitPerPeriod",
+                "fieldData": "0",
+                "fieldType": "text"
+              },
+              "digitalSavingsValue": {
+                "fieldName": "digitalSavingsValue",
+                "fieldData": "$3.00 OFF",
+                "fieldType": "text"
+              },
+              "redemptionFrequency": {
+                "fieldName": "redemptionFrequency",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "redemptionLimit": {
+                "fieldName": "redemptionLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "digitalViewImage": {
+                "fieldName": "digitalViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/2da8b752-36c4-4cca-a5ad-b8473c3c13f9/ae68a18c-f4de-4cc6-ae17-29003533bc99.png",
+                "fieldType": "image"
+              },
+              "rejectionReasonCode": {
+                "fieldName": "rejectionReasonCode",
+                "fieldData": "",
+                "fieldType": "text"
+              },
+              "rejectionDescription": null,
+              "retailerIssuanceLimit": {
+                "fieldName": "retailerIssuanceLimit",
+                "fieldData": "3000",
+                "fieldType": "text"
+              },
+              "campaignLimit": {
+                "fieldName": "campaignLimit",
+                "fieldData": "3000",
+                "fieldType": "text"
+              },
+              "consumerLimit": {
+                "fieldName": "consumerLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "brand": {
+                "fieldName": "brand",
+                "fieldData": "W.J. DEUTSCH & SONS",
+                "fieldType": "text"
+              },
+              "consumerLimitActive": {
+                "fieldName": "consumerLimitActive",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "couponDisclaimer": {
+                "fieldName": "couponDisclaimer",
+                "fieldData": "Terms. Consumer: A purchase of two (2) bottles of [ yellow tail ] wine (1.5L only, any varietal of at least $3.01 each, excluding sales tax, is required to redeem this coupon. Coupon valid from 12/12/22 to 1/31/23 at participating off-premises retail locations. Valid in IL and on all military bases located in the United States where legal and accepted. Must be 21 years of age or older. Present this coupon at checkout and receive the face value of this coupon off the purchase price of the eligible alcoholic product(s) indicated. Limit one coupon per purchase. Employees and family members of Deutsch Family Wine & Spirits, its affiliated companies, and alcoholic beverage licensees are not eligible to participate. Coupon may not be copied, multiplied in face value, combined with any other offer, transferred or sold. Consumer pays applicable sales tax. Void where prohibited, taxed, or restricted by law. Retailer: We will reimburse you the face value of this coupon plus 8¢ handling, provided it is properly redeemed according to the Terms stated on this coupon. Offer redeemable only by participating licensed off-premise retailers of wine located in states listed above. Coupons not properly redeemed will be void and held. Invoices proving timely purchase of stock, if applicable, must be submitted upon request. Reproduction of this coupon is expressly prohibited. Any other use constitutes fraud. Coupon cannot be doubled. Customer must pay any sales tax. Redemption or handling of this coupon not according to its Terms constitutes fraud. Cash value .001¢. To redeem, coupons must be mailed/postmarked no later than 30 days after the expiration date and sent to: OFFER #030177 DFWS Dept #21, Arrowhead Promotion, PO Box 130009, El Paso, TX 88513. Void where taxed or prohibited. LIMIT ONE COUPON PER CUSTOMER RECEIPT. [ yellow tail ] is a registered trademark of Casella Wines Pty Ltd. ©2022 Deutsch Family Wine & Spirits, Stamford, CT. Watch Your Tail. Please Drink Responsibly. ",
+                "fieldType": "text"
+              },
+              "ecommOnly": {
+                "fieldName": "ecommOnly",
+                "fieldData": "false",
+                "fieldType": "checkbox"
+              }
+            },
+            "partners": [
+              null
+            ],
+            "active": "true",
+            "channelId": "4"
+          },
+          "ecrebo": {
+            "data": null,
+            "partners": [
+              null
+            ],
+            "active": false,
+            "channelId": 5
+          }
+        },
+        "details": {
+          "mode": "TARGETED",
+          "endDate": "2022-12-18T23:59:59+00:00",
+          "alternativeDescription": "yellow tail wine",
+          "name": "yellow tail wine",
+          "description": "API Automation $3.00 OFF when you buy TWO(2) yellow tail wine",
+          "alternativeName": "$3.00 OFF",
+          "printerMessage": "Valid on 1.5L, any variety. Items must appear on the same receipt.",
+          "startDate": "2022-12-12T00:00:00+00:00",
+          "screenMessage": "Valid on 1.5L, any variety. Items must appear on the same receipt.",
+          "tags": [
+            "NAM",
+            "Digital",
+            "Register",
+            "reportMFGDigital",
+            "OMS"
+          ]
+        },
+        "id": "32993112",
+        "jsonMemberClass": null,
+        "status": "READY"
+      },
+      "objectType": "campaignEntity"
+    }
+  ],
+  "response": {
+    "code": 201,
+    "body": "",
+    "contentType": false
+  }
+}

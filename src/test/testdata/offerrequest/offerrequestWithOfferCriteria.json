@@ -1,0 +1,35 @@
+{
+           "info": {
+                "id": 865431919,
+                "pluTriggerBarcode": "66666",
+                "deliveryChannel": "CC",
+                "brandAndSize": "12",
+                "nopaNumbers": null,
+                "nopaStartDate": "2019-10-01T07:00:00.000+00:00",
+                "nopaEndDate": "2019-11-05T06:59:58.000+00:00",
+                "billingOptions": "",
+                "desc": null,
+                "programCode": "SC",
+               "digitalStatus": "S",
+               "nonDigitalStatus": "S",
+                "attachments": null
+            },
+            "rules": {
+                "startDate": {
+                    "offerEffectiveStartDate": "2019-10-01T07:00:00.000+00:00"
+                },
+                "endDate": {
+                    "offerEffectiveEndDate": "2019-11-05T06:59:58.000+00:00"
+                },
+                "customerSegment": "Any Customer",
+                "department": "Advertising",
+                "usageLimitTypePerUser": "ONCE_PER_WEEK",
+                "qualificationAndBenefit": {}
+            },
+            "lastUpdatedTs": 1572584893.251000000,
+            "createdTs": 1572584893.251000000,
+            "createdApplicationId": "systemAppId",
+            "createdUserId": "OMS",
+            "lastUpdatedApplicationId": "systemAppId",
+            "lastUpdatedUserId": "OMS"
+        }

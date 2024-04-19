@@ -1,0 +1,4 @@
+{
+  "query": "id=1424655794",
+  "fetchFields" : ["auditAction","createdBy","changeset"]
+}

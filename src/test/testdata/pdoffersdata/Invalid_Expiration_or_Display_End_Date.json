@@ -1,0 +1,102 @@
+{
+  "info": {
+    "id": {
+      "externalOfferId": "1720P1419_000171"
+    },
+    "offerProviderName": "AutomationApiTestDataCreation",
+    "categories": {
+      "5": "Beverages"
+    },
+    "primaryCategory": {
+      "5": "Beverages"
+    },
+    "events": {
+      "6029": "Hot Offers"
+    },
+    "offerProgramCode": "PD",
+    "offerStatus": "P",
+    "description": {
+      "titleDescription": {
+        "titleDsc2": "Juice",
+        "titleDsc1": "Test Offer"
+      },
+      "productDescription": {
+        "prodDsc1": "15.2-oz."
+      },
+      "receiptDescriptions": "",
+      "disclaimerText": "Offer is valid only at Safeway, Albertsons and Vons stores located in Arizona, New Mexico, Southern Nevada, El Paso, Texas and Southwestern Utah.",
+      "priceTitle": "Special Offer",
+      "priceValue": "$1.99"
+    },
+    "productImageId": "54030517_54064055.gif",
+    "shouldReportRedemptions": true,
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": false,
+    "auditInfo": {
+      "createdTs": "2019-03-27T20:28:17.000-06:00",
+      "createdApplicationId": "EMOM",
+      "createdUserId": "EM00OM",
+      "lastUpdatedApplicationId": "EMOM",
+      "lastUpdatedUserId": "EM00OM",
+      "lastUpdatedTs": "2019-03-27T20:28:17.000-06:00"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2020-04-03T00:00:00.000-06:00",
+      "offerEffectiveStartDate": "2020-04-03T00:00:00.000-06:00",
+      "offerTestEffectiveStartDate": "2020-04-03T00:00:00.000-06:00"
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2050-03-02T00:00:00.000-06:00",
+      "offerEffectiveEndDate": "2050-03-02T00:00:00.000-06:00",
+      "offerTestEffectiveEndDate": "2050-03-02T00:00:00.000-06:00"
+    },
+    "applicableTo": {
+      "banners": {},
+      "divisions": {
+        "17": "SOUTHWEST"
+      },
+      "channels": [],
+      "terminals": [
+        "13",
+        "15",
+        "28",
+        "11405",
+        "100",
+        "11404",
+        "11407",
+        "11406",
+        "13979",
+        "113",
+        "11409",
+        "11408",
+        "13554",
+        "13553",
+        "11401",
+        "11412",
+        "11411",
+        "11414",
+        "11403",
+        "13556",
+        "11402",
+        "10"
+      ],
+      "storeIds": [],
+      "postalCodes": []
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "QUANTITY",
+      "maxProdPurchaseUnits": 0,
+      "isBuyXGetYOffer": false
+    },
+    "benefit": {
+      "benefitValueType": "FIXED_PRICE"
+    },
+    "usageLimits": {
+      "usageLimitTypePerUser": "ONCE_PER_OFFER",
+      "usageLimitPerOffer": 0
+    }
+  }
+}

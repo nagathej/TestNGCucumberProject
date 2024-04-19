@@ -1,0 +1,32 @@
+{
+  "excludeStores": [
+    1117,
+    2776,
+    2874,
+    3066,
+    5813,
+    5815
+  ],
+  "includeStores": [],
+  "description": "",
+  "id": "",
+  "storeGroupName": "store group with multiple divisions_env",
+  "storesSearchCriteria": {
+    "divisions": [
+      "NOR. CALIFORNIA",
+      "SEATTLE"
+    ],
+    "divisionRogCds": {
+      "SEATTLE": [
+        "SACG",
+        "SSEA",
+        "SSPK"
+      ],
+      "NOR. CALIFORNIA": [
+        "SHAW",
+        "SNCA"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

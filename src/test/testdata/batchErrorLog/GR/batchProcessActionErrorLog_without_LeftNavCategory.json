@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": " leftNavCategory",
+        "error": "Left Nav Category is required",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  }
+]

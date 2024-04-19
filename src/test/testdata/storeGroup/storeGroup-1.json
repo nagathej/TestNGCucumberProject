@@ -1,0 +1,42 @@
+{
+  "excludeStores": [
+    "203",
+    "204",
+    "205",
+    "207",
+    "211",
+    "214",
+    "215",
+    "275",
+    "280",
+    "1087",
+    "1117",
+    "1209",
+    "1222",
+    "1263",
+    "1500",
+    "2208",
+    "2218",
+    "2747",
+    "2893",
+    "2894",
+    "2897",
+    "2944",
+    "3092",
+    "5807"
+  ],
+  "includeStores": [
+    "13"
+  ],
+  "id": "",
+  "description": "",
+  "storeGroupName": "APIAutoNorcalStoreGroup_env",
+  "storesSearchCriteria": {
+    "divisionRogCds": {
+      "NOR. CALIFORNIA": [
+        "SHAW"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

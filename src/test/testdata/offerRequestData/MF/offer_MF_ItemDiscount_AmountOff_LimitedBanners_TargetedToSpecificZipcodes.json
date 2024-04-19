@@ -1,0 +1,571 @@
+{
+  "headers": {
+    "eesEnvironmentType": "testEnvironment",
+    "clientId": false,
+    "eesSubsystemId": "hydra-zk7d",
+    "unitFriendlyName": "Albertsons",
+    "externalMessageId": "",
+    "eesMasterEventId": "Y4AXNcGexp-U4I0f2b1hOAAAAYM",
+    "callerIp": "127.0.0.1",
+    "eesEventId": "4c39b44e-28e4-4f3a-9930-0b4a544d7a78",
+    "eesApiVersion": "2.0",
+    "clientIdFriendlyName": "api",
+    "eventName": "CAMPAIGN.UPDATE",
+    "unitId": "9003438",
+    "eventDate": "2022-11-25T01:15:33.616972"
+  },
+  "request": {
+    "method": "PUT",
+    "resource": "campaigns",
+    "body": "",
+    "contentType": "application/x-www-form-urlencoded",
+    "customHeaders": []
+  },
+  "atomicOperations": [
+    {
+      "operationType": "UPDATE",
+      "objectValue": {
+        "settings": {
+          "tokenProvider": "ThirdPartyRealTime",
+          "walletEnabled": false,
+          "accountClientType": "MANUFACTURER",
+          "defaultAccountClientState": null,
+          "issuanceMethod": null,
+          "tokenFormat": "000000089"
+        },
+        "custom": {
+          "mfg": {
+            "manufacturerName": "Keurig Dr Pepper",
+            "manufacturerOfferId": "051164",
+            "productBrand": "Mr & Mrs T",
+            "nchManufacturerId": "",
+            "countryId": "US",
+            "excludedZip": null,
+            "departmentCategory": "Beverage",
+            "familyCodes": "000",
+            "actionPeriodDuration": 0,
+            "targetedBanners": "jewelosco",
+            "variantId": "d136d92c-6c98-4af4-8fba-e638048e91ae",
+            "productDescription": "Mr & Mrs T",
+            "incentiveId": "f5568cee-8d23-4266-8be2-41e22adf89f3",
+            "brandName": "Mr & Mrs T",
+            "product": "Mr & Mrs T",
+            "includedZip": "60626,60439,60901,60714,61704,60506,60517,60638,60649,60803,60605,60616,60639,60914,60617,60607,60618,60608,60609,60091,60191,60081,60060,60181,60192,46321,60160,60050,60193,61282,46311,60491,60073,60194,60084,60030,60074,60085,60020,60031,60174,60185,60560,60450,60120,60010,60131,60021,60142,60087,60098,46304,60440,60561,60451,60462,60473,60154,61265,60187,60077,60099,60540,60661,61761,60430,60441,60452,60463,61244,60045,60056,60177,60067,60188,60089,60640,60563,60453,60101,60464,60002,60013,60035,60178,60068,46307,60630,60641,60564,60102,60586,52732,60014,60025,60047,60510,60411,60532,60543,60554,60202,60103,60477,60004,60015,60026,60048,60169,60620,60632,60643,60302,60423,60544,60467,60115,60005,60126,60016,60137,60148,60610,60402,60655,60435,60446,60457,60622,60634,60656,60304,60447,60106,60007,60018,60139,61701,60514,60404,60525,60657,60305,60459,60107,60118,60008,60613,60515,60526,60559,60119,60614,60504",
+            "includedStates": null,
+            "requirementDescription": "Valid on ONE (1) 1-liter bottles of any flavor* Mr & Mrs T *Flavors subject to availability.",
+            "manufacturerCode": "0070655",
+            "clearingHouseMfgId": "216",
+            "targetingData": "{\"location\":{\"type\":\"Zipcode\",\"option\":\"Includes\",\"zipcode_details\":[\"60626\",\"60439\",\"60901\",\"60714\",\"61704\",\"60506\",\"60517\",\"60638\",\"60649\",\"60803\",\"60605\",\"60616\",\"60639\",\"60914\",\"60617\",\"60607\",\"60618\",\"60608\",\"60609\",\"60091\",\"60191\",\"60081\",\"60060\",\"60181\",\"60192\",\"46321\",\"60160\",\"60050\",\"60193\",\"61282\",\"46311\",\"60491\",\"60073\",\"60194\",\"60084\",\"60030\",\"60074\",\"60085\",\"60020\",\"60031\",\"60174\",\"60185\",\"60560\",\"60450\",\"60120\",\"60010\",\"60131\",\"60021\",\"60142\",\"60087\",\"60098\",\"46304\",\"60440\",\"60561\",\"60451\",\"60462\",\"60473\",\"60154\",\"61265\",\"60187\",\"60077\",\"60099\",\"60540\",\"60661\",\"61761\",\"60430\",\"60441\",\"60452\",\"60463\",\"61244\",\"60045\",\"60056\",\"60177\",\"60067\",\"60188\",\"60089\",\"60640\",\"60563\",\"60453\",\"60101\",\"60464\",\"60002\",\"60013\",\"60035\",\"60178\",\"60068\",\"46307\",\"60630\",\"60641\",\"60564\",\"60102\",\"60586\",\"52732\",\"60014\",\"60025\",\"60047\",\"60510\",\"60411\",\"60532\",\"60543\",\"60554\",\"60202\",\"60103\",\"60477\",\"60004\",\"60015\",\"60026\",\"60048\",\"60169\",\"60620\",\"60632\",\"60643\",\"60302\",\"60423\",\"60544\",\"60467\",\"60115\",\"60005\",\"60126\",\"60016\",\"60137\",\"60148\",\"60610\",\"60402\",\"60655\",\"60435\",\"60446\",\"60457\",\"60622\",\"60634\",\"60656\",\"60304\",\"60447\",\"60106\",\"60007\",\"60018\",\"60139\",\"61701\",\"60514\",\"60404\",\"60525\",\"60657\",\"60305\",\"60459\",\"60107\",\"60118\",\"60008\",\"60613\",\"60515\",\"60526\",\"60559\",\"60119\",\"60614\",\"60504\"]},\"store_conditions\":{\"type\":\"Valid At\",\"retailers\":[{\"freedom_store_id\":\"91\",\"freedom_store_name\":\"Jewel-Osco\",\"distributor_store_name\":\"jewelosco\"}]}}",
+            "excludedStates": null,
+            "offerCode": "051164",
+            "freedomLastUpdated": "2022-11-24T23:36:49+00:00",
+            "currencyCode": "USD",
+            "householdTargeting": null
+          }
+        },
+        "rules": {
+          "useLocalTime": null,
+          "redemption": {
+            "redemption": null,
+            "exclusion": null,
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 1,
+            "dates": {
+              "redemption": null,
+              "exclusion": {
+                "active": false
+              }
+            },
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 1,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": true,
+            "hiddenFromRelatedWallets": false
+          },
+          "start": null,
+          "locations": null,
+          "expiry": {
+            "date": "2023-01-03T23:59:59+00:00",
+            "valueType": null,
+            "type": "DATE",
+            "value": null
+          },
+          "creation": {
+            "campaignLimit": 80000,
+            "consumerLimit": 1,
+            "consumerLimitPerPeriod": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "consumerLimitActive": 1
+          },
+          "verification": {
+            "lock": false,
+            "lockOnVerify": true
+          }
+        },
+        "dates": {
+          "redemption": {
+            "redemption": [],
+            "exclusion": [],
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 0,
+            "dates": null,
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": null,
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 0,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": false,
+            "hiddenFromRelatedWallets": false
+          },
+          "exclusion": null
+        },
+        "artwork": {
+          "imageUrl": "https://images.freedomapi.com/creatives/447b6e69-1fda-4ca1-8111-271229f2dc3d/ece8df2d-0f0a-47c3-9e19-cd44d106f42d.png",
+          "encodedImage": null
+        },
+        "type": "DISCOUNT_PRODUCTS",
+        "windows": {
+          "redemption": [],
+          "creation": [],
+          "active": false
+        },
+        "version": 2,
+        "reference": "000032974",
+        "offer": {
+          "reward": {
+            "standard": null,
+            "basket": null,
+            "pointSpendRates": [],
+            "product": {
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "50",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "7065590130",
+                          "7065590230",
+                          "7065591230"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "treatAs": {
+              "type": "tender"
+            }
+          },
+          "offerType": "FIXED_AMOUNT_OFF_PRODUCTS",
+          "qualification": {
+            "basket": null,
+            "product": {
+              "jewelosco": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "7065590130",
+                          "7065590230",
+                          "7065591230"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "tenders": [],
+            "locations": {
+              "jewelosco": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": null
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "jewelosco": [
+                      "Zip-60626",
+                      "Zip-60439",
+                      "Zip-60901",
+                      "Zip-60714",
+                      "Zip-61704",
+                      "Zip-60506",
+                      "Zip-60517",
+                      "Zip-60638",
+                      "Zip-60649",
+                      "Zip-60803",
+                      "Zip-60605",
+                      "Zip-60616",
+                      "Zip-60639",
+                      "Zip-60914",
+                      "Zip-60617",
+                      "Zip-60607",
+                      "Zip-60618",
+                      "Zip-60608",
+                      "Zip-60609",
+                      "Zip-60091",
+                      "Zip-60191",
+                      "Zip-60081",
+                      "Zip-60060",
+                      "Zip-60181",
+                      "Zip-60192",
+                      "Zip-46321",
+                      "Zip-60160",
+                      "Zip-60050",
+                      "Zip-60193",
+                      "Zip-61282",
+                      "Zip-46311",
+                      "Zip-60491",
+                      "Zip-60073",
+                      "Zip-60194",
+                      "Zip-60084",
+                      "Zip-60030",
+                      "Zip-60074",
+                      "Zip-60085",
+                      "Zip-60020",
+                      "Zip-60031",
+                      "Zip-60174",
+                      "Zip-60185",
+                      "Zip-60560",
+                      "Zip-60450",
+                      "Zip-60120",
+                      "Zip-60010",
+                      "Zip-60131",
+                      "Zip-60021",
+                      "Zip-60142",
+                      "Zip-60087",
+                      "Zip-60098",
+                      "Zip-46304",
+                      "Zip-60440",
+                      "Zip-60561",
+                      "Zip-60451",
+                      "Zip-60462",
+                      "Zip-60473",
+                      "Zip-60154",
+                      "Zip-61265",
+                      "Zip-60187",
+                      "Zip-60077",
+                      "Zip-60099",
+                      "Zip-60540",
+                      "Zip-60661",
+                      "Zip-61761",
+                      "Zip-60430",
+                      "Zip-60441",
+                      "Zip-60452",
+                      "Zip-60463",
+                      "Zip-61244",
+                      "Zip-60045",
+                      "Zip-60056",
+                      "Zip-60177",
+                      "Zip-60067",
+                      "Zip-60188",
+                      "Zip-60089",
+                      "Zip-60640",
+                      "Zip-60563",
+                      "Zip-60453",
+                      "Zip-60101",
+                      "Zip-60464",
+                      "Zip-60002",
+                      "Zip-60013",
+                      "Zip-60035",
+                      "Zip-60178",
+                      "Zip-60068",
+                      "Zip-46307",
+                      "Zip-60630",
+                      "Zip-60641",
+                      "Zip-60564",
+                      "Zip-60102",
+                      "Zip-60586",
+                      "Zip-52732",
+                      "Zip-60014",
+                      "Zip-60025",
+                      "Zip-60047",
+                      "Zip-60510",
+                      "Zip-60411",
+                      "Zip-60532",
+                      "Zip-60543",
+                      "Zip-60554",
+                      "Zip-60202",
+                      "Zip-60103",
+                      "Zip-60477",
+                      "Zip-60004",
+                      "Zip-60015",
+                      "Zip-60026",
+                      "Zip-60048",
+                      "Zip-60169",
+                      "Zip-60620",
+                      "Zip-60632",
+                      "Zip-60643",
+                      "Zip-60302",
+                      "Zip-60423",
+                      "Zip-60544",
+                      "Zip-60467",
+                      "Zip-60115",
+                      "Zip-60005",
+                      "Zip-60126",
+                      "Zip-60016",
+                      "Zip-60137",
+                      "Zip-60148",
+                      "Zip-60610",
+                      "Zip-60402",
+                      "Zip-60655",
+                      "Zip-60435",
+                      "Zip-60446",
+                      "Zip-60457",
+                      "Zip-60622",
+                      "Zip-60634",
+                      "Zip-60656",
+                      "Zip-60304",
+                      "Zip-60447",
+                      "Zip-60106",
+                      "Zip-60007",
+                      "Zip-60018",
+                      "Zip-60139",
+                      "Zip-61701",
+                      "Zip-60514",
+                      "Zip-60404",
+                      "Zip-60525",
+                      "Zip-60657",
+                      "Zip-60305",
+                      "Zip-60459",
+                      "Zip-60107",
+                      "Zip-60118",
+                      "Zip-60008",
+                      "Zip-60613",
+                      "Zip-60515",
+                      "Zip-60526",
+                      "Zip-60559",
+                      "Zip-60119",
+                      "Zip-60614",
+                      "Zip-60504"
+                    ]
+                  },
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              }
+            }
+          },
+          "continuity": null,
+          "promoId": "8110100706550511642501100003230103",
+          "boltOn": null
+        },
+        "relationships": null,
+        "lastUpdated": "2022-11-25T01:15:33+00:00",
+        "dateCreated": "2022-11-24T23:36:49+00:00",
+        "partners": {
+          "redemption": [
+            {
+              "redemptionLimit": null,
+              "partner": "9003447"
+            }
+          ],
+          "creation": []
+        },
+        "distributionChannels": {
+          "abscoDigital": {
+            "data": {
+              "digitalListViewImage": {
+                "fieldName": "digitalListViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/447b6e69-1fda-4ca1-8111-271229f2dc3d/ece8df2d-0f0a-47c3-9e19-cd44d106f42d.png",
+                "fieldType": "image"
+              },
+              "digitalDescription": {
+                "fieldName": "digitalDescription",
+                "fieldData": "Buy ONE(1) of Mr & Mrs T (Valid on ONE (1) 1-liter bottles of any flavor* Mr & Mrs T *Flavors subject to availability).",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriodLimit": {
+                "fieldName": "consumerLimitPerPeriodLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriod": {
+                "fieldName": "consumerLimitPerPeriod",
+                "fieldData": "0",
+                "fieldType": "text"
+              },
+              "digitalSavingsValue": {
+                "fieldName": "digitalSavingsValue",
+                "fieldData": "$0.50 OFF",
+                "fieldType": "text"
+              },
+              "redemptionFrequency": {
+                "fieldName": "redemptionFrequency",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "redemptionLimit": {
+                "fieldName": "redemptionLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "digitalViewImage": {
+                "fieldName": "digitalViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/447b6e69-1fda-4ca1-8111-271229f2dc3d/ece8df2d-0f0a-47c3-9e19-cd44d106f42d.png",
+                "fieldType": "image"
+              },
+              "rejectionReasonCode": {
+                "fieldName": "rejectionReasonCode",
+                "fieldData": "",
+                "fieldType": "text"
+              },
+              "rejectionDescription": null,
+              "retailerIssuanceLimit": {
+                "fieldName": "retailerIssuanceLimit",
+                "fieldData": "80000",
+                "fieldType": "text"
+              },
+              "campaignLimit": {
+                "fieldName": "campaignLimit",
+                "fieldData": "80000",
+                "fieldType": "text"
+              },
+              "consumerLimit": {
+                "fieldName": "consumerLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "brand": {
+                "fieldName": "brand",
+                "fieldData": "Keurig Dr Pepper",
+                "fieldType": "text"
+              },
+              "consumerLimitActive": {
+                "fieldName": "consumerLimitActive",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "couponDisclaimer": {
+                "fieldName": "couponDisclaimer",
+                "fieldData": "RETAILER: Mott's LLP will reimburse you for the face value plus 8¢ cents handling if you and the consumer have met the offer's terms. Void if prohibited, taxed, restricted, transferred, assigned or coupon is reproduced, gang cut, or mint condition. Consumer pays deposit and taxes. Cash value 1/20¢. Good only in U.S.A. Limit One Coupon Per Item(s) Purchased. RETAILER REDEEM BY MAILING TO: Keurig Dr. Pepper, Inmar Brand Solutions Dept. # 78000, Mfr Rcv Office, 801 UNION PACIFIC BLVD STE 5, LAREDO, TX 78045-9475. MR & MRS T is a registered trademark of Mott's LLP ©2022 All Rights Reserved.",
+                "fieldType": "text"
+              },
+              "ecommOnly": {
+                "fieldName": "ecommOnly",
+                "fieldData": "false",
+                "fieldType": "checkbox"
+              }
+            },
+            "partners": [
+              null
+            ],
+            "active": "true",
+            "channelId": "4"
+          },
+          "ecrebo": {
+            "data": null,
+            "partners": [
+              null
+            ],
+            "active": false,
+            "channelId": 5
+          }
+        },
+        "details": {
+          "mode": "TARGETED",
+          "endDate": "2023-01-03T23:59:59+00:00",
+          "alternativeDescription": "Mr & Mrs T",
+          "name": "Mr & Mrs T",
+          "description": "API Automation $0.50 OFF when you buy ONE(1) Mr & Mrs T",
+          "alternativeName": "$0.50 OFF",
+          "printerMessage": "Valid on ONE (1) 1-liter bottles of any flavor* Mr & Mrs T *Flavors subject to availability.",
+          "startDate": "2022-12-07T00:00:00+00:00",
+          "screenMessage": "Valid on ONE (1) 1-liter bottles of any flavor* Mr & Mrs T *Flavors subject to availability.",
+          "tags": [
+            "NAM",
+            "Digital",
+            "Register",
+            "reportMFGDigital",
+            "OMS"
+          ]
+        },
+        "id": "3297412",
+        "jsonMemberClass": null,
+        "status": "READY"
+      },
+      "objectType": "campaignEntity"
+    }
+  ],
+  "response": {
+    "code": 201,
+    "body": "",
+    "contentType": false
+  }
+}

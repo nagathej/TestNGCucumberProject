@@ -1,0 +1,186 @@
+{
+  "dev": {
+    "OfferSearchStoreIdLimitOne": [
+      {
+        "q": "storeId=200200;limit=1"
+      }
+    ],
+    "OfferSearchStoreIdLimitTwo": [
+      {
+        "q": "storeId=200200;limit=2"
+      }
+    ],
+    "OfferSearchStoreIdLimitThree": [
+      {
+        "q": "storeId=200200;limit=3"
+      }
+    ],
+    "OfferSearchStoreIdLimitFour": [
+      {
+        "q": "storeId=200200;limit=4"
+      }
+    ],
+    "OfferSearchStoreIdLimitFive": [
+      {
+        "q": "storeId=200200;limit=5"
+      }
+    ],
+    "OfferSearchStoreIdLimit":[
+      {
+        "q": "storeId=200200;limit=10"
+      }
+    ],
+    "OfferSearchOfferStatusLimit":[
+      {
+        "q":"offerStatus=D;limit=3"
+      }
+    ],
+    "OfferSearchStartDateLimit" :[
+      {
+        "q":"startDt=[2018-08-20T00:00:00Z TO *];limit=5"
+      }
+    ],
+    "OfferSearchEndDateLimit" :[
+      {
+        "q":"endDt=[* TO 2018-10-31T09:00:00Z];limit=6"
+      }
+    ],
+    "OfferSearchProgramCodeLimit" :[
+      {
+        "q":"offerProgramCd=SC;limit=100"
+      }
+    ],
+    "OfferSearchStartDateStoreIdLimit" :[
+      {
+        "q":"startDt=[2018-08-20T00:00:00Z TO *];storeId=200200;limit=2"
+      }
+    ],
+    "OfferSearchOfferStatusStoreIdLimit":[
+      {
+        "q":"offerStatus=A;storeId=200200;limit=5"
+      }
+    ],
+    "OfferSearchEndDateStoreIdLimit" :[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z];storeId=200200;limit=10"
+      }
+    ],
+    "OfferSearchStartDateEndDateLimit" :[
+      {
+        "q":"startDt=[2018-12-20T00:00:00Z TO *];endDt=[* TO 2018-12-31T09:00:00Z];limit=2"
+      }
+    ],
+    "OfferSearchStoreIdProgramCodeOfferStatusLimit":[
+      {
+        "q":"storeId=200200;offerProgramCd=SC;offerStatus=A;limit=3"
+      }
+    ],
+    "OfferSearchStoreIdStartDateOfferStatusLimit":[
+      {
+        "q":"storeId=200200;startDt=[2018-08-20T00:00:00Z TO *];offerStatus=A;limit=2"
+      }
+    ],
+    "OfferSearchStoreIdStartDateOfferStatusOfferProgramCodeLimit":[
+      {
+        "q":"storeId=200200;startDt=[2018-08-20T00:00:00Z TO *];offerStatus=A;offerProgramCd=SC;limit=2"
+      }
+    ],
+    "OfferSearchStartDateEndDateStoreIdOfferStatusLimit":[
+      {
+        "q":"startDt=[2018-08-20T00:00:00Z TO *];endDt=[* TO 2018-12-31T09:00:00Z];storeId=300300;offerStatus=A;limit=2"
+      }
+    ]
+  },
+  "local" : {
+    "OfferSearchStoreIdLimitOne": [
+      {
+        "q": "storeId=200200;limit=1"
+      }
+    ],
+    "OfferSearchStoreIdLimitTwo": [
+      {
+        "q": "storeId=200200;limit=2"
+      }
+    ],
+    "OfferSearchStoreIdLimitThree": [
+      {
+        "q": "storeId=200200;limit=3"
+      }
+    ],
+    "OfferSearchStoreIdLimitFour": [
+      {
+        "q": "storeId=200200;limit=4"
+      }
+    ],
+    "OfferSearchStoreIdLimitFive": [
+      {
+        "q": "storeId=200200;limit=5"
+      }
+    ],
+    "OfferSearchStoreIdLimit":[
+      {
+        "q": "storeId=200200;limit=10"
+      }
+    ],
+    "OfferSearchOfferStatusLimit":[
+      {
+        "q":"offerStatus=D;limit=3"
+      }
+    ],
+    "OfferSearchStartDateLimit" :[
+      {
+        "q":"startDt=[2018-08-20T00:00:00Z TO *];limit=5"
+      }
+    ],
+    "OfferSearchEndDateLimit" :[
+      {
+        "q":"endDt=[* TO 2018-10-31T09:00:00Z];limit=6"
+      }
+    ],
+    "OfferSearchProgramCodeLimit" :[
+      {
+        "q":"offerProgramCd=SC;limit=100"
+      }
+    ],
+    "OfferSearchStartDateStoreIdLimit" :[
+      {
+        "q":"startDt=[2018-08-20T00:00:00Z TO *];storeId=200200;limit=2"
+      }
+    ],
+    "OfferSearchOfferStatusStoreIdLimit":[
+      {
+        "q":"offerStatus=A;storeId=200200;limit=5"
+      }
+    ],
+    "OfferSearchEndDateStoreIdLimit" :[
+      {
+        "q":"endDt=[* TO 2018-12-31T09:00:00Z];storeId=200200;limit=10"
+      }
+    ],
+    "OfferSearchStartDateEndDateLimit" :[
+      {
+        "q":"startDt=[2018-08-20T00:00:00Z TO *];endDt=[* TO 2018-12-31T09:00:00Z];limit=2"
+      }
+    ],
+    "OfferSearchStoreIdProgramCodeOfferStatusLimit":[
+      {
+        "q":"storeId=200200;offerProgramCd=SC;offerStatus=A;limit=3"
+      }
+    ],
+    "OfferSearchStoreIdStartDateOfferStatusLimit":[
+      {
+        "q":"storeId=200200;startDt=[2018-08-20T00:00:00Z TO *];offerStatus=A;limit=2"
+      }
+    ],
+    "OfferSearchStoreIdStartDateOfferStatusOfferProgramCodeLimit":[
+      {
+        "q":"storeId=200200;startDt=[2018-08-20T00:00:00Z TO *];offerStatus=A;offerProgramCd=SC;limit=2"
+      }
+    ],
+    "OfferSearchStartDateEndDateStoreIdOfferStatusLimit":[
+      {
+        "q":"startDt=[2018-08-20T00:00:00Z TO *];endDt=[* TO 2018-12-31T09:00:00Z];storeId=300300;offerStatus=A;limit=2"
+      }
+    ]
+  }
+}

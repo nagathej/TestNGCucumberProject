@@ -1,0 +1,205 @@
+{
+  "payloadPart": "COMPLETE",
+  "pageNum": 1,
+  "totalPages": 1,
+  "entityId": "44088820",
+  "payLoadType": "application/json",
+  "entityType": "OFFER",
+  "sourceAction": "PUBLISH",
+  "payload": {
+    "id": 44088820,
+    "externalOfferId": "19395-400713-08",
+    "aggregatorOfferId": "329732",
+    "manufacturerId": "19395",
+    "manufacturerOfferRefCd": "400713",
+    "providerName": "EED",
+    "categories": {
+      "categories19": "Wine, Beer \u0026 Spirits"
+    },
+    "primaryCategory": {
+      "primary_category19": "Wine, Beer \u0026 Spirits"
+    },
+    "programCode": "MF",
+    "programCodeDesc": "Manufacturer Coupon",
+    "subProgram": "MC",
+    "subProgramDesc": "MC",
+    "deliveryChannel": "DO",
+    "deliveryChannelDesc": "Digital Only",
+    "status": "PU",
+    "statusDesc": "Published",
+    "priceTitle": "$2.00 OFF",
+    "priceValue": "$2.00 OFF When Buy 1 Limit 1",
+    "savingsValueText": "$2.00 OFF",
+    "productDescription": {
+      "product_descprodDsc1": "API Automation $2.00 OFF when you buy ONE(1) BATCH \u0026 BOTTLE Valid on 375ml."
+    },
+    "disclaimerText": "\"MANUFACTURERS COUPON • START DATE 11/1/22 • EXPIRATION DATE 11/22/22 • OFFER VALID ONLY IN THE STATE OF IL\n\nTO THE CONSUMER: This coupon is good for a $2.00 savings on the purchase of any ONE (1) 375mL of Batch \u0026 Bottle. Offer is limited to one coupon per purchase. You must be 21 years of age or older to redeem this coupon.\n \nTO THE RETAILER: Our clearinghouse will reimburse you for the face value of this coupon plus $.08 handling provided that you and the consumer have complied with the terms of this offer. Coupon may not be assigned or transferred; invoices proving purchase of sufficient stock to cover presented coupons must be shown on request. Coupon valid with the purchase of any ONE (1) 375mL of Batch \u0026 Bottle. Any other application may constitute fraud. Coupon void where prohibited, taxed or restricted. Consumer must pay sales tax. Cash value 1/100 cent. Consumer must be 21 years of age or older. No Doubling. Reproductions of this coupon is expressly prohibited. All coupons must be received by 3/31/23. After 3/31/23 redemption requests will not be responded to.\n\nTO REDEEM, MAIL TO: Batch \u0026 Bottle $2.00 IRC Offer #400713 • 31103 Rancho Viejo Rd., Suite D-2111, San Juan Capistrano, CA 92675\n\nPlease Drink Responsibly.\n\n©2022 William Grant \u0026 Sons, Inc. New York, NY.\"",
+    "description": "MF DO API Automation $2.00 OFF when you buy ONE(1) BATCH \u0026 BOTTLE Valid... 329732",
+    "productImageId": "244d9364-8906-4d4f-aedc-2e50ff261eb6",
+    "isEmployeeOffer": false,
+    "shouldReportRedemptions": true,
+    "createdTs": "2022-11-30T19:16:28.122Z",
+    "createdApplicationId": "OMS",
+    "createdUserId": "sysusr",
+    "lastUpdatedApplicationId": "OMS",
+    "lastUpdatedUserId": "system",
+    "lastUpdatedTs": "2022-11-30T19:16:29.353Z",
+    "displayEffectiveStartDate": "2022-12-02T07:00:00Z",
+    "displayEffectiveEndDate": "2023-05-31T07:00:00Z",
+    "effectiveStartDate": "2022-12-02T07:00:00Z",
+    "effectiveEndDate": "2023-05-31T07:00:00Z",
+    "terminals": [
+      "Groceryworks (Safeway.com)",
+      "Smart Cart (QVS Virtual Terminals)",
+      "Post Office",
+      "Bakery",
+      "Customer Service Desk",
+      "Liquor",
+      "Self-Checkout",
+      "Testing Lane",
+      "Dry Cleaners",
+      "Floral",
+      "Standard Checkout",
+      "Jamba Juice",
+      "Tobacco",
+      "Front End",
+      "Deli Sandwich Kiosk",
+      "Pharmacy Drive-Up",
+      "Pharmacy",
+      "Video",
+      "Cafe Starbucks",
+      "Deli",
+      "Fuel pay-inside (kiosk)",
+      "China/Panda Express"
+    ],
+    "excludedTerminals": [
+      "Gas Station (Pay at Pump)",
+      "Fuel Pumps (Power Pump)",
+      "Rx Refill Kiosk",
+      "Fuel Display",
+      "Line Buster",
+      "PowerPump"
+    ],
+    "qualificationUnitType": "PRODUCT",
+    "qualificationUnitSubType": "QUANTITY",
+    "benefitValueType": "AMOUNT_OFF",
+    "usageLimitPerOffer": 10000,
+    "copientCategory": "007-J4U Manufacturer Coupons",
+    "engine": "CPE",
+    "priority": "2",
+    "tiers": "1",
+    "sendOutboundData": "No External Interface",
+    "chargebackVendor": "William Grant \u0026 Sons",
+    "autoTransferable": false,
+    "enableIssuance": false,
+    "deferEvaluationUntilEOS": false,
+    "enableImpressionReporting": false,
+    "limitEligibilityFrequency": "LIMITED",
+    "isApplicableToJ4U": true,
+    "qualificationProductGroups": [
+      {
+        "id": 1370761428,
+        "name": "OMSMFPG44088820",
+        "quantityUnitType": "ITEMS",
+        "quantityUnitDesc": "Items",
+        "conjunction": "And",
+        "minPurchaseAmount": 0.0,
+        "tiers": [
+          {
+            "level": 1,
+            "amount": 1.0
+          }
+        ],
+        "displayOrder": 1
+      }
+    ],
+    "qualificationCustomerGroups": [
+      {
+        "id": 1370761427,
+        "name": "OMSMFCG44088820",
+        "excludeUsers": false,
+        "conjunction": "And"
+      }
+    ],
+    "benefit": {
+      "discount": [
+        {
+          "benefitValueType": "AMOUNT_OFF",
+          "benefitValueDesc": "Cents Off",
+          "includeProductGroupId": 1370761428,
+          "includeProductGroupName": "OMSMFPG44088820",
+          "discountType": "ITEM_LEVEL",
+          "discountDesc": "Item Level",
+          "chargebackDepartment": "Item\u0027s Department",
+          "advanced": {
+            "allowNegative": true
+          },
+          "discountTier": [
+            {
+              "level": 1,
+              "amount": 2.0,
+              "itemLimit": 1,
+              "receiptText": "Manufacture cpn"
+            }
+          ]
+        }
+      ],
+      "points": []
+    },
+    "qualificationStoreGroups": {
+      "podStoreGroups": [
+        {
+          "id": 1335406495,
+          "name": "OMSMFSG44088820"
+        }
+      ],
+      "redemptionStoreGroups": [
+        {
+          "id": 1335406495,
+          "name": "OMSMFSG44088820"
+        }
+      ]
+    },
+    "offerName": "MF DO $2.00 OFF when you buy ONE(1) BATCH \u0026 BOTTLE Valid... 329732",
+    "adType": "NIA",
+    "offerProtoType": "ITEM_DISCOUNT",
+    "offerPrototypeDesc": "Item Discount",
+    "requestedRemovalForAll": true,
+    "createdUser": {
+      "userId": "sysusr",
+      "firstName": "System",
+      "lastName": "User"
+    },
+    "updatedUser": {
+      "userId": "system",
+      "firstName": "System",
+      "lastName": "System"
+    },
+    "firstUpdateToRedemptionEngine": "2022-11-30T19:16:29.303Z",
+    "lastUpdateToRedemptionEngine": "2022-11-30T19:16:29.303Z",
+    "firstUpdateToJ4U": "2022-11-30T19:16:29.353Z",
+    "lastUpdateToJ4U": "2022-11-30T19:16:29.353Z",
+    "headLine": "BATCH \u0026 BOTTLE",
+    "isPODApproved": false,
+    "podUsageLimitTypePerUser": "ONCE_PER_OFFER",
+    "podReferenceOfferId": "NA",
+    "adPageNbr": "",
+    "adModNbr": 0,
+    "ecomDesc": "$2.00 OFF When Buy 1 Limit 1",
+    "isPrimaryPODOffer": false,
+    "adBugText": "",
+    "regionIdMap": {
+      "32": "JEWEL"
+    },
+    "inEmail": false,
+    "submittedDate": "2022-11-30T19:16:28.122Z",
+    "isNationalOffer": false,
+    "advertisement": {
+      "clippable": true,
+      "applicableOnline": true,
+      "displayable": true
+    },
+    "usageLimitTypePerUser": "Once per Offer"
+  },
+  "lastUpdateTs": "2022-11-30T19:16:29.353Z"
+}

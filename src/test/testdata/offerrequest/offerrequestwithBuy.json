@@ -1,0 +1,76 @@
+{
+	"info": {
+		"id": 1659054433,
+		"nopaNumbers": [
+			"NOPA1",
+			"NOPA2",
+			"NOPA4"
+		],
+		"events": {
+			"125": "Weekly Ad Coupons"
+		},
+		"tags": [
+			"A",
+			"C"
+		],
+		"description": {
+			"savingsValueText": "50 OFF",
+			"titleDescription": "Planters Dry Roasted or Cocktail Peanuts",
+			"productDescription": "16-oz. Limit 5.",
+			"disclaimerText": null
+		},
+		"imageId": "10_percent_off.gif",
+		"offerIds": [
+			123456,
+			123457
+		],
+		"programCode": "SC",
+		"digitalStatus": "I",
+		"nonDigitalStatus": "I",
+		"pluTriggerBarcode": "327122"
+	},
+	"rules": {
+		"startDate": {
+			"displayEffectiveStartDate": "2019-02-08T07:00:00.000+00:00",
+			"offerEffectiveStartDate": "2019-02-08T07:00:00.000+00:00",
+			"offerTestEffectiveStartDate": "2019-01-29T07:00:00.000+00:00"
+		},
+		"endDate": {
+			"displayEffectiveEndDate": "2019-02-10T07:00:00.000+00:00",
+			"offerEffectiveEndDate": "2019-02-10T07:00:00.000+00:00",
+			"offerTestEffectiveEndDate": "2019-02-10T07:00:00.000+00:00"
+		},
+		"applicableTo": {
+			"banners": {
+				"1": "2"
+			},
+			"divisions": {
+				"19": "PORTLAND"
+			},
+			"storeGroups": [
+				"SG1",
+				"SG2"
+			],
+			"productGroups": [
+				"PG1",
+				"PG2"
+			],
+			"terminals": [
+				"13",
+				"15"
+			],
+			"departments": null
+		},
+		"qualificationAndBenefit": {
+			"qualificationUnitType": "PRODUCT",
+			"qualificationUnitSubType": "QUANTITY",
+			"minOrderTotalAmount": 0,
+			"minRewardPoints": null,
+			"isBuyXGetYOffer": false
+		},
+		"usageLimits": {
+			"usageLimitTypePerUser": "ONCE_PER_OFFER",
+			"usageLimitPerUser": 1
+		}
+	}
+}

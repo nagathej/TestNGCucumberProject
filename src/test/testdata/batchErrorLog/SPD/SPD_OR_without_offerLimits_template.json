@@ -1,0 +1,18 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "offerLimit",
+        "error": "Offer Limit is required",
+        "errorType": "ERROR_DURING_VALIDATION"
+      },
+      {
+        "columnName": "offerLimit",
+        "error": "Invalid value for Offer Limit. Allowed value : Any one from Unlimited, Once Per Transaction, Once Per Offer, Once Per Day, Once Per Week, Custom",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

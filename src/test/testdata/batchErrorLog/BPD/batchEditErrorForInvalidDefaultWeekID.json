@@ -1,0 +1,15 @@
+[
+  {
+    "entityId": "1589836279",
+    "entityType": "OR",
+    "mobId": null,
+    "error": {
+      "timestamp": "2022-02-07T10:58:32.245Z",
+      "status": "BAD_REQUEST",
+      "message": null,
+      "errors": [
+        "Default Week ID-1:Invalid Default Weeks"
+      ]
+    }
+  }
+]

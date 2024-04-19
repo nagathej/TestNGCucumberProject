@@ -1,0 +1,15 @@
+[
+  {
+    "entityId": "%s",
+    "offerId": "",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Chargeback Department",
+        "error": "Invalid Chargeback Department.",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

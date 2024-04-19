@@ -1,0 +1,41 @@
+[
+  {
+    "displayValue": "Program Code",
+    "configMapper": "offerPrograms",
+    "facetMapper": "programCd"
+  },
+  {
+    "displayValue":"Sub Program Code",
+    "configMapper":"subProgramCodes",
+    "facetMapper":"subProgramCode"},
+  {
+    "displayValue": "Program Type",
+    "configMapper": "api",
+    "facetMapper": "programType"
+  },
+  {
+    "displayValue": "Offer Type",
+    "configMapper": "OfferTypeGR",
+    "facetMapper": "offerType"
+  },
+  {
+    "displayValue": "Discount",
+    "configMapper": "amountTypes",
+    "facetMapper": "discountType"
+  },
+  {
+    "displayValue": "Regions",
+    "configMapper": "api",
+    "facetMapper": "regionId"
+  },
+  {
+    "displayValue": "Status",
+    "configMapper": "offerRequestStatusesGR",
+    "facetMapper": "status"
+  },
+  {
+    "displayValue": "Failures",
+    "configMapper": "offerRequestFailuresGR",
+    "facetMapper": "actionFailedState"
+  }
+]

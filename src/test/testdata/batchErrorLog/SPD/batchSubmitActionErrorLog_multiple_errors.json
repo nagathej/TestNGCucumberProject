@@ -1,0 +1,24 @@
+[
+  {
+    "entityId": "960814645",
+    "mobId": "147507",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": "priceText",
+        "error": "Price Text is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": " offerDescription",
+        "error": "Offer Description is required",
+        "errorType": "Batch SUBMIT Error"
+      },
+      {
+        "columnName": "headLine1",
+        "error": "Headline 1 is required",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

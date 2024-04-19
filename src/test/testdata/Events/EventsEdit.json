@@ -1,0 +1,8 @@
+[
+  {
+    "id":"%s",
+    "eventCode":"%s",
+    "eventName":"%s",
+    "isHidden":"%s"
+  }
+]

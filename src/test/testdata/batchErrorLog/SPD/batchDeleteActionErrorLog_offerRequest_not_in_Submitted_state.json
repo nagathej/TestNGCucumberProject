@@ -1,0 +1,38 @@
+[
+  {
+    "entityId": "1584747264",
+    "mobId": "102145",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": "Runtime Error",
+        "error": " Only draft or submitted offers can be deleted",
+        "errorType": "Batch DELETE Error"
+      }
+    ]
+  },
+  {
+    "entityId": "1758906572",
+    "mobId": "102145",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": "Runtime Error",
+        "error": " Only draft or submitted offers can be deleted",
+        "errorType": "Batch DELETE Error"
+      }
+    ]
+  },
+  {
+    "entityId": "1073133984",
+    "mobId": "102151",
+    "status": "FAILED",
+    "errors": [
+      {
+        "columnName": "Runtime Error",
+        "error": " Only draft or submitted offers can be deleted",
+        "errorType": "Batch DELETE Error"
+      }
+    ]
+  }
+]

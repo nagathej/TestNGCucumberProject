@@ -1,0 +1,15 @@
+[
+  {
+    "entityId": "846924694-D",
+    "mobId": "176264",
+    "offerId": "846924694",
+    "status": "FDE",
+    "errors": [
+      {
+        "columnName": " discountBasketLevel_chargebackDepartment",
+        "error": "Expecting not null except 'Item's Department' under product discount's  chargeback department if discountType is 'Basket Level'",
+        "errorType": "DEPLOY"
+      }
+    ]
+  }
+]

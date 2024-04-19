@@ -1,0 +1,33 @@
+{
+  "excludeStores": [
+    203,
+    204,
+    1117,
+    2776,
+    2874,
+    3066,
+    5813,
+    5815
+  ],
+  "includeStores": [
+    769,
+    1863
+  ],
+  "description": "",
+  "id": "",
+  "storeGroupName": "NorcalStoreGroup_env",
+  "storesSearchCriteria": {
+    "features": null,
+    "banners": null,
+    "divisions": [
+      "NOR. CALIFORNIA"
+    ],
+    "divisionRogCds": {
+      "NOR. CALIFORNIA": [
+        "SHAW",
+        "SNCA"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

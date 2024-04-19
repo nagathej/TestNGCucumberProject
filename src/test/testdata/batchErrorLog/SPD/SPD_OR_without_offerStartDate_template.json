@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "offerStartDate",
+        "error": "Start Date is required",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

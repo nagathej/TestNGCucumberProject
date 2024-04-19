@@ -1,0 +1,26 @@
+[
+  {
+    "entityId": "3734605",
+    "mobId": "115300",
+    "status": "INVALID",
+    "errors": [
+      {
+        "columnName": "Runtime Error",
+        "error": " Digital user cannot be submitted if the offer request is not in I (Draft) status",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  },
+  {
+    "entityId": "1803407939",
+    "mobId": "115375",
+    "status": "INVALID",
+    "errors": [
+      {
+        "columnName": "Runtime Error",
+        "error": " Digital user cannot be submitted if the offer request is not in I (Draft) status",
+        "errorType": "Batch SUBMIT Error"
+      }
+    ]
+  }
+]

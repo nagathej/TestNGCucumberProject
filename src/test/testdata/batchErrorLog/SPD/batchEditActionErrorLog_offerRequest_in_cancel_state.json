@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "751724292",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Offer Request ID",
+        "error": "Offer Request Status is Canceled.",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

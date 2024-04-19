@@ -1,0 +1,15 @@
+[
+  {
+    "entityId": "1166020577",
+    "offerId": "",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "400 BAD_REQUEST \"{\"errors\":{\"dynamicOffer\":\"Dynamic offer field cannot be edited after submit the offer request\"}}\"",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  }
+]

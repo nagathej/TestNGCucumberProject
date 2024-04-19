@@ -1,0 +1,674 @@
+{
+  "headers": {
+    "eesEnvironmentType": "testEnvironment",
+    "clientId": false,
+    "eesSubsystemId": "hydra-zk7d",
+    "unitFriendlyName": "Albertsons",
+    "externalMessageId": "",
+    "eesMasterEventId": "YztCuRQlkwtWLU5lJwJ6hgAAAYA",
+    "callerIp": "127.0.0.1",
+    "eesEventId": "ff93a232-eecc-4f16-8f28-004fc19b7d45",
+    "eesApiVersion": "2.0",
+    "clientIdFriendlyName": "albertsons",
+    "eventName": "CAMPAIGN.UPDATE",
+    "unitId": "9003438",
+    "eventDate": "2022-10-03T20:14:49.966087"
+  },
+  "request": {
+    "method": "PUT",
+    "resource": "campaigns",
+    "body": "",
+    "contentType": "application/x-www-form-urlencoded",
+    "customHeaders": []
+  },
+  "atomicOperations": [
+    {
+      "operationType": "UPDATE",
+      "objectValue": {
+        "settings": {
+          "tokenProvider": "ThirdPartyRealTime",
+          "walletEnabled": false,
+          "accountClientType": "MANUFACTURER",
+          "defaultAccountClientState": null,
+          "issuanceMethod": null,
+          "tokenFormat": "000000089"
+        },
+        "custom": {
+          "mfg": {
+            "manufacturerName": "Riviana Foods, Inc",
+            "manufacturerOfferId": "047893",
+            "productBrand": "Success",
+            "nchManufacturerId": "",
+            "countryId": "US",
+            "excludedZip": "08080,20905,10708,08070,08081,19082,08060,19083,19380,08050,19061,19072,07093,08260,19073,08085,08096,08690,08360,08052,19063,19460,07030,19020,19031,19152,19053,19087,08087,08098,08230,07020,19010,19043,08043,07461,08330,07043,19033,08033,19044,08055,08078,07462,08210,19342,19111,08243,07033,07066,22192,07430,19123,08244,19145,19046,08046,19057,20191,22193,19971,08850,08751,07310,19311,07024,19025,08620,07663,07432,19301,08312,19114,19004,08015,19147,20170,22030,08203,19335,19104,19115,08005,19148,07059,22031,22042,06840,18940,07401,08204,07005,08226,19149,21042,22032,06830,19810,19711,07974,19403,19425,19106,08106,19128,19018,21043,21054,22033,22044,21076,22066,19701,19118,19008,08008,20020,21131,21044,18954,19702,19977,07305,08108,19119,10594,20164,20175,12563,20186,19901,07834,08857,08505,08406,07438,20770,21771,21793,22310,10573,20011,21122,22101,21012,18901,19803,06878,20782,10541,20001,20012,22003,22015,07704,07825,07869,20772,21784,20002,21234,20024,12533,21146,07738,20850,20872,21620,10510,22302,20003,21224,10598,21015,21037,21158,19806,19707,07728,07739,20895,21401,21214,22314,20015,20136,10588,20720,20852,21842,20874,21204,22304,22315,22205,12569,06905,19808,07719,19709,20853,21601,20754,22701,21117,21128,21921,20832,20601,20854,20744,20678,10547,20007,21228,22207,20910,21801,20613,20745,20646,10526,20118,22307,21218,20019,20603,20735,20878,21769,22308,20009,22209,20901,10704,20879,21209,22309,20902,10804,21617,20903,20815,20716,10607,20816,21619,10509",
+            "departmentCategory": "Grocery",
+            "familyCodes": "600",
+            "actionPeriodDuration": 0,
+            "targetedBanners": "acme, safeway",
+            "variantId": "8668971e-f8f3-4a4e-a187-a473bdff347c",
+            "productDescription": "Success Rice or Quinoa ",
+            "incentiveId": "0ab0b3b0-6311-4788-9fbe-27c872c2459b",
+            "brandName": "Success",
+            "product": "Success Rice or Quinoa",
+            "includedZip": null,
+            "includedStates": null,
+            "requirementDescription": "Any variety.",
+            "manufacturerCode": "0017400",
+            "clearingHouseMfgId": "227",
+            "targetingData": "{\"location\":{\"type\":\"Zipcode\",\"option\":\"Excludes\",\"zipcode_details\":[\"08080\",\"20905\",\"10708\",\"08070\",\"08081\",\"19082\",\"08060\",\"19083\",\"19380\",\"08050\",\"19061\",\"19072\",\"07093\",\"08260\",\"19073\",\"08085\",\"08096\",\"08690\",\"08360\",\"08052\",\"19063\",\"19460\",\"07030\",\"19020\",\"19031\",\"19152\",\"19053\",\"19087\",\"08087\",\"08098\",\"08230\",\"07020\",\"19010\",\"19043\",\"08043\",\"07461\",\"08330\",\"07043\",\"19033\",\"08033\",\"19044\",\"08055\",\"08078\",\"07462\",\"08210\",\"19342\",\"19111\",\"08243\",\"07033\",\"07066\",\"22192\",\"07430\",\"19123\",\"08244\",\"19145\",\"19046\",\"08046\",\"19057\",\"20191\",\"22193\",\"19971\",\"08850\",\"08751\",\"07310\",\"19311\",\"07024\",\"19025\",\"08620\",\"07663\",\"07432\",\"19301\",\"08312\",\"19114\",\"19004\",\"08015\",\"19147\",\"20170\",\"22030\",\"08203\",\"19335\",\"19104\",\"19115\",\"08005\",\"19148\",\"07059\",\"22031\",\"22042\",\"06840\",\"18940\",\"07401\",\"08204\",\"07005\",\"08226\",\"19149\",\"21042\",\"22032\",\"06830\",\"19810\",\"19711\",\"07974\",\"19403\",\"19425\",\"19106\",\"08106\",\"19128\",\"19018\",\"21043\",\"21054\",\"22033\",\"22044\",\"21076\",\"22066\",\"19701\",\"19118\",\"19008\",\"08008\",\"20020\",\"21131\",\"21044\",\"18954\",\"19702\",\"19977\",\"07305\",\"08108\",\"19119\",\"10594\",\"20164\",\"20175\",\"12563\",\"20186\",\"19901\",\"07834\",\"08857\",\"08505\",\"08406\",\"07438\",\"20770\",\"21771\",\"21793\",\"22310\",\"10573\",\"20011\",\"21122\",\"22101\",\"21012\",\"18901\",\"19803\",\"06878\",\"20782\",\"10541\",\"20001\",\"20012\",\"22003\",\"22015\",\"07704\",\"07825\",\"07869\",\"20772\",\"21784\",\"20002\",\"21234\",\"20024\",\"12533\",\"21146\",\"07738\",\"20850\",\"20872\",\"21620\",\"10510\",\"22302\",\"20003\",\"21224\",\"10598\",\"21015\",\"21037\",\"21158\",\"19806\",\"19707\",\"07728\",\"07739\",\"20895\",\"21401\",\"21214\",\"22314\",\"20015\",\"20136\",\"10588\",\"20720\",\"20852\",\"21842\",\"20874\",\"21204\",\"22304\",\"22315\",\"22205\",\"12569\",\"06905\",\"19808\",\"07719\",\"19709\",\"20853\",\"21601\",\"20754\",\"22701\",\"21117\",\"21128\",\"21921\",\"20832\",\"20601\",\"20854\",\"20744\",\"20678\",\"10547\",\"20007\",\"21228\",\"22207\",\"20910\",\"21801\",\"20613\",\"20745\",\"20646\",\"10526\",\"20118\",\"22307\",\"21218\",\"20019\",\"20603\",\"20735\",\"20878\",\"21769\",\"22308\",\"20009\",\"22209\",\"20901\",\"10704\",\"20879\",\"21209\",\"22309\",\"20902\",\"10804\",\"21617\",\"20903\",\"20815\",\"20716\",\"10607\",\"20816\",\"21619\",\"10509\"]},\"store_conditions\":{\"type\":\"Valid At\",\"retailers\":[{\"freedom_store_id\":\"80\",\"freedom_store_name\":\"Acme Markets\",\"distributor_store_name\":\"acme\"}]}}",
+            "excludedStates": null,
+            "offerCode": "047893",
+            "freedomLastUpdated": "2022-10-03T20:14:49+00:00",
+            "currencyCode": "USD"
+          }
+        },
+        "rules": {
+          "useLocalTime": null,
+          "redemption": {
+            "redemption": null,
+            "exclusion": null,
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 1,
+            "dates": {
+              "redemption": null,
+              "exclusion": {
+                "active": false
+              }
+            },
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 1,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": true,
+            "hiddenFromRelatedWallets": false
+          },
+          "start": null,
+          "locations": null,
+          "expiry": {
+            "date": "2022-12-19 23:59:59",
+            "valueType": null,
+            "type": "DATE",
+            "value": null
+          },
+          "creation": {
+            "campaignLimit": 68750,
+            "consumerLimit": 1,
+            "consumerLimitPerPeriod": null,
+            "windows": {
+              "redemption": null,
+              "creation": null,
+              "active": false
+            },
+            "consumerLimitActive": 1
+          },
+          "verification": {
+            "lock": false,
+            "lockOnVerify": true
+          }
+        },
+        "dates": {
+          "redemption": {
+            "redemption": [],
+            "exclusion": [],
+            "maximumDiscountableRelatedContents": null,
+            "couponLimit": 0,
+            "dates": null,
+            "redeemableOutsideOwningWalletWithIdentity": false,
+            "maximumAccountsPerTransaction": null,
+            "windows": null,
+            "maximumPerTransactionPerCampaignTypeCode": null,
+            "allowMultipleRedeem": null,
+            "maxRedemptionsPerPeriod": null,
+            "maximumAccountUsage": 0,
+            "timeBetweenRedemptions": null,
+            "redeemableOutsideOwningWalletWithoutIdentity": false,
+            "campaignLimit": null,
+            "maximumPerTransaction": null,
+            "allowAccountOverride": null,
+            "timeBetweenStamps": null,
+            "allowOverride": false,
+            "hiddenFromRelatedWallets": false
+          },
+          "exclusion": null
+        },
+        "artwork": {
+          "imageUrl": "https://images.freedomapi.com/creatives/0baa94ed-7d73-4dce-a0c7-ea999812c6ec/0cf87a57-53bd-4bbd-8c21-35c4ecc6a972.png",
+          "encodedImage": null
+        },
+        "type": "DISCOUNT_PRODUCTS",
+        "windows": {
+          "redemption": [],
+          "creation": [],
+          "active": false
+        },
+        "version": 2,
+        "reference": "000029675",
+        "offer": {
+          "reward": {
+            "standard": null,
+            "basket": null,
+            "pointSpendRates": [],
+            "product": {
+              "acme": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": "1",
+                    "maximumNumberOfUnits": "1",
+                    "value": {
+                      "standard": {
+                        "allFree": false,
+                        "finalAmount": null,
+                        "discountAmount": "100",
+                        "percentageAmount": null
+                      },
+                      "interval": null
+                    },
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 0,
+                    "minimumUnits": 0,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "treatAs": {
+              "type": "tender"
+            }
+          },
+          "offerType": "FIXED_AMOUNT_OFF_PRODUCTS",
+          "qualification": {
+            "basket": null,
+            "product": {
+              "acme": {
+                "excluded": null,
+                "included": null,
+                "collections": [
+                  {
+                    "minimumNumberOfUnits": null,
+                    "maximumNumberOfUnits": null,
+                    "value": null,
+                    "points": null,
+                    "products": {
+                      "excluded": null,
+                      "allRequired": false,
+                      "included": {
+                        "locationIdentifiers": null,
+                        "locationTags": null,
+                        "skus": null,
+                        "groups": null,
+                        "items": [
+                          "1740010077",
+                          "1740010078",
+                          "1740010076",
+                          "1740010177",
+                          "1740014075",
+                          "1740010039",
+                          "1740010207",
+                          "1740010041"
+                        ],
+                        "tags": null
+                      }
+                    },
+                    "minimumProductSpend": 1,
+                    "minimumUnits": 1,
+                    "maximumUnits": null
+                  }
+                ],
+                "logicalOperator": "OR"
+              }
+            },
+            "tenders": [],
+            "locations": {
+              "acme": {
+                "excluded": {
+                  "locationIdentifiers": null,
+                  "locationTags": {
+                    "acme": [
+                      "Zip-08080",
+                      "Zip-20905",
+                      "Zip-10708",
+                      "Zip-08070",
+                      "Zip-08081",
+                      "Zip-19082",
+                      "Zip-08060",
+                      "Zip-19083",
+                      "Zip-19380",
+                      "Zip-08050",
+                      "Zip-19061",
+                      "Zip-19072",
+                      "Zip-07093",
+                      "Zip-08260",
+                      "Zip-19073",
+                      "Zip-08085",
+                      "Zip-08096",
+                      "Zip-08690",
+                      "Zip-08360",
+                      "Zip-08052",
+                      "Zip-19063",
+                      "Zip-19460",
+                      "Zip-07030",
+                      "Zip-19020",
+                      "Zip-19031",
+                      "Zip-19152",
+                      "Zip-19053",
+                      "Zip-19087",
+                      "Zip-08087",
+                      "Zip-08098",
+                      "Zip-08230",
+                      "Zip-07020",
+                      "Zip-19010",
+                      "Zip-19043",
+                      "Zip-08043",
+                      "Zip-07461",
+                      "Zip-08330",
+                      "Zip-07043",
+                      "Zip-19033",
+                      "Zip-08033",
+                      "Zip-19044",
+                      "Zip-08055",
+                      "Zip-08078",
+                      "Zip-07462",
+                      "Zip-08210",
+                      "Zip-19342",
+                      "Zip-19111",
+                      "Zip-08243",
+                      "Zip-07033",
+                      "Zip-07066",
+                      "Zip-22192",
+                      "Zip-07430",
+                      "Zip-19123",
+                      "Zip-08244",
+                      "Zip-19145",
+                      "Zip-19046",
+                      "Zip-08046",
+                      "Zip-19057",
+                      "Zip-20191",
+                      "Zip-22193",
+                      "Zip-19971",
+                      "Zip-08850",
+                      "Zip-08751",
+                      "Zip-07310",
+                      "Zip-19311",
+                      "Zip-07024",
+                      "Zip-19025",
+                      "Zip-08620",
+                      "Zip-07663",
+                      "Zip-07432",
+                      "Zip-19301",
+                      "Zip-08312",
+                      "Zip-19114",
+                      "Zip-19004",
+                      "Zip-08015",
+                      "Zip-19147",
+                      "Zip-20170",
+                      "Zip-22030",
+                      "Zip-08203",
+                      "Zip-19335",
+                      "Zip-19104",
+                      "Zip-19115",
+                      "Zip-08005",
+                      "Zip-19148",
+                      "Zip-07059",
+                      "Zip-22031",
+                      "Zip-22042",
+                      "Zip-06840",
+                      "Zip-18940",
+                      "Zip-07401",
+                      "Zip-08204",
+                      "Zip-07005",
+                      "Zip-08226",
+                      "Zip-19149",
+                      "Zip-21042",
+                      "Zip-22032",
+                      "Zip-06830",
+                      "Zip-19810",
+                      "Zip-19711",
+                      "Zip-07974",
+                      "Zip-19403",
+                      "Zip-19425",
+                      "Zip-19106",
+                      "Zip-08106",
+                      "Zip-19128",
+                      "Zip-19018",
+                      "Zip-21043",
+                      "Zip-21054",
+                      "Zip-22033",
+                      "Zip-22044",
+                      "Zip-21076",
+                      "Zip-22066",
+                      "Zip-19701",
+                      "Zip-19118",
+                      "Zip-19008",
+                      "Zip-08008",
+                      "Zip-20020",
+                      "Zip-21131",
+                      "Zip-21044",
+                      "Zip-18954",
+                      "Zip-19702",
+                      "Zip-19977",
+                      "Zip-07305",
+                      "Zip-08108",
+                      "Zip-19119",
+                      "Zip-10594",
+                      "Zip-20164",
+                      "Zip-20175",
+                      "Zip-12563",
+                      "Zip-20186",
+                      "Zip-19901",
+                      "Zip-07834",
+                      "Zip-08857",
+                      "Zip-08505",
+                      "Zip-08406",
+                      "Zip-07438",
+                      "Zip-20770",
+                      "Zip-21771",
+                      "Zip-21793",
+                      "Zip-22310",
+                      "Zip-10573",
+                      "Zip-20011",
+                      "Zip-21122",
+                      "Zip-22101",
+                      "Zip-21012",
+                      "Zip-18901",
+                      "Zip-19803",
+                      "Zip-06878",
+                      "Zip-20782",
+                      "Zip-10541",
+                      "Zip-20001",
+                      "Zip-20012",
+                      "Zip-22003",
+                      "Zip-22015",
+                      "Zip-07704",
+                      "Zip-07825",
+                      "Zip-07869",
+                      "Zip-20772",
+                      "Zip-21784",
+                      "Zip-20002",
+                      "Zip-21234",
+                      "Zip-20024",
+                      "Zip-12533",
+                      "Zip-21146",
+                      "Zip-07738",
+                      "Zip-20850",
+                      "Zip-20872",
+                      "Zip-21620",
+                      "Zip-10510",
+                      "Zip-22302",
+                      "Zip-20003",
+                      "Zip-21224",
+                      "Zip-10598",
+                      "Zip-21015",
+                      "Zip-21037",
+                      "Zip-21158",
+                      "Zip-19806",
+                      "Zip-19707",
+                      "Zip-07728",
+                      "Zip-07739",
+                      "Zip-20895",
+                      "Zip-21401",
+                      "Zip-21214",
+                      "Zip-22314",
+                      "Zip-20015",
+                      "Zip-20136",
+                      "Zip-10588",
+                      "Zip-20720",
+                      "Zip-20852",
+                      "Zip-21842",
+                      "Zip-20874",
+                      "Zip-21204",
+                      "Zip-22304",
+                      "Zip-22315",
+                      "Zip-22205",
+                      "Zip-12569",
+                      "Zip-06905",
+                      "Zip-19808",
+                      "Zip-07719",
+                      "Zip-19709",
+                      "Zip-20853",
+                      "Zip-21601",
+                      "Zip-20754",
+                      "Zip-22701",
+                      "Zip-21117",
+                      "Zip-21128",
+                      "Zip-21921",
+                      "Zip-20832",
+                      "Zip-20601",
+                      "Zip-20854",
+                      "Zip-20744",
+                      "Zip-20678",
+                      "Zip-10547",
+                      "Zip-20007",
+                      "Zip-21228",
+                      "Zip-22207",
+                      "Zip-20910",
+                      "Zip-21801",
+                      "Zip-20613",
+                      "Zip-20745",
+                      "Zip-20646",
+                      "Zip-10526",
+                      "Zip-20118",
+                      "Zip-22307",
+                      "Zip-21218",
+                      "Zip-20019",
+                      "Zip-20603",
+                      "Zip-20735",
+                      "Zip-20878",
+                      "Zip-21769",
+                      "Zip-22308",
+                      "Zip-20009",
+                      "Zip-22209",
+                      "Zip-20901",
+                      "Zip-10704",
+                      "Zip-20879",
+                      "Zip-21209",
+                      "Zip-22309",
+                      "Zip-20902",
+                      "Zip-10804",
+                      "Zip-21617",
+                      "Zip-20903",
+                      "Zip-20815",
+                      "Zip-20716",
+                      "Zip-10607",
+                      "Zip-20816",
+                      "Zip-21619",
+                      "Zip-10509"
+                    ]
+                  }
+                },
+                "included": {
+                  "locationIdentifiers": null,
+                  "locationTags": null,
+                  "skus": null,
+                  "groups": null,
+                  "items": null,
+                  "tags": null
+                },
+                "collections": null,
+                "logicalOperator": null
+              }
+            }
+          },
+          "continuity": null,
+          "promoId": "81101001740004789331001106003221114422100190001",
+          "boltOn": null
+        },
+        "relationships": null,
+        "lastUpdated": "2022-10-03T20:14:50+00:00",
+        "dateCreated": "2022-09-29T18:35:50+00:00",
+        "partners": {
+          "redemption": [
+            {
+              "redemptionLimit": null,
+              "partner": "9003440"
+            }
+          ],
+          "creation": []
+        },
+        "distributionChannels": {
+          "abscoDigital": {
+            "data": {
+              "digitalListViewImage": {
+                "fieldName": "digitalListViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/0baa94ed-7d73-4dce-a0c7-ea999812c6ec/0cf87a57-53bd-4bbd-8c21-35c4ecc6a972.png",
+                "fieldType": "image"
+              },
+              "digitalDescription": {
+                "fieldName": "digitalDescription",
+                "fieldData": "Buy ONE(1) of Success Rice or Quinoa (Any variety).",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriodLimit": {
+                "fieldName": "consumerLimitPerPeriodLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "consumerLimitPerPeriod": {
+                "fieldName": "consumerLimitPerPeriod",
+                "fieldData": "0",
+                "fieldType": "text"
+              },
+              "digitalSavingsValue": {
+                "fieldName": "digitalSavingsValue",
+                "fieldData": "$1.00 OFF",
+                "fieldType": "text"
+              },
+              "redemptionFrequency": {
+                "fieldName": "redemptionFrequency",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "redemptionLimit": {
+                "fieldName": "redemptionLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "digitalViewImage": {
+                "fieldName": "digitalViewImage",
+                "fieldData": "https://images.freedomapi.com/creatives/0baa94ed-7d73-4dce-a0c7-ea999812c6ec/0cf87a57-53bd-4bbd-8c21-35c4ecc6a972.png",
+                "fieldType": "image"
+              },
+              "rejectionReasonCode": {
+                "fieldName": "rejectionReasonCode",
+                "fieldData": "",
+                "fieldType": "text"
+              },
+              "rejectionDescription": null,
+              "retailerIssuanceLimit": {
+                "fieldName": "retailerIssuanceLimit",
+                "fieldData": "68750",
+                "fieldType": "text"
+              },
+              "campaignLimit": {
+                "fieldName": "campaignLimit",
+                "fieldData": "68750",
+                "fieldType": "text"
+              },
+              "consumerLimit": {
+                "fieldName": "consumerLimit",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "brand": {
+                "fieldName": "brand",
+                "fieldData": "Riviana Foods, Inc",
+                "fieldType": "text"
+              },
+              "consumerLimitActive": {
+                "fieldName": "consumerLimitActive",
+                "fieldData": "1",
+                "fieldType": "text"
+              },
+              "couponDisclaimer": {
+                "fieldName": "couponDisclaimer",
+                "fieldData": "Consumer: Limit one (1) coupon per purchase and quantity stated. No more than one (1) coupon for the same product in the same transaction. Retailer: Coupon will be redeemed for face value plus 8¢ handling if terms of offer have been met. Any other use constitutes fraud. VALID ONLY ON STATED PRODUCT(S). Coupon must be presented at time of purchase and prior to its expiry date. Customer must pay sales tax. No cash back or credit if coupon exceeds selling price. Void if prohibited, altered, transferred, sold, exchanged, taxed, copied or reproduced. Limit one coupon per purchase. Coupons submitted become property of the manufacturer. Reimbursement will be made only to retailer who redeemed the coupon. Cash value 1/20¢. Mail coupons to: Riviana Foods 742, P.O. Box 880001, El Paso, TX 88588-0001.",
+                "fieldType": "text"
+              },
+              "ecommOnly": {
+                "fieldName": "ecommOnly",
+                "fieldData": "false",
+                "fieldType": "checkbox"
+              }
+            },
+            "partners": [
+              null
+            ],
+            "active": "true",
+            "channelId": "4"
+          },
+          "ecrebo": {
+            "data": null,
+            "partners": [
+              null
+            ],
+            "active": false,
+            "channelId": 5
+          }
+        },
+        "details": {
+          "mode": "TARGETED",
+          "endDate": "2022-12-19 23:59:59",
+          "alternativeDescription": "Success Rice or Quinoa ",
+          "name": "Success Rice or Quinoa ",
+          "description": "API Automation $1.00 OFF when you buy ONE(1) Success Rice or Quinoa",
+          "alternativeName": "$1.00 OFF",
+          "printerMessage": "Any variety.",
+          "startDate": "2022-12-19 00:00:00",
+          "screenMessage": "Any variety.",
+          "tags": [
+            "NAM",
+            "Digital",
+            "Register",
+            "reportMFGDigital",
+            "OMS"
+          ]
+        },
+        "id": "319173",
+        "jsonMemberClass": null,
+        "status": "ACTIVE"
+      },
+      "objectType": "campaignEntity"
+    }
+  ],
+  "response": {
+    "code": 201,
+    "body": "",
+    "contentType": false
+  }
+}

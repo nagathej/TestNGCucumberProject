@@ -1,0 +1,108 @@
+{
+  "info": {
+    "id": {
+      "externalOfferId": "00219-620003-02",
+      "aggregatorOfferId": "42000050"
+    },
+    "offerProviderName": "couponsinc",
+    "categories": {
+      "6": "Condiments, Spices & Bake"
+    },
+    "primaryCategory": {
+      "6": "Condiments, Spices & Bake"
+    },
+    "events": {},
+    "offerProgramCode": "MF",
+    "offerStatus": "P",
+    "offerSubProgram": "BOX TOP",
+    "description": {
+      "savingsValueText": "Save $2.00",
+      "titleDescription": {
+        "titleDsc1": "OMS Test Offers 01-21-19"
+      },
+      "productDescription": {
+        "prodDsc1": "OMS Test offers - Boxtop"
+      },
+      "disclaimerText": "This is a dislcaimer for the J4U offers",
+      "receiptDescriptions": "Lactaid ECOM100500",
+      "priceValue": "$2.00"
+    },
+    "productImageId": "999999.gif",
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": false,
+    "auditInfo": {
+      "createdTs": "2019-03-05T13:08:18.834-07:00",
+      "createdApplicationId": "EMOM",
+      "createdUserId": "emq1om",
+      "lastUpdatedApplicationId": "EMOM",
+      "lastUpdatedUserId": "emq1om",
+      "lastUpdatedTs": "2019-03-05T13:08:18.834-07:00"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2019-01-21T00:00:00.000-07:00",
+      "offerEffectiveStartDate": "2019-01-21T00:00:00.000-07:00"
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2025-04-20T01:00:00.000-06:00",
+      "offerEffectiveEndDate": "2025-04-20T01:00:00.000-06:00"
+    },
+    "applicableTo": {
+      "banners": {
+        "P": "ad67f51e-d840-491e-8f61-a7a79c3471f4",
+        "R": "2c3f6294-a3e9-4536-a7d3-142d8af481f9",
+        "S": "8a291a5b-3f33-402d-95bb-63f956d2f64c",
+        "C": "425c8e36-d8e2-40d7-a345-3ffa5771ca9a",
+        "T": "63059d46-ba50-4310-992b-23bf4da3efad",
+        "V": "492c3e3f-8c56-4ef2-a14a-95c0905c77f8"
+      },
+      "divisions": {},
+      "channels": [],
+      "terminals": [
+        "13",
+        "15",
+        "28",
+        "11405",
+        "100",
+        "11404",
+        "11407",
+        "11406",
+        "13979",
+        "113",
+        "11409",
+        "13556",
+        "11402",
+        "10"
+      ],
+      "storeIds": [
+        "1462",
+        "2792",
+        "1461",
+        "1460",
+        "2791",
+        "2790",
+        "2306",
+        "1619",
+        "1618",
+        "1617",
+        "2948",
+        "1616",
+        "1267",
+        "443",
+        "1449"
+      ],
+      "postalCodes": []
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "QUANTITY",
+      "minProdPurchaseUnits": 1,
+      "isBuyXGetYOffer": false
+    },
+    "benefit": {},
+    "usageLimits": {
+      "usageLimitTypePerUser": "ONCE_PER_OFFER"
+    }
+  }
+}

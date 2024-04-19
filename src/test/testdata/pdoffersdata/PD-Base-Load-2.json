@@ -1,0 +1,114 @@
+{
+  "info": {
+    "id": {
+      "externalOfferId": "0520W3299_000009"
+    },
+    "offerProviderName": "AutomationApiTestDataCreation",
+    "categories": {
+      "12": "Deli",
+      "13": "International Cuisine",
+      "14": "Flowers & Decor",
+      "6": "Grains, Pasta & Sides",
+      "20": "Condiments, Spices & Bake"
+    },
+    "primaryCategory": {
+      "23": "Fruits & Vegetables"
+    },
+    "events": {},
+    "offerProgramCode": "PD",
+    "offerStatus": "P",
+    "description": {
+      "titleDescription": {
+        "titleDsc2": "Chocolate Hazelnut Spread",
+        "titleDsc1": "Nutella"
+      },
+      "productDescription": {
+        "prodDsc1": "26.5-oz."
+      },
+      "receiptDescriptions": "Buy_Nutella_Chocolate Hazelnut Spread_26.5-oz.",
+      "disclaimerText": "Offer Details: Safeway Club Card must be used at checkout to receive the discount.  Once offers are added to your card you can use them in Safeway stores located in Colorado, Wyoming, Nebraska, South Dakota, and Northern New Mexico. Customer pays applicable sales tax and CRV. Offer must be used by the Safeway Club Card owner and may not be assigned, transferred, or reproduced. Subject to availability. Not all items are available in all stores. No rainchecks. Not valid with any other offer or discount.",
+      "priceTitle": "Personalized Price",
+      "priceValue": "$6.22"
+    },
+    "productImageId": "999999.gif",
+    "shouldReportRedemptions": true,
+    "promoClassId": "70",
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": false,
+    "auditInfo": {
+      "createdTs": "2014-07-29T02:42:42.000-06:00",
+      "createdApplicationId": "EMOM",
+      "createdUserId": "emq1om",
+      "lastUpdatedApplicationId": "EMOM",
+      "lastUpdatedUserId": "emq1om",
+      "lastUpdatedTs": "2014-07-29T02:42:42.000-06:00"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2020-09-03T01:00:00.000-06:00",
+      "offerEffectiveStartDate": "2020-09-03T01:00:00.000-06:00",
+      "offerTestEffectiveStartDate": "2020-09-03T01:00:00.000-06:00"
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2021-09-03T01:00:00.000-06:00",
+      "offerEffectiveEndDate": "2021-09-03T01:00:00.000-06:00",
+      "offerTestEffectiveEndDate": "2021-09-03T01:00:00.000-06:00"
+    },
+    "applicableTo": {
+      "banners": null,
+      "divisions": {
+        "5": "DENVER"
+      },
+      "storeGroups": [
+        "2942",
+        "3234",
+        "3072"
+      ],
+      "channels": null,
+      "terminals": [
+        "13",
+        "15",
+        "28",
+        "11405",
+        "100",
+        "11404",
+        "11407",
+        "11406",
+        "13979",
+        "113",
+        "11409",
+        "11408",
+        "13554",
+        "13553",
+        "11401",
+        "11412",
+        "11411",
+        "11414",
+        "11403",
+        "13556",
+        "11402",
+        "10"
+      ],
+      "storeIds": [],
+      "postalCodes": [],
+      "upcs": [
+        "980089525"
+      ]
+    },
+    "qualification": {
+      "qualificationUnitType": "PRODUCT",
+      "qualificationUnitSubType": "QUANTITY",
+      "minProdPurchaseUnits": 1,
+      "maxProdPurchaseUnits": 0,
+      "isBuyXGetYOffer": false
+    },
+    "benefit": {
+      "benefitValueType": "FIXED_PRICE",
+      "benefitValue": 6.22
+    },
+    "usageLimits": {
+      "usageLimitTypePerUser": "UNLIMITED"
+    }
+  }
+}

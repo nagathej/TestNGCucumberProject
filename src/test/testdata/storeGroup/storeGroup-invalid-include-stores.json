@@ -1,0 +1,24 @@
+{
+  "excludeStores":[
+    114,
+    147
+  ],
+  "includeStores":[
+    85,
+    900
+  ],
+  "description":"",
+  "id": "",
+  "storeGroupName":"StoreGroupUpdateTest_env",
+  "storesSearchCriteria":{
+    "divisions":[
+      "ACME"
+    ],
+    "divisionRogCds": {
+      "ACME": [
+        "ACME"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

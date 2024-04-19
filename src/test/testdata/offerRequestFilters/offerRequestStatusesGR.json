@@ -1,0 +1,12 @@
+{
+  "I": "Draft",
+  "S": "Submitted",
+  "P": "Processing",
+  "D": "Completed",
+  "R":"Removing",
+  "RU": "Removed Unclipped",
+  "C": "Canceled",
+  "E": "Editing",
+  "U":"Updating",
+  "EX":"Expired"
+}

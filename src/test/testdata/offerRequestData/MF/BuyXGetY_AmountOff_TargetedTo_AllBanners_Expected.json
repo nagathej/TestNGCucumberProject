@@ -1,0 +1,232 @@
+{
+  "payloadPart": "COMPLETE",
+  "pageNum": 1,
+  "totalPages": 1,
+  "entityId": "73240396",
+  "payLoadType": "application/json",
+  "entityType": "OFFER",
+  "sourceAction": "PUBLISH",
+  "payload": {
+    "id": 73240396,
+    "externalOfferId": "00032-324844-00",
+    "aggregatorOfferId": "329726",
+    "manufacturerId": "00032",
+    "manufacturerOfferRefCd": "324844",
+    "providerName": "EED",
+    "categories": {
+      "categories1": "Baby Care"
+    },
+    "primaryCategory": {
+      "primary_category1": "Baby Care"
+    },
+    "programCode": "MF",
+    "programCodeDesc": "Manufacturer Coupon",
+    "subProgram": "MC",
+    "subProgramDesc": "MC",
+    "deliveryChannel": "DO",
+    "deliveryChannelDesc": "Digital Only",
+    "status": "PU",
+    "statusDesc": "Published",
+    "priceTitle": "$2.59 OFF Huggies Baby Wipes 1X",
+    "priceValue": "$2.59 OFF Huggies Baby Wipes 1X",
+    "savingsValueText": "$2.59 OFF Huggies Baby Wipes 1X",
+    "productDescription": {
+      "product_descprodDsc1": "$2.59 OFF Huggies Baby Wipes 1X when you buy ONE(1) Huggies Little Movers or Little Snugglers Diapers Valid on Giga Pack (44 - 72 ct.)."
+    },
+    "disclaimerText": "Reproduction, alteration, proliferation, or sale of this coupon or its contents is strictly prohibited. Civil and criminal penalties up to $2,000,000 and/or imprisonment may apply. CONSUMER: LIMIT ONE (1) COUPON PER PURCHASE on product/quantity specified. Only 1 coupon per product purchased CANNOT BE COMBINED with any other coupon. Any other use constitutes fraud. VOID IF COPIED, SCANNED, TRANSFERRED, MODIFIED, AUCTIONED, PURCHASED OR SOLD. No cash or credit in excess of shelf price after discounts may be returned to consumer or applied to the transaction. CIC® Member Coupon Integrity Program. RETAILER: K-C will reimburse you the face value of this coupon plus $.08 handling if submitted in compliance with our Coupon Redemption Policy. Mail coupons or requests for Policy to: Kimberly-Clark 1112, P.O. Box 880001, El Paso, TX 88588-0001. Void where prohibited or restricted. Cash value 1/100 cent. Valid only in the USA, its Territories and Possessions. ® Registered Trademark and TM Trademark of Kimberly-Clark Worldwide, Inc. © KCWW.\t\t\n",
+    "description": "MF DO API Automation $2.59 OFF Huggies Baby Wipes 1X when you buy ONE(1... 329726",
+    "productImageId": "a8daa138-26e6-4d17-a054-0220a8892bce",
+    "isEmployeeOffer": false,
+    "shouldReportRedemptions": true,
+    "createdTs": "2022-11-30T19:16:04.023Z",
+    "createdApplicationId": "OMS",
+    "createdUserId": "sysusr",
+    "lastUpdatedApplicationId": "OMS",
+    "lastUpdatedUserId": "system",
+    "lastUpdatedTs": "2022-11-30T19:16:06.367Z",
+    "displayEffectiveStartDate": "2022-12-02T07:00:00Z",
+    "displayEffectiveEndDate": "2023-05-31T07:00:00Z",
+    "effectiveStartDate": "2022-12-02T07:00:00Z",
+    "effectiveEndDate": "2023-05-31T07:00:00Z",
+    "terminals": [
+      "Groceryworks (Safeway.com)",
+      "Smart Cart (QVS Virtual Terminals)",
+      "Post Office",
+      "Bakery",
+      "Customer Service Desk",
+      "Liquor",
+      "Self-Checkout",
+      "Testing Lane",
+      "Dry Cleaners",
+      "Floral",
+      "Standard Checkout",
+      "Jamba Juice",
+      "Tobacco",
+      "Front End",
+      "Deli Sandwich Kiosk",
+      "Pharmacy Drive-Up",
+      "Pharmacy",
+      "Video",
+      "Cafe Starbucks",
+      "Deli",
+      "Fuel pay-inside (kiosk)",
+      "China/Panda Express"
+    ],
+    "excludedTerminals": [
+      "Gas Station (Pay at Pump)",
+      "Fuel Pumps (Power Pump)",
+      "Rx Refill Kiosk",
+      "Fuel Display",
+      "Line Buster",
+      "PowerPump"
+    ],
+    "qualificationUnitType": "PRODUCT",
+    "qualificationUnitSubType": "QUANTITY",
+    "benefitValueType": "AMOUNT_OFF",
+    "usageLimitPerOffer": 1000000,
+    "copientCategory": "007-J4U Manufacturer Coupons",
+    "engine": "CPE",
+    "priority": "2",
+    "tiers": "1",
+    "sendOutboundData": "No External Interface",
+    "chargebackVendor": "Kimberly Clark",
+    "autoTransferable": false,
+    "enableIssuance": false,
+    "deferEvaluationUntilEOS": false,
+    "enableImpressionReporting": false,
+    "limitEligibilityFrequency": "LIMITED",
+    "isApplicableToJ4U": true,
+    "qualificationProductGroups": [
+      {
+        "id": 1108468196,
+        "name": "OMSMFPG73240396",
+        "quantityUnitType": "ITEMS",
+        "quantityUnitDesc": "Items",
+        "conjunction": "And",
+        "minPurchaseAmount": 0.0,
+        "tiers": [
+          {
+            "level": 1,
+            "amount": 1.0
+          }
+        ],
+        "displayOrder": 1
+      },
+      {
+        "id": 1108468194,
+        "name": "OMSMFPG1108468194",
+        "quantityUnitType": "ITEMS",
+        "quantityUnitDesc": "Items",
+        "conjunction": "And",
+        "minPurchaseAmount": 0.0,
+        "tiers": [
+          {
+            "level": 1,
+            "amount": 1.0
+          }
+        ],
+        "displayOrder": 1
+      }
+    ],
+    "qualificationCustomerGroups": [
+      {
+        "id": 1108468195,
+        "name": "OMSMFCG73240396",
+        "excludeUsers": false,
+        "conjunction": "And"
+      }
+    ],
+    "benefit": {
+      "discount": [
+        {
+          "benefitValueType": "AMOUNT_OFF",
+          "benefitValueDesc": "Cents Off",
+          "includeProductGroupId": 1108468194,
+          "includeProductGroupName": "OMSMFPG1108468194",
+          "discountType": "ITEM_LEVEL",
+          "discountDesc": "Item Level",
+          "chargebackDepartment": "Item\u0027s Department",
+          "advanced": {
+            "allowNegative": true
+          },
+          "discountTier": [
+            {
+              "level": 1,
+              "amount": 2.59,
+              "itemLimit": 1,
+              "receiptText": "Manufacture cpn"
+            }
+          ]
+        }
+      ],
+      "points": []
+    },
+    "qualificationStoreGroups": {
+      "podStoreGroups": [
+        {
+          "id": 2082516007,
+          "name": "OMSMFSG73240396"
+        }
+      ],
+      "redemptionStoreGroups": [
+        {
+          "id": 726698638,
+          "name": "ecoupon all us acpt"
+        }
+      ]
+    },
+    "offerName": "MF DO API Automation $2.59 OFF Huggies Baby Wipes 1X when you buy ONE(1... 329726",
+    "adType": "NIA",
+    "offerProtoType": "BUYX_GETY",
+    "offerPrototypeDesc": "Buy X Get Y",
+    "requestedRemovalForAll": true,
+    "createdUser": {
+      "userId": "sysusr",
+      "firstName": "System",
+      "lastName": "User"
+    },
+    "updatedUser": {
+      "userId": "system",
+      "firstName": "System",
+      "lastName": "System"
+    },
+    "firstUpdateToRedemptionEngine": "2022-11-30T19:16:06.297Z",
+    "lastUpdateToRedemptionEngine": "2022-11-30T19:16:06.297Z",
+    "firstUpdateToJ4U": "2022-11-30T19:16:06.367Z",
+    "lastUpdateToJ4U": "2022-11-30T19:16:06.367Z",
+    "headLine": "Huggies",
+    "isPODApproved": false,
+    "podUsageLimitTypePerUser": "ONCE_PER_OFFER",
+    "podReferenceOfferId": "NA",
+    "adPageNbr": "",
+    "adModNbr": 0,
+    "ecomDesc": "$2.59 OFF Huggies Baby Wipes 1X",
+    "isPrimaryPODOffer": false,
+    "adBugText": "",
+    "regionIdMap": {
+      "33": "SHAWS",
+      "34": "MID-ATLANTIC",
+      "24": "HAGGEN",
+      "25": "NOR. CALIFORNIA",
+      "15": "UNITED",
+      "27": "SEATTLE",
+      "17": "SOUTHWEST",
+      "29": "SO CALIFORNIA",
+      "19": "PORTLAND",
+      "5": "DENVER",
+      "30": "INTERMOUNTAIN",
+      "20": "SOUTHERN",
+      "32": "JEWEL"
+    },
+    "inEmail": false,
+    "submittedDate": "2022-11-30T19:16:04.023Z",
+    "isNationalOffer": true,
+    "advertisement": {
+      "clippable": true,
+      "applicableOnline": true,
+      "displayable": true
+    },
+    "usageLimitTypePerUser": "Once per Offer"
+  },
+  "lastUpdateTs": "2022-11-30T19:16:06.367Z"
+}

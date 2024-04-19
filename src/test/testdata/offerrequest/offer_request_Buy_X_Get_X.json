@@ -1,0 +1,157 @@
+ {
+            "info": {
+                "id": 63275518,
+                "pluTriggerBarcode": null,
+                "pluTriggerBarcodeType": null,
+                "validatePluTriggerBarcode": false,
+                "deliveryChannel": "DO",
+                "brandAndSize": "Brand",
+                "nopaNumbers": null,
+                "nopaStartDate": null,
+                "nopaEndDate": null,
+                "billingOptions": "",
+                "desc": null,
+                "programCode": "SC",
+                "attachments": null,
+                "adType": "IA",
+                "offerRequestType": "ITEM_DISCOUNT",
+                "numOfVersions": null,
+                "numOfTiers": null,
+                "numOfProducts": null,
+                "digitalUser": {
+                    "userId": "pkuma24",
+                    "firstName": "Anna",
+                    "lastName": "pkuma24"
+                },
+                "nonDigitalUser": null,
+                "digitalStatus": "P",
+                "nonDigitalStatus": "NA",
+                "digitalEditStatus": null,
+                "nonDigitalEditStatus": null,
+                "digitalUiStatus": "P",
+                "nonDigitalUiStatus": null,
+                "justification": "",
+                "group": null,
+                "groupDivision": null
+            },
+            "rules": {
+                "startDate": {
+                    "offerEffectiveStartDate": "2020-05-31T00:00:00.000+00:00"
+                },
+                "endDate": {
+                    "offerEffectiveEndDate": "2020-05-31T23:59:59.999+00:00"
+                },
+                "qualificationAndBenefit": {
+                    "offerRequestOffers": [
+                        {
+                            "id": 63262750,
+                            "storeGroupVersion": {
+                                "id": 63262751,
+                                "displayOrder": 1,
+                                "offerPrototype": "ITEM_DISCOUNT",
+                                "storeGroup": {
+                                    "podStoreGroupIds": [
+                                       123
+                                    ],
+                                    "digitalRedemptionStoreGroupIds": [
+                                        345
+                                    ]
+                                },
+                                "productGroupVersions": [
+                                    {
+                                        "displayOrder": 1,
+                                        "id": 63262748,
+                                        "anyProduct": null,
+                                        "isGiftCard": false,
+                                        "productGroup": {
+                                            "name": "PGTest",
+                                            "id": 12,
+                                            "quantityUnitType": "ITEMS",
+                                            "excludedProductGroupName": null,
+                                            "conjunction": null,
+                                            "minPurchaseAmount": 0.0,
+                                            "uniqueproduct": null,
+                                            "tiers": [
+                                                {
+                                                    "level": 1,
+                                                    "amount": null
+                                                }
+                                            ],
+                                            "inheritedFromOfferRequest": null,
+                                            "displayOrder": 1
+                                        },
+                                        "discountVersion": {
+                                            "id": 63262749,
+                                            "discounts": [
+                                                {
+                                                    "displayOrder": 1,
+                                                    "id": 63262746,
+                                                    "benefitValueType": "PRICE_POINT_ITEMS",
+                                                    "discountType": "ITEM_LEVEL",
+                                                    "includeProductGroupName": "PGTest",
+                                                    "excludeProductGroupName": null,
+                                                    "chargebackDepartment": null,
+                                                    "tiers": [
+                                                        {
+                                                            "level": 1,
+                                                            "amount": 1.0,
+                                                            "upTo": null,
+                                                            "itemLimit": 1,
+                                                            "weightLimit": null,
+                                                            "dollarLimit": null,
+                                                            "receiptText": null,
+                                                            "rewards": null
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "airMiles": []
+                                        }
+                                    }
+                                ],
+                                "instantWin": null,
+                                "storeTag": {
+                                    "printJ4uTagEnabled": false,
+                                    "comments": null
+                                }
+                            },
+                            "offers": [
+                                {
+                                    "storeGroupVersion": 63262751,
+                                    "productGroupVersion": 63262748,
+                                    "discountVersion": 63262749,
+                                    "genericDiscountId": 63262746,
+                                    "instantWinVersion": null,
+                                    "offerId": 63262747,
+                                    "externalOfferId": "63262747-D",
+                                    "offerStatus": "I",
+                                    "isApplicableToJ4U": true,
+                                    "distinctIdentifier": "DEFAULT"
+                                }
+                            ]
+                        }
+                    ],
+                    "day": null,
+                    "time": null
+                },
+                "department": "Advertising",
+                "customerSegment": "Any Customer",
+                "usageLimitTypePerUser": "UNLIMITED"
+            },
+            "lastUpdatedTs": 1589436021.831000000,
+            "createdTs": 1589436021.831000000,
+            "createdApplicationId": "OMS",
+            "createdUserId": "Vjautomation",
+            "lastUpdatedApplicationId": "OMS",
+            "lastUpdatedUserId": "pkuma24",
+            "createdUser": {
+                "userId": "Vjautomation",
+                "firstName": "Vijay",
+                "lastName": "Kumar"
+            },
+            "updatedUser": {
+                "userId": "pkuma24",
+                "firstName": "Prashant",
+                "lastName": "Kumar"
+            }
+        }

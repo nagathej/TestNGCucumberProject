@@ -1,0 +1,284 @@
+{
+            "info": {
+                "id": 1598005982,
+                "pluTriggerBarcode": "77111",
+                "pluTriggerBarcodeType": null,
+                "validatePluTriggerBarcode": true,
+                "pluReferenceId": null,
+                "deliveryChannel": "CC",
+                "brandAndSize": "1",
+                "nopaNumbers": null,
+                "nopaStartDate": null,
+                "nopaEndDate": null,
+                "billingOptions": "",
+                "desc": null,
+                "programCode": "SC",
+                "attachments": null,
+                "adType": "NA",
+                "offerRequestType": "MEAL_DEAL",
+                "numOfVersions": null,
+                "numOfTiers": 1,
+                "numOfProducts": null,
+                "digitalUser": {
+                    "userId": "schou18",
+                    "firstName": "Satyabrata",
+                    "lastName": "Choudhury"
+                },
+                "nonDigitalUser": {
+                    "userId": "schou18",
+                    "firstName": "Satyabrata",
+                    "lastName": "Choudhury"
+                },
+                "digitalStatus": "P",
+                "nonDigitalStatus": "P",
+                "digitalEditStatus": null,
+                "nonDigitalEditStatus": null,
+                "digitalUiStatus": "P",
+                "nonDigitalUiStatus": "P",
+                "isBilled": false,
+                "justification": null,
+                "group": "DE",
+                "groupDivision": null
+            },
+            "rules": {
+                "startDate": {
+                    "offerEffectiveStartDate": "2021-01-31T07:00:00.000+00:00"
+                },
+                "endDate": {
+                    "offerEffectiveEndDate": "2021-01-31T07:00:00.000+00:00"
+                },
+                "qualificationAndBenefit": {
+                    "offerRequestOffers": [
+                        {
+                            "id": 1597785422,
+                            "storeGroupVersion": {
+                                "id": 1597785423,
+                                "displayOrder": 1,
+                                "offerPrototype": "MEAL_DEAL",
+                                "storeGroup": {
+                                    "podStoreGroupIds": [
+                                        1
+                                    ],
+                                    "nonDigitalRedemptionStoreGroupIds": [
+                                        1
+                                    ],
+                                    "digitalRedemptionStoreGroupIds": [
+                                        1
+                                    ],
+                                    "podStoreGroupNames": [
+                                        "All Stores"
+                                    ],
+                                    "nonDigitalRedemptionStoreGroupNames": [
+                                        "All Stores"
+                                    ],
+                                    "digitalRedemptionStoreGroupNames": [
+                                        "All Stores"
+                                    ],
+                                    "updateDigitalStoreGroup": false,
+                                    "updatePODStoreGroup": false,
+                                    "updateNonDigitalStoreGroup": false
+                                },
+                                "productGroupVersions": [
+                                    {
+                                        "displayOrder": 2,
+                                        "id": 1597785420,
+                                        "anyProduct": null,
+                                        "isGiftCard": null,
+                                        "productGroup": {
+                                            "id": 2118313074,
+                                            "quantityUnitType": "ITEMS",
+                                            "excludedProductGroupId": null,
+                                            "conjunction": null,
+                                            "minPurchaseAmount": null,
+                                            "uniqueproduct": null,
+                                            "tiers": [
+                                                {
+                                                    "level": 1,
+                                                    "amount": 6.0
+                                                }
+                                            ],
+                                            "inheritedFromOfferRequest": null,
+                                            "displayOrder": 2,
+                                            "name": "PG_Create_dev25888290",
+                                            "excludedProductGroupName": null,
+                                            "updateProductGroup": false
+                                        },
+                                        "discountVersion": {
+                                            "id": 1597785421,
+                                            "discounts": [
+                                                {
+                                                    "displayOrder": 1,
+                                                    "id": 1597785418,
+                                                    "benefitValueType": "PRICE_POINT_ITEMS",
+                                                    "discountType": "ITEM_LEVEL",
+                                                    "includeProductGroupId": 2118313074,
+                                                    "excludeProductGroupId": null,
+                                                    "chargebackDepartment": null,
+                                                    "tiers": [
+                                                        {
+                                                            "level": 1,
+                                                            "amount": 12.0,
+                                                            "upTo": null,
+                                                            "itemLimit": 4,
+                                                            "weightLimit": null,
+                                                            "dollarLimit": null,
+                                                            "receiptText": null,
+                                                            "rewards": null
+                                                        }
+                                                    ],
+                                                    "includeProductGroupName": "PG_Create_dev25888290",
+                                                    "excludeProductGroupName": null,
+                                                    "updateProductDiscount": false
+                                                }
+                                            ],
+                                            "airMiles": []
+                                        }
+                                    },
+                                    {
+                                        "displayOrder": 1,
+                                        "id": 1597785417,
+                                        "anyProduct": null,
+                                        "isGiftCard": false,
+                                        "productGroup": {
+                                            "id": 947721552,
+                                            "quantityUnitType": "ITEMS",
+                                            "excludedProductGroupId": null,
+                                            "conjunction": null,
+                                            "minPurchaseAmount": 0.0,
+                                            "uniqueproduct": null,
+                                            "tiers": [
+                                                {
+                                                    "level": 1,
+                                                    "amount": 4.0
+                                                }
+                                            ],
+                                            "inheritedFromOfferRequest": null,
+                                            "displayOrder": 1,
+                                            "name": "PG_Random_Update-dev4834",
+                                            "excludedProductGroupName": null,
+                                            "updateProductGroup": false
+                                        },
+                                        "discountVersion": {
+                                            "id": 1597785414,
+                                            "discounts": [
+                                                {
+                                                    "displayOrder": 1,
+                                                    "id": 1597785415,
+                                                    "benefitValueType": "PRICE_POINT_ITEMS",
+                                                    "discountType": "ITEM_LEVEL",
+                                                    "includeProductGroupId": 947721552,
+                                                    "excludeProductGroupId": null,
+                                                    "chargebackDepartment": null,
+                                                    "tiers": [
+                                                        {
+                                                            "level": 1,
+                                                            "amount": 10.0,
+                                                            "upTo": null,
+                                                            "itemLimit": 3,
+                                                            "weightLimit": null,
+                                                            "dollarLimit": null,
+                                                            "receiptText": null,
+                                                            "rewards": null
+                                                        }
+                                                    ],
+                                                    "includeProductGroupName": "PG_Random_Update-dev4834",
+                                                    "excludeProductGroupName": null,
+                                                    "updateProductDiscount": false
+                                                }
+                                            ],
+                                            "airMiles": []
+                                        }
+                                    }
+                                ],
+                                "instantWin": null,
+                                "storeTag": null,
+                                "podDetails": null
+                            },
+                            "offers": [
+                                {
+                                    "storeGroupVersion": 1597785423,
+                                    "productGroupVersion": 1597785420,
+                                    "discountVersion": 1597785421,
+                                    "genericDiscountId": 1597785418,
+                                    "instantWinVersion": null,
+                                    "offerId": 1597785419,
+                                    "externalOfferId": "1597785419-D",
+                                    "offerStatus": "I",
+                                    "isApplicableToJ4U": true,
+                                    "distinctIdentifier": "DEFAULT",
+                                    "isPodApplicable": false,
+                                    "offerEditStatus": null
+                                },
+                                {
+                                    "storeGroupVersion": 1597785423,
+                                    "productGroupVersion": 1597785420,
+                                    "discountVersion": 1597785421,
+                                    "genericDiscountId": 1597785418,
+                                    "instantWinVersion": null,
+                                    "offerId": 1597785416,
+                                    "externalOfferId": "1597785416-ND",
+                                    "offerStatus": "I",
+                                    "isApplicableToJ4U": false,
+                                    "distinctIdentifier": "DEFAULT",
+                                    "isPodApplicable": null,
+                                    "offerEditStatus": null
+                                },
+                                {
+                                    "storeGroupVersion": 1597785423,
+                                    "productGroupVersion": 1597785417,
+                                    "discountVersion": 1597785414,
+                                    "genericDiscountId": 1597785415,
+                                    "instantWinVersion": null,
+                                    "offerId": 1597785413,
+                                    "externalOfferId": "1597785413-ND",
+                                    "offerStatus": "I",
+                                    "isApplicableToJ4U": false,
+                                    "distinctIdentifier": "DEFAULT",
+                                    "isPodApplicable": null,
+                                    "offerEditStatus": null
+                                },
+                                {
+                                    "storeGroupVersion": 1597785423,
+                                    "productGroupVersion": 1597785417,
+                                    "discountVersion": 1597785414,
+                                    "genericDiscountId": 1597785415,
+                                    "instantWinVersion": null,
+                                    "offerId": 1597785412,
+                                    "externalOfferId": "1597785412-D",
+                                    "offerStatus": "I",
+                                    "isApplicableToJ4U": true,
+                                    "distinctIdentifier": "DEFAULT",
+                                    "isPodApplicable": true,
+                                    "offerEditStatus": null
+                                }
+                            ]
+                        }
+                    ],
+                    "day": null,
+                    "time": null
+                },
+                "department": "Beverage Snacks",
+                "customerSegment": "Any Customer",
+                "usageLimitTypePerUser": "LIMITED"
+            },
+            "lastUpdatedTs": 1611237951.653000000,
+            "createdTs": 1611237927.394000000,
+            "createdApplicationId": "OMS",
+            "createdUserId": "schou18",
+            "lastUpdatedApplicationId": "OMS",
+            "lastUpdatedUserId": "schou18",
+            "createdUser": {
+                "userId": "schou18",
+                "firstName": "Satyabrata",
+                "lastName": "Choudhury"
+            },
+            "updatedUser": {
+                "userId": "schou18",
+                "firstName": "Satyabrata",
+                "lastName": "Choudhury"
+            },
+            "updateOffers": true,
+            "cachedDigitalOfferStatus": null,
+            "cachedNonDigitalOfferStatus": null,
+            "allOffersAlongWithOfferRequestUpdate": false
+        }

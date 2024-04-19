@@ -1,0 +1,41 @@
+[
+  {
+    "entityId": "65632486-D",
+    "mobId": "174754",
+    "offerId": "65632486",
+    "status": "Failed DEFER_DEPLOYing",
+    "errors": [
+      {
+        "columnName": "Runtime Error",
+        "error": " The offer request is in edited or cancelling state, cannot perform deploy action on offer",
+        "errorType": "DEFER_DEPLOY"
+      }
+    ]
+  },
+  {
+    "entityId": "469275789-D",
+    "mobId": "174763",
+    "offerId": "469275789",
+    "status": "Failed DEFER_DEPLOYing",
+    "errors": [
+      {
+        "columnName": "Runtime Error",
+        "error": " The offer request is in edited or cancelling state, cannot perform deploy action on offer",
+        "errorType": "DEFER_DEPLOY"
+      }
+    ]
+  },
+  {
+    "entityId": "598919123-D",
+    "mobId": "174769",
+    "offerId": "598919123",
+    "status": "Failed DEFER_DEPLOYing",
+    "errors": [
+      {
+        "columnName": "Runtime Error",
+        "error": " The offer request is in edited or cancelling state, cannot perform deploy action on offer",
+        "errorType": "DEFER_DEPLOY"
+      }
+    ]
+  }
+]

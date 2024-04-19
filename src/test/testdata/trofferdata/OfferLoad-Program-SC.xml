@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Offer xmlns="http://www.safeway.com/services/emjos/offermanagement">
+    <Program>SC</Program>
+    <UsageLimit>O</UsageLimit>
+    <PromoStartDt>2018-12-01-07:00</PromoStartDt>
+    <PromoEndDt>2019-01-31-07:00</PromoEndDt>
+    <DisplayStartDt>2018-12-01-07:00</DisplayStartDt>
+    <DisplayEndDt>2018-12-31-07:00</DisplayEndDt>
+    <OfferProvider>Grocery Rewards</OfferProvider>
+    <ClientOfferID>%s</ClientOfferID>
+    <ExternalOfferID>%s</ExternalOfferID>
+    <ImageFileName>Grocery_Bag.gif</ImageFileName>
+    <CouponType>SUPER COUPON</CouponType>
+    <Category>
+        <SLCategoryNm>Special Offers</SLCategoryNm>
+        <SecondaryCategoryNm>Special Offers</SecondaryCategoryNm>
+    </Category>
+    <Verbiage>
+        <Type>priceValue1</Type>
+        <Value>7</Value>
+    </Verbiage>
+    <Verbiage>
+        <Type>titleDsc1</Type>
+        <Value>Your Next Purchase</Value>
+    </Verbiage>
+    <Verbiage>
+        <Type>disclaimer</Type>
+        <Value>*This offer will apply on your next qualified purchase in a single transaction. Qualified purchase amount must be greater than discount amount for offer to apply and registered phone number linked to your account must be used at the time of checkout. Rewards are deducted from your account upon clipping offer. Offer expires at the end of this month, but your discount may be claimed until the end of next month.</Value>
+    </Verbiage>
+    <Verbiage>
+        <Type>prodDsc1</Type>
+        <Value>of $10 or more.*</Value>
+    </Verbiage>
+    <Verbiage>
+        <Type>savingsValue</Type>
+        <Value>$10 OFF</Value>
+    </Verbiage>
+    <PostalZone>9999</PostalZone>
+</Offer>

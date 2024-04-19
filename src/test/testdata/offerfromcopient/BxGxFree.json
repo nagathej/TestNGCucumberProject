@@ -1,0 +1,1665 @@
+{
+  "offer": {
+    "conditions": {
+      "customers": {
+        "included": [
+          {
+            "customerGroupNm": "Customer group for 12022507"
+          }
+        ],
+        "excluded": []
+      },
+      "products": [
+        {
+          "incProductGroupNm": "ProductList(49037)",
+          "excProductGroupNm": "",
+          "productComboConditionOper": "",
+          "amountType": "Items",
+          "uniqueProductInd": false,
+          "minPurchaseAmt": 0,
+          "tiers": [
+            {
+              "productAmt": 2
+            }
+          ],
+          "accumulation": {
+            "minAmt": 0,
+            "limitNbr": 0,
+            "periodDayNbr": 0
+          }
+        }
+      ]
+    },
+    "rewards": {
+      "discount": {
+        "productgroup": {
+          "discountType": "Item Level",
+          "incProductGroupNm": "ProductList(49037)",
+          "excProductGroupNm": ""
+        },
+        "chargebackdepartment": {
+          "name": "Item's Department"
+        },
+        "distribution": {
+          "distributionType": "Free",
+          "tiers": [
+            {
+              "tierItemLimitNbr": 1,
+              "tierMaxDollarItemLimitAmt": 0,
+              "tierReceiptTxt": "J4U Natures Truth"
+            }
+          ]
+        },
+        "scorecard": {
+          "scorecardEnableInd": false,
+          "scorecardNm": "",
+          "scorecardLineTxt": ""
+        },
+        "advanced": {
+          "computeDiscountInd": true,
+          "bestdealInd": false,
+          "allowNegativeInd": true,
+          "flexNegativeInd": true
+        }
+      }
+    },
+    "notifications": {},
+    "locations": {
+      "storegroups": {
+        "included": [
+          {
+            "storeGroupNm": "Webtool 9842"
+          }
+        ],
+        "excluded": ""
+      },
+      "terminals": {
+        "included": [
+          {
+            "terminalNm": "All CPE Terminals"
+          }
+        ],
+        "excluded": []
+      }
+    },
+    "incentiveId": 406838,
+    "deployInd": false,
+    "deferDeployInd": false,
+    "engineTypeNm": "CPE",
+    "lastUpdateTs": "2020-07-14T12:48:44.257",
+    "general": {
+      "identification": {
+        "offerNm": "OMS: 9856725 - Natures Truth - 7.99 - Buy ONE",
+        "offerDsc": "OMS: 9856725 - Natures Truth - 7.99 - Buy ONE (offer imported - original offer ID 12022507)",
+        "offerExternaId": "23552-100838-02",
+        "categoryDsc": "007-J4U Manufacturer eCoupons"
+      },
+      "priority": {
+        "priorityNm": "",
+        "footerPriorityMsgTxt": 0
+      },
+      "dates": {
+        "testing": {
+          "testingStartDt": "2020-06-29T00:00:00",
+          "testingEndDt": "2020-08-31T00:00:00"
+        },
+        "eligibility": {
+          "eligibilityStartDt": "2020-06-29T00:00:00",
+          "eligibilityEndDt": "2020-08-31T00:00:00"
+        },
+        "production": {
+          "productionStartDt": "2020-06-29T00:00:00",
+          "productionEndDt": "2020-08-31T00:00:00"
+        }
+      },
+      "limits": {
+        "eligibility": {
+          "eligibilityFrequencyNm": "Once Per Transaction"
+        },
+        "reward": {
+          "rewardsFrequencyNm": "Once Per Offer"
+        }
+      },
+      "inboundoutbound": {
+        "creationSourceNm": "Logix",
+        "outboundSourceNm": "",
+        "chargebackVendorId": ""
+      },
+      "employees": {
+        "employeeEligibilityTypNm": "None"
+      },
+      "advanced": {
+        "eosDeferInd": false,
+        "issuanceInd": false,
+        "manufacturerCouponInd": true,
+        "reporting": {
+          "impressionInd": false,
+          "redemptionInd": true
+        }
+      }
+    }
+  },
+  "productgroups": [
+    {
+      "productGroupNm": "ProductList(49037)",
+      "productGroupDsc": "",
+      "lastUpdateTs": "2020-07-14T12:47:39.470",
+      "products": [
+        {
+          "extProductId": "00084009310046",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT LEMON OIL"
+        },
+        {
+          "extProductId": "00084009310048",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310052",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT PATCHOULI OIL"
+        },
+        {
+          "extProductId": "00084009310059",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310060",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT CO Q10 100MG SFTGEL W BLK PPR XTRCT B"
+        },
+        {
+          "extProductId": "00084009310061",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT CCNT OIL 1000MG SOFTGELS"
+        },
+        {
+          "extProductId": "00084009310062",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310063",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310064",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310066",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310067",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ABSRBL CALC 1200MG W VIT D3 5000IU"
+        },
+        {
+          "extProductId": "00084009310069",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310070",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310071",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310073",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310074",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT LUTEIN 20MG W ZEAXAN AND BILBERRY SFT"
+        },
+        {
+          "extProductId": "00084009310075",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT FSH OIL 1000MG SFTGEL LEMON FLAVOR BN"
+        },
+        {
+          "extProductId": "00084009310076",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310077",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT FSH OIL 1200MG SFTGEL LEMON FLAVOR BN"
+        },
+        {
+          "extProductId": "00084009310078",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310079",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310080",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310081",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT TART CHERRY EXTRACT 1200MG CAPS"
+        },
+        {
+          "extProductId": "00084009310082",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310083",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT PROBTC 10  25 BILLION W FOS CAPS"
+        },
+        {
+          "extProductId": "00084009310084",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310086",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310090",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH SWEET ALMOND BASE OIL"
+        },
+        {
+          "extProductId": "00084009310091",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310098",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL EUCALYPTUS"
+        },
+        {
+          "extProductId": "00084009310099",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL LAVENDER"
+        },
+        {
+          "extProductId": "00084009310100",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL PEPPERMINT"
+        },
+        {
+          "extProductId": "00084009310101",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310103",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT CO Q-10 200MG SOFGELS W BLK PPR XTRCT"
+        },
+        {
+          "extProductId": "00084009310107",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT HP D3 5000IU"
+        },
+        {
+          "extProductId": "00084009310108",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT CRNBRY CONC TRIPLE STR 15000MG CAPS W"
+        },
+        {
+          "extProductId": "00084009310109",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT B-12 5000MCG FAST DISSOLVE TABS"
+        },
+        {
+          "extProductId": "00084009310110",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT COLLAGEN 1000MG PLS VIT C"
+        },
+        {
+          "extProductId": "00084009310111",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310112",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT MILK THISTLE SEED XTRCT 1000MG CAPS"
+        },
+        {
+          "extProductId": "00084009310113",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310114",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT RED YEAST RICE 600MG"
+        },
+        {
+          "extProductId": "00084009310115",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL CALMING"
+        },
+        {
+          "extProductId": "00084009310116",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT D3 2000 IU SOFTGELS"
+        },
+        {
+          "extProductId": "00084009310117",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH CINN BIOTIN CHROMIUM"
+        },
+        {
+          "extProductId": "00084009310118",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT BIOTN 5000MCG FAST DSLV TABLETS"
+        },
+        {
+          "extProductId": "00084009310119",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310120",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310122",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310123",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310127",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT FLAXSEED OIL 1000MG"
+        },
+        {
+          "extProductId": "00084009310128",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VITAMIN B 6"
+        },
+        {
+          "extProductId": "00084009310129",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310130",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT FISH OIL TRIPLE STRENGTH 1360MG"
+        },
+        {
+          "extProductId": "00084009310132",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310133",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310134",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT FERROUS SULFATE IRON 65MG TABLETS"
+        },
+        {
+          "extProductId": "00084009310135",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT POTASSIUM GLUCONATE 595MG"
+        },
+        {
+          "extProductId": "00084009310136",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT CHRMM PICOLINATE 1000MCG TABLETS"
+        },
+        {
+          "extProductId": "00084009310137",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310139",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310140",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT B12 10000MCG SUBLINGUAL LIQUID"
+        },
+        {
+          "extProductId": "00084009310141",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ST JOHNS WORT 300MG"
+        },
+        {
+          "extProductId": "00084009310142",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ECHINACEA 400MG CAPS"
+        },
+        {
+          "extProductId": "00084009310144",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310145",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310146",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310148",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT FOLIC ACID 800MCG"
+        },
+        {
+          "extProductId": "00084009310149",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH NORWEGIAN COD LIVER OIL"
+        },
+        {
+          "extProductId": "00084009310150",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VITAMIN D3"
+        },
+        {
+          "extProductId": "00084009310152",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310153",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ZINC 50MG"
+        },
+        {
+          "extProductId": "00084009310154",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310155",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT EVENING PRIMROSE OIL"
+        },
+        {
+          "extProductId": "00084009310157",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH SPR GINSENG COMPLX"
+        },
+        {
+          "extProductId": "00084009310158",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT GINKGO BILOBA 120MG"
+        },
+        {
+          "extProductId": "00084009310159",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310161",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH VALERIAN ROOT"
+        },
+        {
+          "extProductId": "00084009310162",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310163",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310164",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT MELATONIN 5MG FAST DSLV TABLETS"
+        },
+        {
+          "extProductId": "00084009310165",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ACIDOPHLS PROBTC 500 MILLION CAPS"
+        },
+        {
+          "extProductId": "00084009310166",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310167",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT BIOTN 10000MCG FAST DSLV TABLETS"
+        },
+        {
+          "extProductId": "00084009310168",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT C 500MG CHWBL W/ROSE HIPS TABLETS"
+        },
+        {
+          "extProductId": "00084009310169",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT GARLIC 1200MG ODORLESS SOFTGELS"
+        },
+        {
+          "extProductId": "00084009310170",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT FSH OIL 1200MG ODORLESS SOFTGELS"
+        },
+        {
+          "extProductId": "00084009310171",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT KRILL OIL 1000MG SOFTGELS"
+        },
+        {
+          "extProductId": "00084009310173",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT L-ARGININE 1000MG TABLETS"
+        },
+        {
+          "extProductId": "00084009310174",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310175",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT B CMPLX W VIT C TR TABLETS"
+        },
+        {
+          "extProductId": "00084009310177",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT B-12 2500MCG W FOLIC ACID TABS"
+        },
+        {
+          "extProductId": "00084009310181",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT C 1000MG W  ROSE HIPS"
+        },
+        {
+          "extProductId": "00084009310182",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310183",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310184",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310186",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310190",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310191",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310192",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT HORNY GOAT WEED W MACA CAPS"
+        },
+        {
+          "extProductId": "00084009310193",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT SAW PALMETTO 1200MG"
+        },
+        {
+          "extProductId": "00084009310194",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310195",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310196",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT SELENIUM 200MCG"
+        },
+        {
+          "extProductId": "00084009310197",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT MELATONIN 3MG FAST DISSOLVE"
+        },
+        {
+          "extProductId": "00084009310198",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310199",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310200",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT APPLE CIDER VINEGAR 600MG CAPS"
+        },
+        {
+          "extProductId": "00084009310201",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310202",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VITAMIN E 400"
+        },
+        {
+          "extProductId": "00084009310203",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH VITAMIN E LIQ LEMON"
+        },
+        {
+          "extProductId": "00084009310205",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310206",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310207",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310208",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT TURMERIC COMPLEX 500MG"
+        },
+        {
+          "extProductId": "00084009310209",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310210",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT MELATONIN 12MG FAST DISSOLVE TABLETS"
+        },
+        {
+          "extProductId": "00084009310211",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT HAIR SKIN NAILS BIOTIN 5000MCG"
+        },
+        {
+          "extProductId": "00084009310212",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL PURIFYING"
+        },
+        {
+          "extProductId": "00084009310219",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL FRANKINCENSE"
+        },
+        {
+          "extProductId": "00084009310223",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT HAIR SKIN AND NAILS GUMMIES"
+        },
+        {
+          "extProductId": "00084009310311",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT CINNAMON OIL"
+        },
+        {
+          "extProductId": "00084009310312",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ORANGE OIL"
+        },
+        {
+          "extProductId": "00084009310313",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310314",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH OIL BERGAMOT"
+        },
+        {
+          "extProductId": "00084009310315",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL 4 THRIVE"
+        },
+        {
+          "extProductId": "00084009310336",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH OIL CEDARWOOD"
+        },
+        {
+          "extProductId": "00084009310369",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT BILBERRY 1200MG CAPS"
+        },
+        {
+          "extProductId": "00084009310370",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310373",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT D3 2000IU"
+        },
+        {
+          "extProductId": "00084009310374",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310453",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT LAVENDER OIL ROLL ON"
+        },
+        {
+          "extProductId": "00084009310454",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL MENTAL"
+        },
+        {
+          "extProductId": "00084009310455",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310456",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH BALANCE ESSNTL OIL"
+        },
+        {
+          "extProductId": "00084009310457",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL GOOD NITE"
+        },
+        {
+          "extProductId": "00084009310458",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH PURIFY ESSENTL OIL"
+        },
+        {
+          "extProductId": "00084009310459",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310460",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH ESSENTIAL OIL HAPPINESS"
+        },
+        {
+          "extProductId": "00084009310461",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310469",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310471",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310475",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ORG REJUVINATING MOROCCAN ARGAN OIL"
+        },
+        {
+          "extProductId": "00084009310478",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT SWEET ALMOND OIL"
+        },
+        {
+          "extProductId": "00084009310500",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT BLK COHOSH 540MG CAPS"
+        },
+        {
+          "extProductId": "00084009310511",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310512",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310513",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH DIGESTIVE AID PAPAYA"
+        },
+        {
+          "extProductId": "00084009310522",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310523",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310527",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310528",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT GINGER ROOT 550MG"
+        },
+        {
+          "extProductId": "00084009310529",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT MACA 1600MG"
+        },
+        {
+          "extProductId": "00084009310530",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH TUMERIC CURCUMIN"
+        },
+        {
+          "extProductId": "00084009310531",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT D3 1000 IU SFTGELS VALUE SIZE"
+        },
+        {
+          "extProductId": "00084009310532",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310533",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310579",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310583",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310584",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310585",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH ENCHINACEA GOLDENSEAL RT"
+        },
+        {
+          "extProductId": "00084009310586",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH ODORLESS GRLIC & PRSLY"
+        },
+        {
+          "extProductId": "00084009310587",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310588",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VITAMIN B 1"
+        },
+        {
+          "extProductId": "00084009310589",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310592",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310593",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VITAMIN E CREAM"
+        },
+        {
+          "extProductId": "00084009310594",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310595",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310596",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310597",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310598",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310599",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310600",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310602",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310603",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310604",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310605",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310606",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310607",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310608",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310609",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310610",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310611",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310612",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310613",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310614",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310615",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310616",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310618",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310624",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310627",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310629",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310630",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310631",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT PRENATAL MULTIVTMN SOFTGELS"
+        },
+        {
+          "extProductId": "00084009310653",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310654",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310755",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310762",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT PRO HYALURONIC ACID SERUM"
+        },
+        {
+          "extProductId": "00084009310763",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VITAMIN C SERUM 12%"
+        },
+        {
+          "extProductId": "00084009310764",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH BIOTIN W ALPH LIPO"
+        },
+        {
+          "extProductId": "00084009310769",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310793",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310830",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310884",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310885",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH ACTIVATED CHARCOAL"
+        },
+        {
+          "extProductId": "00084009310905",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH BEET ROOT 500MG"
+        },
+        {
+          "extProductId": "00084009310906",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310908",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310909",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310911",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH OIL OREGANO"
+        },
+        {
+          "extProductId": "00084009310914",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310918",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310942",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310944",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VITAMIN E STICKS TRAY"
+        },
+        {
+          "extProductId": "00084009310956",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ORG EXTRA VIRGIN OIL"
+        },
+        {
+          "extProductId": "00084009310957",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT LIQUID CCNT PRM OIL"
+        },
+        {
+          "extProductId": "00084009310958",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH COCONUT CREAM"
+        },
+        {
+          "extProductId": "00084009310959",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES TRUTH COLLAGEN CREAM"
+        },
+        {
+          "extProductId": "00084009310965",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT COLLAGEN LIQUID"
+        },
+        {
+          "extProductId": "00084009310974",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310975",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310980",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009310981",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH ALOE VERA 5000MG"
+        },
+        {
+          "extProductId": "00084009310982",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NAT TRUTH ASHWAGANDHA ROOT"
+        },
+        {
+          "extProductId": "00084009310983",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT ULTRA MAX CAYENNE"
+        },
+        {
+          "extProductId": "00084009311012",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311021",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311053",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311061",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT CLLGN SERUM LIQUID"
+        },
+        {
+          "extProductId": "00084009311062",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT BEET ROOT POWDER CMPLX"
+        },
+        {
+          "extProductId": "00084009311064",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT DAILY PLANT PROTEIN POWDER W GREENS &"
+        },
+        {
+          "extProductId": "00084009311065",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT DAILY SUPER GREENS PWDR W REDS PREBIO"
+        },
+        {
+          "extProductId": "00084009311069",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT TRMRC POWDER"
+        },
+        {
+          "extProductId": "00084009311072",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311074",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT DAILY SUPER REDS POWDER W GREENS"
+        },
+        {
+          "extProductId": "00084009311075",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT SUPER FRUITS & VEGGIES CAPSULES"
+        },
+        {
+          "extProductId": "00084009311097",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT LEMONGRASS ESSENTIAL OIL"
+        },
+        {
+          "extProductId": "00084009311098",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT MAGNESIUM 400MG SOFTGEL"
+        },
+        {
+          "extProductId": "00084009311099",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VIT B12 1000MCG TR TABLETS"
+        },
+        {
+          "extProductId": "00084009311136",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT MAGNESIUM GLYCINATE 665MG"
+        },
+        {
+          "extProductId": "00084009311137",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311149",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311150",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311165",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311167",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311168",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311169",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311170",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311171",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311178",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311199",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NATURES T SLEEP ESSNTL OILS"
+        },
+        {
+          "extProductId": "00084009311210",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311212",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311213",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311214",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311215",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311216",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311217",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311224",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311225",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311233",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311234",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311235",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311237",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311253",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311254",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311257",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311284",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311291",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311300",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311316",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311317",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311318",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311320",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311321",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311343",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311344",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311346",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311348",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311370",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311371",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311372",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311373",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311375",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311376",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311387",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311388",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311389",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311398",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311414",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311423",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311445",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311450",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311467",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009311475",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009315098",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        },
+        {
+          "extProductId": "00084009319000",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": "NT VITAMIN E STICKS 12PK"
+        },
+        {
+          "extProductId": "00084009319024",
+          "productTypeNm": "Items (UPC)",
+          "productDsc": ""
+        }
+      ]
+    }
+  ],
+  "storegroups": [
+    {
+      "storeGroupNm": "Webtool 9842",
+      "lastUpdateTs": "2018-03-27T18:12:23.970",
+      "stores": [
+        {
+          "extLocationCd": "q259842",
+          "storeNm": "q259842",
+          "storeDsc": "",
+          "storeTestingInd": false,
+          "addressTxt": " ",
+          "cityNm": "",
+          "state": "",
+          "postalCd": "",
+          "countryNm": "United States"
+        }
+      ]
+    }
+  ]
+}

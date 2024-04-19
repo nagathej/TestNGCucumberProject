@@ -1,0 +1,129 @@
+{
+  "lastUpdatedTs": null,
+  "createdApplicationId": null,
+  "createdTs": null,
+  "createdUserId": null,
+  "info": {
+    "id": null,
+    "autoAssignMob": true,
+    "mobId": "",
+    "mobName": "SPD Test Automation",
+    "templateId": "templateId_002",
+    "regionId": "32",
+    "deliveryChannel": "DO",
+    "offerRequestType": "ITEM_DISCOUNT",
+    "brandAndSize": "GR OR test Automation HeadLine 1 HeadLine 2 API Automation Offer @1.00",
+    "desc": "additional details",
+    "programCode": "SPD",
+    "numOfTiers": 1,
+    "programType": "Cents Off",
+    "attachments": null,
+    "digitalUser": null,
+    "digitalStatus": null,
+    "digitalEditStatus": null
+  },
+  "rules": {
+    "rewardsRequired": 0,
+    "rank": 1,
+    "startDate": {
+      "offerEffectiveStartDate": "2019-10-10T00:00:00.000+00:00"
+    },
+    "endDate": {
+      "offerEffectiveEndDate": "2021-11-30T23:59:59.999+00:00"
+    },
+    "customerSegment": "Any Customer",
+    "usageLimitTypePerUser": "LIMITED",
+    "qualificationAndBenefit": {
+      "offerRequestOffers": [
+      ],
+      "spdOfferRequestOffers": [
+        {
+          "id": null,
+          "offers": [
+          ],
+          "storeGroupVersion": {
+            "displayOrder": 1,
+            "id": null,
+            "offerPrototype": "ITEM_DISCOUNT",
+            "storeGroup": {
+              "podStoreGroupNames": [
+                "APIAutoNorcalStoreGroup_env"
+              ],
+              "digitalRedemptionStoreGroupNames": [
+                "APIAutoNorcalStoreGroup_env"
+              ]
+            },
+            "productGroupVersions": [
+              {
+                "displayOrder": 1,
+                "id": null,
+                "anyProduct": null,
+                "discountVersion": {
+                  "id": null,
+                  "discounts": [
+                    {
+                      "id": null,
+                      "displayOrder": 1,
+                      "benefitValueType": "AMOUNT_OFF",
+                      "discountType": "ITEM_LEVEL",
+                      "includeProductGroupName": "PGTestAutomationUPCGroup17_env",
+                      "includeProductGroupId": null,
+                      "excludeProductGroupName": null,
+                      "excludeProductGroupId": null,
+                      "chargebackDepartment": null,
+                      "tiers": [
+                        {
+                          "amount": "5",
+                          "upTo": null,
+                          "itemLimit": 2,
+                          "dollarLimit": null,
+                          "level": 1,
+                          "receiptText": null,
+                          "rewards": null,
+                          "weightLimit": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "productGroup": {
+                  "name": "PGTestAutomationUPCGroup17_env",
+                  "id": null,
+                  "displayOrder": 1,
+                  "quantityUnitType": "ITEMS",
+                  "excludedProductGroupId": null,
+                  "excludedProductGroupName": null,
+                  "conjunction": null,
+                  "minPurchaseAmount": 0,
+                  "inheritedFromOfferRequest": null,
+                  "tiers": [
+                    {
+                      "level": 1,
+                      "amount": null
+                    }
+                  ]
+                }
+              }
+            ],
+            "podDetails": {
+              "scene7ImageId": "999999",
+              "headline1": "SPD OR test Automation HeadLine 1",
+              "headline2": "HeadLine 2",
+              "displayStartDate": "2021-01-21T00:00:00.000-07:00",
+              "displayEndDate": "2021-01-25T00:00:00.000-07:00",
+              "offerDescription": "API Automation Offer",
+              "podUsageLimit": "UNLIMITED",
+              "priceText": "1.00",
+              "leftNavCategory": [
+                "1"
+              ],
+              "shoppingListCategory": "1",
+              "offerDetailsCode": "Cents Off"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "updateOffers": true
+}

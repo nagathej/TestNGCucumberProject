@@ -1,0 +1,44 @@
+[
+  {
+    "entityId": "1201805724",
+    "entityType": "OR",
+    "mobId": null,
+    "error":
+    {
+      "timestamp": "2022-02-03T08:43:57.193Z",
+      "status": "BAD_REQUEST",
+      "message": "Error: Digital User cannot be put in P (PROCESSING) if Offer Request is not assigned or if Offer Request - digital track is in E (EDITING) or U (UPDATING)",
+      "errors": [],
+      "statusCode": null
+    }
+
+  },
+  {
+    "entityId": "965677082",
+    "entityType": "OR",
+    "mobId": null,
+    "error":
+    {
+      "timestamp": "2022-02-03T08:43:48.934Z",
+      "status": "BAD_REQUEST",
+      "message": "Error: Digital User cannot be put in P (PROCESSING) if Offer Request is not assigned or if Offer Request - digital track is in E (EDITING) or U (UPDATING)",
+      "errors": [],
+      "statusCode": null
+    }
+
+  },
+  {
+    "entityId": "1201186297",
+    "entityType": "OR",
+    "mobId": null,
+    "error":
+    {
+      "timestamp": "2022-02-03T08:43:55.797Z",
+      "status": "BAD_REQUEST",
+      "message": "Error: Digital User cannot be put in P (PROCESSING) if Offer Request is not assigned or if Offer Request - digital track is in E (EDITING) or U (UPDATING)",
+      "errors": [],
+      "statusCode": null
+    }
+
+  }
+]

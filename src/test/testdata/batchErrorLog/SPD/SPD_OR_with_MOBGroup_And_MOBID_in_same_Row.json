@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "MOB Grouping #",
+        "error": "Either MOB Grouping number or MOBId should be present",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

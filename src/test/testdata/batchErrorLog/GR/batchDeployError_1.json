@@ -1,0 +1,16 @@
+[
+  {
+    "entityId": "%s",
+    "mobId": "45677",
+    "errors": [
+      {
+        "columnName": "Chargeback",
+        "error": "Chargeback is required"
+      },
+      {
+        "columnName": "Receipt Text ",
+        "error": "Receipt Text is required"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "excludeStores":[
+    234,
+    345
+  ],
+  "includeStores":[
+    3305,
+    2747
+  ],
+  "description":"",
+  "id": "",
+  "storeGroupName":"StoreGroupUpdateTest_env",
+  "storesSearchCriteria":{
+    "divisions":[
+      "JEWEL"
+    ],
+    "divisionRogCds": {
+      "JEWEL": [
+        "AJWL"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

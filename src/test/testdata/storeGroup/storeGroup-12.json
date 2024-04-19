@@ -1,0 +1,29 @@
+{
+  "excludeStores":[
+
+  ],
+  "includeStores":[
+
+  ],
+  "id":"",
+  "description":"",
+  "storeGroupName":"%s",
+  "storesSearchCriteria":{
+    "divisions":[
+      "JEWEL",
+      "SO CALIFORNIA"
+    ],
+    "divisionRogCds":{
+      "SO CALIFORNIA":[
+        "PSOC",
+        "ASOC",
+        "VSOC"
+      ],
+      "JEWEL":[
+        "AJWL"
+      ]
+    }
+  },
+  "isAdminEditable": null,
+  "editable":true
+}

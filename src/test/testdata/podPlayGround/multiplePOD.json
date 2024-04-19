@@ -1,0 +1,112 @@
+[
+  {
+    "uniqueId": "1627819204",
+    "divisionId": 0,
+    "vehicleNm": null,
+    "promotionStartDt": "2020-07-02T00:00:00.000+00:00",
+    "promotionEndDt": "2020-07-02T00:00:00.000+00:00",
+    "smic": 0,
+    "pkSize": null,
+    "promoPrcMethodCd": null,
+    "promoPrcFctrAmt": 1,
+    "promoPrcAmt": 0.01,
+    "promoPrcLimitQty": 0,
+    "priceTxtEdit": null,
+    "savingsAmt": 0.01,
+    "adVersionCd": [],
+    "adPageNbr": null,
+    "adModNbr": 0,
+    "adHeadLineTxt": "",
+    "adHeadLineTxtEdit": "Vijay1",
+    "adBodyCopyTxt": "",
+    "adBodyCopyTxtEdit": null,
+    "adDetailTxt": "",
+    "adDetailTxtEdit": null,
+    "adBugTxt": null,
+    "couponTypeNm": null,
+    "pluCd": null,
+    "promotionCommentTxt": null,
+    "offerIds": [],
+    "vehicleTypNm": null,
+    "priceCommentTxt": null,
+    "promoPrcUnitCd": null,
+    "updateTs": null,
+    "importTs": null,
+    "scene7Img": "99999",
+    "ivieImg": "",
+    "ivieImgEdit": "",
+    "usageTxtEdit": null,
+    "eventTxtEdit": [
+      {
+        "id": "125",
+        "name": "Weekly Ad Coupons"
+      }
+    ],
+    "isProofed": "N",
+    "isImageFound": null,
+    "offerLinked": null,
+    "color": null,
+    "categoryJ4uEdit": [
+      {
+        "code": "2",
+        "name": "Beverages"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "uniqueId": "1637477220",
+    "divisionId": 0,
+    "vehicleNm": null,
+    "promotionStartDt": "2020-07-02T00:00:00.000+00:00",
+    "promotionEndDt": "2020-07-02T00:00:00.000+00:00",
+    "smic": 0,
+    "pkSize": null,
+    "promoPrcMethodCd": null,
+    "promoPrcFctrAmt": 1,
+    "promoPrcAmt": 0.01,
+    "promoPrcLimitQty": 0,
+    "priceTxtEdit": null,
+    "savingsAmt": 0.01,
+    "adVersionCd": [],
+    "adPageNbr": null,
+    "adModNbr": 0,
+    "adHeadLineTxt": "",
+    "adHeadLineTxtEdit": "Vijay2",
+    "adBodyCopyTxt": "",
+    "adBodyCopyTxtEdit": null,
+    "adDetailTxt": "",
+    "adDetailTxtEdit": null,
+    "adBugTxt": null,
+    "couponTypeNm": null,
+    "pluCd": null,
+    "promotionCommentTxt": null,
+    "offerIds": [],
+    "vehicleTypNm": null,
+    "priceCommentTxt": null,
+    "promoPrcUnitCd": null,
+    "updateTs": null,
+    "importTs": null,
+    "scene7Img": "99999",
+    "ivieImg": "",
+    "ivieImgEdit": "",
+    "usageTxtEdit": null,
+    "eventTxtEdit": [
+      {
+        "id": "125",
+        "name": "Weekly Ad Coupons"
+      }
+    ],
+    "isProofed": "N",
+    "isImageFound": null,
+    "offerLinked": null,
+    "color": null,
+    "categoryJ4uEdit": [
+      {
+        "code": "9",
+        "name": "Deli"
+      }
+    ],
+    "notes": ""
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "podSection": null,
+  "offerTypeSection": null,
+  "nopaSection": null,
+  "lastUpdatedTs": null,
+  "createdApplicationId": null,
+  "createdTs": null,
+  "createdUserId": null,
+  "info": {
+    "id": null,
+    "pluTriggerBarcode": null,
+    "pluTriggerBarcodeType": null,
+    "validatePluTriggerBarcode": true,
+    "pluReferenceId": null,
+    "deliveryChannel": "DO",
+    "shoppingChannel": null,
+    "displayChannel": null,
+    "brandAndSize": "BPD OT test Automation HeadLine 1 HeadLine 2 API Automation Offer @ 1.00",
+    "nopaNumbers": null,
+    "nopaStartDate": null,
+    "nopaEndDate": null,
+    "billingOptions": null,
+    "desc": null,
+    "programCode": "BPD",
+    "attachments": null,
+    "adType": null,
+    "offerRequestType": "ITEM_DISCOUNT",
+    "numOfVersions": null,
+    "numOfTiers": null,
+    "numOfProducts": null,
+    "digitalUser": null,
+    "nonDigitalUser": null,
+    "digitalStatus": null,
+    "nonDigitalStatus": null,
+    "digitalEditStatus": null,
+    "nonDigitalEditStatus": null,
+    "digitalUiStatus": null,
+    "nonDigitalUiStatus": null,
+    "isBilled": false,
+    "justification": null,
+    "group": null,
+    "groupDivision": null,
+    "periodId": null,
+    "actionFailedState": null,
+    "actionFailedStateTs": null,
+    "changeAction": null,
+    "changeReason": null,
+    "changeType": null,
+    "changeComments": null,
+    "changeReasonCategory": null,
+    "userChangeComment": null,
+    "isOfferTemplate": true,
+    "lastPeriodCreated": null,
+    "bggm": "bggm",
+    "bugm": "bugm",
+    "categoryId": "123",
+    "category": "category",
+    "cic": "1",
+    "cpg": "cpg",
+    "repUpc": "135791315",
+    "otStatus": "REVIEW",
+    "otStatusReason": null,
+    "otStatusReasonComment": "Template Created with Review Status",
+    "otStatusSetUntil": "",
+    "autoAssignMob": null,
+    "mobId": "010741",
+    "mobName": null,
+    "templateId": null,
+    "regionId": "25",
+    "programType": "",
+    "promoWeekId": null,
+    "programSubType": null,
+    "period_week": null,
+    "allocationCode": "02",
+    "allocationCodeName": "Price Tier 2",
+    "reviewFlags": {
+      "ringType": true,
+      "repUPC": false,
+      "reActivated": false,
+      "qtyUOM": false
+    }
+  },
+  "rules": {
+    "customerSegment": "Any Customer",
+    "startDate": {
+      "offerEffectiveStartDate": null
+    },
+    "endDate": {
+      "offerEffectiveEndDate": null
+    },
+    "priceUntil": {
+      "offerEffectiveEndDate": "2021-08-22T00:00:00.000-07:00"
+    },
+    "usageLimitTypePerUser": "ONCE_PER_OFFER",
+    "usageLimitPerUser": null,
+    "rewardsRequired": null,
+    "rank": null,
+    "qualificationAndBenefit": {
+      "offerTemplateOffers": [
+        {
+          "id": null,
+          "offers": [],
+          "storeGroupVersion": {
+            "displayOrder": 1,
+            "id": null,
+            "offerPrototype": "ITEM_DISCOUNT",
+            "day": null,
+            "time": null,
+            "storeGroup": {
+              "nonDigitalRedemptionStoreGroupIds": null,
+              "podStoreGroupIds": [
+                10
+              ],
+              "digitalRedemptionStoreGroupIds": [
+                10
+              ],
+              "nonDigitalRedemptionStoreGroupNames": null,
+              "podStoreGroupNames": [
+                null
+              ],
+              "digitalRedemptionStoreGroupNames": [
+                "Corporate Digital Denver All Stores"
+              ],
+              "updateDigitalStoreGroup": false,
+              "updateNonDigitalStoreGroup": false,
+              "updatePODStoreGroup": false
+            },
+            "productGroupVersions": [
+              {
+                "displayOrder": 1,
+                "id": null,
+                "anyProduct": null,
+                "isGiftCard": false,
+                "discountVersion": {
+                  "id": null,
+                  "airMiles": [],
+                  "discounts": [
+                    {
+                      "id": null,
+                      "displayOrder": 1,
+                      "benefitValueType": "PRICE_POINT_ITEMS",
+                      "discountType": "ITEM_LEVEL",
+                      "includeProductGroupName": "PGTestAutomationUPCGroup3_qa",
+                      "includeProductGroupId": 1851253712,
+                      "excludeProductGroupId": null,
+                      "excludeProductGroupName": null,
+                      "chargebackDepartment": null,
+                      "updateProductDiscount": true,
+                      "tiers": [
+                        {
+                          "amount": 5,
+                          "upTo": null,
+                          "itemLimit": 2,
+                          "dollarLimit": null,
+                          "level": 1,
+                          "receiptText": null,
+                          "rewards": null,
+                          "weightLimit": null,
+                          "points": null
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "productGroup": {
+                  "name": "PGTestAutomationUPCGroup3_qa",
+                  "categoryId": null,
+                  "id": 1851253712,
+                  "quantityUnitType": "ITEMS",
+                  "excludedProductGroupName": null,
+                  "conjunction": null,
+                  "minPurchaseAmount": 0,
+                  "uniqueproduct": null,
+                  "inheritedFromOfferRequest": null,
+                  "updateProductGroup": true,
+                  "tiers": [
+                    {
+                      "level": 1,
+                      "amount": null
+                    }
+                  ]
+                }
+              }
+            ],
+            "podDetails": {
+              "scene7ImageId": "test",
+              "priceText": "1.00",
+              "headline1": "BPD OT test Automation HeadLine 1",
+              "headline2": "HeadLine 2",
+              "offerDescription": "API Automation Offer",
+              "offerDetailsCode": "Base",
+              "shoppingListCategory": "1",
+              "leftNavCategory": [
+                "1"
+              ],
+              "podUsageLimit": "UNLIMITED"
+            },
+            "instantWin": null
+          }
+        }
+      ],
+      "time": null
+    }
+  },
+  "justificationGroup": {
+    "justification": ""
+  },
+  "updateOffers": true
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "entityId": "1166020588",
+    "offerId": "66763134-D",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "DynamicOffer Offer redeemable days should not be 0 or less than 0",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  },
+  {
+    "entityId": "1166020588",
+    "offerId": "81105396-D",
+    "rowNumber": 3,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "DynamicOffer Offer redeemable days should not be 0 or less than 0",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  }
+]

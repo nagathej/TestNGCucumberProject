@@ -1,0 +1,15 @@
+[
+  {
+    "entityId": "289820955",
+    "offerId": "",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Multi Clip Limit",
+        "error": "Multi Clip Limit must be greater than 1",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

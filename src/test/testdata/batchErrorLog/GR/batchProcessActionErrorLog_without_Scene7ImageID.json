@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": " scene7ImageId-1",
+        "error": "Image ID is required",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  }
+]

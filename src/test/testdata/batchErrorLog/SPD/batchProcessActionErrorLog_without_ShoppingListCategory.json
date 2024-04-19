@@ -1,0 +1,13 @@
+[
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": " shoppingListCategory",
+        "error": "Shopping List Category is required",
+        "errorType": "Batch PROCESS Error"
+      }
+    ]
+  }
+]

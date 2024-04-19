@@ -1,0 +1,14 @@
+[
+  {
+    "entityId": "%s",
+    "entityType": "OR",
+    "mobId": null,
+    "errors":
+    {
+      "timestamp": "2022-02-03T08:43:57.193Z",
+      "status": "BAD_REQUEST",
+      "message": "Invalid offer Request Id",
+      "errors": []
+    }
+  }
+]

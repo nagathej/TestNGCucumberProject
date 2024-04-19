@@ -1,0 +1,24 @@
+{
+  "excludeStores":[
+
+  ],
+  "includeStores":[
+
+  ],
+  "id":"",
+  "description":"",
+  "storeGroupName":"AutoSocaWithRogsStoreGroup_env",
+  "storesSearchCriteria":{
+    "divisions":[
+      "SO CALIFORNIA"
+    ],
+    "divisionRogCds":{
+      "SO CALIFORNIA":[
+        "PSOC",
+        "ASOC",
+        "VSOC"
+      ]
+    }
+  },
+  "isAdminEditable": null
+}

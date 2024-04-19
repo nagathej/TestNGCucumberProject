@@ -1,0 +1,312 @@
+{
+  "dynaStoreGroups": [
+    {
+      "id": 13,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Denver All Stores",
+      "isEditable": true,
+      "updateUserId": "omsautomation",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "omsautomation",
+        "firstName": "OMS",
+        "lastName": "Automation"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "05",
+      "storeGroupName": "Corporate Digital Denver All Stores"
+    },
+    {
+      "id": 14,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Hawaii All Stores",
+      "isEditable": true,
+      "updateUserId": "omsautomation",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "omsautomation",
+        "firstName": "OMS",
+        "lastName": "Automation"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "26",
+      "storeGroupName": "Corporate Digital Hawaii All Stores"
+    },
+    {
+      "id": 25,
+      "createUserId": "OMS",
+      "description": "Corporate Digital All Stores",
+      "isEditable": true,
+      "updateUserId": "sseng07",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sseng07",
+        "firstName": "Santanu",
+        "lastName": "Sengupta"
+      },
+      "isAdminEditable": true,
+      "regionId": "99",
+      "storeGroupName": "Corporate Digital All Stores"
+    },
+    {
+      "id": 12,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Alaska All Stores.  Store #",
+      "isEditable": true,
+      "updateUserId": "ppara18",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "ppara18",
+        "firstName": "Palani",
+        "lastName": "Paramasivan"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "28",
+      "storeGroupName": "Corporate Digital Alaska All Stores"
+    },
+    {
+      "id": 15,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Intermountain All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "30",
+      "storeGroupName": "Corporate Digital Intermountain All Stores"
+    },
+    {
+      "id": 16,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Jewel All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "32",
+      "storeGroupName": "Corporate Digital Jewel All Stores"
+    },
+    {
+      "id": 17,
+      "createUserId": "OMS",
+      "description": "Contains ACME and Eastern Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Friday",
+      "regionId": "34",
+      "storeGroupName": "Corporate Digital Mid Atlantic All Stores"
+    },
+    {
+      "id": 18,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Norcal Base All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "25",
+      "storeGroupName": "Corporate Digital Norcal Base All Stores"
+    },
+    {
+      "id": 19,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Portland All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "19",
+      "storeGroupName": "Corporate Digital Portland All Stores"
+    },
+    {
+      "id": 20,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Seattle Base All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "27",
+      "storeGroupName": "Corporate Digital Seattle Base All Stores"
+    },
+    {
+      "id": 21,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Shaws/Stars All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Friday",
+      "regionId": "33",
+      "storeGroupName": "Corporate Digital Shaws/Stars All Stores"
+    },
+    {
+      "id": 22,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Socal All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "29",
+      "storeGroupName": "Corporate Digital Socal All Stores"
+    },
+    {
+      "id": 23,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Southern All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "20",
+      "storeGroupName": "Corporate Digital Southern All Stores"
+    },
+    {
+      "id": 24,
+      "createUserId": "OMS",
+      "description": "Corporate Digital Southwest All Stores",
+      "isEditable": true,
+      "updateUserId": "OMS",
+      "storeCount": 0,
+      "createdUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "updatedUser": {
+        "userId": "sysusr",
+        "firstName": "System",
+        "lastName": "User"
+      },
+      "isAdminEditable": true,
+      "startDay": "Wednesday",
+      "regionId": "17",
+      "storeGroupName": "Corporate Digital Southwest All Stores"
+    }
+  ],
+  "totalCount": 14
+}

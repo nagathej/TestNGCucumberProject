@@ -1,0 +1,62 @@
+[
+  {
+    "entityId": "1825820979",
+    "rowNumber": 5,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Dates cannot be in the past, OfferRequest 1825820979",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  },
+  {
+    "entityId": "1942402275",
+    "rowNumber": 3,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Dates cannot be in the past, OfferRequest 1942402275",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  },
+  {
+    "entityId": "1994692115",
+    "rowNumber": 4,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Dates cannot be in the past, OfferRequest 1994692115",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  },
+  {
+    "entityId": "2077869917",
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Dates cannot be in the past, OfferRequest 2077869917",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  },
+  {
+    "entityId": "2106631837",
+    "rowNumber": 1,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "",
+        "error": "Dates cannot be in the past, OfferRequest 2106631837",
+        "errorType": "ERROR_DURING_OR_CREATION"
+      }
+    ]
+  }
+]

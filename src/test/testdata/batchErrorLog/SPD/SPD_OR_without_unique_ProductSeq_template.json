@@ -1,0 +1,24 @@
+[
+  {
+    "rowNumber": 3,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Column",
+        "error": "Failed due to failure of other rows in Offer Request",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  },
+  {
+    "rowNumber": 2,
+    "status": "Failed",
+    "errors": [
+      {
+        "columnName": "Product Number",
+        "error": "Product Number must be unique",
+        "errorType": "ERROR_DURING_VALIDATION"
+      }
+    ]
+  }
+]

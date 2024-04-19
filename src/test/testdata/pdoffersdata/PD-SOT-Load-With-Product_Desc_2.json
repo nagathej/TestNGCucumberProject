@@ -1,0 +1,119 @@
+{
+  "info": {
+    "id": {
+      "externalOfferId": "2920C0319_100460",
+      "aggregatorOfferId": null
+    },
+    "offerProviderName": "AutomationApiTestDataCreation",
+    "categories": {
+      "17": "Personal Care & Health"
+    },
+    "primaryCategory": {
+      "17": "Personal Care & Health"
+    },
+    "events": null,
+    "hiddenEvents": null,
+    "offerProgramCode": "PD",
+    "offerSubProgram": null,
+    "offerStatus": "A",
+    "description": {
+      "priceTitle": "Special Offer",
+      "priceValue": null,
+      "savingsValueText": "$0.50 OFF",
+      "titleDescription": {
+        "titleDsc2": "Fruit & Nut Bar",
+        "titleDsc1": "Open Nature"
+      },
+      "productDescription": {
+        "prodDsc2": "Limit 2.",
+        "prodDsc1": "1.4-oz."
+      },
+      "disclaimerText": "Just for U Account must be used at checkout to receive the discount. Once offers are added to your Account you can use them in Safeway, Albertsons and Vons stores located in Arizona, New Mexico, Southern Nevada, El Paso, Texas and Southwestern Utah. Customer pays applicable sales tax and deposits or fees, if any. Offer must be used by the just for U Account owner and may not be assigned, transferred, or reproduced. Subject to availability. Not all items are available in all stores. No rainchecks. Not valid with any other offer or discount.",
+      "receiptDescriptions": ""
+    },
+    "productImageId": "999999.gif",
+    "isEmployeeOffer": false,
+    "isDefaultAllocationOffer": false,
+    "offerProgramType": "C",
+    "shouldReportRedemptions": true,
+    "auditInfo": {
+      "createdTs": "2019-03-18T18:10:51.000+00:00",
+      "createdApplicationId": "EMOM",
+      "createdUserId": "emq1om",
+      "lastUpdatedApplicationId": "EMOM",
+      "lastUpdatedUserId": "emq1om",
+      "lastUpdatedTs": "2019-04-04T21:01:14.902+00:00"
+    }
+  },
+  "rules": {
+    "startDate": {
+      "displayEffectiveStartDate": "2019-01-08T07:00:00.000+00:00",
+      "offerEffectiveStartDate": "2019-01-08T07:00:00.000+00:00",
+      "offerTestEffectiveStartDate": "2019-01-08T07:00:00.000+00:00"
+    },
+    "endDate": {
+      "displayEffectiveEndDate": "2030-01-14T07:00:00.000+00:00",
+      "offerEffectiveEndDate": "2030-01-14T07:00:00.000+00:00",
+      "offerTestEffectiveEndDate": "2030-01-14T07:00:00.000+00:00"
+    },
+    "applicableTo": {
+      "banners": null,
+      "divisions": {
+        "29": "VONS",
+        "25": "NORCAL",
+        "27": "SEATTLE"
+      },
+      "storeGroups": null,
+      "channels": [],
+      "terminals": [
+        "13",
+        "15",
+        "28",
+        "11405",
+        "100",
+        "11404",
+        "11407",
+        "113",
+        "11406",
+        "13979",
+        "11409",
+        "11408",
+        "13554",
+        "13553",
+        "11401",
+        "11412",
+        "11411",
+        "11403",
+        "11414",
+        "13556",
+        "10",
+        "11402"
+      ],
+      "storeIds": ["118","309"],
+      "postalCodes": [],
+      "upcs": [],
+      "departments": []
+    },
+    "qualification": {
+      "qualificationUnitType": null,
+      "qualificationUnitSubType": null,
+      "minProdPurchaseUnits": null,
+      "maxProdPurchaseUnits": 0,
+      "minOrderTotalAmount": null,
+      "minRewardPoints": null,
+      "minGetProdPurchaseUnits": null,
+      "isBuyXGetYOffer": false
+    },
+    "benefit": {
+      "benefitValueType": "FIXED_PRICE",
+      "benefitValue": null
+    },
+    "usageLimits": {
+      "usageLimitTypePerUser": "UNLIMITED",
+      "usageLimitTypePerOffer": null,
+      "usageLimitPerUser": null,
+      "usageLimitPerOffer": 0
+    }
+  },
+  "householdAttrs": null
+}
