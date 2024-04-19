@@ -12,12 +12,24 @@ on:
         # Friendly description to be shown in the UI instead of 'name'
         description: 'environment'
         # Default value if no value is explicitly provided
-        default: 'qa'
-                  
+        default: 'qa'          
         # Input has to be provided for the workflow to run
         required: true
         # The data type of the input
-        type: string
+        type: choice
+        options:
+        - dev
+        - acceptance
+        - perf
+        - stage
+        - local
+      tags:
+        description: 'tags'
+        required: false
+        type: choice
+        options:
+        - smoke
+        
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
