@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @CucumberOptions (
-        features={"/Users/nkanikicharla/Desktop/TestNGCucumberProject/src/test/resources/Feature/Demo.feature"},
+        features={"/src/test/resources/Feature/Demo.feature"},
         tags="@smoke",
         plugin = {"pretty",
                 "html:target/cucumber/report.html",
