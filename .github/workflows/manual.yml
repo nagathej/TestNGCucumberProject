@@ -43,8 +43,14 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - run: |
+          echo "Tags: $TAGS"
+          echo "Environment: $ENVIRONMENT"
+      env:
+          TAGS: ${{ inputs.tags }}
+          ENVIRONMENT: ${{inputs.environment }}
     - name: Run tests
-      run: mvn test  "-DenvTarget=qa" "-Dcucumber.options='--tags @smoke'" 
+      run: mvn test  "-DenvTarget=${{inputs.environment}}" "-Dcucumber.options='--tags {{inputs.tags}}'" 
 
     - name: Archive Cucumber Reports
       uses: actions/upload-artifact@v2
