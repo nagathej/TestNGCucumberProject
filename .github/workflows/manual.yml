@@ -59,3 +59,35 @@ jobs:
       with:
        name: cucumber-reports
        path: target/cucumber-html-reports
+    - name: Cucumber HTML Report Generator
+      uses: mt185252/cucumber-html-report-generator@v1
+      with:
+        report-theme: default
+        json-file-path: true
+        report-suite-as-scenarios: true
+        scenario-timestamp: true
+        failed-summary-report: true
+
+         
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
