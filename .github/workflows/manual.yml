@@ -63,7 +63,7 @@ jobs:
       uses: mt185252/cucumber-html-report-generator@v1
       with:
         report-theme: default
-        json-file-path: true
+        json-file-path: json:target/report.json
         report-suite-as-scenarios: true
         scenario-timestamp: true
         failed-summary-report: true
