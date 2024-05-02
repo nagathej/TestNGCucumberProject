@@ -61,8 +61,8 @@ jobs:
        path: target/cucumber-html-reports
     - name: Cucumber HTML Report Generator
       run: |
-          npm install cucumber-html-reporter
-          npx cucumber-html-reporter --json-file target/report.json --output target/report.html
+          java -cp target/my-project.jar net.masterthought.cucumber.ReportBuilder target/cucumber-report.json -o target/cucumber-html-report -f html
+
     - name: Upload HTML report
       uses: actions/upload-artifact@v2
       with:
