@@ -60,12 +60,15 @@ jobs:
        name: cucumber-reports
        path: target/cucumber-html-reports
     - name: Cucumber HTML Report Generator
-      uses: mt185252/cucumber-html-report-generator@v1
+      run: |
+          npm install cucumber-html-reporter
+          npx cucumber-html-reporter --json-file target/report.json --output target/report.html
+    - name: Upload HTML report
+      uses: actions/upload-artifact@v2
       with:
-        report-theme: default
-        report-suite-as-scenarios: true
-        scenario-timestamp: true
-        failed-summary-report: true
+          name: cucumber-reports
+          path: target/report.html
+        
 
 
          
