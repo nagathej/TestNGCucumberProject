@@ -42,17 +42,20 @@ jobs:
         run: mvn test  "-DenvTarget=${{ inputs.environment }}" "-Dcucumber.options='--tags ${{ inputs.tags }}"
       - name: Archive Cucumber Reports
         uses: actions/upload-artifact@v2
+        with:
+          name: cucumber-reports
+          path: target/cucumber-html-report
       - name: Cucumber-html-report
         uses: mt185252/cucumber-html-report-generator@v1
         with:
           report-theme: hierarchy
-          json-file-path: '${{ github.workspace}}/auto_bdd_stg_cucumber_03_05_2024_T15_10_19.json'
-          report-metadata: '{"Date":"05-May-2024", "Time":"23:30 IST", "Environment": "Staging"}'
+          json-file-path: '${{ github.workspace}}/target/cucumber.json'
+          report-metadata: '{"Date":"05-May-2024", "Time":"23:30 IST", "Environment": {{ inputs.environment }}}'
       - name: Upload HTML report as an artifact to GitHub
         id: artifact_upload
         uses: actions/upload-artifact@v4
         with:
           name: cucumber-html-report
-          path: '${{ github.workspace }}/cucumber_03_05_2024_T15_10_19.html'
+          path: '${{ github.workspace }}/target/cucumber_03_05_2024_T15_10_19.html'
           if-no-files-found: error
           retention-days: 90
