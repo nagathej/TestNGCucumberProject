@@ -1,101 +1,58 @@
-# This is a basic workflow that is manually triggered
-
 name: Manual workflow
-
-# Controls when the action will run. Workflow runs when manually triggered using the UI
-# or API.
-on:
+'on':
   workflow_dispatch:
-    # Inputs the workflow accepts.
     inputs:
-      environment: 
-        # Friendly description to be shown in the UI instead of 'name'
-        description: 'environment'
-        # Default value if no value is explicitly provided
-        default: 'qa'          
-        # Input has to be provided for the workflow to run
+      environment:
+        description: environment
+        default: qa
         required: true
-        # The data type of the input
         type: choice
         options:
-        - dev
-        - acceptance
-        - perf
-        - stage
-        - local
-        - qa
+          - dev
+          - acceptance
+          - perf
+          - stage
+          - local
+          - qa
       tags:
-        description: 'tags'
+        description: tags
         required: false
         type: choice
         options:
-        - smoke
-        - Regression
-        
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+          - smoke
+          - Regression
 jobs:
- build:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: maven
-    - run: |
+      - uses: actions/checkout@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: temurin
+          cache: maven
+      - run: |
           echo "Tags: $TAGS"
           echo "Environment: $ENVIRONMENT"
-      env:
-          TAGS: ${{ inputs.tags }}
-          ENVIRONMENT: ${{ inputs.environment }}
-    - name: Run tests
-      run: mvn test  "-DenvTarget=${{ inputs.environment }}" "-Dcucumber.options='--tags ${{ inputs.tags }}''--plugin json:target/cucumber-report.json,html:target/cucumber-html-report'"
-
-    - name: Archive Cucumber Reports
-      uses: actions/upload-artifact@v2
-    - name: Cucumber-html-report
-    - uses: mt185252/cucumber-html-report-generator@v1
-    with:
-      report-theme: 'hierarchy'
-      json-file-path: '${{ github.workspace }}/auto_bdd_stg_cucumber_06_04_2023_T15_10_19.json'
-      report-metadata: '{"Date":"06-Mar-2024", "Time":"23:30 IST", "Environment": "Staging"}'
-    id: artifact_upload
-    uses: actions/upload-artifact@v4
-    with:
-      name: cucumber-html-report
-      path: '${{ github.workspace }}/auto_qe_cucumber_02_04_2023_T15_10_19.html'
-      if-no-files-found: error
-      retention-days: 90
-    
-
-
-   
-
-
-   
-         
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
+        env:
+          TAGS: '${{ inputs.tags }}'
+          ENVIRONMENT: '${{ inputs.environment }}'
+      - name: Run tests
+        run: mvn test  "-DenvTarget=${{ inputs.environment }}""-Dcucumber.options='--tags ${{ inputs.tags }}''--pluginjson:target/cucumber-report.json,html:target/cucumber-html-report'"
+      - name: Archive Cucumber Reports
+        uses: actions/upload-artifact@v2
+      - name: Cucumber-html-report
+        uses: mt185252/cucumber-html-report-generator@v1
+        with:
+          report-theme: hierarchy
+          json-file-path: '${{ github.workspace}}/auto_bdd_stg_cucumber_03_05_2024_T15_10_19.json'
+          report-metadata: '{"Date":"05-May-2024", "Time":"23:30 IST", "Environment": "Staging"}'
+      - name: Upload HTML report as an artifact to GitHub
+        id: artifact_upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-html-report
+          path: '${{ github.workspace }}/cucumber_03_05_2024_T15_10_19.html'
+          if-no-files-found: error
+          retention-days: 90
