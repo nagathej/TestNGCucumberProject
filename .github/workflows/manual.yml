@@ -56,21 +56,26 @@ jobs:
 
     - name: Archive Cucumber Reports
       uses: actions/upload-artifact@v2
-      with:
-       name: cucumber-reports
-       path: target/cucumber-html-reports
-    - name: Cucumber HTML Report Generator
-      run: |
-          java -cp target/my-project.jar net.masterthought.cucumber.ReportBuilder target/cucumber-report.json -o target/cucumber-html-report -f html
+    - name: Cucumber-html-report
+    - uses: mt185252/cucumber-html-report-generator@v1
+    with:
+      report-theme: 'hierarchy'
+      json-file-path: '${{ github.workspace }}/auto_bdd_stg_cucumber_06_04_2023_T15_10_19.json'
+      report-metadata: '{"Date":"06-Mar-2024", "Time":"23:30 IST", "Environment": "Staging"}'
+    id: artifact_upload
+    uses: actions/upload-artifact@v4
+    with:
+      name: cucumber-html-report
+      path: '${{ github.workspace }}/auto_qe_cucumber_02_04_2023_T15_10_19.html'
+      if-no-files-found: error
+      retention-days: 90
+    
 
-    - name: Upload HTML report
-      uses: actions/upload-artifact@v2
-      with:
-          name: cucumber-reports
-          path: target/report.html
-        
+
+   
 
 
+   
          
 
         
