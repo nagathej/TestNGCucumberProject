@@ -50,7 +50,7 @@ jobs:
         with:
           report-theme: hierarchy
           json-file-path: '${{ github.workspace}}/target/cucumber.json'
-          report-metadata: '{"Date":"05-May-2024", "Time":"23:30 IST", "Environment": {{ inputs.environment }}}'
+          report-metadata: '{ "Date":"05-May-2024", "Time":"23:30 IST", "Environment": {{ inputs.environment }} }'
       - name: Upload HTML report as an artifact to GitHub
         id: artifact_upload
         uses: actions/upload-artifact@v4
